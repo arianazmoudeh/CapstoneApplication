@@ -1,0 +1,862 @@
+signal,Value,Profitability,Momentum,Setting,Model,Seed
+2024-12-31,0.5,0.2,0.3,Original,Ridge,42
+2025-01-31,0.5,0.3,0.2,Original,Ridge,42
+2025-02-28,0.5,0.3,0.2,Original,Ridge,42
+2025-03-31,0.5,0.2,0.3,Original,Ridge,42
+2025-04-30,0.3,0.2,0.5,Original,Ridge,42
+2025-05-31,0.3,0.2,0.5,Original,Ridge,42
+2025-06-30,0.2,0.5,0.3,Original,Ridge,42
+2025-07-31,0.2,0.5,0.3,Original,Ridge,42
+2025-08-31,0.3,0.5,0.2,Original,Ridge,42
+2025-09-30,0.5,0.3,0.2,Original,Ridge,42
+2025-10-31,0.3,0.5,0.2,Original,Ridge,42
+2025-11-30,0.3,0.2,0.5,Original,Ridge,42
+2025-12-31,0.3,0.2,0.5,Original,Ridge,42
+2026-01-31,0.3,0.5,0.2,Original,Ridge,42
+2026-02-28,0.5,0.3,0.2,Original,Ridge,42
+2026-03-31,0.5,0.2,0.3,Original,Ridge,42
+2026-04-30,0.3,0.2,0.5,Original,Ridge,42
+2026-05-31,0.2,0.5,0.3,Original,Ridge,42
+2026-06-30,0.3,0.2,0.5,Original,Ridge,42
+2026-07-31,0.3,0.5,0.2,Original,Ridge,42
+2026-08-31,0.2,0.3,0.5,Original,Ridge,42
+2024-12-31,0.5,0.2,0.3,Original,Elastic Net,42
+2025-01-31,0.5,0.3,0.2,Original,Elastic Net,42
+2025-02-28,0.5,0.3,0.2,Original,Elastic Net,42
+2025-03-31,0.5,0.3,0.2,Original,Elastic Net,42
+2025-04-30,0.3,0.2,0.5,Original,Elastic Net,42
+2025-05-31,0.3,0.2,0.5,Original,Elastic Net,42
+2025-06-30,0.2,0.3,0.5,Original,Elastic Net,42
+2025-07-31,0.2,0.5,0.3,Original,Elastic Net,42
+2025-08-31,0.3,0.5,0.2,Original,Elastic Net,42
+2025-09-30,0.5,0.2,0.3,Original,Elastic Net,42
+2025-10-31,0.3,0.5,0.2,Original,Elastic Net,42
+2025-11-30,0.5,0.2,0.3,Original,Elastic Net,42
+2025-12-31,0.3,0.2,0.5,Original,Elastic Net,42
+2026-01-31,0.2,0.5,0.3,Original,Elastic Net,42
+2026-02-28,0.5,0.2,0.3,Original,Elastic Net,42
+2026-03-31,0.5,0.2,0.3,Original,Elastic Net,42
+2026-04-30,0.5,0.2,0.3,Original,Elastic Net,42
+2026-05-31,0.2,0.5,0.3,Original,Elastic Net,42
+2026-06-30,0.3,0.2,0.5,Original,Elastic Net,42
+2026-07-31,0.3,0.5,0.2,Original,Elastic Net,42
+2026-08-31,0.3,0.2,0.5,Original,Elastic Net,42
+2024-12-31,0.3,0.2,0.5,Original,KNN,42
+2025-01-31,0.5,0.3,0.2,Original,KNN,42
+2025-02-28,0.3,0.2,0.5,Original,KNN,42
+2025-03-31,0.5,0.2,0.3,Original,KNN,42
+2025-04-30,0.5,0.3,0.2,Original,KNN,42
+2025-05-31,0.5,0.3,0.2,Original,KNN,42
+2025-06-30,0.2,0.5,0.3,Original,KNN,42
+2025-07-31,0.5,0.2,0.3,Original,KNN,42
+2025-08-31,0.5,0.2,0.3,Original,KNN,42
+2025-09-30,0.5,0.2,0.3,Original,KNN,42
+2025-10-31,0.3,0.2,0.5,Original,KNN,42
+2025-11-30,0.5,0.2,0.3,Original,KNN,42
+2025-12-31,0.5,0.2,0.3,Original,KNN,42
+2026-01-31,0.2,0.5,0.3,Original,KNN,42
+2026-02-28,0.2,0.5,0.3,Original,KNN,42
+2026-03-31,0.3,0.5,0.2,Original,KNN,42
+2026-04-30,0.3,0.5,0.2,Original,KNN,42
+2026-05-31,0.3,0.5,0.2,Original,KNN,42
+2026-06-30,0.3,0.5,0.2,Original,KNN,42
+2026-07-31,0.5,0.3,0.2,Original,KNN,42
+2026-08-31,0.5,0.3,0.2,Original,KNN,42
+2024-12-31,0.2,0.5,0.3,Original,SVR,42
+2025-01-31,0.5,0.2,0.3,Original,SVR,42
+2025-02-28,0.5,0.3,0.2,Original,SVR,42
+2025-03-31,0.5,0.2,0.3,Original,SVR,42
+2025-04-30,0.3,0.2,0.5,Original,SVR,42
+2025-05-31,0.3,0.2,0.5,Original,SVR,42
+2025-06-30,0.5,0.3,0.2,Original,SVR,42
+2025-07-31,0.5,0.3,0.2,Original,SVR,42
+2025-08-31,0.5,0.3,0.2,Original,SVR,42
+2025-09-30,0.5,0.3,0.2,Original,SVR,42
+2025-10-31,0.5,0.3,0.2,Original,SVR,42
+2025-11-30,0.5,0.2,0.3,Original,SVR,42
+2025-12-31,0.5,0.3,0.2,Original,SVR,42
+2026-01-31,0.3,0.5,0.2,Original,SVR,42
+2026-02-28,0.5,0.3,0.2,Original,SVR,42
+2026-03-31,0.5,0.2,0.3,Original,SVR,42
+2026-04-30,0.5,0.3,0.2,Original,SVR,42
+2026-05-31,0.5,0.3,0.2,Original,SVR,42
+2026-06-30,0.5,0.2,0.3,Original,SVR,42
+2026-07-31,0.5,0.3,0.2,Original,SVR,42
+2026-08-31,0.5,0.2,0.3,Original,SVR,42
+2024-12-31,0.2,0.3,0.5,Original,Random Forest,42
+2025-01-31,0.5,0.2,0.3,Original,Random Forest,42
+2025-02-28,0.5,0.2,0.3,Original,Random Forest,42
+2025-03-31,0.5,0.2,0.3,Original,Random Forest,42
+2025-04-30,0.5,0.2,0.3,Original,Random Forest,42
+2025-05-31,0.3,0.2,0.5,Original,Random Forest,42
+2025-06-30,0.5,0.2,0.3,Original,Random Forest,42
+2025-07-31,0.5,0.2,0.3,Original,Random Forest,42
+2025-08-31,0.5,0.2,0.3,Original,Random Forest,42
+2025-09-30,0.5,0.2,0.3,Original,Random Forest,42
+2025-10-31,0.5,0.3,0.2,Original,Random Forest,42
+2025-11-30,0.5,0.2,0.3,Original,Random Forest,42
+2025-12-31,0.2,0.3,0.5,Original,Random Forest,42
+2026-01-31,0.5,0.2,0.3,Original,Random Forest,42
+2026-02-28,0.5,0.2,0.3,Original,Random Forest,42
+2026-03-31,0.5,0.2,0.3,Original,Random Forest,42
+2026-04-30,0.5,0.2,0.3,Original,Random Forest,42
+2026-05-31,0.5,0.2,0.3,Original,Random Forest,42
+2026-06-30,0.5,0.2,0.3,Original,Random Forest,42
+2026-07-31,0.2,0.5,0.3,Original,Random Forest,42
+2026-08-31,0.5,0.2,0.3,Original,Random Forest,42
+2024-12-31,0.2,0.3,0.5,Original,Extra Trees,42
+2025-01-31,0.5,0.2,0.3,Original,Extra Trees,42
+2025-02-28,0.5,0.2,0.3,Original,Extra Trees,42
+2025-03-31,0.5,0.2,0.3,Original,Extra Trees,42
+2025-04-30,0.3,0.2,0.5,Original,Extra Trees,42
+2025-05-31,0.3,0.2,0.5,Original,Extra Trees,42
+2025-06-30,0.5,0.2,0.3,Original,Extra Trees,42
+2025-07-31,0.5,0.2,0.3,Original,Extra Trees,42
+2025-08-31,0.5,0.2,0.3,Original,Extra Trees,42
+2025-09-30,0.3,0.2,0.5,Original,Extra Trees,42
+2025-10-31,0.5,0.2,0.3,Original,Extra Trees,42
+2025-11-30,0.5,0.2,0.3,Original,Extra Trees,42
+2025-12-31,0.5,0.3,0.2,Original,Extra Trees,42
+2026-01-31,0.2,0.5,0.3,Original,Extra Trees,42
+2026-02-28,0.2,0.3,0.5,Original,Extra Trees,42
+2026-03-31,0.3,0.2,0.5,Original,Extra Trees,42
+2026-04-30,0.5,0.3,0.2,Original,Extra Trees,42
+2026-05-31,0.5,0.2,0.3,Original,Extra Trees,42
+2026-06-30,0.5,0.2,0.3,Original,Extra Trees,42
+2026-07-31,0.2,0.3,0.5,Original,Extra Trees,42
+2026-08-31,0.2,0.3,0.5,Original,Extra Trees,42
+2024-12-31,0.2,0.3,0.5,Original,XGBoost,42
+2025-01-31,0.5,0.3,0.2,Original,XGBoost,42
+2025-02-28,0.5,0.3,0.2,Original,XGBoost,42
+2025-03-31,0.3,0.5,0.2,Original,XGBoost,42
+2025-04-30,0.5,0.3,0.2,Original,XGBoost,42
+2025-05-31,0.3,0.2,0.5,Original,XGBoost,42
+2025-06-30,0.2,0.3,0.5,Original,XGBoost,42
+2025-07-31,0.2,0.5,0.3,Original,XGBoost,42
+2025-08-31,0.5,0.3,0.2,Original,XGBoost,42
+2025-09-30,0.5,0.3,0.2,Original,XGBoost,42
+2025-10-31,0.2,0.3,0.5,Original,XGBoost,42
+2025-11-30,0.2,0.3,0.5,Original,XGBoost,42
+2025-12-31,0.2,0.5,0.3,Original,XGBoost,42
+2026-01-31,0.2,0.3,0.5,Original,XGBoost,42
+2026-02-28,0.2,0.3,0.5,Original,XGBoost,42
+2026-03-31,0.3,0.2,0.5,Original,XGBoost,42
+2026-04-30,0.2,0.5,0.3,Original,XGBoost,42
+2026-05-31,0.5,0.3,0.2,Original,XGBoost,42
+2026-06-30,0.3,0.2,0.5,Original,XGBoost,42
+2026-07-31,0.2,0.5,0.3,Original,XGBoost,42
+2026-08-31,0.3,0.5,0.2,Original,XGBoost,42
+2024-12-31,0.5,0.3,0.2,Original,MLP,42
+2025-01-31,0.3,0.5,0.2,Original,MLP,42
+2025-02-28,0.3,0.2,0.5,Original,MLP,42
+2025-03-31,0.5,0.3,0.2,Original,MLP,42
+2025-04-30,0.3,0.2,0.5,Original,MLP,42
+2025-05-31,0.3,0.2,0.5,Original,MLP,42
+2025-06-30,0.3,0.5,0.2,Original,MLP,42
+2025-07-31,0.3,0.2,0.5,Original,MLP,42
+2025-08-31,0.2,0.3,0.5,Original,MLP,42
+2025-09-30,0.3,0.2,0.5,Original,MLP,42
+2025-10-31,0.2,0.3,0.5,Original,MLP,42
+2025-11-30,0.5,0.2,0.3,Original,MLP,42
+2025-12-31,0.2,0.3,0.5,Original,MLP,42
+2026-01-31,0.2,0.5,0.3,Original,MLP,42
+2026-02-28,0.3,0.5,0.2,Original,MLP,42
+2026-03-31,0.3,0.2,0.5,Original,MLP,42
+2026-04-30,0.3,0.5,0.2,Original,MLP,42
+2026-05-31,0.3,0.5,0.2,Original,MLP,42
+2026-06-30,0.2,0.3,0.5,Original,MLP,42
+2026-07-31,0.3,0.5,0.2,Original,MLP,42
+2026-08-31,0.3,0.2,0.5,Original,MLP,42
+2024-12-31,0.3,0.2,0.5,Original,LSTM,42
+2025-01-31,0.5,0.2,0.3,Original,LSTM,42
+2025-02-28,0.3,0.2,0.5,Original,LSTM,42
+2025-03-31,0.2,0.3,0.5,Original,LSTM,42
+2025-04-30,0.3,0.2,0.5,Original,LSTM,42
+2025-05-31,0.3,0.5,0.2,Original,LSTM,42
+2025-06-30,0.5,0.3,0.2,Original,LSTM,42
+2025-07-31,0.5,0.2,0.3,Original,LSTM,42
+2025-08-31,0.5,0.2,0.3,Original,LSTM,42
+2025-09-30,0.3,0.2,0.5,Original,LSTM,42
+2025-10-31,0.2,0.3,0.5,Original,LSTM,42
+2025-11-30,0.5,0.3,0.2,Original,LSTM,42
+2025-12-31,0.5,0.3,0.2,Original,LSTM,42
+2026-01-31,0.5,0.3,0.2,Original,LSTM,42
+2026-02-28,0.5,0.3,0.2,Original,LSTM,42
+2026-03-31,0.3,0.5,0.2,Original,LSTM,42
+2026-04-30,0.3,0.5,0.2,Original,LSTM,42
+2026-05-31,0.2,0.3,0.5,Original,LSTM,42
+2026-06-30,0.2,0.3,0.5,Original,LSTM,42
+2026-07-31,0.2,0.5,0.3,Original,LSTM,42
+2026-08-31,0.3,0.5,0.2,Original,LSTM,42
+2024-12-31,0.3,0.2,0.5,Original,CNN,42
+2025-01-31,0.3,0.2,0.5,Original,CNN,42
+2025-02-28,0.3,0.2,0.5,Original,CNN,42
+2025-03-31,0.3,0.2,0.5,Original,CNN,42
+2025-04-30,0.3,0.2,0.5,Original,CNN,42
+2025-05-31,0.3,0.2,0.5,Original,CNN,42
+2025-06-30,0.5,0.3,0.2,Original,CNN,42
+2025-07-31,0.3,0.5,0.2,Original,CNN,42
+2025-08-31,0.3,0.5,0.2,Original,CNN,42
+2025-09-30,0.2,0.3,0.5,Original,CNN,42
+2025-10-31,0.2,0.3,0.5,Original,CNN,42
+2025-11-30,0.2,0.3,0.5,Original,CNN,42
+2025-12-31,0.2,0.5,0.3,Original,CNN,42
+2026-01-31,0.3,0.5,0.2,Original,CNN,42
+2026-02-28,0.3,0.5,0.2,Original,CNN,42
+2026-03-31,0.3,0.5,0.2,Original,CNN,42
+2026-04-30,0.3,0.5,0.2,Original,CNN,42
+2026-05-31,0.3,0.5,0.2,Original,CNN,42
+2026-06-30,0.3,0.5,0.2,Original,CNN,42
+2026-07-31,0.2,0.5,0.3,Original,CNN,42
+2026-08-31,0.2,0.3,0.5,Original,CNN,42
+2024-12-31,0.5,0.3,0.2,Original,Prophet,42
+2025-01-31,0.5,0.3,0.2,Original,Prophet,42
+2025-02-28,0.5,0.3,0.2,Original,Prophet,42
+2025-03-31,0.5,0.3,0.2,Original,Prophet,42
+2025-04-30,0.5,0.3,0.2,Original,Prophet,42
+2025-05-31,0.5,0.3,0.2,Original,Prophet,42
+2025-06-30,0.5,0.3,0.2,Original,Prophet,42
+2025-07-31,0.5,0.3,0.2,Original,Prophet,42
+2025-08-31,0.5,0.3,0.2,Original,Prophet,42
+2025-09-30,0.5,0.3,0.2,Original,Prophet,42
+2025-10-31,0.5,0.3,0.2,Original,Prophet,42
+2025-11-30,0.5,0.3,0.2,Original,Prophet,42
+2025-12-31,0.5,0.3,0.2,Original,Prophet,42
+2026-01-31,0.5,0.3,0.2,Original,Prophet,42
+2026-02-28,0.5,0.3,0.2,Original,Prophet,42
+2026-03-31,0.5,0.3,0.2,Original,Prophet,42
+2026-04-30,0.5,0.3,0.2,Original,Prophet,42
+2026-05-31,0.5,0.3,0.2,Original,Prophet,42
+2026-06-30,0.5,0.3,0.2,Original,Prophet,42
+2026-07-31,0.3,0.5,0.2,Original,Prophet,42
+2026-08-31,0.3,0.5,0.2,Original,Prophet,42
+2024-12-31,0.3,0.2,0.5,Longer returns,Ridge,42
+2025-01-31,0.5,0.3,0.2,Longer returns,Ridge,42
+2025-02-28,0.5,0.2,0.3,Longer returns,Ridge,42
+2025-03-31,0.5,0.3,0.2,Longer returns,Ridge,42
+2025-04-30,0.3,0.2,0.5,Longer returns,Ridge,42
+2025-05-31,0.2,0.3,0.5,Longer returns,Ridge,42
+2025-06-30,0.3,0.2,0.5,Longer returns,Ridge,42
+2025-07-31,0.2,0.3,0.5,Longer returns,Ridge,42
+2025-08-31,0.5,0.3,0.2,Longer returns,Ridge,42
+2025-09-30,0.5,0.3,0.2,Longer returns,Ridge,42
+2025-10-31,0.3,0.5,0.2,Longer returns,Ridge,42
+2025-11-30,0.5,0.2,0.3,Longer returns,Ridge,42
+2025-12-31,0.5,0.2,0.3,Longer returns,Ridge,42
+2026-01-31,0.5,0.2,0.3,Longer returns,Ridge,42
+2026-02-28,0.3,0.2,0.5,Longer returns,Ridge,42
+2026-03-31,0.5,0.2,0.3,Longer returns,Ridge,42
+2026-04-30,0.3,0.2,0.5,Longer returns,Ridge,42
+2026-05-31,0.3,0.5,0.2,Longer returns,Ridge,42
+2026-06-30,0.2,0.5,0.3,Longer returns,Ridge,42
+2026-07-31,0.5,0.3,0.2,Longer returns,Ridge,42
+2026-08-31,0.2,0.3,0.5,Longer returns,Ridge,42
+2024-12-31,0.3,0.2,0.5,Longer returns,Elastic Net,42
+2025-01-31,0.2,0.5,0.3,Longer returns,Elastic Net,42
+2025-02-28,0.5,0.3,0.2,Longer returns,Elastic Net,42
+2025-03-31,0.5,0.3,0.2,Longer returns,Elastic Net,42
+2025-04-30,0.3,0.2,0.5,Longer returns,Elastic Net,42
+2025-05-31,0.3,0.2,0.5,Longer returns,Elastic Net,42
+2025-06-30,0.5,0.3,0.2,Longer returns,Elastic Net,42
+2025-07-31,0.2,0.3,0.5,Longer returns,Elastic Net,42
+2025-08-31,0.3,0.5,0.2,Longer returns,Elastic Net,42
+2025-09-30,0.3,0.5,0.2,Longer returns,Elastic Net,42
+2025-10-31,0.3,0.5,0.2,Longer returns,Elastic Net,42
+2025-11-30,0.5,0.2,0.3,Longer returns,Elastic Net,42
+2025-12-31,0.5,0.2,0.3,Longer returns,Elastic Net,42
+2026-01-31,0.2,0.3,0.5,Longer returns,Elastic Net,42
+2026-02-28,0.3,0.2,0.5,Longer returns,Elastic Net,42
+2026-03-31,0.3,0.2,0.5,Longer returns,Elastic Net,42
+2026-04-30,0.3,0.2,0.5,Longer returns,Elastic Net,42
+2026-05-31,0.2,0.5,0.3,Longer returns,Elastic Net,42
+2026-06-30,0.2,0.5,0.3,Longer returns,Elastic Net,42
+2026-07-31,0.5,0.3,0.2,Longer returns,Elastic Net,42
+2026-08-31,0.2,0.3,0.5,Longer returns,Elastic Net,42
+2024-12-31,0.3,0.2,0.5,Longer returns,KNN,42
+2025-01-31,0.5,0.2,0.3,Longer returns,KNN,42
+2025-02-28,0.3,0.2,0.5,Longer returns,KNN,42
+2025-03-31,0.5,0.2,0.3,Longer returns,KNN,42
+2025-04-30,0.5,0.2,0.3,Longer returns,KNN,42
+2025-05-31,0.5,0.2,0.3,Longer returns,KNN,42
+2025-06-30,0.5,0.2,0.3,Longer returns,KNN,42
+2025-07-31,0.5,0.2,0.3,Longer returns,KNN,42
+2025-08-31,0.5,0.2,0.3,Longer returns,KNN,42
+2025-09-30,0.5,0.2,0.3,Longer returns,KNN,42
+2025-10-31,0.3,0.2,0.5,Longer returns,KNN,42
+2025-11-30,0.5,0.2,0.3,Longer returns,KNN,42
+2025-12-31,0.2,0.3,0.5,Longer returns,KNN,42
+2026-01-31,0.3,0.2,0.5,Longer returns,KNN,42
+2026-02-28,0.3,0.5,0.2,Longer returns,KNN,42
+2026-03-31,0.2,0.3,0.5,Longer returns,KNN,42
+2026-04-30,0.3,0.2,0.5,Longer returns,KNN,42
+2026-05-31,0.3,0.5,0.2,Longer returns,KNN,42
+2026-06-30,0.3,0.5,0.2,Longer returns,KNN,42
+2026-07-31,0.3,0.5,0.2,Longer returns,KNN,42
+2026-08-31,0.3,0.5,0.2,Longer returns,KNN,42
+2024-12-31,0.2,0.5,0.3,Longer returns,SVR,42
+2025-01-31,0.5,0.2,0.3,Longer returns,SVR,42
+2025-02-28,0.5,0.2,0.3,Longer returns,SVR,42
+2025-03-31,0.5,0.2,0.3,Longer returns,SVR,42
+2025-04-30,0.5,0.3,0.2,Longer returns,SVR,42
+2025-05-31,0.5,0.2,0.3,Longer returns,SVR,42
+2025-06-30,0.5,0.2,0.3,Longer returns,SVR,42
+2025-07-31,0.5,0.3,0.2,Longer returns,SVR,42
+2025-08-31,0.3,0.5,0.2,Longer returns,SVR,42
+2025-09-30,0.5,0.3,0.2,Longer returns,SVR,42
+2025-10-31,0.5,0.3,0.2,Longer returns,SVR,42
+2025-11-30,0.5,0.3,0.2,Longer returns,SVR,42
+2025-12-31,0.5,0.3,0.2,Longer returns,SVR,42
+2026-01-31,0.3,0.5,0.2,Longer returns,SVR,42
+2026-02-28,0.3,0.5,0.2,Longer returns,SVR,42
+2026-03-31,0.5,0.2,0.3,Longer returns,SVR,42
+2026-04-30,0.5,0.3,0.2,Longer returns,SVR,42
+2026-05-31,0.5,0.3,0.2,Longer returns,SVR,42
+2026-06-30,0.5,0.2,0.3,Longer returns,SVR,42
+2026-07-31,0.3,0.5,0.2,Longer returns,SVR,42
+2026-08-31,0.5,0.3,0.2,Longer returns,SVR,42
+2024-12-31,0.3,0.2,0.5,Longer returns,Random Forest,42
+2025-01-31,0.5,0.2,0.3,Longer returns,Random Forest,42
+2025-02-28,0.3,0.2,0.5,Longer returns,Random Forest,42
+2025-03-31,0.5,0.2,0.3,Longer returns,Random Forest,42
+2025-04-30,0.3,0.2,0.5,Longer returns,Random Forest,42
+2025-05-31,0.5,0.2,0.3,Longer returns,Random Forest,42
+2025-06-30,0.5,0.2,0.3,Longer returns,Random Forest,42
+2025-07-31,0.5,0.2,0.3,Longer returns,Random Forest,42
+2025-08-31,0.5,0.2,0.3,Longer returns,Random Forest,42
+2025-09-30,0.5,0.2,0.3,Longer returns,Random Forest,42
+2025-10-31,0.3,0.2,0.5,Longer returns,Random Forest,42
+2025-11-30,0.5,0.2,0.3,Longer returns,Random Forest,42
+2025-12-31,0.5,0.2,0.3,Longer returns,Random Forest,42
+2026-01-31,0.3,0.2,0.5,Longer returns,Random Forest,42
+2026-02-28,0.5,0.2,0.3,Longer returns,Random Forest,42
+2026-03-31,0.3,0.2,0.5,Longer returns,Random Forest,42
+2026-04-30,0.2,0.3,0.5,Longer returns,Random Forest,42
+2026-05-31,0.3,0.2,0.5,Longer returns,Random Forest,42
+2026-06-30,0.5,0.2,0.3,Longer returns,Random Forest,42
+2026-07-31,0.2,0.5,0.3,Longer returns,Random Forest,42
+2026-08-31,0.2,0.5,0.3,Longer returns,Random Forest,42
+2024-12-31,0.5,0.2,0.3,Longer returns,Extra Trees,42
+2025-01-31,0.5,0.2,0.3,Longer returns,Extra Trees,42
+2025-02-28,0.5,0.2,0.3,Longer returns,Extra Trees,42
+2025-03-31,0.5,0.2,0.3,Longer returns,Extra Trees,42
+2025-04-30,0.5,0.2,0.3,Longer returns,Extra Trees,42
+2025-05-31,0.5,0.2,0.3,Longer returns,Extra Trees,42
+2025-06-30,0.5,0.2,0.3,Longer returns,Extra Trees,42
+2025-07-31,0.5,0.2,0.3,Longer returns,Extra Trees,42
+2025-08-31,0.5,0.2,0.3,Longer returns,Extra Trees,42
+2025-09-30,0.5,0.2,0.3,Longer returns,Extra Trees,42
+2025-10-31,0.3,0.2,0.5,Longer returns,Extra Trees,42
+2025-11-30,0.5,0.2,0.3,Longer returns,Extra Trees,42
+2025-12-31,0.5,0.2,0.3,Longer returns,Extra Trees,42
+2026-01-31,0.2,0.3,0.5,Longer returns,Extra Trees,42
+2026-02-28,0.2,0.3,0.5,Longer returns,Extra Trees,42
+2026-03-31,0.3,0.2,0.5,Longer returns,Extra Trees,42
+2026-04-30,0.5,0.3,0.2,Longer returns,Extra Trees,42
+2026-05-31,0.5,0.2,0.3,Longer returns,Extra Trees,42
+2026-06-30,0.5,0.2,0.3,Longer returns,Extra Trees,42
+2026-07-31,0.2,0.5,0.3,Longer returns,Extra Trees,42
+2026-08-31,0.2,0.3,0.5,Longer returns,Extra Trees,42
+2024-12-31,0.2,0.5,0.3,Longer returns,XGBoost,42
+2025-01-31,0.5,0.2,0.3,Longer returns,XGBoost,42
+2025-02-28,0.5,0.3,0.2,Longer returns,XGBoost,42
+2025-03-31,0.5,0.3,0.2,Longer returns,XGBoost,42
+2025-04-30,0.2,0.3,0.5,Longer returns,XGBoost,42
+2025-05-31,0.5,0.3,0.2,Longer returns,XGBoost,42
+2025-06-30,0.2,0.3,0.5,Longer returns,XGBoost,42
+2025-07-31,0.5,0.3,0.2,Longer returns,XGBoost,42
+2025-08-31,0.5,0.2,0.3,Longer returns,XGBoost,42
+2025-09-30,0.5,0.2,0.3,Longer returns,XGBoost,42
+2025-10-31,0.3,0.2,0.5,Longer returns,XGBoost,42
+2025-11-30,0.2,0.3,0.5,Longer returns,XGBoost,42
+2025-12-31,0.3,0.5,0.2,Longer returns,XGBoost,42
+2026-01-31,0.3,0.2,0.5,Longer returns,XGBoost,42
+2026-02-28,0.5,0.2,0.3,Longer returns,XGBoost,42
+2026-03-31,0.2,0.3,0.5,Longer returns,XGBoost,42
+2026-04-30,0.3,0.5,0.2,Longer returns,XGBoost,42
+2026-05-31,0.2,0.5,0.3,Longer returns,XGBoost,42
+2026-06-30,0.3,0.2,0.5,Longer returns,XGBoost,42
+2026-07-31,0.2,0.5,0.3,Longer returns,XGBoost,42
+2026-08-31,0.3,0.5,0.2,Longer returns,XGBoost,42
+2024-12-31,0.5,0.3,0.2,Longer returns,MLP,42
+2025-01-31,0.2,0.3,0.5,Longer returns,MLP,42
+2025-02-28,0.2,0.5,0.3,Longer returns,MLP,42
+2025-03-31,0.5,0.2,0.3,Longer returns,MLP,42
+2025-04-30,0.2,0.3,0.5,Longer returns,MLP,42
+2025-05-31,0.3,0.2,0.5,Longer returns,MLP,42
+2025-06-30,0.5,0.3,0.2,Longer returns,MLP,42
+2025-07-31,0.3,0.5,0.2,Longer returns,MLP,42
+2025-08-31,0.3,0.2,0.5,Longer returns,MLP,42
+2025-09-30,0.5,0.3,0.2,Longer returns,MLP,42
+2025-10-31,0.5,0.3,0.2,Longer returns,MLP,42
+2025-11-30,0.5,0.2,0.3,Longer returns,MLP,42
+2025-12-31,0.3,0.5,0.2,Longer returns,MLP,42
+2026-01-31,0.5,0.3,0.2,Longer returns,MLP,42
+2026-02-28,0.2,0.5,0.3,Longer returns,MLP,42
+2026-03-31,0.5,0.2,0.3,Longer returns,MLP,42
+2026-04-30,0.2,0.3,0.5,Longer returns,MLP,42
+2026-05-31,0.3,0.5,0.2,Longer returns,MLP,42
+2026-06-30,0.5,0.2,0.3,Longer returns,MLP,42
+2026-07-31,0.5,0.3,0.2,Longer returns,MLP,42
+2026-08-31,0.3,0.5,0.2,Longer returns,MLP,42
+2024-12-31,0.5,0.2,0.3,Longer returns,LSTM,42
+2025-01-31,0.5,0.2,0.3,Longer returns,LSTM,42
+2025-02-28,0.3,0.2,0.5,Longer returns,LSTM,42
+2025-03-31,0.3,0.2,0.5,Longer returns,LSTM,42
+2025-04-30,0.3,0.2,0.5,Longer returns,LSTM,42
+2025-05-31,0.5,0.3,0.2,Longer returns,LSTM,42
+2025-06-30,0.5,0.3,0.2,Longer returns,LSTM,42
+2025-07-31,0.5,0.2,0.3,Longer returns,LSTM,42
+2025-08-31,0.5,0.3,0.2,Longer returns,LSTM,42
+2025-09-30,0.5,0.2,0.3,Longer returns,LSTM,42
+2025-10-31,0.3,0.2,0.5,Longer returns,LSTM,42
+2025-11-30,0.5,0.3,0.2,Longer returns,LSTM,42
+2025-12-31,0.5,0.2,0.3,Longer returns,LSTM,42
+2026-01-31,0.5,0.2,0.3,Longer returns,LSTM,42
+2026-02-28,0.2,0.5,0.3,Longer returns,LSTM,42
+2026-03-31,0.5,0.3,0.2,Longer returns,LSTM,42
+2026-04-30,0.3,0.5,0.2,Longer returns,LSTM,42
+2026-05-31,0.5,0.3,0.2,Longer returns,LSTM,42
+2026-06-30,0.2,0.3,0.5,Longer returns,LSTM,42
+2026-07-31,0.5,0.3,0.2,Longer returns,LSTM,42
+2026-08-31,0.3,0.5,0.2,Longer returns,LSTM,42
+2024-12-31,0.3,0.2,0.5,Longer returns,CNN,42
+2025-01-31,0.3,0.2,0.5,Longer returns,CNN,42
+2025-02-28,0.3,0.2,0.5,Longer returns,CNN,42
+2025-03-31,0.3,0.2,0.5,Longer returns,CNN,42
+2025-04-30,0.5,0.2,0.3,Longer returns,CNN,42
+2025-05-31,0.5,0.3,0.2,Longer returns,CNN,42
+2025-06-30,0.3,0.5,0.2,Longer returns,CNN,42
+2025-07-31,0.5,0.3,0.2,Longer returns,CNN,42
+2025-08-31,0.3,0.5,0.2,Longer returns,CNN,42
+2025-09-30,0.2,0.3,0.5,Longer returns,CNN,42
+2025-10-31,0.2,0.3,0.5,Longer returns,CNN,42
+2025-11-30,0.2,0.3,0.5,Longer returns,CNN,42
+2025-12-31,0.2,0.5,0.3,Longer returns,CNN,42
+2026-01-31,0.3,0.5,0.2,Longer returns,CNN,42
+2026-02-28,0.3,0.5,0.2,Longer returns,CNN,42
+2026-03-31,0.3,0.5,0.2,Longer returns,CNN,42
+2026-04-30,0.3,0.5,0.2,Longer returns,CNN,42
+2026-05-31,0.3,0.5,0.2,Longer returns,CNN,42
+2026-06-30,0.2,0.5,0.3,Longer returns,CNN,42
+2026-07-31,0.2,0.5,0.3,Longer returns,CNN,42
+2026-08-31,0.2,0.3,0.5,Longer returns,CNN,42
+2024-12-31,0.3,0.2,0.5,Longer risk,Ridge,42
+2025-01-31,0.5,0.3,0.2,Longer risk,Ridge,42
+2025-02-28,0.5,0.2,0.3,Longer risk,Ridge,42
+2025-03-31,0.5,0.2,0.3,Longer risk,Ridge,42
+2025-04-30,0.2,0.3,0.5,Longer risk,Ridge,42
+2025-05-31,0.3,0.2,0.5,Longer risk,Ridge,42
+2025-06-30,0.5,0.3,0.2,Longer risk,Ridge,42
+2025-07-31,0.5,0.3,0.2,Longer risk,Ridge,42
+2025-08-31,0.3,0.5,0.2,Longer risk,Ridge,42
+2025-09-30,0.3,0.5,0.2,Longer risk,Ridge,42
+2025-10-31,0.3,0.5,0.2,Longer risk,Ridge,42
+2025-11-30,0.5,0.2,0.3,Longer risk,Ridge,42
+2025-12-31,0.3,0.2,0.5,Longer risk,Ridge,42
+2026-01-31,0.3,0.5,0.2,Longer risk,Ridge,42
+2026-02-28,0.5,0.3,0.2,Longer risk,Ridge,42
+2026-03-31,0.3,0.2,0.5,Longer risk,Ridge,42
+2026-04-30,0.2,0.3,0.5,Longer risk,Ridge,42
+2026-05-31,0.2,0.5,0.3,Longer risk,Ridge,42
+2026-06-30,0.5,0.2,0.3,Longer risk,Ridge,42
+2026-07-31,0.3,0.5,0.2,Longer risk,Ridge,42
+2026-08-31,0.3,0.2,0.5,Longer risk,Ridge,42
+2024-12-31,0.3,0.2,0.5,Longer risk,Elastic Net,42
+2025-01-31,0.5,0.3,0.2,Longer risk,Elastic Net,42
+2025-02-28,0.5,0.2,0.3,Longer risk,Elastic Net,42
+2025-03-31,0.3,0.2,0.5,Longer risk,Elastic Net,42
+2025-04-30,0.2,0.3,0.5,Longer risk,Elastic Net,42
+2025-05-31,0.3,0.2,0.5,Longer risk,Elastic Net,42
+2025-06-30,0.5,0.3,0.2,Longer risk,Elastic Net,42
+2025-07-31,0.5,0.3,0.2,Longer risk,Elastic Net,42
+2025-08-31,0.3,0.5,0.2,Longer risk,Elastic Net,42
+2025-09-30,0.5,0.3,0.2,Longer risk,Elastic Net,42
+2025-10-31,0.3,0.5,0.2,Longer risk,Elastic Net,42
+2025-11-30,0.5,0.2,0.3,Longer risk,Elastic Net,42
+2025-12-31,0.3,0.2,0.5,Longer risk,Elastic Net,42
+2026-01-31,0.3,0.5,0.2,Longer risk,Elastic Net,42
+2026-02-28,0.5,0.3,0.2,Longer risk,Elastic Net,42
+2026-03-31,0.3,0.2,0.5,Longer risk,Elastic Net,42
+2026-04-30,0.2,0.3,0.5,Longer risk,Elastic Net,42
+2026-05-31,0.2,0.5,0.3,Longer risk,Elastic Net,42
+2026-06-30,0.5,0.3,0.2,Longer risk,Elastic Net,42
+2026-07-31,0.2,0.5,0.3,Longer risk,Elastic Net,42
+2026-08-31,0.2,0.3,0.5,Longer risk,Elastic Net,42
+2024-12-31,0.3,0.2,0.5,Longer risk,KNN,42
+2025-01-31,0.5,0.2,0.3,Longer risk,KNN,42
+2025-02-28,0.3,0.2,0.5,Longer risk,KNN,42
+2025-03-31,0.2,0.3,0.5,Longer risk,KNN,42
+2025-04-30,0.3,0.5,0.2,Longer risk,KNN,42
+2025-05-31,0.3,0.5,0.2,Longer risk,KNN,42
+2025-06-30,0.5,0.3,0.2,Longer risk,KNN,42
+2025-07-31,0.5,0.3,0.2,Longer risk,KNN,42
+2025-08-31,0.5,0.2,0.3,Longer risk,KNN,42
+2025-09-30,0.5,0.2,0.3,Longer risk,KNN,42
+2025-10-31,0.3,0.2,0.5,Longer risk,KNN,42
+2025-11-30,0.5,0.2,0.3,Longer risk,KNN,42
+2025-12-31,0.5,0.3,0.2,Longer risk,KNN,42
+2026-01-31,0.5,0.3,0.2,Longer risk,KNN,42
+2026-02-28,0.3,0.5,0.2,Longer risk,KNN,42
+2026-03-31,0.3,0.5,0.2,Longer risk,KNN,42
+2026-04-30,0.3,0.5,0.2,Longer risk,KNN,42
+2026-05-31,0.3,0.5,0.2,Longer risk,KNN,42
+2026-06-30,0.3,0.5,0.2,Longer risk,KNN,42
+2026-07-31,0.2,0.5,0.3,Longer risk,KNN,42
+2026-08-31,0.2,0.3,0.5,Longer risk,KNN,42
+2024-12-31,0.3,0.2,0.5,Longer risk,SVR,42
+2025-01-31,0.5,0.2,0.3,Longer risk,SVR,42
+2025-02-28,0.5,0.2,0.3,Longer risk,SVR,42
+2025-03-31,0.5,0.2,0.3,Longer risk,SVR,42
+2025-04-30,0.3,0.2,0.5,Longer risk,SVR,42
+2025-05-31,0.3,0.2,0.5,Longer risk,SVR,42
+2025-06-30,0.5,0.3,0.2,Longer risk,SVR,42
+2025-07-31,0.5,0.3,0.2,Longer risk,SVR,42
+2025-08-31,0.5,0.3,0.2,Longer risk,SVR,42
+2025-09-30,0.5,0.3,0.2,Longer risk,SVR,42
+2025-10-31,0.3,0.2,0.5,Longer risk,SVR,42
+2025-11-30,0.3,0.2,0.5,Longer risk,SVR,42
+2025-12-31,0.2,0.5,0.3,Longer risk,SVR,42
+2026-01-31,0.2,0.5,0.3,Longer risk,SVR,42
+2026-02-28,0.5,0.3,0.2,Longer risk,SVR,42
+2026-03-31,0.3,0.2,0.5,Longer risk,SVR,42
+2026-04-30,0.3,0.5,0.2,Longer risk,SVR,42
+2026-05-31,0.5,0.3,0.2,Longer risk,SVR,42
+2026-06-30,0.5,0.2,0.3,Longer risk,SVR,42
+2026-07-31,0.5,0.2,0.3,Longer risk,SVR,42
+2026-08-31,0.3,0.2,0.5,Longer risk,SVR,42
+2024-12-31,0.3,0.2,0.5,Longer risk,Random Forest,42
+2025-01-31,0.5,0.2,0.3,Longer risk,Random Forest,42
+2025-02-28,0.5,0.2,0.3,Longer risk,Random Forest,42
+2025-03-31,0.5,0.2,0.3,Longer risk,Random Forest,42
+2025-04-30,0.5,0.2,0.3,Longer risk,Random Forest,42
+2025-05-31,0.3,0.2,0.5,Longer risk,Random Forest,42
+2025-06-30,0.5,0.2,0.3,Longer risk,Random Forest,42
+2025-07-31,0.5,0.3,0.2,Longer risk,Random Forest,42
+2025-08-31,0.5,0.3,0.2,Longer risk,Random Forest,42
+2025-09-30,0.5,0.3,0.2,Longer risk,Random Forest,42
+2025-10-31,0.5,0.3,0.2,Longer risk,Random Forest,42
+2025-11-30,0.5,0.2,0.3,Longer risk,Random Forest,42
+2025-12-31,0.2,0.5,0.3,Longer risk,Random Forest,42
+2026-01-31,0.5,0.3,0.2,Longer risk,Random Forest,42
+2026-02-28,0.3,0.5,0.2,Longer risk,Random Forest,42
+2026-03-31,0.5,0.2,0.3,Longer risk,Random Forest,42
+2026-04-30,0.2,0.5,0.3,Longer risk,Random Forest,42
+2026-05-31,0.2,0.3,0.5,Longer risk,Random Forest,42
+2026-06-30,0.5,0.3,0.2,Longer risk,Random Forest,42
+2026-07-31,0.2,0.5,0.3,Longer risk,Random Forest,42
+2026-08-31,0.5,0.2,0.3,Longer risk,Random Forest,42
+2024-12-31,0.5,0.2,0.3,Longer risk,Extra Trees,42
+2025-01-31,0.5,0.2,0.3,Longer risk,Extra Trees,42
+2025-02-28,0.5,0.2,0.3,Longer risk,Extra Trees,42
+2025-03-31,0.5,0.2,0.3,Longer risk,Extra Trees,42
+2025-04-30,0.3,0.2,0.5,Longer risk,Extra Trees,42
+2025-05-31,0.3,0.2,0.5,Longer risk,Extra Trees,42
+2025-06-30,0.5,0.2,0.3,Longer risk,Extra Trees,42
+2025-07-31,0.5,0.3,0.2,Longer risk,Extra Trees,42
+2025-08-31,0.5,0.3,0.2,Longer risk,Extra Trees,42
+2025-09-30,0.5,0.2,0.3,Longer risk,Extra Trees,42
+2025-10-31,0.3,0.2,0.5,Longer risk,Extra Trees,42
+2025-11-30,0.5,0.2,0.3,Longer risk,Extra Trees,42
+2025-12-31,0.5,0.3,0.2,Longer risk,Extra Trees,42
+2026-01-31,0.3,0.5,0.2,Longer risk,Extra Trees,42
+2026-02-28,0.3,0.5,0.2,Longer risk,Extra Trees,42
+2026-03-31,0.5,0.2,0.3,Longer risk,Extra Trees,42
+2026-04-30,0.2,0.5,0.3,Longer risk,Extra Trees,42
+2026-05-31,0.5,0.3,0.2,Longer risk,Extra Trees,42
+2026-06-30,0.2,0.5,0.3,Longer risk,Extra Trees,42
+2026-07-31,0.2,0.5,0.3,Longer risk,Extra Trees,42
+2026-08-31,0.2,0.5,0.3,Longer risk,Extra Trees,42
+2024-12-31,0.2,0.3,0.5,Longer risk,XGBoost,42
+2025-01-31,0.3,0.2,0.5,Longer risk,XGBoost,42
+2025-02-28,0.5,0.3,0.2,Longer risk,XGBoost,42
+2025-03-31,0.3,0.5,0.2,Longer risk,XGBoost,42
+2025-04-30,0.5,0.2,0.3,Longer risk,XGBoost,42
+2025-05-31,0.3,0.2,0.5,Longer risk,XGBoost,42
+2025-06-30,0.5,0.3,0.2,Longer risk,XGBoost,42
+2025-07-31,0.5,0.3,0.2,Longer risk,XGBoost,42
+2025-08-31,0.3,0.5,0.2,Longer risk,XGBoost,42
+2025-09-30,0.5,0.3,0.2,Longer risk,XGBoost,42
+2025-10-31,0.2,0.5,0.3,Longer risk,XGBoost,42
+2025-11-30,0.2,0.3,0.5,Longer risk,XGBoost,42
+2025-12-31,0.5,0.3,0.2,Longer risk,XGBoost,42
+2026-01-31,0.5,0.3,0.2,Longer risk,XGBoost,42
+2026-02-28,0.5,0.3,0.2,Longer risk,XGBoost,42
+2026-03-31,0.5,0.2,0.3,Longer risk,XGBoost,42
+2026-04-30,0.2,0.5,0.3,Longer risk,XGBoost,42
+2026-05-31,0.5,0.3,0.2,Longer risk,XGBoost,42
+2026-06-30,0.3,0.2,0.5,Longer risk,XGBoost,42
+2026-07-31,0.3,0.5,0.2,Longer risk,XGBoost,42
+2026-08-31,0.3,0.5,0.2,Longer risk,XGBoost,42
+2024-12-31,0.5,0.2,0.3,Longer risk,MLP,42
+2025-01-31,0.5,0.3,0.2,Longer risk,MLP,42
+2025-02-28,0.5,0.3,0.2,Longer risk,MLP,42
+2025-03-31,0.3,0.2,0.5,Longer risk,MLP,42
+2025-04-30,0.2,0.3,0.5,Longer risk,MLP,42
+2025-05-31,0.3,0.2,0.5,Longer risk,MLP,42
+2025-06-30,0.5,0.3,0.2,Longer risk,MLP,42
+2025-07-31,0.3,0.5,0.2,Longer risk,MLP,42
+2025-08-31,0.5,0.3,0.2,Longer risk,MLP,42
+2025-09-30,0.5,0.2,0.3,Longer risk,MLP,42
+2025-10-31,0.3,0.5,0.2,Longer risk,MLP,42
+2025-11-30,0.5,0.3,0.2,Longer risk,MLP,42
+2025-12-31,0.2,0.3,0.5,Longer risk,MLP,42
+2026-01-31,0.2,0.3,0.5,Longer risk,MLP,42
+2026-02-28,0.3,0.5,0.2,Longer risk,MLP,42
+2026-03-31,0.2,0.3,0.5,Longer risk,MLP,42
+2026-04-30,0.2,0.5,0.3,Longer risk,MLP,42
+2026-05-31,0.3,0.5,0.2,Longer risk,MLP,42
+2026-06-30,0.2,0.3,0.5,Longer risk,MLP,42
+2026-07-31,0.3,0.5,0.2,Longer risk,MLP,42
+2026-08-31,0.2,0.3,0.5,Longer risk,MLP,42
+2024-12-31,0.5,0.2,0.3,Longer risk,LSTM,42
+2025-01-31,0.5,0.2,0.3,Longer risk,LSTM,42
+2025-02-28,0.5,0.2,0.3,Longer risk,LSTM,42
+2025-03-31,0.3,0.2,0.5,Longer risk,LSTM,42
+2025-04-30,0.3,0.2,0.5,Longer risk,LSTM,42
+2025-05-31,0.3,0.5,0.2,Longer risk,LSTM,42
+2025-06-30,0.5,0.3,0.2,Longer risk,LSTM,42
+2025-07-31,0.5,0.3,0.2,Longer risk,LSTM,42
+2025-08-31,0.5,0.2,0.3,Longer risk,LSTM,42
+2025-09-30,0.2,0.3,0.5,Longer risk,LSTM,42
+2025-10-31,0.2,0.3,0.5,Longer risk,LSTM,42
+2025-11-30,0.2,0.5,0.3,Longer risk,LSTM,42
+2025-12-31,0.5,0.3,0.2,Longer risk,LSTM,42
+2026-01-31,0.3,0.5,0.2,Longer risk,LSTM,42
+2026-02-28,0.2,0.5,0.3,Longer risk,LSTM,42
+2026-03-31,0.2,0.5,0.3,Longer risk,LSTM,42
+2026-04-30,0.2,0.5,0.3,Longer risk,LSTM,42
+2026-05-31,0.2,0.3,0.5,Longer risk,LSTM,42
+2026-06-30,0.2,0.3,0.5,Longer risk,LSTM,42
+2026-07-31,0.2,0.5,0.3,Longer risk,LSTM,42
+2026-08-31,0.2,0.5,0.3,Longer risk,LSTM,42
+2024-12-31,0.3,0.2,0.5,Longer risk,CNN,42
+2025-01-31,0.3,0.2,0.5,Longer risk,CNN,42
+2025-02-28,0.3,0.2,0.5,Longer risk,CNN,42
+2025-03-31,0.3,0.2,0.5,Longer risk,CNN,42
+2025-04-30,0.3,0.2,0.5,Longer risk,CNN,42
+2025-05-31,0.3,0.2,0.5,Longer risk,CNN,42
+2025-06-30,0.3,0.5,0.2,Longer risk,CNN,42
+2025-07-31,0.3,0.5,0.2,Longer risk,CNN,42
+2025-08-31,0.3,0.5,0.2,Longer risk,CNN,42
+2025-09-30,0.2,0.5,0.3,Longer risk,CNN,42
+2025-10-31,0.2,0.5,0.3,Longer risk,CNN,42
+2025-11-30,0.3,0.5,0.2,Longer risk,CNN,42
+2025-12-31,0.3,0.5,0.2,Longer risk,CNN,42
+2026-01-31,0.3,0.5,0.2,Longer risk,CNN,42
+2026-02-28,0.3,0.5,0.2,Longer risk,CNN,42
+2026-03-31,0.3,0.5,0.2,Longer risk,CNN,42
+2026-04-30,0.3,0.5,0.2,Longer risk,CNN,42
+2026-05-31,0.3,0.5,0.2,Longer risk,CNN,42
+2026-06-30,0.3,0.5,0.2,Longer risk,CNN,42
+2026-07-31,0.2,0.3,0.5,Longer risk,CNN,42
+2026-08-31,0.2,0.3,0.5,Longer risk,CNN,42
+2024-12-31,0.3,0.2,0.5,Both longer,Ridge,42
+2025-01-31,0.5,0.2,0.3,Both longer,Ridge,42
+2025-02-28,0.3,0.2,0.5,Both longer,Ridge,42
+2025-03-31,0.5,0.2,0.3,Both longer,Ridge,42
+2025-04-30,0.3,0.2,0.5,Both longer,Ridge,42
+2025-05-31,0.2,0.3,0.5,Both longer,Ridge,42
+2025-06-30,0.5,0.2,0.3,Both longer,Ridge,42
+2025-07-31,0.5,0.3,0.2,Both longer,Ridge,42
+2025-08-31,0.5,0.3,0.2,Both longer,Ridge,42
+2025-09-30,0.5,0.3,0.2,Both longer,Ridge,42
+2025-10-31,0.3,0.5,0.2,Both longer,Ridge,42
+2025-11-30,0.5,0.2,0.3,Both longer,Ridge,42
+2025-12-31,0.5,0.2,0.3,Both longer,Ridge,42
+2026-01-31,0.5,0.3,0.2,Both longer,Ridge,42
+2026-02-28,0.5,0.3,0.2,Both longer,Ridge,42
+2026-03-31,0.3,0.2,0.5,Both longer,Ridge,42
+2026-04-30,0.2,0.3,0.5,Both longer,Ridge,42
+2026-05-31,0.3,0.5,0.2,Both longer,Ridge,42
+2026-06-30,0.3,0.5,0.2,Both longer,Ridge,42
+2026-07-31,0.5,0.3,0.2,Both longer,Ridge,42
+2026-08-31,0.2,0.3,0.5,Both longer,Ridge,42
+2024-12-31,0.3,0.2,0.5,Both longer,Elastic Net,42
+2025-01-31,0.3,0.2,0.5,Both longer,Elastic Net,42
+2025-02-28,0.3,0.2,0.5,Both longer,Elastic Net,42
+2025-03-31,0.5,0.2,0.3,Both longer,Elastic Net,42
+2025-04-30,0.3,0.2,0.5,Both longer,Elastic Net,42
+2025-05-31,0.3,0.2,0.5,Both longer,Elastic Net,42
+2025-06-30,0.5,0.2,0.3,Both longer,Elastic Net,42
+2025-07-31,0.5,0.3,0.2,Both longer,Elastic Net,42
+2025-08-31,0.3,0.5,0.2,Both longer,Elastic Net,42
+2025-09-30,0.5,0.3,0.2,Both longer,Elastic Net,42
+2025-10-31,0.3,0.5,0.2,Both longer,Elastic Net,42
+2025-11-30,0.5,0.2,0.3,Both longer,Elastic Net,42
+2025-12-31,0.5,0.2,0.3,Both longer,Elastic Net,42
+2026-01-31,0.3,0.5,0.2,Both longer,Elastic Net,42
+2026-02-28,0.3,0.5,0.2,Both longer,Elastic Net,42
+2026-03-31,0.3,0.2,0.5,Both longer,Elastic Net,42
+2026-04-30,0.2,0.3,0.5,Both longer,Elastic Net,42
+2026-05-31,0.2,0.3,0.5,Both longer,Elastic Net,42
+2026-06-30,0.3,0.5,0.2,Both longer,Elastic Net,42
+2026-07-31,0.5,0.3,0.2,Both longer,Elastic Net,42
+2026-08-31,0.2,0.3,0.5,Both longer,Elastic Net,42
+2024-12-31,0.3,0.2,0.5,Both longer,KNN,42
+2025-01-31,0.5,0.2,0.3,Both longer,KNN,42
+2025-02-28,0.3,0.2,0.5,Both longer,KNN,42
+2025-03-31,0.2,0.3,0.5,Both longer,KNN,42
+2025-04-30,0.3,0.5,0.2,Both longer,KNN,42
+2025-05-31,0.5,0.3,0.2,Both longer,KNN,42
+2025-06-30,0.5,0.3,0.2,Both longer,KNN,42
+2025-07-31,0.5,0.3,0.2,Both longer,KNN,42
+2025-08-31,0.5,0.3,0.2,Both longer,KNN,42
+2025-09-30,0.5,0.2,0.3,Both longer,KNN,42
+2025-10-31,0.3,0.2,0.5,Both longer,KNN,42
+2025-11-30,0.5,0.3,0.2,Both longer,KNN,42
+2025-12-31,0.5,0.3,0.2,Both longer,KNN,42
+2026-01-31,0.3,0.5,0.2,Both longer,KNN,42
+2026-02-28,0.3,0.5,0.2,Both longer,KNN,42
+2026-03-31,0.3,0.5,0.2,Both longer,KNN,42
+2026-04-30,0.3,0.5,0.2,Both longer,KNN,42
+2026-05-31,0.3,0.5,0.2,Both longer,KNN,42
+2026-06-30,0.2,0.5,0.3,Both longer,KNN,42
+2026-07-31,0.2,0.5,0.3,Both longer,KNN,42
+2026-08-31,0.2,0.5,0.3,Both longer,KNN,42
+2024-12-31,0.3,0.2,0.5,Both longer,SVR,42
+2025-01-31,0.5,0.2,0.3,Both longer,SVR,42
+2025-02-28,0.3,0.2,0.5,Both longer,SVR,42
+2025-03-31,0.3,0.2,0.5,Both longer,SVR,42
+2025-04-30,0.3,0.5,0.2,Both longer,SVR,42
+2025-05-31,0.2,0.3,0.5,Both longer,SVR,42
+2025-06-30,0.5,0.3,0.2,Both longer,SVR,42
+2025-07-31,0.5,0.3,0.2,Both longer,SVR,42
+2025-08-31,0.3,0.5,0.2,Both longer,SVR,42
+2025-09-30,0.5,0.3,0.2,Both longer,SVR,42
+2025-10-31,0.3,0.2,0.5,Both longer,SVR,42
+2025-11-30,0.3,0.5,0.2,Both longer,SVR,42
+2025-12-31,0.2,0.5,0.3,Both longer,SVR,42
+2026-01-31,0.2,0.5,0.3,Both longer,SVR,42
+2026-02-28,0.2,0.5,0.3,Both longer,SVR,42
+2026-03-31,0.2,0.3,0.5,Both longer,SVR,42
+2026-04-30,0.2,0.5,0.3,Both longer,SVR,42
+2026-05-31,0.5,0.2,0.3,Both longer,SVR,42
+2026-06-30,0.5,0.2,0.3,Both longer,SVR,42
+2026-07-31,0.2,0.5,0.3,Both longer,SVR,42
+2026-08-31,0.5,0.3,0.2,Both longer,SVR,42
+2024-12-31,0.5,0.2,0.3,Both longer,Random Forest,42
+2025-01-31,0.3,0.2,0.5,Both longer,Random Forest,42
+2025-02-28,0.3,0.2,0.5,Both longer,Random Forest,42
+2025-03-31,0.3,0.2,0.5,Both longer,Random Forest,42
+2025-04-30,0.5,0.2,0.3,Both longer,Random Forest,42
+2025-05-31,0.5,0.2,0.3,Both longer,Random Forest,42
+2025-06-30,0.5,0.3,0.2,Both longer,Random Forest,42
+2025-07-31,0.5,0.3,0.2,Both longer,Random Forest,42
+2025-08-31,0.5,0.3,0.2,Both longer,Random Forest,42
+2025-09-30,0.5,0.3,0.2,Both longer,Random Forest,42
+2025-10-31,0.3,0.2,0.5,Both longer,Random Forest,42
+2025-11-30,0.5,0.3,0.2,Both longer,Random Forest,42
+2025-12-31,0.5,0.3,0.2,Both longer,Random Forest,42
+2026-01-31,0.2,0.5,0.3,Both longer,Random Forest,42
+2026-02-28,0.5,0.3,0.2,Both longer,Random Forest,42
+2026-03-31,0.5,0.3,0.2,Both longer,Random Forest,42
+2026-04-30,0.3,0.5,0.2,Both longer,Random Forest,42
+2026-05-31,0.2,0.5,0.3,Both longer,Random Forest,42
+2026-06-30,0.3,0.5,0.2,Both longer,Random Forest,42
+2026-07-31,0.2,0.5,0.3,Both longer,Random Forest,42
+2026-08-31,0.2,0.5,0.3,Both longer,Random Forest,42
+2024-12-31,0.5,0.2,0.3,Both longer,Extra Trees,42
+2025-01-31,0.5,0.2,0.3,Both longer,Extra Trees,42
+2025-02-28,0.3,0.2,0.5,Both longer,Extra Trees,42
+2025-03-31,0.3,0.2,0.5,Both longer,Extra Trees,42
+2025-04-30,0.3,0.2,0.5,Both longer,Extra Trees,42
+2025-05-31,0.5,0.2,0.3,Both longer,Extra Trees,42
+2025-06-30,0.5,0.3,0.2,Both longer,Extra Trees,42
+2025-07-31,0.5,0.3,0.2,Both longer,Extra Trees,42
+2025-08-31,0.5,0.3,0.2,Both longer,Extra Trees,42
+2025-09-30,0.5,0.3,0.2,Both longer,Extra Trees,42
+2025-10-31,0.3,0.2,0.5,Both longer,Extra Trees,42
+2025-11-30,0.5,0.3,0.2,Both longer,Extra Trees,42
+2025-12-31,0.5,0.3,0.2,Both longer,Extra Trees,42
+2026-01-31,0.3,0.5,0.2,Both longer,Extra Trees,42
+2026-02-28,0.3,0.5,0.2,Both longer,Extra Trees,42
+2026-03-31,0.3,0.5,0.2,Both longer,Extra Trees,42
+2026-04-30,0.2,0.5,0.3,Both longer,Extra Trees,42
+2026-05-31,0.2,0.5,0.3,Both longer,Extra Trees,42
+2026-06-30,0.3,0.5,0.2,Both longer,Extra Trees,42
+2026-07-31,0.2,0.3,0.5,Both longer,Extra Trees,42
+2026-08-31,0.2,0.5,0.3,Both longer,Extra Trees,42
+2024-12-31,0.2,0.3,0.5,Both longer,XGBoost,42
+2025-01-31,0.5,0.2,0.3,Both longer,XGBoost,42
+2025-02-28,0.3,0.2,0.5,Both longer,XGBoost,42
+2025-03-31,0.2,0.5,0.3,Both longer,XGBoost,42
+2025-04-30,0.2,0.3,0.5,Both longer,XGBoost,42
+2025-05-31,0.3,0.2,0.5,Both longer,XGBoost,42
+2025-06-30,0.3,0.5,0.2,Both longer,XGBoost,42
+2025-07-31,0.5,0.3,0.2,Both longer,XGBoost,42
+2025-08-31,0.5,0.3,0.2,Both longer,XGBoost,42
+2025-09-30,0.5,0.3,0.2,Both longer,XGBoost,42
+2025-10-31,0.3,0.2,0.5,Both longer,XGBoost,42
+2025-11-30,0.3,0.5,0.2,Both longer,XGBoost,42
+2025-12-31,0.5,0.3,0.2,Both longer,XGBoost,42
+2026-01-31,0.5,0.3,0.2,Both longer,XGBoost,42
+2026-02-28,0.5,0.3,0.2,Both longer,XGBoost,42
+2026-03-31,0.3,0.2,0.5,Both longer,XGBoost,42
+2026-04-30,0.3,0.5,0.2,Both longer,XGBoost,42
+2026-05-31,0.2,0.3,0.5,Both longer,XGBoost,42
+2026-06-30,0.2,0.5,0.3,Both longer,XGBoost,42
+2026-07-31,0.2,0.5,0.3,Both longer,XGBoost,42
+2026-08-31,0.2,0.5,0.3,Both longer,XGBoost,42
+2024-12-31,0.3,0.2,0.5,Both longer,MLP,42
+2025-01-31,0.5,0.2,0.3,Both longer,MLP,42
+2025-02-28,0.3,0.2,0.5,Both longer,MLP,42
+2025-03-31,0.3,0.2,0.5,Both longer,MLP,42
+2025-04-30,0.3,0.2,0.5,Both longer,MLP,42
+2025-05-31,0.2,0.5,0.3,Both longer,MLP,42
+2025-06-30,0.5,0.2,0.3,Both longer,MLP,42
+2025-07-31,0.5,0.3,0.2,Both longer,MLP,42
+2025-08-31,0.3,0.5,0.2,Both longer,MLP,42
+2025-09-30,0.5,0.2,0.3,Both longer,MLP,42
+2025-10-31,0.2,0.3,0.5,Both longer,MLP,42
+2025-11-30,0.5,0.2,0.3,Both longer,MLP,42
+2025-12-31,0.2,0.5,0.3,Both longer,MLP,42
+2026-01-31,0.2,0.5,0.3,Both longer,MLP,42
+2026-02-28,0.3,0.5,0.2,Both longer,MLP,42
+2026-03-31,0.2,0.3,0.5,Both longer,MLP,42
+2026-04-30,0.2,0.5,0.3,Both longer,MLP,42
+2026-05-31,0.3,0.5,0.2,Both longer,MLP,42
+2026-06-30,0.2,0.3,0.5,Both longer,MLP,42
+2026-07-31,0.2,0.3,0.5,Both longer,MLP,42
+2026-08-31,0.2,0.3,0.5,Both longer,MLP,42
+2024-12-31,0.3,0.2,0.5,Both longer,LSTM,42
+2025-01-31,0.5,0.2,0.3,Both longer,LSTM,42
+2025-02-28,0.5,0.2,0.3,Both longer,LSTM,42
+2025-03-31,0.3,0.2,0.5,Both longer,LSTM,42
+2025-04-30,0.5,0.2,0.3,Both longer,LSTM,42
+2025-05-31,0.3,0.5,0.2,Both longer,LSTM,42
+2025-06-30,0.3,0.5,0.2,Both longer,LSTM,42
+2025-07-31,0.3,0.5,0.2,Both longer,LSTM,42
+2025-08-31,0.3,0.5,0.2,Both longer,LSTM,42
+2025-09-30,0.2,0.3,0.5,Both longer,LSTM,42
+2025-10-31,0.3,0.2,0.5,Both longer,LSTM,42
+2025-11-30,0.2,0.5,0.3,Both longer,LSTM,42
+2025-12-31,0.2,0.3,0.5,Both longer,LSTM,42
+2026-01-31,0.5,0.3,0.2,Both longer,LSTM,42
+2026-02-28,0.3,0.5,0.2,Both longer,LSTM,42
+2026-03-31,0.3,0.5,0.2,Both longer,LSTM,42
+2026-04-30,0.3,0.5,0.2,Both longer,LSTM,42
+2026-05-31,0.2,0.5,0.3,Both longer,LSTM,42
+2026-06-30,0.2,0.5,0.3,Both longer,LSTM,42
+2026-07-31,0.3,0.5,0.2,Both longer,LSTM,42
+2026-08-31,0.2,0.5,0.3,Both longer,LSTM,42
+2024-12-31,0.3,0.2,0.5,Both longer,CNN,42
+2025-01-31,0.3,0.2,0.5,Both longer,CNN,42
+2025-02-28,0.3,0.2,0.5,Both longer,CNN,42
+2025-03-31,0.3,0.2,0.5,Both longer,CNN,42
+2025-04-30,0.3,0.2,0.5,Both longer,CNN,42
+2025-05-31,0.3,0.2,0.5,Both longer,CNN,42
+2025-06-30,0.3,0.5,0.2,Both longer,CNN,42
+2025-07-31,0.3,0.5,0.2,Both longer,CNN,42
+2025-08-31,0.3,0.5,0.2,Both longer,CNN,42
+2025-09-30,0.3,0.5,0.2,Both longer,CNN,42
+2025-10-31,0.2,0.5,0.3,Both longer,CNN,42
+2025-11-30,0.3,0.5,0.2,Both longer,CNN,42
+2025-12-31,0.3,0.5,0.2,Both longer,CNN,42
+2026-01-31,0.3,0.5,0.2,Both longer,CNN,42
+2026-02-28,0.3,0.5,0.2,Both longer,CNN,42
+2026-03-31,0.3,0.5,0.2,Both longer,CNN,42
+2026-04-30,0.3,0.5,0.2,Both longer,CNN,42
+2026-05-31,0.3,0.5,0.2,Both longer,CNN,42
+2026-06-30,0.2,0.5,0.3,Both longer,CNN,42
+2026-07-31,0.2,0.5,0.3,Both longer,CNN,42
+2026-08-31,0.2,0.3,0.5,Both longer,CNN,42

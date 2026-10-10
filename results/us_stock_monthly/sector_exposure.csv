@@ -1,0 +1,2549 @@
+strategy,signal,sector,net_weight
+Four-week equal factors,2023-01-31,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2023-01-31,Consumer staples,0.0
+Four-week equal factors,2023-01-31,Energy,0.13333333333333333
+Four-week equal factors,2023-01-31,Health care,0.4
+Four-week equal factors,2023-01-31,Industrials,0.13333333333333333
+Four-week equal factors,2023-01-31,Technology,0.13333333333333333
+Four-week equal factors,2023-01-31,Utilities,0.06666666666666667
+Four-week equal factors,2023-02-28,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2023-02-28,Consumer staples,0.0
+Four-week equal factors,2023-02-28,Energy,0.2
+Four-week equal factors,2023-02-28,Health care,0.3333333333333333
+Four-week equal factors,2023-02-28,Industrials,0.13333333333333333
+Four-week equal factors,2023-02-28,Technology,0.2
+Four-week equal factors,2023-02-28,Utilities,0.0
+Four-week equal factors,2023-03-28,Consumer discretionary,0.2
+Four-week equal factors,2023-03-28,Consumer staples,0.0
+Four-week equal factors,2023-03-28,Energy,0.13333333333333333
+Four-week equal factors,2023-03-28,Health care,0.3333333333333333
+Four-week equal factors,2023-03-28,Industrials,0.13333333333333333
+Four-week equal factors,2023-03-28,Technology,0.2
+Four-week equal factors,2023-03-28,Utilities,0.0
+Four-week equal factors,2023-04-25,Consumer discretionary,0.2
+Four-week equal factors,2023-04-25,Consumer staples,0.0
+Four-week equal factors,2023-04-25,Energy,0.13333333333333333
+Four-week equal factors,2023-04-25,Health care,0.3333333333333333
+Four-week equal factors,2023-04-25,Industrials,0.06666666666666667
+Four-week equal factors,2023-04-25,Technology,0.26666666666666666
+Four-week equal factors,2023-04-25,Utilities,0.0
+Four-week equal factors,2023-05-23,Consumer discretionary,0.2
+Four-week equal factors,2023-05-23,Consumer staples,0.06666666666666667
+Four-week equal factors,2023-05-23,Energy,0.06666666666666667
+Four-week equal factors,2023-05-23,Health care,0.26666666666666666
+Four-week equal factors,2023-05-23,Industrials,0.06666666666666667
+Four-week equal factors,2023-05-23,Technology,0.26666666666666666
+Four-week equal factors,2023-05-23,Utilities,0.06666666666666667
+Four-week equal factors,2023-06-20,Consumer discretionary,0.2
+Four-week equal factors,2023-06-20,Consumer staples,0.06666666666666667
+Four-week equal factors,2023-06-20,Energy,0.13333333333333333
+Four-week equal factors,2023-06-20,Health care,0.26666666666666666
+Four-week equal factors,2023-06-20,Industrials,0.0
+Four-week equal factors,2023-06-20,Technology,0.26666666666666666
+Four-week equal factors,2023-06-20,Utilities,0.06666666666666667
+Four-week equal factors,2023-07-18,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2023-07-18,Consumer staples,0.06666666666666667
+Four-week equal factors,2023-07-18,Energy,0.13333333333333333
+Four-week equal factors,2023-07-18,Health care,0.2
+Four-week equal factors,2023-07-18,Industrials,0.06666666666666667
+Four-week equal factors,2023-07-18,Technology,0.39999999999999997
+Four-week equal factors,2023-07-18,Utilities,0.0
+Four-week equal factors,2023-08-15,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2023-08-15,Consumer staples,0.06666666666666667
+Four-week equal factors,2023-08-15,Energy,0.13333333333333333
+Four-week equal factors,2023-08-15,Health care,0.33333333333333337
+Four-week equal factors,2023-08-15,Industrials,0.06666666666666667
+Four-week equal factors,2023-08-15,Technology,0.26666666666666666
+Four-week equal factors,2023-08-15,Utilities,0.0
+Four-week equal factors,2023-09-12,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2023-09-12,Consumer staples,0.06666666666666667
+Four-week equal factors,2023-09-12,Energy,0.13333333333333333
+Four-week equal factors,2023-09-12,Health care,0.33333333333333337
+Four-week equal factors,2023-09-12,Industrials,0.06666666666666667
+Four-week equal factors,2023-09-12,Technology,0.26666666666666666
+Four-week equal factors,2023-09-12,Utilities,0.0
+Four-week equal factors,2023-10-10,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2023-10-10,Consumer staples,0.06666666666666667
+Four-week equal factors,2023-10-10,Energy,0.13333333333333333
+Four-week equal factors,2023-10-10,Health care,0.26666666666666666
+Four-week equal factors,2023-10-10,Industrials,0.06666666666666667
+Four-week equal factors,2023-10-10,Technology,0.3333333333333333
+Four-week equal factors,2023-10-10,Utilities,0.0
+Four-week equal factors,2023-11-07,Consumer discretionary,0.2
+Four-week equal factors,2023-11-07,Consumer staples,0.0
+Four-week equal factors,2023-11-07,Energy,0.13333333333333333
+Four-week equal factors,2023-11-07,Health care,0.2
+Four-week equal factors,2023-11-07,Industrials,0.06666666666666667
+Four-week equal factors,2023-11-07,Technology,0.4
+Four-week equal factors,2023-11-07,Utilities,0.0
+Four-week equal factors,2023-12-05,Consumer discretionary,0.2
+Four-week equal factors,2023-12-05,Consumer staples,0.0
+Four-week equal factors,2023-12-05,Energy,0.13333333333333333
+Four-week equal factors,2023-12-05,Health care,0.26666666666666666
+Four-week equal factors,2023-12-05,Industrials,0.0
+Four-week equal factors,2023-12-05,Technology,0.4
+Four-week equal factors,2023-12-05,Utilities,0.0
+Four-week equal factors,2024-01-02,Consumer discretionary,0.2
+Four-week equal factors,2024-01-02,Consumer staples,0.06666666666666667
+Four-week equal factors,2024-01-02,Energy,0.13333333333333333
+Four-week equal factors,2024-01-02,Health care,0.26666666666666666
+Four-week equal factors,2024-01-02,Industrials,0.0
+Four-week equal factors,2024-01-02,Technology,0.3333333333333333
+Four-week equal factors,2024-01-02,Utilities,0.0
+Four-week equal factors,2024-01-30,Consumer discretionary,0.2
+Four-week equal factors,2024-01-30,Consumer staples,0.06666666666666667
+Four-week equal factors,2024-01-30,Energy,0.13333333333333333
+Four-week equal factors,2024-01-30,Health care,0.26666666666666666
+Four-week equal factors,2024-01-30,Industrials,0.0
+Four-week equal factors,2024-01-30,Technology,0.3333333333333333
+Four-week equal factors,2024-01-30,Utilities,0.0
+Four-week equal factors,2024-02-27,Consumer discretionary,0.2
+Four-week equal factors,2024-02-27,Consumer staples,0.06666666666666667
+Four-week equal factors,2024-02-27,Energy,0.13333333333333333
+Four-week equal factors,2024-02-27,Health care,0.26666666666666666
+Four-week equal factors,2024-02-27,Industrials,0.0
+Four-week equal factors,2024-02-27,Technology,0.3333333333333333
+Four-week equal factors,2024-02-27,Utilities,0.0
+Four-week equal factors,2024-03-26,Consumer discretionary,0.2
+Four-week equal factors,2024-03-26,Consumer staples,0.06666666666666667
+Four-week equal factors,2024-03-26,Energy,0.13333333333333333
+Four-week equal factors,2024-03-26,Health care,0.26666666666666666
+Four-week equal factors,2024-03-26,Industrials,0.06666666666666667
+Four-week equal factors,2024-03-26,Technology,0.26666666666666666
+Four-week equal factors,2024-03-26,Utilities,0.0
+Four-week equal factors,2024-04-23,Consumer discretionary,0.2
+Four-week equal factors,2024-04-23,Consumer staples,0.06666666666666667
+Four-week equal factors,2024-04-23,Energy,0.13333333333333333
+Four-week equal factors,2024-04-23,Health care,0.26666666666666666
+Four-week equal factors,2024-04-23,Industrials,0.06666666666666667
+Four-week equal factors,2024-04-23,Technology,0.26666666666666666
+Four-week equal factors,2024-04-23,Utilities,0.0
+Four-week equal factors,2024-05-21,Consumer discretionary,0.2
+Four-week equal factors,2024-05-21,Consumer staples,0.06666666666666667
+Four-week equal factors,2024-05-21,Energy,0.13333333333333333
+Four-week equal factors,2024-05-21,Health care,0.26666666666666666
+Four-week equal factors,2024-05-21,Industrials,0.06666666666666667
+Four-week equal factors,2024-05-21,Technology,0.26666666666666666
+Four-week equal factors,2024-05-21,Utilities,0.0
+Four-week equal factors,2024-06-18,Consumer discretionary,0.2
+Four-week equal factors,2024-06-18,Consumer staples,0.13333333333333333
+Four-week equal factors,2024-06-18,Energy,0.13333333333333333
+Four-week equal factors,2024-06-18,Health care,0.26666666666666666
+Four-week equal factors,2024-06-18,Industrials,0.06666666666666667
+Four-week equal factors,2024-06-18,Technology,0.2
+Four-week equal factors,2024-06-18,Utilities,0.0
+Four-week equal factors,2024-07-16,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2024-07-16,Consumer staples,0.13333333333333333
+Four-week equal factors,2024-07-16,Energy,0.13333333333333333
+Four-week equal factors,2024-07-16,Health care,0.13333333333333333
+Four-week equal factors,2024-07-16,Industrials,0.06666666666666667
+Four-week equal factors,2024-07-16,Technology,0.26666666666666666
+Four-week equal factors,2024-07-16,Utilities,0.13333333333333333
+Four-week equal factors,2024-08-13,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2024-08-13,Consumer staples,0.13333333333333333
+Four-week equal factors,2024-08-13,Energy,0.13333333333333333
+Four-week equal factors,2024-08-13,Health care,0.13333333333333333
+Four-week equal factors,2024-08-13,Industrials,0.06666666666666667
+Four-week equal factors,2024-08-13,Technology,0.26666666666666666
+Four-week equal factors,2024-08-13,Utilities,0.13333333333333333
+Four-week equal factors,2024-09-10,Consumer discretionary,0.06666666666666667
+Four-week equal factors,2024-09-10,Consumer staples,0.2
+Four-week equal factors,2024-09-10,Energy,0.13333333333333333
+Four-week equal factors,2024-09-10,Health care,0.13333333333333333
+Four-week equal factors,2024-09-10,Industrials,0.06666666666666667
+Four-week equal factors,2024-09-10,Technology,0.19999999999999998
+Four-week equal factors,2024-09-10,Utilities,0.2
+Four-week equal factors,2024-10-08,Consumer discretionary,0.06666666666666667
+Four-week equal factors,2024-10-08,Consumer staples,0.2
+Four-week equal factors,2024-10-08,Energy,0.13333333333333333
+Four-week equal factors,2024-10-08,Health care,0.13333333333333333
+Four-week equal factors,2024-10-08,Industrials,0.06666666666666667
+Four-week equal factors,2024-10-08,Technology,0.19999999999999998
+Four-week equal factors,2024-10-08,Utilities,0.2
+Four-week equal factors,2024-11-05,Consumer discretionary,0.06666666666666667
+Four-week equal factors,2024-11-05,Consumer staples,0.13333333333333333
+Four-week equal factors,2024-11-05,Energy,0.13333333333333333
+Four-week equal factors,2024-11-05,Health care,0.13333333333333333
+Four-week equal factors,2024-11-05,Industrials,0.13333333333333333
+Four-week equal factors,2024-11-05,Technology,0.26666666666666666
+Four-week equal factors,2024-11-05,Utilities,0.13333333333333333
+Four-week equal factors,2024-12-03,Consumer discretionary,0.06666666666666667
+Four-week equal factors,2024-12-03,Consumer staples,0.13333333333333333
+Four-week equal factors,2024-12-03,Energy,0.13333333333333333
+Four-week equal factors,2024-12-03,Health care,0.13333333333333333
+Four-week equal factors,2024-12-03,Industrials,0.13333333333333333
+Four-week equal factors,2024-12-03,Technology,0.26666666666666666
+Four-week equal factors,2024-12-03,Utilities,0.13333333333333333
+Four-week equal factors,2024-12-31,Consumer discretionary,0.06666666666666667
+Four-week equal factors,2024-12-31,Consumer staples,0.2
+Four-week equal factors,2024-12-31,Energy,0.13333333333333333
+Four-week equal factors,2024-12-31,Health care,0.13333333333333333
+Four-week equal factors,2024-12-31,Industrials,0.06666666666666667
+Four-week equal factors,2024-12-31,Technology,0.26666666666666666
+Four-week equal factors,2024-12-31,Utilities,0.13333333333333333
+Four-week equal factors,2025-01-28,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2025-01-28,Consumer staples,0.13333333333333333
+Four-week equal factors,2025-01-28,Energy,0.13333333333333333
+Four-week equal factors,2025-01-28,Health care,0.13333333333333333
+Four-week equal factors,2025-01-28,Industrials,0.06666666666666667
+Four-week equal factors,2025-01-28,Technology,0.26666666666666666
+Four-week equal factors,2025-01-28,Utilities,0.13333333333333333
+Four-week equal factors,2025-02-25,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2025-02-25,Consumer staples,0.13333333333333333
+Four-week equal factors,2025-02-25,Energy,0.13333333333333333
+Four-week equal factors,2025-02-25,Health care,0.13333333333333333
+Four-week equal factors,2025-02-25,Industrials,0.06666666666666667
+Four-week equal factors,2025-02-25,Technology,0.26666666666666666
+Four-week equal factors,2025-02-25,Utilities,0.13333333333333333
+Four-week equal factors,2025-03-25,Consumer discretionary,0.06666666666666667
+Four-week equal factors,2025-03-25,Consumer staples,0.2
+Four-week equal factors,2025-03-25,Energy,0.13333333333333333
+Four-week equal factors,2025-03-25,Health care,0.13333333333333333
+Four-week equal factors,2025-03-25,Industrials,0.06666666666666667
+Four-week equal factors,2025-03-25,Technology,0.2
+Four-week equal factors,2025-03-25,Utilities,0.2
+Four-week equal factors,2025-04-22,Consumer discretionary,0.06666666666666667
+Four-week equal factors,2025-04-22,Consumer staples,0.13333333333333333
+Four-week equal factors,2025-04-22,Energy,0.13333333333333333
+Four-week equal factors,2025-04-22,Health care,0.13333333333333333
+Four-week equal factors,2025-04-22,Industrials,0.06666666666666667
+Four-week equal factors,2025-04-22,Technology,0.26666666666666666
+Four-week equal factors,2025-04-22,Utilities,0.2
+Four-week equal factors,2025-05-20,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2025-05-20,Consumer staples,0.2
+Four-week equal factors,2025-05-20,Energy,0.13333333333333333
+Four-week equal factors,2025-05-20,Health care,0.13333333333333333
+Four-week equal factors,2025-05-20,Industrials,0.06666666666666667
+Four-week equal factors,2025-05-20,Technology,0.13333333333333333
+Four-week equal factors,2025-05-20,Utilities,0.2
+Four-week equal factors,2025-06-17,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2025-06-17,Consumer staples,0.2
+Four-week equal factors,2025-06-17,Energy,0.13333333333333333
+Four-week equal factors,2025-06-17,Health care,0.13333333333333333
+Four-week equal factors,2025-06-17,Industrials,0.06666666666666667
+Four-week equal factors,2025-06-17,Technology,0.13333333333333333
+Four-week equal factors,2025-06-17,Utilities,0.2
+Four-week equal factors,2025-07-15,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2025-07-15,Consumer staples,0.2
+Four-week equal factors,2025-07-15,Energy,0.13333333333333333
+Four-week equal factors,2025-07-15,Health care,0.2
+Four-week equal factors,2025-07-15,Industrials,0.06666666666666667
+Four-week equal factors,2025-07-15,Technology,0.2
+Four-week equal factors,2025-07-15,Utilities,0.06666666666666667
+Four-week equal factors,2025-08-12,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2025-08-12,Consumer staples,0.06666666666666667
+Four-week equal factors,2025-08-12,Energy,0.13333333333333333
+Four-week equal factors,2025-08-12,Health care,0.2
+Four-week equal factors,2025-08-12,Industrials,0.06666666666666667
+Four-week equal factors,2025-08-12,Technology,0.3333333333333333
+Four-week equal factors,2025-08-12,Utilities,0.06666666666666667
+Four-week equal factors,2025-09-09,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2025-09-09,Consumer staples,0.06666666666666667
+Four-week equal factors,2025-09-09,Energy,0.13333333333333333
+Four-week equal factors,2025-09-09,Health care,0.2
+Four-week equal factors,2025-09-09,Industrials,0.06666666666666667
+Four-week equal factors,2025-09-09,Technology,0.3333333333333333
+Four-week equal factors,2025-09-09,Utilities,0.06666666666666667
+Four-week equal factors,2025-10-07,Consumer discretionary,0.13333333333333333
+Four-week equal factors,2025-10-07,Consumer staples,0.06666666666666667
+Four-week equal factors,2025-10-07,Energy,0.13333333333333333
+Four-week equal factors,2025-10-07,Health care,0.26666666666666666
+Four-week equal factors,2025-10-07,Industrials,0.0
+Four-week equal factors,2025-10-07,Technology,0.26666666666666666
+Four-week equal factors,2025-10-07,Utilities,0.13333333333333333
+Four-week equal factors,2025-11-04,Consumer discretionary,0.06666666666666667
+Four-week equal factors,2025-11-04,Consumer staples,0.06666666666666667
+Four-week equal factors,2025-11-04,Energy,0.13333333333333333
+Four-week equal factors,2025-11-04,Health care,0.26666666666666666
+Four-week equal factors,2025-11-04,Industrials,0.0
+Four-week equal factors,2025-11-04,Technology,0.3333333333333333
+Four-week equal factors,2025-11-04,Utilities,0.13333333333333333
+Four-week equal factors,2025-12-02,Consumer discretionary,0.06666666666666667
+Four-week equal factors,2025-12-02,Consumer staples,0.0
+Four-week equal factors,2025-12-02,Energy,0.13333333333333333
+Four-week equal factors,2025-12-02,Health care,0.26666666666666666
+Four-week equal factors,2025-12-02,Industrials,0.06666666666666667
+Four-week equal factors,2025-12-02,Technology,0.3333333333333333
+Four-week equal factors,2025-12-02,Utilities,0.13333333333333333
+Four-week equal factors,2025-12-30,Consumer discretionary,0.06666666666666667
+Four-week equal factors,2025-12-30,Consumer staples,0.13333333333333333
+Four-week equal factors,2025-12-30,Energy,0.13333333333333333
+Four-week equal factors,2025-12-30,Health care,0.26666666666666666
+Four-week equal factors,2025-12-30,Industrials,0.06666666666666667
+Four-week equal factors,2025-12-30,Technology,0.13333333333333333
+Four-week equal factors,2025-12-30,Utilities,0.2
+Four-week equal factors,2026-01-27,Consumer discretionary,0.06666666666666667
+Four-week equal factors,2026-01-27,Consumer staples,0.13333333333333333
+Four-week equal factors,2026-01-27,Energy,0.13333333333333333
+Four-week equal factors,2026-01-27,Health care,0.26666666666666666
+Four-week equal factors,2026-01-27,Industrials,0.06666666666666667
+Four-week equal factors,2026-01-27,Technology,0.19999999999999998
+Four-week equal factors,2026-01-27,Utilities,0.13333333333333333
+Monthly equal stocks,2023-01-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2023-01-31,Consumer staples,0.2
+Monthly equal stocks,2023-01-31,Energy,0.1
+Monthly equal stocks,2023-01-31,Health care,0.15000000000000002
+Monthly equal stocks,2023-01-31,Industrials,0.1
+Monthly equal stocks,2023-01-31,Technology,0.2
+Monthly equal stocks,2023-01-31,Utilities,0.1
+Monthly equal stocks,2023-02-28,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2023-02-28,Consumer staples,0.2
+Monthly equal stocks,2023-02-28,Energy,0.1
+Monthly equal stocks,2023-02-28,Health care,0.15000000000000002
+Monthly equal stocks,2023-02-28,Industrials,0.1
+Monthly equal stocks,2023-02-28,Technology,0.2
+Monthly equal stocks,2023-02-28,Utilities,0.1
+Monthly equal stocks,2023-03-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2023-03-31,Consumer staples,0.2
+Monthly equal stocks,2023-03-31,Energy,0.1
+Monthly equal stocks,2023-03-31,Health care,0.15000000000000002
+Monthly equal stocks,2023-03-31,Industrials,0.1
+Monthly equal stocks,2023-03-31,Technology,0.2
+Monthly equal stocks,2023-03-31,Utilities,0.1
+Monthly equal stocks,2023-04-30,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2023-04-30,Consumer staples,0.2
+Monthly equal stocks,2023-04-30,Energy,0.1
+Monthly equal stocks,2023-04-30,Health care,0.15000000000000002
+Monthly equal stocks,2023-04-30,Industrials,0.1
+Monthly equal stocks,2023-04-30,Technology,0.2
+Monthly equal stocks,2023-04-30,Utilities,0.1
+Monthly equal stocks,2023-05-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2023-05-31,Consumer staples,0.2
+Monthly equal stocks,2023-05-31,Energy,0.1
+Monthly equal stocks,2023-05-31,Health care,0.15000000000000002
+Monthly equal stocks,2023-05-31,Industrials,0.1
+Monthly equal stocks,2023-05-31,Technology,0.2
+Monthly equal stocks,2023-05-31,Utilities,0.1
+Monthly equal stocks,2023-06-30,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2023-06-30,Consumer staples,0.2
+Monthly equal stocks,2023-06-30,Energy,0.1
+Monthly equal stocks,2023-06-30,Health care,0.15000000000000002
+Monthly equal stocks,2023-06-30,Industrials,0.1
+Monthly equal stocks,2023-06-30,Technology,0.2
+Monthly equal stocks,2023-06-30,Utilities,0.1
+Monthly equal stocks,2023-07-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2023-07-31,Consumer staples,0.2
+Monthly equal stocks,2023-07-31,Energy,0.1
+Monthly equal stocks,2023-07-31,Health care,0.15000000000000002
+Monthly equal stocks,2023-07-31,Industrials,0.1
+Monthly equal stocks,2023-07-31,Technology,0.2
+Monthly equal stocks,2023-07-31,Utilities,0.1
+Monthly equal stocks,2023-08-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2023-08-31,Consumer staples,0.2
+Monthly equal stocks,2023-08-31,Energy,0.1
+Monthly equal stocks,2023-08-31,Health care,0.15000000000000002
+Monthly equal stocks,2023-08-31,Industrials,0.1
+Monthly equal stocks,2023-08-31,Technology,0.2
+Monthly equal stocks,2023-08-31,Utilities,0.1
+Monthly equal stocks,2023-09-30,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2023-09-30,Consumer staples,0.2
+Monthly equal stocks,2023-09-30,Energy,0.1
+Monthly equal stocks,2023-09-30,Health care,0.15000000000000002
+Monthly equal stocks,2023-09-30,Industrials,0.1
+Monthly equal stocks,2023-09-30,Technology,0.2
+Monthly equal stocks,2023-09-30,Utilities,0.1
+Monthly equal stocks,2023-10-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2023-10-31,Consumer staples,0.2
+Monthly equal stocks,2023-10-31,Energy,0.1
+Monthly equal stocks,2023-10-31,Health care,0.15000000000000002
+Monthly equal stocks,2023-10-31,Industrials,0.1
+Monthly equal stocks,2023-10-31,Technology,0.2
+Monthly equal stocks,2023-10-31,Utilities,0.1
+Monthly equal stocks,2023-11-30,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2023-11-30,Consumer staples,0.2
+Monthly equal stocks,2023-11-30,Energy,0.1
+Monthly equal stocks,2023-11-30,Health care,0.15000000000000002
+Monthly equal stocks,2023-11-30,Industrials,0.1
+Monthly equal stocks,2023-11-30,Technology,0.2
+Monthly equal stocks,2023-11-30,Utilities,0.1
+Monthly equal stocks,2023-12-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2023-12-31,Consumer staples,0.2
+Monthly equal stocks,2023-12-31,Energy,0.1
+Monthly equal stocks,2023-12-31,Health care,0.15000000000000002
+Monthly equal stocks,2023-12-31,Industrials,0.1
+Monthly equal stocks,2023-12-31,Technology,0.2
+Monthly equal stocks,2023-12-31,Utilities,0.1
+Monthly equal stocks,2024-01-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2024-01-31,Consumer staples,0.2
+Monthly equal stocks,2024-01-31,Energy,0.1
+Monthly equal stocks,2024-01-31,Health care,0.15000000000000002
+Monthly equal stocks,2024-01-31,Industrials,0.1
+Monthly equal stocks,2024-01-31,Technology,0.2
+Monthly equal stocks,2024-01-31,Utilities,0.1
+Monthly equal stocks,2024-02-29,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2024-02-29,Consumer staples,0.2
+Monthly equal stocks,2024-02-29,Energy,0.1
+Monthly equal stocks,2024-02-29,Health care,0.15000000000000002
+Monthly equal stocks,2024-02-29,Industrials,0.1
+Monthly equal stocks,2024-02-29,Technology,0.2
+Monthly equal stocks,2024-02-29,Utilities,0.1
+Monthly equal stocks,2024-03-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2024-03-31,Consumer staples,0.2
+Monthly equal stocks,2024-03-31,Energy,0.1
+Monthly equal stocks,2024-03-31,Health care,0.15000000000000002
+Monthly equal stocks,2024-03-31,Industrials,0.1
+Monthly equal stocks,2024-03-31,Technology,0.2
+Monthly equal stocks,2024-03-31,Utilities,0.1
+Monthly equal stocks,2024-04-30,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2024-04-30,Consumer staples,0.2
+Monthly equal stocks,2024-04-30,Energy,0.1
+Monthly equal stocks,2024-04-30,Health care,0.15000000000000002
+Monthly equal stocks,2024-04-30,Industrials,0.1
+Monthly equal stocks,2024-04-30,Technology,0.2
+Monthly equal stocks,2024-04-30,Utilities,0.1
+Monthly equal stocks,2024-05-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2024-05-31,Consumer staples,0.2
+Monthly equal stocks,2024-05-31,Energy,0.1
+Monthly equal stocks,2024-05-31,Health care,0.15000000000000002
+Monthly equal stocks,2024-05-31,Industrials,0.1
+Monthly equal stocks,2024-05-31,Technology,0.2
+Monthly equal stocks,2024-05-31,Utilities,0.1
+Monthly equal stocks,2024-06-30,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2024-06-30,Consumer staples,0.2
+Monthly equal stocks,2024-06-30,Energy,0.1
+Monthly equal stocks,2024-06-30,Health care,0.15000000000000002
+Monthly equal stocks,2024-06-30,Industrials,0.1
+Monthly equal stocks,2024-06-30,Technology,0.2
+Monthly equal stocks,2024-06-30,Utilities,0.1
+Monthly equal stocks,2024-07-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2024-07-31,Consumer staples,0.2
+Monthly equal stocks,2024-07-31,Energy,0.1
+Monthly equal stocks,2024-07-31,Health care,0.15000000000000002
+Monthly equal stocks,2024-07-31,Industrials,0.1
+Monthly equal stocks,2024-07-31,Technology,0.2
+Monthly equal stocks,2024-07-31,Utilities,0.1
+Monthly equal stocks,2024-08-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2024-08-31,Consumer staples,0.2
+Monthly equal stocks,2024-08-31,Energy,0.1
+Monthly equal stocks,2024-08-31,Health care,0.15000000000000002
+Monthly equal stocks,2024-08-31,Industrials,0.1
+Monthly equal stocks,2024-08-31,Technology,0.2
+Monthly equal stocks,2024-08-31,Utilities,0.1
+Monthly equal stocks,2024-09-30,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2024-09-30,Consumer staples,0.2
+Monthly equal stocks,2024-09-30,Energy,0.1
+Monthly equal stocks,2024-09-30,Health care,0.15000000000000002
+Monthly equal stocks,2024-09-30,Industrials,0.1
+Monthly equal stocks,2024-09-30,Technology,0.2
+Monthly equal stocks,2024-09-30,Utilities,0.1
+Monthly equal stocks,2024-10-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2024-10-31,Consumer staples,0.2
+Monthly equal stocks,2024-10-31,Energy,0.1
+Monthly equal stocks,2024-10-31,Health care,0.15000000000000002
+Monthly equal stocks,2024-10-31,Industrials,0.1
+Monthly equal stocks,2024-10-31,Technology,0.2
+Monthly equal stocks,2024-10-31,Utilities,0.1
+Monthly equal stocks,2024-11-30,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2024-11-30,Consumer staples,0.2
+Monthly equal stocks,2024-11-30,Energy,0.1
+Monthly equal stocks,2024-11-30,Health care,0.15000000000000002
+Monthly equal stocks,2024-11-30,Industrials,0.1
+Monthly equal stocks,2024-11-30,Technology,0.2
+Monthly equal stocks,2024-11-30,Utilities,0.1
+Monthly equal stocks,2024-12-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2024-12-31,Consumer staples,0.2
+Monthly equal stocks,2024-12-31,Energy,0.1
+Monthly equal stocks,2024-12-31,Health care,0.15000000000000002
+Monthly equal stocks,2024-12-31,Industrials,0.1
+Monthly equal stocks,2024-12-31,Technology,0.2
+Monthly equal stocks,2024-12-31,Utilities,0.1
+Monthly equal stocks,2025-01-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2025-01-31,Consumer staples,0.2
+Monthly equal stocks,2025-01-31,Energy,0.1
+Monthly equal stocks,2025-01-31,Health care,0.15000000000000002
+Monthly equal stocks,2025-01-31,Industrials,0.1
+Monthly equal stocks,2025-01-31,Technology,0.2
+Monthly equal stocks,2025-01-31,Utilities,0.1
+Monthly equal stocks,2025-02-28,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2025-02-28,Consumer staples,0.2
+Monthly equal stocks,2025-02-28,Energy,0.1
+Monthly equal stocks,2025-02-28,Health care,0.15000000000000002
+Monthly equal stocks,2025-02-28,Industrials,0.1
+Monthly equal stocks,2025-02-28,Technology,0.2
+Monthly equal stocks,2025-02-28,Utilities,0.1
+Monthly equal stocks,2025-03-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2025-03-31,Consumer staples,0.2
+Monthly equal stocks,2025-03-31,Energy,0.1
+Monthly equal stocks,2025-03-31,Health care,0.15000000000000002
+Monthly equal stocks,2025-03-31,Industrials,0.1
+Monthly equal stocks,2025-03-31,Technology,0.2
+Monthly equal stocks,2025-03-31,Utilities,0.1
+Monthly equal stocks,2025-04-30,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2025-04-30,Consumer staples,0.2
+Monthly equal stocks,2025-04-30,Energy,0.1
+Monthly equal stocks,2025-04-30,Health care,0.15000000000000002
+Monthly equal stocks,2025-04-30,Industrials,0.1
+Monthly equal stocks,2025-04-30,Technology,0.2
+Monthly equal stocks,2025-04-30,Utilities,0.1
+Monthly equal stocks,2025-05-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2025-05-31,Consumer staples,0.2
+Monthly equal stocks,2025-05-31,Energy,0.1
+Monthly equal stocks,2025-05-31,Health care,0.15000000000000002
+Monthly equal stocks,2025-05-31,Industrials,0.1
+Monthly equal stocks,2025-05-31,Technology,0.2
+Monthly equal stocks,2025-05-31,Utilities,0.1
+Monthly equal stocks,2025-06-30,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2025-06-30,Consumer staples,0.2
+Monthly equal stocks,2025-06-30,Energy,0.1
+Monthly equal stocks,2025-06-30,Health care,0.15000000000000002
+Monthly equal stocks,2025-06-30,Industrials,0.1
+Monthly equal stocks,2025-06-30,Technology,0.2
+Monthly equal stocks,2025-06-30,Utilities,0.1
+Monthly equal stocks,2025-07-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2025-07-31,Consumer staples,0.2
+Monthly equal stocks,2025-07-31,Energy,0.1
+Monthly equal stocks,2025-07-31,Health care,0.15000000000000002
+Monthly equal stocks,2025-07-31,Industrials,0.1
+Monthly equal stocks,2025-07-31,Technology,0.2
+Monthly equal stocks,2025-07-31,Utilities,0.1
+Monthly equal stocks,2025-08-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2025-08-31,Consumer staples,0.2
+Monthly equal stocks,2025-08-31,Energy,0.1
+Monthly equal stocks,2025-08-31,Health care,0.15000000000000002
+Monthly equal stocks,2025-08-31,Industrials,0.1
+Monthly equal stocks,2025-08-31,Technology,0.2
+Monthly equal stocks,2025-08-31,Utilities,0.1
+Monthly equal stocks,2025-09-30,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2025-09-30,Consumer staples,0.2
+Monthly equal stocks,2025-09-30,Energy,0.1
+Monthly equal stocks,2025-09-30,Health care,0.15000000000000002
+Monthly equal stocks,2025-09-30,Industrials,0.1
+Monthly equal stocks,2025-09-30,Technology,0.2
+Monthly equal stocks,2025-09-30,Utilities,0.1
+Monthly equal stocks,2025-10-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2025-10-31,Consumer staples,0.2
+Monthly equal stocks,2025-10-31,Energy,0.1
+Monthly equal stocks,2025-10-31,Health care,0.15000000000000002
+Monthly equal stocks,2025-10-31,Industrials,0.1
+Monthly equal stocks,2025-10-31,Technology,0.2
+Monthly equal stocks,2025-10-31,Utilities,0.1
+Monthly equal stocks,2025-11-30,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2025-11-30,Consumer staples,0.2
+Monthly equal stocks,2025-11-30,Energy,0.1
+Monthly equal stocks,2025-11-30,Health care,0.15000000000000002
+Monthly equal stocks,2025-11-30,Industrials,0.1
+Monthly equal stocks,2025-11-30,Technology,0.2
+Monthly equal stocks,2025-11-30,Utilities,0.1
+Monthly equal stocks,2025-12-31,Consumer discretionary,0.15000000000000002
+Monthly equal stocks,2025-12-31,Consumer staples,0.2
+Monthly equal stocks,2025-12-31,Energy,0.1
+Monthly equal stocks,2025-12-31,Health care,0.15000000000000002
+Monthly equal stocks,2025-12-31,Industrials,0.1
+Monthly equal stocks,2025-12-31,Technology,0.2
+Monthly equal stocks,2025-12-31,Utilities,0.1
+Long only | Equal factors,2023-01-31,Consumer discretionary,0.13333333333333333
+Long only | Equal factors,2023-01-31,Consumer staples,0.0
+Long only | Equal factors,2023-01-31,Energy,0.13333333333333333
+Long only | Equal factors,2023-01-31,Health care,0.4
+Long only | Equal factors,2023-01-31,Industrials,0.13333333333333333
+Long only | Equal factors,2023-01-31,Technology,0.13333333333333333
+Long only | Equal factors,2023-01-31,Utilities,0.06666666666666667
+Long only | Equal factors,2023-02-28,Consumer discretionary,0.13333333333333333
+Long only | Equal factors,2023-02-28,Consumer staples,0.0
+Long only | Equal factors,2023-02-28,Energy,0.2
+Long only | Equal factors,2023-02-28,Health care,0.3333333333333333
+Long only | Equal factors,2023-02-28,Industrials,0.13333333333333333
+Long only | Equal factors,2023-02-28,Technology,0.2
+Long only | Equal factors,2023-02-28,Utilities,0.0
+Long only | Equal factors,2023-03-31,Consumer discretionary,0.2
+Long only | Equal factors,2023-03-31,Consumer staples,0.0
+Long only | Equal factors,2023-03-31,Energy,0.13333333333333333
+Long only | Equal factors,2023-03-31,Health care,0.3333333333333333
+Long only | Equal factors,2023-03-31,Industrials,0.13333333333333333
+Long only | Equal factors,2023-03-31,Technology,0.2
+Long only | Equal factors,2023-03-31,Utilities,0.0
+Long only | Equal factors,2023-04-30,Consumer discretionary,0.2
+Long only | Equal factors,2023-04-30,Consumer staples,0.0
+Long only | Equal factors,2023-04-30,Energy,0.13333333333333333
+Long only | Equal factors,2023-04-30,Health care,0.3333333333333333
+Long only | Equal factors,2023-04-30,Industrials,0.06666666666666667
+Long only | Equal factors,2023-04-30,Technology,0.26666666666666666
+Long only | Equal factors,2023-04-30,Utilities,0.0
+Long only | Equal factors,2023-05-31,Consumer discretionary,0.2
+Long only | Equal factors,2023-05-31,Consumer staples,0.06666666666666667
+Long only | Equal factors,2023-05-31,Energy,0.13333333333333333
+Long only | Equal factors,2023-05-31,Health care,0.26666666666666666
+Long only | Equal factors,2023-05-31,Industrials,0.06666666666666667
+Long only | Equal factors,2023-05-31,Technology,0.26666666666666666
+Long only | Equal factors,2023-05-31,Utilities,0.0
+Long only | Equal factors,2023-06-30,Consumer discretionary,0.13333333333333333
+Long only | Equal factors,2023-06-30,Consumer staples,0.06666666666666667
+Long only | Equal factors,2023-06-30,Energy,0.13333333333333333
+Long only | Equal factors,2023-06-30,Health care,0.2
+Long only | Equal factors,2023-06-30,Industrials,0.06666666666666667
+Long only | Equal factors,2023-06-30,Technology,0.39999999999999997
+Long only | Equal factors,2023-06-30,Utilities,0.0
+Long only | Equal factors,2023-07-31,Consumer discretionary,0.2
+Long only | Equal factors,2023-07-31,Consumer staples,0.06666666666666667
+Long only | Equal factors,2023-07-31,Energy,0.13333333333333333
+Long only | Equal factors,2023-07-31,Health care,0.33333333333333337
+Long only | Equal factors,2023-07-31,Industrials,0.0
+Long only | Equal factors,2023-07-31,Technology,0.26666666666666666
+Long only | Equal factors,2023-07-31,Utilities,0.0
+Long only | Equal factors,2023-08-31,Consumer discretionary,0.13333333333333333
+Long only | Equal factors,2023-08-31,Consumer staples,0.06666666666666667
+Long only | Equal factors,2023-08-31,Energy,0.13333333333333333
+Long only | Equal factors,2023-08-31,Health care,0.33333333333333337
+Long only | Equal factors,2023-08-31,Industrials,0.06666666666666667
+Long only | Equal factors,2023-08-31,Technology,0.26666666666666666
+Long only | Equal factors,2023-08-31,Utilities,0.0
+Long only | Equal factors,2023-09-30,Consumer discretionary,0.13333333333333333
+Long only | Equal factors,2023-09-30,Consumer staples,0.06666666666666667
+Long only | Equal factors,2023-09-30,Energy,0.13333333333333333
+Long only | Equal factors,2023-09-30,Health care,0.26666666666666666
+Long only | Equal factors,2023-09-30,Industrials,0.06666666666666667
+Long only | Equal factors,2023-09-30,Technology,0.3333333333333333
+Long only | Equal factors,2023-09-30,Utilities,0.0
+Long only | Equal factors,2023-10-31,Consumer discretionary,0.13333333333333333
+Long only | Equal factors,2023-10-31,Consumer staples,0.06666666666666667
+Long only | Equal factors,2023-10-31,Energy,0.13333333333333333
+Long only | Equal factors,2023-10-31,Health care,0.2
+Long only | Equal factors,2023-10-31,Industrials,0.13333333333333333
+Long only | Equal factors,2023-10-31,Technology,0.3333333333333333
+Long only | Equal factors,2023-10-31,Utilities,0.0
+Long only | Equal factors,2023-11-30,Consumer discretionary,0.2
+Long only | Equal factors,2023-11-30,Consumer staples,0.0
+Long only | Equal factors,2023-11-30,Energy,0.13333333333333333
+Long only | Equal factors,2023-11-30,Health care,0.26666666666666666
+Long only | Equal factors,2023-11-30,Industrials,0.0
+Long only | Equal factors,2023-11-30,Technology,0.4
+Long only | Equal factors,2023-11-30,Utilities,0.0
+Long only | Equal factors,2023-12-31,Consumer discretionary,0.2
+Long only | Equal factors,2023-12-31,Consumer staples,0.06666666666666667
+Long only | Equal factors,2023-12-31,Energy,0.13333333333333333
+Long only | Equal factors,2023-12-31,Health care,0.26666666666666666
+Long only | Equal factors,2023-12-31,Industrials,0.0
+Long only | Equal factors,2023-12-31,Technology,0.3333333333333333
+Long only | Equal factors,2023-12-31,Utilities,0.0
+Long only | Equal factors,2024-01-31,Consumer discretionary,0.2
+Long only | Equal factors,2024-01-31,Consumer staples,0.06666666666666667
+Long only | Equal factors,2024-01-31,Energy,0.13333333333333333
+Long only | Equal factors,2024-01-31,Health care,0.26666666666666666
+Long only | Equal factors,2024-01-31,Industrials,0.0
+Long only | Equal factors,2024-01-31,Technology,0.3333333333333333
+Long only | Equal factors,2024-01-31,Utilities,0.0
+Long only | Equal factors,2024-02-29,Consumer discretionary,0.2
+Long only | Equal factors,2024-02-29,Consumer staples,0.06666666666666667
+Long only | Equal factors,2024-02-29,Energy,0.13333333333333333
+Long only | Equal factors,2024-02-29,Health care,0.26666666666666666
+Long only | Equal factors,2024-02-29,Industrials,0.0
+Long only | Equal factors,2024-02-29,Technology,0.3333333333333333
+Long only | Equal factors,2024-02-29,Utilities,0.0
+Long only | Equal factors,2024-03-31,Consumer discretionary,0.2
+Long only | Equal factors,2024-03-31,Consumer staples,0.06666666666666667
+Long only | Equal factors,2024-03-31,Energy,0.13333333333333333
+Long only | Equal factors,2024-03-31,Health care,0.26666666666666666
+Long only | Equal factors,2024-03-31,Industrials,0.06666666666666667
+Long only | Equal factors,2024-03-31,Technology,0.26666666666666666
+Long only | Equal factors,2024-03-31,Utilities,0.0
+Long only | Equal factors,2024-04-30,Consumer discretionary,0.2
+Long only | Equal factors,2024-04-30,Consumer staples,0.06666666666666667
+Long only | Equal factors,2024-04-30,Energy,0.13333333333333333
+Long only | Equal factors,2024-04-30,Health care,0.26666666666666666
+Long only | Equal factors,2024-04-30,Industrials,0.06666666666666667
+Long only | Equal factors,2024-04-30,Technology,0.26666666666666666
+Long only | Equal factors,2024-04-30,Utilities,0.0
+Long only | Equal factors,2024-05-31,Consumer discretionary,0.2
+Long only | Equal factors,2024-05-31,Consumer staples,0.13333333333333333
+Long only | Equal factors,2024-05-31,Energy,0.13333333333333333
+Long only | Equal factors,2024-05-31,Health care,0.26666666666666666
+Long only | Equal factors,2024-05-31,Industrials,0.06666666666666667
+Long only | Equal factors,2024-05-31,Technology,0.2
+Long only | Equal factors,2024-05-31,Utilities,0.0
+Long only | Equal factors,2024-06-30,Consumer discretionary,0.13333333333333333
+Long only | Equal factors,2024-06-30,Consumer staples,0.13333333333333333
+Long only | Equal factors,2024-06-30,Energy,0.13333333333333333
+Long only | Equal factors,2024-06-30,Health care,0.13333333333333333
+Long only | Equal factors,2024-06-30,Industrials,0.13333333333333333
+Long only | Equal factors,2024-06-30,Technology,0.2
+Long only | Equal factors,2024-06-30,Utilities,0.13333333333333333
+Long only | Equal factors,2024-07-31,Consumer discretionary,0.13333333333333333
+Long only | Equal factors,2024-07-31,Consumer staples,0.13333333333333333
+Long only | Equal factors,2024-07-31,Energy,0.13333333333333333
+Long only | Equal factors,2024-07-31,Health care,0.13333333333333333
+Long only | Equal factors,2024-07-31,Industrials,0.06666666666666667
+Long only | Equal factors,2024-07-31,Technology,0.26666666666666666
+Long only | Equal factors,2024-07-31,Utilities,0.13333333333333333
+Long only | Equal factors,2024-08-31,Consumer discretionary,0.06666666666666667
+Long only | Equal factors,2024-08-31,Consumer staples,0.13333333333333333
+Long only | Equal factors,2024-08-31,Energy,0.13333333333333333
+Long only | Equal factors,2024-08-31,Health care,0.13333333333333333
+Long only | Equal factors,2024-08-31,Industrials,0.06666666666666667
+Long only | Equal factors,2024-08-31,Technology,0.26666666666666666
+Long only | Equal factors,2024-08-31,Utilities,0.2
+Long only | Equal factors,2024-09-30,Consumer discretionary,0.06666666666666667
+Long only | Equal factors,2024-09-30,Consumer staples,0.2
+Long only | Equal factors,2024-09-30,Energy,0.13333333333333333
+Long only | Equal factors,2024-09-30,Health care,0.13333333333333333
+Long only | Equal factors,2024-09-30,Industrials,0.06666666666666667
+Long only | Equal factors,2024-09-30,Technology,0.19999999999999998
+Long only | Equal factors,2024-09-30,Utilities,0.2
+Long only | Equal factors,2024-10-31,Consumer discretionary,0.06666666666666667
+Long only | Equal factors,2024-10-31,Consumer staples,0.2
+Long only | Equal factors,2024-10-31,Energy,0.13333333333333333
+Long only | Equal factors,2024-10-31,Health care,0.13333333333333333
+Long only | Equal factors,2024-10-31,Industrials,0.13333333333333333
+Long only | Equal factors,2024-10-31,Technology,0.19999999999999998
+Long only | Equal factors,2024-10-31,Utilities,0.13333333333333333
+Long only | Equal factors,2024-11-30,Consumer discretionary,0.06666666666666667
+Long only | Equal factors,2024-11-30,Consumer staples,0.13333333333333333
+Long only | Equal factors,2024-11-30,Energy,0.13333333333333333
+Long only | Equal factors,2024-11-30,Health care,0.13333333333333333
+Long only | Equal factors,2024-11-30,Industrials,0.13333333333333333
+Long only | Equal factors,2024-11-30,Technology,0.26666666666666666
+Long only | Equal factors,2024-11-30,Utilities,0.13333333333333333
+Long only | Equal factors,2024-12-31,Consumer discretionary,0.06666666666666667
+Long only | Equal factors,2024-12-31,Consumer staples,0.2
+Long only | Equal factors,2024-12-31,Energy,0.13333333333333333
+Long only | Equal factors,2024-12-31,Health care,0.13333333333333333
+Long only | Equal factors,2024-12-31,Industrials,0.06666666666666667
+Long only | Equal factors,2024-12-31,Technology,0.26666666666666666
+Long only | Equal factors,2024-12-31,Utilities,0.13333333333333333
+Long only | Equal factors,2025-01-31,Consumer discretionary,0.13333333333333333
+Long only | Equal factors,2025-01-31,Consumer staples,0.13333333333333333
+Long only | Equal factors,2025-01-31,Energy,0.13333333333333333
+Long only | Equal factors,2025-01-31,Health care,0.13333333333333333
+Long only | Equal factors,2025-01-31,Industrials,0.06666666666666667
+Long only | Equal factors,2025-01-31,Technology,0.26666666666666666
+Long only | Equal factors,2025-01-31,Utilities,0.13333333333333333
+Long only | Equal factors,2025-02-28,Consumer discretionary,0.13333333333333333
+Long only | Equal factors,2025-02-28,Consumer staples,0.13333333333333333
+Long only | Equal factors,2025-02-28,Energy,0.13333333333333333
+Long only | Equal factors,2025-02-28,Health care,0.13333333333333333
+Long only | Equal factors,2025-02-28,Industrials,0.06666666666666667
+Long only | Equal factors,2025-02-28,Technology,0.2
+Long only | Equal factors,2025-02-28,Utilities,0.2
+Long only | Equal factors,2025-03-31,Consumer discretionary,0.06666666666666667
+Long only | Equal factors,2025-03-31,Consumer staples,0.2
+Long only | Equal factors,2025-03-31,Energy,0.13333333333333333
+Long only | Equal factors,2025-03-31,Health care,0.13333333333333333
+Long only | Equal factors,2025-03-31,Industrials,0.06666666666666667
+Long only | Equal factors,2025-03-31,Technology,0.2
+Long only | Equal factors,2025-03-31,Utilities,0.2
+Long only | Equal factors,2025-04-30,Consumer discretionary,0.06666666666666667
+Long only | Equal factors,2025-04-30,Consumer staples,0.2
+Long only | Equal factors,2025-04-30,Energy,0.13333333333333333
+Long only | Equal factors,2025-04-30,Health care,0.13333333333333333
+Long only | Equal factors,2025-04-30,Industrials,0.06666666666666667
+Long only | Equal factors,2025-04-30,Technology,0.2
+Long only | Equal factors,2025-04-30,Utilities,0.2
+Long only | Equal factors,2025-05-31,Consumer discretionary,0.13333333333333333
+Long only | Equal factors,2025-05-31,Consumer staples,0.2
+Long only | Equal factors,2025-05-31,Energy,0.13333333333333333
+Long only | Equal factors,2025-05-31,Health care,0.13333333333333333
+Long only | Equal factors,2025-05-31,Industrials,0.06666666666666667
+Long only | Equal factors,2025-05-31,Technology,0.13333333333333333
+Long only | Equal factors,2025-05-31,Utilities,0.2
+Long only | Equal factors,2025-06-30,Consumer discretionary,0.13333333333333333
+Long only | Equal factors,2025-06-30,Consumer staples,0.2
+Long only | Equal factors,2025-06-30,Energy,0.13333333333333333
+Long only | Equal factors,2025-06-30,Health care,0.2
+Long only | Equal factors,2025-06-30,Industrials,0.06666666666666667
+Long only | Equal factors,2025-06-30,Technology,0.13333333333333333
+Long only | Equal factors,2025-06-30,Utilities,0.13333333333333333
+Long only | Equal factors,2025-07-31,Consumer discretionary,0.06666666666666667
+Long only | Equal factors,2025-07-31,Consumer staples,0.13333333333333333
+Long only | Equal factors,2025-07-31,Energy,0.13333333333333333
+Long only | Equal factors,2025-07-31,Health care,0.2
+Long only | Equal factors,2025-07-31,Industrials,0.06666666666666667
+Long only | Equal factors,2025-07-31,Technology,0.3333333333333333
+Long only | Equal factors,2025-07-31,Utilities,0.06666666666666667
+Long only | Equal factors,2025-08-31,Consumer discretionary,0.06666666666666667
+Long only | Equal factors,2025-08-31,Consumer staples,0.06666666666666667
+Long only | Equal factors,2025-08-31,Energy,0.13333333333333333
+Long only | Equal factors,2025-08-31,Health care,0.2
+Long only | Equal factors,2025-08-31,Industrials,0.13333333333333333
+Long only | Equal factors,2025-08-31,Technology,0.3333333333333333
+Long only | Equal factors,2025-08-31,Utilities,0.06666666666666667
+Long only | Equal factors,2025-09-30,Consumer discretionary,0.13333333333333333
+Long only | Equal factors,2025-09-30,Consumer staples,0.06666666666666667
+Long only | Equal factors,2025-09-30,Energy,0.13333333333333333
+Long only | Equal factors,2025-09-30,Health care,0.2
+Long only | Equal factors,2025-09-30,Industrials,0.0
+Long only | Equal factors,2025-09-30,Technology,0.3333333333333333
+Long only | Equal factors,2025-09-30,Utilities,0.13333333333333333
+Long only | Equal factors,2025-10-31,Consumer discretionary,0.06666666666666667
+Long only | Equal factors,2025-10-31,Consumer staples,0.06666666666666667
+Long only | Equal factors,2025-10-31,Energy,0.13333333333333333
+Long only | Equal factors,2025-10-31,Health care,0.26666666666666666
+Long only | Equal factors,2025-10-31,Industrials,0.0
+Long only | Equal factors,2025-10-31,Technology,0.3333333333333333
+Long only | Equal factors,2025-10-31,Utilities,0.13333333333333333
+Long only | Equal factors,2025-11-30,Consumer discretionary,0.06666666666666667
+Long only | Equal factors,2025-11-30,Consumer staples,0.0
+Long only | Equal factors,2025-11-30,Energy,0.13333333333333333
+Long only | Equal factors,2025-11-30,Health care,0.26666666666666666
+Long only | Equal factors,2025-11-30,Industrials,0.06666666666666667
+Long only | Equal factors,2025-11-30,Technology,0.3333333333333333
+Long only | Equal factors,2025-11-30,Utilities,0.13333333333333333
+Long only | Equal factors,2025-12-31,Consumer discretionary,0.06666666666666667
+Long only | Equal factors,2025-12-31,Consumer staples,0.13333333333333333
+Long only | Equal factors,2025-12-31,Energy,0.13333333333333333
+Long only | Equal factors,2025-12-31,Health care,0.26666666666666666
+Long only | Equal factors,2025-12-31,Industrials,0.06666666666666667
+Long only | Equal factors,2025-12-31,Technology,0.13333333333333333
+Long only | Equal factors,2025-12-31,Utilities,0.2
+Long only | Random Forest,2023-01-31,Consumer discretionary,0.1
+Long only | Random Forest,2023-01-31,Consumer staples,0.0
+Long only | Random Forest,2023-01-31,Energy,0.2
+Long only | Random Forest,2023-01-31,Health care,0.34
+Long only | Random Forest,2023-01-31,Industrials,0.14
+Long only | Random Forest,2023-01-31,Technology,0.12
+Long only | Random Forest,2023-01-31,Utilities,0.1
+Long only | Random Forest,2023-02-28,Consumer discretionary,0.14
+Long only | Random Forest,2023-02-28,Consumer staples,0.0
+Long only | Random Forest,2023-02-28,Energy,0.16
+Long only | Random Forest,2023-02-28,Health care,0.34
+Long only | Random Forest,2023-02-28,Industrials,0.1
+Long only | Random Forest,2023-02-28,Technology,0.26
+Long only | Random Forest,2023-02-28,Utilities,0.0
+Long only | Random Forest,2023-03-31,Consumer discretionary,0.2
+Long only | Random Forest,2023-03-31,Consumer staples,0.0
+Long only | Random Forest,2023-03-31,Energy,0.14
+Long only | Random Forest,2023-03-31,Health care,0.36
+Long only | Random Forest,2023-03-31,Industrials,0.14
+Long only | Random Forest,2023-03-31,Technology,0.16
+Long only | Random Forest,2023-03-31,Utilities,0.0
+Long only | Random Forest,2023-04-30,Consumer discretionary,0.2
+Long only | Random Forest,2023-04-30,Consumer staples,0.0
+Long only | Random Forest,2023-04-30,Energy,0.1
+Long only | Random Forest,2023-04-30,Health care,0.34
+Long only | Random Forest,2023-04-30,Industrials,0.04000000000000001
+Long only | Random Forest,2023-04-30,Technology,0.32
+Long only | Random Forest,2023-04-30,Utilities,0.0
+Long only | Random Forest,2023-05-31,Consumer discretionary,0.2
+Long only | Random Forest,2023-05-31,Consumer staples,0.04000000000000001
+Long only | Random Forest,2023-05-31,Energy,0.2
+Long only | Random Forest,2023-05-31,Health care,0.26
+Long only | Random Forest,2023-05-31,Industrials,0.1
+Long only | Random Forest,2023-05-31,Technology,0.2
+Long only | Random Forest,2023-05-31,Utilities,0.0
+Long only | Random Forest,2023-06-30,Consumer discretionary,0.16
+Long only | Random Forest,2023-06-30,Consumer staples,0.04000000000000001
+Long only | Random Forest,2023-06-30,Energy,0.12
+Long only | Random Forest,2023-06-30,Health care,0.2
+Long only | Random Forest,2023-06-30,Industrials,0.06
+Long only | Random Forest,2023-06-30,Technology,0.42000000000000004
+Long only | Random Forest,2023-06-30,Utilities,0.0
+Long only | Random Forest,2023-07-31,Consumer discretionary,0.2
+Long only | Random Forest,2023-07-31,Consumer staples,0.06
+Long only | Random Forest,2023-07-31,Energy,0.08000000000000002
+Long only | Random Forest,2023-07-31,Health care,0.34
+Long only | Random Forest,2023-07-31,Industrials,0.0
+Long only | Random Forest,2023-07-31,Technology,0.32
+Long only | Random Forest,2023-07-31,Utilities,0.0
+Long only | Random Forest,2023-08-31,Consumer discretionary,0.16
+Long only | Random Forest,2023-08-31,Consumer staples,0.04000000000000001
+Long only | Random Forest,2023-08-31,Energy,0.12
+Long only | Random Forest,2023-08-31,Health care,0.36
+Long only | Random Forest,2023-08-31,Industrials,0.04000000000000001
+Long only | Random Forest,2023-08-31,Technology,0.28
+Long only | Random Forest,2023-08-31,Utilities,0.0
+Long only | Random Forest,2023-09-30,Consumer discretionary,0.14
+Long only | Random Forest,2023-09-30,Consumer staples,0.06
+Long only | Random Forest,2023-09-30,Energy,0.08000000000000002
+Long only | Random Forest,2023-09-30,Health care,0.28
+Long only | Random Forest,2023-09-30,Industrials,0.06
+Long only | Random Forest,2023-09-30,Technology,0.38
+Long only | Random Forest,2023-09-30,Utilities,0.0
+Long only | Random Forest,2023-10-31,Consumer discretionary,0.14
+Long only | Random Forest,2023-10-31,Consumer staples,0.06
+Long only | Random Forest,2023-10-31,Energy,0.08000000000000002
+Long only | Random Forest,2023-10-31,Health care,0.24000000000000002
+Long only | Random Forest,2023-10-31,Industrials,0.1
+Long only | Random Forest,2023-10-31,Technology,0.38
+Long only | Random Forest,2023-10-31,Utilities,0.0
+Long only | Random Forest,2023-11-30,Consumer discretionary,0.2
+Long only | Random Forest,2023-11-30,Consumer staples,0.0
+Long only | Random Forest,2023-11-30,Energy,0.08000000000000002
+Long only | Random Forest,2023-11-30,Health care,0.28
+Long only | Random Forest,2023-11-30,Industrials,0.0
+Long only | Random Forest,2023-11-30,Technology,0.44
+Long only | Random Forest,2023-11-30,Utilities,0.0
+Long only | Random Forest,2023-12-31,Consumer discretionary,0.2
+Long only | Random Forest,2023-12-31,Consumer staples,0.06
+Long only | Random Forest,2023-12-31,Energy,0.08000000000000002
+Long only | Random Forest,2023-12-31,Health care,0.28
+Long only | Random Forest,2023-12-31,Industrials,0.0
+Long only | Random Forest,2023-12-31,Technology,0.38
+Long only | Random Forest,2023-12-31,Utilities,0.0
+Long only | Random Forest,2024-01-31,Consumer discretionary,0.2
+Long only | Random Forest,2024-01-31,Consumer staples,0.06
+Long only | Random Forest,2024-01-31,Energy,0.08000000000000002
+Long only | Random Forest,2024-01-31,Health care,0.28
+Long only | Random Forest,2024-01-31,Industrials,0.0
+Long only | Random Forest,2024-01-31,Technology,0.38
+Long only | Random Forest,2024-01-31,Utilities,0.0
+Long only | Random Forest,2024-02-29,Consumer discretionary,0.2
+Long only | Random Forest,2024-02-29,Consumer staples,0.04000000000000001
+Long only | Random Forest,2024-02-29,Energy,0.2
+Long only | Random Forest,2024-02-29,Health care,0.32
+Long only | Random Forest,2024-02-29,Industrials,0.0
+Long only | Random Forest,2024-02-29,Technology,0.24000000000000002
+Long only | Random Forest,2024-02-29,Utilities,0.0
+Long only | Random Forest,2024-03-31,Consumer discretionary,0.2
+Long only | Random Forest,2024-03-31,Consumer staples,0.1
+Long only | Random Forest,2024-03-31,Energy,0.08000000000000002
+Long only | Random Forest,2024-03-31,Health care,0.2
+Long only | Random Forest,2024-03-31,Industrials,0.1
+Long only | Random Forest,2024-03-31,Technology,0.32
+Long only | Random Forest,2024-03-31,Utilities,0.0
+Long only | Random Forest,2024-04-30,Consumer discretionary,0.2
+Long only | Random Forest,2024-04-30,Consumer staples,0.04000000000000001
+Long only | Random Forest,2024-04-30,Energy,0.2
+Long only | Random Forest,2024-04-30,Health care,0.32
+Long only | Random Forest,2024-04-30,Industrials,0.04000000000000001
+Long only | Random Forest,2024-04-30,Technology,0.2
+Long only | Random Forest,2024-04-30,Utilities,0.0
+Long only | Random Forest,2024-05-31,Consumer discretionary,0.2
+Long only | Random Forest,2024-05-31,Consumer staples,0.2
+Long only | Random Forest,2024-05-31,Energy,0.08000000000000002
+Long only | Random Forest,2024-05-31,Health care,0.2
+Long only | Random Forest,2024-05-31,Industrials,0.1
+Long only | Random Forest,2024-05-31,Technology,0.22
+Long only | Random Forest,2024-05-31,Utilities,0.0
+Long only | Random Forest,2024-06-30,Consumer discretionary,0.16
+Long only | Random Forest,2024-06-30,Consumer staples,0.2
+Long only | Random Forest,2024-06-30,Energy,0.08000000000000002
+Long only | Random Forest,2024-06-30,Health care,0.1
+Long only | Random Forest,2024-06-30,Industrials,0.14
+Long only | Random Forest,2024-06-30,Technology,0.22
+Long only | Random Forest,2024-06-30,Utilities,0.1
+Long only | Random Forest,2024-07-31,Consumer discretionary,0.16
+Long only | Random Forest,2024-07-31,Consumer staples,0.2
+Long only | Random Forest,2024-07-31,Energy,0.08000000000000002
+Long only | Random Forest,2024-07-31,Health care,0.1
+Long only | Random Forest,2024-07-31,Industrials,0.04000000000000001
+Long only | Random Forest,2024-07-31,Technology,0.32
+Long only | Random Forest,2024-07-31,Utilities,0.1
+Long only | Random Forest,2024-08-31,Consumer discretionary,0.06
+Long only | Random Forest,2024-08-31,Consumer staples,0.2
+Long only | Random Forest,2024-08-31,Energy,0.08000000000000002
+Long only | Random Forest,2024-08-31,Health care,0.1
+Long only | Random Forest,2024-08-31,Industrials,0.04000000000000001
+Long only | Random Forest,2024-08-31,Technology,0.32
+Long only | Random Forest,2024-08-31,Utilities,0.2
+Long only | Random Forest,2024-09-30,Consumer discretionary,0.06
+Long only | Random Forest,2024-09-30,Consumer staples,0.30000000000000004
+Long only | Random Forest,2024-09-30,Energy,0.08000000000000002
+Long only | Random Forest,2024-09-30,Health care,0.1
+Long only | Random Forest,2024-09-30,Industrials,0.04000000000000001
+Long only | Random Forest,2024-09-30,Technology,0.22
+Long only | Random Forest,2024-09-30,Utilities,0.2
+Long only | Random Forest,2024-10-31,Consumer discretionary,0.06
+Long only | Random Forest,2024-10-31,Consumer staples,0.30000000000000004
+Long only | Random Forest,2024-10-31,Energy,0.08000000000000002
+Long only | Random Forest,2024-10-31,Health care,0.1
+Long only | Random Forest,2024-10-31,Industrials,0.14
+Long only | Random Forest,2024-10-31,Technology,0.22
+Long only | Random Forest,2024-10-31,Utilities,0.1
+Long only | Random Forest,2024-11-30,Consumer discretionary,0.06
+Long only | Random Forest,2024-11-30,Consumer staples,0.2
+Long only | Random Forest,2024-11-30,Energy,0.08000000000000002
+Long only | Random Forest,2024-11-30,Health care,0.1
+Long only | Random Forest,2024-11-30,Industrials,0.14
+Long only | Random Forest,2024-11-30,Technology,0.32
+Long only | Random Forest,2024-11-30,Utilities,0.1
+Long only | Random Forest,2024-12-31,Consumer discretionary,0.06
+Long only | Random Forest,2024-12-31,Consumer staples,0.30000000000000004
+Long only | Random Forest,2024-12-31,Energy,0.08000000000000002
+Long only | Random Forest,2024-12-31,Health care,0.1
+Long only | Random Forest,2024-12-31,Industrials,0.04000000000000001
+Long only | Random Forest,2024-12-31,Technology,0.32
+Long only | Random Forest,2024-12-31,Utilities,0.1
+Long only | Random Forest,2025-01-31,Consumer discretionary,0.16
+Long only | Random Forest,2025-01-31,Consumer staples,0.2
+Long only | Random Forest,2025-01-31,Energy,0.08000000000000002
+Long only | Random Forest,2025-01-31,Health care,0.1
+Long only | Random Forest,2025-01-31,Industrials,0.04000000000000001
+Long only | Random Forest,2025-01-31,Technology,0.32
+Long only | Random Forest,2025-01-31,Utilities,0.1
+Long only | Random Forest,2025-02-28,Consumer discretionary,0.16
+Long only | Random Forest,2025-02-28,Consumer staples,0.2
+Long only | Random Forest,2025-02-28,Energy,0.08000000000000002
+Long only | Random Forest,2025-02-28,Health care,0.1
+Long only | Random Forest,2025-02-28,Industrials,0.04000000000000001
+Long only | Random Forest,2025-02-28,Technology,0.22
+Long only | Random Forest,2025-02-28,Utilities,0.2
+Long only | Random Forest,2025-03-31,Consumer discretionary,0.06
+Long only | Random Forest,2025-03-31,Consumer staples,0.12000000000000002
+Long only | Random Forest,2025-03-31,Energy,0.2
+Long only | Random Forest,2025-03-31,Health care,0.16
+Long only | Random Forest,2025-03-31,Industrials,0.1
+Long only | Random Forest,2025-03-31,Technology,0.16
+Long only | Random Forest,2025-03-31,Utilities,0.2
+Long only | Random Forest,2025-04-30,Consumer discretionary,0.06
+Long only | Random Forest,2025-04-30,Consumer staples,0.12000000000000002
+Long only | Random Forest,2025-04-30,Energy,0.2
+Long only | Random Forest,2025-04-30,Health care,0.16
+Long only | Random Forest,2025-04-30,Industrials,0.1
+Long only | Random Forest,2025-04-30,Technology,0.16
+Long only | Random Forest,2025-04-30,Utilities,0.2
+Long only | Random Forest,2025-05-31,Consumer discretionary,0.16
+Long only | Random Forest,2025-05-31,Consumer staples,0.18
+Long only | Random Forest,2025-05-31,Energy,0.08000000000000002
+Long only | Random Forest,2025-05-31,Health care,0.14
+Long only | Random Forest,2025-05-31,Industrials,0.04000000000000001
+Long only | Random Forest,2025-05-31,Technology,0.2
+Long only | Random Forest,2025-05-31,Utilities,0.2
+Long only | Random Forest,2025-06-30,Consumer discretionary,0.16
+Long only | Random Forest,2025-06-30,Consumer staples,0.18
+Long only | Random Forest,2025-06-30,Energy,0.08000000000000002
+Long only | Random Forest,2025-06-30,Health care,0.18000000000000002
+Long only | Random Forest,2025-06-30,Industrials,0.04000000000000001
+Long only | Random Forest,2025-06-30,Technology,0.2
+Long only | Random Forest,2025-06-30,Utilities,0.16
+Long only | Random Forest,2025-07-31,Consumer discretionary,0.1
+Long only | Random Forest,2025-07-31,Consumer staples,0.12
+Long only | Random Forest,2025-07-31,Energy,0.08000000000000002
+Long only | Random Forest,2025-07-31,Health care,0.18000000000000002
+Long only | Random Forest,2025-07-31,Industrials,0.04000000000000001
+Long only | Random Forest,2025-07-31,Technology,0.38
+Long only | Random Forest,2025-07-31,Utilities,0.1
+Long only | Random Forest,2025-08-31,Consumer discretionary,0.1
+Long only | Random Forest,2025-08-31,Consumer staples,0.04000000000000001
+Long only | Random Forest,2025-08-31,Energy,0.12
+Long only | Random Forest,2025-08-31,Health care,0.22
+Long only | Random Forest,2025-08-31,Industrials,0.1
+Long only | Random Forest,2025-08-31,Technology,0.32000000000000006
+Long only | Random Forest,2025-08-31,Utilities,0.1
+Long only | Random Forest,2025-09-30,Consumer discretionary,0.16
+Long only | Random Forest,2025-09-30,Consumer staples,0.06
+Long only | Random Forest,2025-09-30,Energy,0.08000000000000002
+Long only | Random Forest,2025-09-30,Health care,0.18000000000000002
+Long only | Random Forest,2025-09-30,Industrials,0.0
+Long only | Random Forest,2025-09-30,Technology,0.38
+Long only | Random Forest,2025-09-30,Utilities,0.14
+Long only | Random Forest,2025-10-31,Consumer discretionary,0.1
+Long only | Random Forest,2025-10-31,Consumer staples,0.06
+Long only | Random Forest,2025-10-31,Energy,0.08000000000000002
+Long only | Random Forest,2025-10-31,Health care,0.24000000000000002
+Long only | Random Forest,2025-10-31,Industrials,0.0
+Long only | Random Forest,2025-10-31,Technology,0.38
+Long only | Random Forest,2025-10-31,Utilities,0.14
+Long only | Random Forest,2025-11-30,Consumer discretionary,0.06
+Long only | Random Forest,2025-11-30,Consumer staples,0.0
+Long only | Random Forest,2025-11-30,Energy,0.2
+Long only | Random Forest,2025-11-30,Health care,0.30000000000000004
+Long only | Random Forest,2025-11-30,Industrials,0.04000000000000001
+Long only | Random Forest,2025-11-30,Technology,0.24000000000000002
+Long only | Random Forest,2025-11-30,Utilities,0.16
+Long only | Random Forest,2025-12-31,Consumer discretionary,0.1
+Long only | Random Forest,2025-12-31,Consumer staples,0.12
+Long only | Random Forest,2025-12-31,Energy,0.08000000000000002
+Long only | Random Forest,2025-12-31,Health care,0.24000000000000002
+Long only | Random Forest,2025-12-31,Industrials,0.06
+Long only | Random Forest,2025-12-31,Technology,0.2
+Long only | Random Forest,2025-12-31,Utilities,0.2
+Long-short | Equal factors,2023-01-31,Consumer discretionary,-0.06666666666666668
+Long-short | Equal factors,2023-01-31,Consumer staples,-0.09999999999999999
+Long-short | Equal factors,2023-01-31,Energy,9.25185853854297e-19
+Long-short | Equal factors,2023-01-31,Health care,0.2
+Long-short | Equal factors,2023-01-31,Industrials,0.06666666666666667
+Long-short | Equal factors,2023-01-31,Technology,-0.1
+Long-short | Equal factors,2023-01-31,Utilities,4.625929269271485e-19
+Long-short | Equal factors,2023-02-28,Consumer discretionary,-0.03333333333333334
+Long-short | Equal factors,2023-02-28,Consumer staples,-0.13333333333333333
+Long-short | Equal factors,2023-02-28,Energy,0.03333333333333333
+Long-short | Equal factors,2023-02-28,Health care,0.13333333333333333
+Long-short | Equal factors,2023-02-28,Industrials,0.06666666666666667
+Long-short | Equal factors,2023-02-28,Technology,-0.03333333333333333
+Long-short | Equal factors,2023-02-28,Utilities,-0.03333333333333333
+Long-short | Equal factors,2023-03-31,Consumer discretionary,0.0
+Long-short | Equal factors,2023-03-31,Consumer staples,-0.09999999999999999
+Long-short | Equal factors,2023-03-31,Energy,9.25185853854297e-19
+Long-short | Equal factors,2023-03-31,Health care,0.1
+Long-short | Equal factors,2023-03-31,Industrials,0.06666666666666667
+Long-short | Equal factors,2023-03-31,Technology,-4.625929269271485e-19
+Long-short | Equal factors,2023-03-31,Utilities,-0.06666666666666667
+Long-short | Equal factors,2023-04-30,Consumer discretionary,0.0
+Long-short | Equal factors,2023-04-30,Consumer staples,-0.13333333333333333
+Long-short | Equal factors,2023-04-30,Energy,9.25185853854297e-19
+Long-short | Equal factors,2023-04-30,Health care,0.1
+Long-short | Equal factors,2023-04-30,Industrials,0.03333333333333333
+Long-short | Equal factors,2023-04-30,Technology,0.06666666666666667
+Long-short | Equal factors,2023-04-30,Utilities,-0.06666666666666667
+Long-short | Equal factors,2023-05-31,Consumer discretionary,0.0
+Long-short | Equal factors,2023-05-31,Consumer staples,-0.06666666666666667
+Long-short | Equal factors,2023-05-31,Energy,-0.03333333333333333
+Long-short | Equal factors,2023-05-31,Health care,0.06666666666666667
+Long-short | Equal factors,2023-05-31,Industrials,0.03333333333333333
+Long-short | Equal factors,2023-05-31,Technology,0.06666666666666667
+Long-short | Equal factors,2023-05-31,Utilities,-0.06666666666666667
+Long-short | Equal factors,2023-06-30,Consumer discretionary,-0.03333333333333333
+Long-short | Equal factors,2023-06-30,Consumer staples,-0.1
+Long-short | Equal factors,2023-06-30,Energy,0.06666666666666667
+Long-short | Equal factors,2023-06-30,Health care,0.03333333333333333
+Long-short | Equal factors,2023-06-30,Industrials,0.03333333333333333
+Long-short | Equal factors,2023-06-30,Technology,0.13333333333333333
+Long-short | Equal factors,2023-06-30,Utilities,-0.13333333333333333
+Long-short | Equal factors,2023-07-31,Consumer discretionary,0.0
+Long-short | Equal factors,2023-07-31,Consumer staples,-0.13333333333333333
+Long-short | Equal factors,2023-07-31,Energy,0.06666666666666667
+Long-short | Equal factors,2023-07-31,Health care,0.1
+Long-short | Equal factors,2023-07-31,Industrials,0.0
+Long-short | Equal factors,2023-07-31,Technology,0.06666666666666667
+Long-short | Equal factors,2023-07-31,Utilities,-0.1
+Long-short | Equal factors,2023-08-31,Consumer discretionary,-0.03333333333333333
+Long-short | Equal factors,2023-08-31,Consumer staples,-0.13333333333333333
+Long-short | Equal factors,2023-08-31,Energy,0.03333333333333333
+Long-short | Equal factors,2023-08-31,Health care,0.13333333333333333
+Long-short | Equal factors,2023-08-31,Industrials,0.03333333333333333
+Long-short | Equal factors,2023-08-31,Technology,0.06666666666666667
+Long-short | Equal factors,2023-08-31,Utilities,-0.1
+Long-short | Equal factors,2023-09-30,Consumer discretionary,-0.03333333333333333
+Long-short | Equal factors,2023-09-30,Consumer staples,-0.13333333333333333
+Long-short | Equal factors,2023-09-30,Energy,0.06666666666666667
+Long-short | Equal factors,2023-09-30,Health care,0.06666666666666667
+Long-short | Equal factors,2023-09-30,Industrials,0.03333333333333333
+Long-short | Equal factors,2023-09-30,Technology,0.09999999999999999
+Long-short | Equal factors,2023-09-30,Utilities,-0.1
+Long-short | Equal factors,2023-10-31,Consumer discretionary,-0.03333333333333333
+Long-short | Equal factors,2023-10-31,Consumer staples,-0.13333333333333333
+Long-short | Equal factors,2023-10-31,Energy,0.06666666666666667
+Long-short | Equal factors,2023-10-31,Health care,0.03333333333333333
+Long-short | Equal factors,2023-10-31,Industrials,0.03333333333333333
+Long-short | Equal factors,2023-10-31,Technology,0.09999999999999999
+Long-short | Equal factors,2023-10-31,Utilities,-0.06666666666666667
+Long-short | Equal factors,2023-11-30,Consumer discretionary,0.0
+Long-short | Equal factors,2023-11-30,Consumer staples,-0.13333333333333333
+Long-short | Equal factors,2023-11-30,Energy,0.06666666666666667
+Long-short | Equal factors,2023-11-30,Health care,0.06666666666666667
+Long-short | Equal factors,2023-11-30,Industrials,-0.03333333333333333
+Long-short | Equal factors,2023-11-30,Technology,0.1
+Long-short | Equal factors,2023-11-30,Utilities,-0.06666666666666667
+Long-short | Equal factors,2023-12-31,Consumer discretionary,0.0
+Long-short | Equal factors,2023-12-31,Consumer staples,-0.13333333333333333
+Long-short | Equal factors,2023-12-31,Energy,0.03333333333333333
+Long-short | Equal factors,2023-12-31,Health care,0.06666666666666667
+Long-short | Equal factors,2023-12-31,Industrials,0.0
+Long-short | Equal factors,2023-12-31,Technology,0.1
+Long-short | Equal factors,2023-12-31,Utilities,-0.06666666666666667
+Long-short | Equal factors,2024-01-31,Consumer discretionary,0.0
+Long-short | Equal factors,2024-01-31,Consumer staples,-0.1
+Long-short | Equal factors,2024-01-31,Energy,-9.25185853854297e-19
+Long-short | Equal factors,2024-01-31,Health care,0.06666666666666667
+Long-short | Equal factors,2024-01-31,Industrials,0.0
+Long-short | Equal factors,2024-01-31,Technology,0.1
+Long-short | Equal factors,2024-01-31,Utilities,-0.06666666666666667
+Long-short | Equal factors,2024-02-29,Consumer discretionary,0.0
+Long-short | Equal factors,2024-02-29,Consumer staples,-0.13333333333333333
+Long-short | Equal factors,2024-02-29,Energy,-9.25185853854297e-19
+Long-short | Equal factors,2024-02-29,Health care,0.1
+Long-short | Equal factors,2024-02-29,Industrials,0.0
+Long-short | Equal factors,2024-02-29,Technology,0.1
+Long-short | Equal factors,2024-02-29,Utilities,-0.06666666666666667
+Long-short | Equal factors,2024-03-31,Consumer discretionary,0.0
+Long-short | Equal factors,2024-03-31,Consumer staples,-0.13333333333333333
+Long-short | Equal factors,2024-03-31,Energy,0.03333333333333333
+Long-short | Equal factors,2024-03-31,Health care,0.1
+Long-short | Equal factors,2024-03-31,Industrials,0.03333333333333333
+Long-short | Equal factors,2024-03-31,Technology,0.06666666666666667
+Long-short | Equal factors,2024-03-31,Utilities,-0.1
+Long-short | Equal factors,2024-04-30,Consumer discretionary,-0.03333333333333333
+Long-short | Equal factors,2024-04-30,Consumer staples,-0.13333333333333333
+Long-short | Equal factors,2024-04-30,Energy,0.03333333333333333
+Long-short | Equal factors,2024-04-30,Health care,0.1
+Long-short | Equal factors,2024-04-30,Industrials,0.03333333333333333
+Long-short | Equal factors,2024-04-30,Technology,0.06666666666666667
+Long-short | Equal factors,2024-04-30,Utilities,-0.06666666666666667
+Long-short | Equal factors,2024-05-31,Consumer discretionary,-0.03333333333333333
+Long-short | Equal factors,2024-05-31,Consumer staples,-0.06666666666666667
+Long-short | Equal factors,2024-05-31,Energy,0.06666666666666667
+Long-short | Equal factors,2024-05-31,Health care,0.06666666666666667
+Long-short | Equal factors,2024-05-31,Industrials,0.0
+Long-short | Equal factors,2024-05-31,Technology,0.03333333333333333
+Long-short | Equal factors,2024-05-31,Utilities,-0.06666666666666667
+Long-short | Equal factors,2024-06-30,Consumer discretionary,-0.03333333333333333
+Long-short | Equal factors,2024-06-30,Consumer staples,-0.03333333333333333
+Long-short | Equal factors,2024-06-30,Energy,0.06666666666666667
+Long-short | Equal factors,2024-06-30,Health care,-0.13333333333333336
+Long-short | Equal factors,2024-06-30,Industrials,0.03333333333333333
+Long-short | Equal factors,2024-06-30,Technology,0.03333333333333333
+Long-short | Equal factors,2024-06-30,Utilities,0.06666666666666667
+Long-short | Equal factors,2024-07-31,Consumer discretionary,-0.03333333333333333
+Long-short | Equal factors,2024-07-31,Consumer staples,-0.03333333333333333
+Long-short | Equal factors,2024-07-31,Energy,0.03333333333333333
+Long-short | Equal factors,2024-07-31,Health care,-0.13333333333333336
+Long-short | Equal factors,2024-07-31,Industrials,0.03333333333333333
+Long-short | Equal factors,2024-07-31,Technology,0.1
+Long-short | Equal factors,2024-07-31,Utilities,0.03333333333333333
+Long-short | Equal factors,2024-08-31,Consumer discretionary,-0.06666666666666667
+Long-short | Equal factors,2024-08-31,Consumer staples,-0.03333333333333333
+Long-short | Equal factors,2024-08-31,Energy,-9.25185853854297e-19
+Long-short | Equal factors,2024-08-31,Health care,-0.13333333333333336
+Long-short | Equal factors,2024-08-31,Industrials,0.03333333333333333
+Long-short | Equal factors,2024-08-31,Technology,0.1
+Long-short | Equal factors,2024-08-31,Utilities,0.1
+Long-short | Equal factors,2024-09-30,Consumer discretionary,-0.06666666666666667
+Long-short | Equal factors,2024-09-30,Consumer staples,0.0
+Long-short | Equal factors,2024-09-30,Energy,-9.25185853854297e-19
+Long-short | Equal factors,2024-09-30,Health care,-0.13333333333333336
+Long-short | Equal factors,2024-09-30,Industrials,0.03333333333333333
+Long-short | Equal factors,2024-09-30,Technology,0.06666666666666667
+Long-short | Equal factors,2024-09-30,Utilities,0.1
+Long-short | Equal factors,2024-10-31,Consumer discretionary,-0.03333333333333333
+Long-short | Equal factors,2024-10-31,Consumer staples,0.0
+Long-short | Equal factors,2024-10-31,Energy,-9.25185853854297e-19
+Long-short | Equal factors,2024-10-31,Health care,-0.16666666666666669
+Long-short | Equal factors,2024-10-31,Industrials,0.06666666666666667
+Long-short | Equal factors,2024-10-31,Technology,0.06666666666666667
+Long-short | Equal factors,2024-10-31,Utilities,0.06666666666666667
+Long-short | Equal factors,2024-11-30,Consumer discretionary,-0.06666666666666667
+Long-short | Equal factors,2024-11-30,Consumer staples,-0.03333333333333333
+Long-short | Equal factors,2024-11-30,Energy,0.06666666666666667
+Long-short | Equal factors,2024-11-30,Health care,-0.16666666666666669
+Long-short | Equal factors,2024-11-30,Industrials,0.03333333333333333
+Long-short | Equal factors,2024-11-30,Technology,0.1
+Long-short | Equal factors,2024-11-30,Utilities,0.06666666666666667
+Long-short | Equal factors,2024-12-31,Consumer discretionary,-0.06666666666666667
+Long-short | Equal factors,2024-12-31,Consumer staples,0.0
+Long-short | Equal factors,2024-12-31,Energy,0.03333333333333333
+Long-short | Equal factors,2024-12-31,Health care,-0.16666666666666669
+Long-short | Equal factors,2024-12-31,Industrials,0.03333333333333333
+Long-short | Equal factors,2024-12-31,Technology,0.1
+Long-short | Equal factors,2024-12-31,Utilities,0.06666666666666667
+Long-short | Equal factors,2025-01-31,Consumer discretionary,-0.03333333333333333
+Long-short | Equal factors,2025-01-31,Consumer staples,-0.03333333333333333
+Long-short | Equal factors,2025-01-31,Energy,0.03333333333333333
+Long-short | Equal factors,2025-01-31,Health care,-0.16666666666666669
+Long-short | Equal factors,2025-01-31,Industrials,0.03333333333333333
+Long-short | Equal factors,2025-01-31,Technology,0.1
+Long-short | Equal factors,2025-01-31,Utilities,0.06666666666666667
+Long-short | Equal factors,2025-02-28,Consumer discretionary,-0.03333333333333333
+Long-short | Equal factors,2025-02-28,Consumer staples,-0.03333333333333333
+Long-short | Equal factors,2025-02-28,Energy,0.03333333333333333
+Long-short | Equal factors,2025-02-28,Health care,-0.16666666666666669
+Long-short | Equal factors,2025-02-28,Industrials,0.03333333333333333
+Long-short | Equal factors,2025-02-28,Technology,0.06666666666666667
+Long-short | Equal factors,2025-02-28,Utilities,0.1
+Long-short | Equal factors,2025-03-31,Consumer discretionary,-0.03333333333333333
+Long-short | Equal factors,2025-03-31,Consumer staples,0.0
+Long-short | Equal factors,2025-03-31,Energy,0.03333333333333333
+Long-short | Equal factors,2025-03-31,Health care,-0.13333333333333336
+Long-short | Equal factors,2025-03-31,Industrials,-4.625929269271485e-19
+Long-short | Equal factors,2025-03-31,Technology,0.03333333333333333
+Long-short | Equal factors,2025-03-31,Utilities,0.1
+Long-short | Equal factors,2025-04-30,Consumer discretionary,-0.03333333333333333
+Long-short | Equal factors,2025-04-30,Consumer staples,0.0
+Long-short | Equal factors,2025-04-30,Energy,0.03333333333333333
+Long-short | Equal factors,2025-04-30,Health care,-0.13333333333333336
+Long-short | Equal factors,2025-04-30,Industrials,-4.625929269271485e-19
+Long-short | Equal factors,2025-04-30,Technology,0.03333333333333333
+Long-short | Equal factors,2025-04-30,Utilities,0.1
+Long-short | Equal factors,2025-05-31,Consumer discretionary,0.0
+Long-short | Equal factors,2025-05-31,Consumer staples,0.0
+Long-short | Equal factors,2025-05-31,Energy,-9.25185853854297e-19
+Long-short | Equal factors,2025-05-31,Health care,-0.13333333333333336
+Long-short | Equal factors,2025-05-31,Industrials,0.03333333333333333
+Long-short | Equal factors,2025-05-31,Technology,0.03333333333333333
+Long-short | Equal factors,2025-05-31,Utilities,0.06666666666666667
+Long-short | Equal factors,2025-06-30,Consumer discretionary,0.0
+Long-short | Equal factors,2025-06-30,Consumer staples,-0.03333333333333333
+Long-short | Equal factors,2025-06-30,Energy,-0.03333333333333333
+Long-short | Equal factors,2025-06-30,Health care,0.03333333333333333
+Long-short | Equal factors,2025-06-30,Industrials,0.03333333333333333
+Long-short | Equal factors,2025-06-30,Technology,-0.06666666666666667
+Long-short | Equal factors,2025-06-30,Utilities,0.06666666666666667
+Long-short | Equal factors,2025-07-31,Consumer discretionary,-0.06666666666666667
+Long-short | Equal factors,2025-07-31,Consumer staples,-0.06666666666666667
+Long-short | Equal factors,2025-07-31,Energy,0.0
+Long-short | Equal factors,2025-07-31,Health care,0.0
+Long-short | Equal factors,2025-07-31,Industrials,0.03333333333333333
+Long-short | Equal factors,2025-07-31,Technology,0.06666666666666667
+Long-short | Equal factors,2025-07-31,Utilities,0.03333333333333333
+Long-short | Equal factors,2025-08-31,Consumer discretionary,-0.06666666666666667
+Long-short | Equal factors,2025-08-31,Consumer staples,-0.1
+Long-short | Equal factors,2025-08-31,Energy,0.03333333333333333
+Long-short | Equal factors,2025-08-31,Health care,0.03333333333333333
+Long-short | Equal factors,2025-08-31,Industrials,0.06666666666666667
+Long-short | Equal factors,2025-08-31,Technology,0.03333333333333333
+Long-short | Equal factors,2025-08-31,Utilities,-4.625929269271485e-19
+Long-short | Equal factors,2025-09-30,Consumer discretionary,0.0
+Long-short | Equal factors,2025-09-30,Consumer staples,-0.16666666666666666
+Long-short | Equal factors,2025-09-30,Energy,0.03333333333333333
+Long-short | Equal factors,2025-09-30,Health care,0.03333333333333333
+Long-short | Equal factors,2025-09-30,Industrials,0.0
+Long-short | Equal factors,2025-09-30,Technology,0.06666666666666667
+Long-short | Equal factors,2025-09-30,Utilities,0.03333333333333333
+Long-short | Equal factors,2025-10-31,Consumer discretionary,-0.06666666666666667
+Long-short | Equal factors,2025-10-31,Consumer staples,-0.1
+Long-short | Equal factors,2025-10-31,Energy,0.0
+Long-short | Equal factors,2025-10-31,Health care,0.06666666666666667
+Long-short | Equal factors,2025-10-31,Industrials,-0.03333333333333333
+Long-short | Equal factors,2025-10-31,Technology,0.06666666666666667
+Long-short | Equal factors,2025-10-31,Utilities,0.06666666666666667
+Long-short | Equal factors,2025-11-30,Consumer discretionary,-0.06666666666666665
+Long-short | Equal factors,2025-11-30,Consumer staples,-0.2
+Long-short | Equal factors,2025-11-30,Energy,0.03333333333333333
+Long-short | Equal factors,2025-11-30,Health care,0.1
+Long-short | Equal factors,2025-11-30,Industrials,0.0
+Long-short | Equal factors,2025-11-30,Technology,0.06666666666666667
+Long-short | Equal factors,2025-11-30,Utilities,0.06666666666666667
+Long-short | Equal factors,2025-12-31,Consumer discretionary,-0.06666666666666665
+Long-short | Equal factors,2025-12-31,Consumer staples,-0.13333333333333333
+Long-short | Equal factors,2025-12-31,Energy,0.03333333333333333
+Long-short | Equal factors,2025-12-31,Health care,0.1
+Long-short | Equal factors,2025-12-31,Industrials,0.0
+Long-short | Equal factors,2025-12-31,Technology,-0.03333333333333333
+Long-short | Equal factors,2025-12-31,Utilities,0.1
+Long-short | Random Forest,2023-01-31,Consumer discretionary,-0.1
+Long-short | Random Forest,2023-01-31,Consumer staples,-0.07
+Long-short | Random Forest,2023-01-31,Energy,0.06
+Long-short | Random Forest,2023-01-31,Health care,0.18
+Long-short | Random Forest,2023-01-31,Industrials,0.08
+Long-short | Random Forest,2023-01-31,Technology,-0.16999999999999998
+Long-short | Random Forest,2023-01-31,Utilities,0.020000000000000004
+Long-short | Random Forest,2023-02-28,Consumer discretionary,-0.03
+Long-short | Random Forest,2023-02-28,Consumer staples,-0.12000000000000001
+Long-short | Random Forest,2023-02-28,Energy,0.06999999999999999
+Long-short | Random Forest,2023-02-28,Health care,0.14
+Long-short | Random Forest,2023-02-28,Industrials,0.08
+Long-short | Random Forest,2023-02-28,Technology,-0.09
+Long-short | Random Forest,2023-02-28,Utilities,-0.05
+Long-short | Random Forest,2023-03-31,Consumer discretionary,0.0
+Long-short | Random Forest,2023-03-31,Consumer staples,-0.09000000000000001
+Long-short | Random Forest,2023-03-31,Energy,0.039999999999999994
+Long-short | Random Forest,2023-03-31,Health care,0.11000000000000001
+Long-short | Random Forest,2023-03-31,Industrials,0.08
+Long-short | Random Forest,2023-03-31,Technology,-0.06
+Long-short | Random Forest,2023-03-31,Utilities,-0.08
+Long-short | Random Forest,2023-04-30,Consumer discretionary,0.0
+Long-short | Random Forest,2023-04-30,Consumer staples,-0.15000000000000002
+Long-short | Random Forest,2023-04-30,Energy,-0.05
+Long-short | Random Forest,2023-04-30,Health care,0.11000000000000001
+Long-short | Random Forest,2023-04-30,Industrials,0.020000000000000004
+Long-short | Random Forest,2023-04-30,Technology,0.12
+Long-short | Random Forest,2023-04-30,Utilities,-0.05
+Long-short | Random Forest,2023-05-31,Consumer discretionary,0.0
+Long-short | Random Forest,2023-05-31,Consumer staples,-0.09000000000000001
+Long-short | Random Forest,2023-05-31,Energy,-0.09
+Long-short | Random Forest,2023-05-31,Health care,0.09000000000000001
+Long-short | Random Forest,2023-05-31,Industrials,0.020000000000000004
+Long-short | Random Forest,2023-05-31,Technology,0.12
+Long-short | Random Forest,2023-05-31,Utilities,-0.05
+Long-short | Random Forest,2023-06-30,Consumer discretionary,-0.03
+Long-short | Random Forest,2023-06-30,Consumer staples,-0.08
+Long-short | Random Forest,2023-06-30,Energy,0.04000000000000001
+Long-short | Random Forest,2023-06-30,Health care,0.0
+Long-short | Random Forest,2023-06-30,Industrials,0.020000000000000004
+Long-short | Random Forest,2023-06-30,Technology,0.2
+Long-short | Random Forest,2023-06-30,Utilities,-0.15000000000000002
+Long-short | Random Forest,2023-07-31,Consumer discretionary,0.020000000000000004
+Long-short | Random Forest,2023-07-31,Consumer staples,-0.1
+Long-short | Random Forest,2023-07-31,Energy,0.04000000000000001
+Long-short | Random Forest,2023-07-31,Health care,0.05
+Long-short | Random Forest,2023-07-31,Industrials,0.0
+Long-short | Random Forest,2023-07-31,Technology,0.12
+Long-short | Random Forest,2023-07-31,Utilities,-0.13
+Long-short | Random Forest,2023-08-31,Consumer discretionary,-0.05
+Long-short | Random Forest,2023-08-31,Consumer staples,-0.16
+Long-short | Random Forest,2023-08-31,Energy,0.039999999999999994
+Long-short | Random Forest,2023-08-31,Health care,0.16
+Long-short | Random Forest,2023-08-31,Industrials,0.020000000000000004
+Long-short | Random Forest,2023-08-31,Technology,0.08000000000000002
+Long-short | Random Forest,2023-08-31,Utilities,-0.09000000000000001
+Long-short | Random Forest,2023-09-30,Consumer discretionary,-0.03
+Long-short | Random Forest,2023-09-30,Consumer staples,-0.16
+Long-short | Random Forest,2023-09-30,Energy,0.1
+Long-short | Random Forest,2023-09-30,Health care,0.12
+Long-short | Random Forest,2023-09-30,Industrials,0.020000000000000004
+Long-short | Random Forest,2023-09-30,Technology,0.020000000000000004
+Long-short | Random Forest,2023-09-30,Utilities,-0.07
+Long-short | Random Forest,2023-10-31,Consumer discretionary,-0.03
+Long-short | Random Forest,2023-10-31,Consumer staples,-0.1
+Long-short | Random Forest,2023-10-31,Energy,0.04000000000000001
+Long-short | Random Forest,2023-10-31,Health care,-0.020000000000000004
+Long-short | Random Forest,2023-10-31,Industrials,0.020000000000000004
+Long-short | Random Forest,2023-10-31,Technology,0.16999999999999998
+Long-short | Random Forest,2023-10-31,Utilities,-0.08
+Long-short | Random Forest,2023-11-30,Consumer discretionary,0.020000000000000004
+Long-short | Random Forest,2023-11-30,Consumer staples,-0.13
+Long-short | Random Forest,2023-11-30,Energy,0.04000000000000001
+Long-short | Random Forest,2023-11-30,Health care,0.0
+Long-short | Random Forest,2023-11-30,Industrials,-0.05
+Long-short | Random Forest,2023-11-30,Technology,0.2
+Long-short | Random Forest,2023-11-30,Utilities,-0.08
+Long-short | Random Forest,2023-12-31,Consumer discretionary,0.020000000000000004
+Long-short | Random Forest,2023-12-31,Consumer staples,-0.1
+Long-short | Random Forest,2023-12-31,Energy,-0.009999999999999995
+Long-short | Random Forest,2023-12-31,Health care,0.0
+Long-short | Random Forest,2023-12-31,Industrials,0.0
+Long-short | Random Forest,2023-12-31,Technology,0.16999999999999998
+Long-short | Random Forest,2023-12-31,Utilities,-0.08
+Long-short | Random Forest,2024-01-31,Consumer discretionary,0.020000000000000004
+Long-short | Random Forest,2024-01-31,Consumer staples,-0.05
+Long-short | Random Forest,2024-01-31,Energy,-0.06
+Long-short | Random Forest,2024-01-31,Health care,0.0
+Long-short | Random Forest,2024-01-31,Industrials,0.0
+Long-short | Random Forest,2024-01-31,Technology,0.16999999999999998
+Long-short | Random Forest,2024-01-31,Utilities,-0.08
+Long-short | Random Forest,2024-02-29,Consumer discretionary,0.020000000000000004
+Long-short | Random Forest,2024-02-29,Consumer staples,-0.1
+Long-short | Random Forest,2024-02-29,Energy,-0.06
+Long-short | Random Forest,2024-02-29,Health care,0.05
+Long-short | Random Forest,2024-02-29,Industrials,0.0
+Long-short | Random Forest,2024-02-29,Technology,0.16999999999999998
+Long-short | Random Forest,2024-02-29,Utilities,-0.08
+Long-short | Random Forest,2024-03-31,Consumer discretionary,-0.020000000000000004
+Long-short | Random Forest,2024-03-31,Consumer staples,-0.14
+Long-short | Random Forest,2024-03-31,Energy,0.010000000000000007
+Long-short | Random Forest,2024-03-31,Health care,0.11000000000000001
+Long-short | Random Forest,2024-03-31,Industrials,0.03
+Long-short | Random Forest,2024-03-31,Technology,0.12
+Long-short | Random Forest,2024-03-31,Utilities,-0.11
+Long-short | Random Forest,2024-04-30,Consumer discretionary,-0.03
+Long-short | Random Forest,2024-04-30,Consumer staples,-0.1
+Long-short | Random Forest,2024-04-30,Energy,-0.009999999999999995
+Long-short | Random Forest,2024-04-30,Health care,0.05
+Long-short | Random Forest,2024-04-30,Industrials,0.05
+Long-short | Random Forest,2024-04-30,Technology,0.12
+Long-short | Random Forest,2024-04-30,Utilities,-0.08
+Long-short | Random Forest,2024-05-31,Consumer discretionary,-0.020000000000000004
+Long-short | Random Forest,2024-05-31,Consumer staples,0.0
+Long-short | Random Forest,2024-05-31,Energy,0.06
+Long-short | Random Forest,2024-05-31,Health care,0.0
+Long-short | Random Forest,2024-05-31,Industrials,0.0
+Long-short | Random Forest,2024-05-31,Technology,0.030000000000000013
+Long-short | Random Forest,2024-05-31,Utilities,-0.07
+Long-short | Random Forest,2024-06-30,Consumer discretionary,-0.020000000000000004
+Long-short | Random Forest,2024-06-30,Consumer staples,0.020000000000000004
+Long-short | Random Forest,2024-06-30,Energy,0.04000000000000001
+Long-short | Random Forest,2024-06-30,Health care,-0.15000000000000002
+Long-short | Random Forest,2024-06-30,Industrials,0.020000000000000004
+Long-short | Random Forest,2024-06-30,Technology,0.039999999999999994
+Long-short | Random Forest,2024-06-30,Utilities,0.05
+Long-short | Random Forest,2024-07-31,Consumer discretionary,-0.03
+Long-short | Random Forest,2024-07-31,Consumer staples,-0.09
+Long-short | Random Forest,2024-07-31,Energy,0.039999999999999994
+Long-short | Random Forest,2024-07-31,Health care,-0.12000000000000001
+Long-short | Random Forest,2024-07-31,Industrials,0.03
+Long-short | Random Forest,2024-07-31,Technology,0.11000000000000001
+Long-short | Random Forest,2024-07-31,Utilities,0.06
+Long-short | Random Forest,2024-08-31,Consumer discretionary,-0.07
+Long-short | Random Forest,2024-08-31,Consumer staples,0.020000000000000004
+Long-short | Random Forest,2024-08-31,Energy,-0.06
+Long-short | Random Forest,2024-08-31,Health care,-0.15000000000000002
+Long-short | Random Forest,2024-08-31,Industrials,0.020000000000000004
+Long-short | Random Forest,2024-08-31,Technology,0.14
+Long-short | Random Forest,2024-08-31,Utilities,0.1
+Long-short | Random Forest,2024-09-30,Consumer discretionary,-0.05
+Long-short | Random Forest,2024-09-30,Consumer staples,-0.06999999999999999
+Long-short | Random Forest,2024-09-30,Energy,0.019999999999999993
+Long-short | Random Forest,2024-09-30,Health care,-0.12000000000000001
+Long-short | Random Forest,2024-09-30,Industrials,0.03
+Long-short | Random Forest,2024-09-30,Technology,0.09000000000000001
+Long-short | Random Forest,2024-09-30,Utilities,0.1
+Long-short | Random Forest,2024-10-31,Consumer discretionary,-0.020000000000000004
+Long-short | Random Forest,2024-10-31,Consumer staples,-0.030000000000000013
+Long-short | Random Forest,2024-10-31,Energy,-0.019999999999999993
+Long-short | Random Forest,2024-10-31,Health care,-0.16
+Long-short | Random Forest,2024-10-31,Industrials,0.05
+Long-short | Random Forest,2024-10-31,Technology,0.11
+Long-short | Random Forest,2024-10-31,Utilities,0.07
+Long-short | Random Forest,2024-11-30,Consumer discretionary,-0.05
+Long-short | Random Forest,2024-11-30,Consumer staples,-0.09
+Long-short | Random Forest,2024-11-30,Energy,0.06
+Long-short | Random Forest,2024-11-30,Health care,-0.14
+Long-short | Random Forest,2024-11-30,Industrials,0.03
+Long-short | Random Forest,2024-11-30,Technology,0.11000000000000001
+Long-short | Random Forest,2024-11-30,Utilities,0.08
+Long-short | Random Forest,2024-12-31,Consumer discretionary,-0.07
+Long-short | Random Forest,2024-12-31,Consumer staples,0.07
+Long-short | Random Forest,2024-12-31,Energy,-0.009999999999999995
+Long-short | Random Forest,2024-12-31,Health care,-0.2
+Long-short | Random Forest,2024-12-31,Industrials,0.020000000000000004
+Long-short | Random Forest,2024-12-31,Technology,0.14
+Long-short | Random Forest,2024-12-31,Utilities,0.05
+Long-short | Random Forest,2025-01-31,Consumer discretionary,-0.03
+Long-short | Random Forest,2025-01-31,Consumer staples,-0.09
+Long-short | Random Forest,2025-01-31,Energy,0.039999999999999994
+Long-short | Random Forest,2025-01-31,Health care,-0.14
+Long-short | Random Forest,2025-01-31,Industrials,0.03
+Long-short | Random Forest,2025-01-31,Technology,0.11000000000000001
+Long-short | Random Forest,2025-01-31,Utilities,0.08
+Long-short | Random Forest,2025-02-28,Consumer discretionary,-0.05
+Long-short | Random Forest,2025-02-28,Consumer staples,-0.06999999999999999
+Long-short | Random Forest,2025-02-28,Energy,0.08
+Long-short | Random Forest,2025-02-28,Health care,-0.14
+Long-short | Random Forest,2025-02-28,Industrials,0.05
+Long-short | Random Forest,2025-02-28,Technology,0.03
+Long-short | Random Forest,2025-02-28,Utilities,0.1
+Long-short | Random Forest,2025-03-31,Consumer discretionary,-0.05
+Long-short | Random Forest,2025-03-31,Consumer staples,-0.04999999999999999
+Long-short | Random Forest,2025-03-31,Energy,0.08
+Long-short | Random Forest,2025-03-31,Health care,-0.12000000000000001
+Long-short | Random Forest,2025-03-31,Industrials,0.03
+Long-short | Random Forest,2025-03-31,Technology,0.009999999999999995
+Long-short | Random Forest,2025-03-31,Utilities,0.1
+Long-short | Random Forest,2025-04-30,Consumer discretionary,-0.020000000000000004
+Long-short | Random Forest,2025-04-30,Consumer staples,0.07
+Long-short | Random Forest,2025-04-30,Energy,-0.009999999999999995
+Long-short | Random Forest,2025-04-30,Health care,-0.15000000000000002
+Long-short | Random Forest,2025-04-30,Industrials,-0.03
+Long-short | Random Forest,2025-04-30,Technology,0.039999999999999994
+Long-short | Random Forest,2025-04-30,Utilities,0.1
+Long-short | Random Forest,2025-05-31,Consumer discretionary,0.03
+Long-short | Random Forest,2025-05-31,Consumer staples,0.07
+Long-short | Random Forest,2025-05-31,Energy,-0.06
+Long-short | Random Forest,2025-05-31,Health care,-0.15000000000000002
+Long-short | Random Forest,2025-05-31,Industrials,0.020000000000000004
+Long-short | Random Forest,2025-05-31,Technology,0.039999999999999994
+Long-short | Random Forest,2025-05-31,Utilities,0.05
+Long-short | Random Forest,2025-06-30,Consumer discretionary,0.020000000000000004
+Long-short | Random Forest,2025-06-30,Consumer staples,0.05
+Long-short | Random Forest,2025-06-30,Energy,-0.09
+Long-short | Random Forest,2025-06-30,Health care,-0.03
+Long-short | Random Forest,2025-06-30,Industrials,0.020000000000000004
+Long-short | Random Forest,2025-06-30,Technology,-0.05000000000000002
+Long-short | Random Forest,2025-06-30,Utilities,0.08
+Long-short | Random Forest,2025-07-31,Consumer discretionary,-0.05
+Long-short | Random Forest,2025-07-31,Consumer staples,-0.03
+Long-short | Random Forest,2025-07-31,Energy,-0.039999999999999994
+Long-short | Random Forest,2025-07-31,Health care,-0.08
+Long-short | Random Forest,2025-07-31,Industrials,0.020000000000000004
+Long-short | Random Forest,2025-07-31,Technology,0.15
+Long-short | Random Forest,2025-07-31,Utilities,0.03
+Long-short | Random Forest,2025-08-31,Consumer discretionary,-0.08
+Long-short | Random Forest,2025-08-31,Consumer staples,-0.13
+Long-short | Random Forest,2025-08-31,Energy,0.009999999999999995
+Long-short | Random Forest,2025-08-31,Health care,0.06999999999999999
+Long-short | Random Forest,2025-08-31,Industrials,0.05
+Long-short | Random Forest,2025-08-31,Technology,0.05000000000000002
+Long-short | Random Forest,2025-08-31,Utilities,0.03
+Long-short | Random Forest,2025-09-30,Consumer discretionary,0.020000000000000004
+Long-short | Random Forest,2025-09-30,Consumer staples,-0.15000000000000002
+Long-short | Random Forest,2025-09-30,Energy,0.010000000000000007
+Long-short | Random Forest,2025-09-30,Health care,-0.03
+Long-short | Random Forest,2025-09-30,Industrials,0.0
+Long-short | Random Forest,2025-09-30,Technology,0.15
+Long-short | Random Forest,2025-09-30,Utilities,0.0
+Long-short | Random Forest,2025-10-31,Consumer discretionary,-0.05
+Long-short | Random Forest,2025-10-31,Consumer staples,-0.08
+Long-short | Random Forest,2025-10-31,Energy,-0.039999999999999994
+Long-short | Random Forest,2025-10-31,Health care,0.020000000000000004
+Long-short | Random Forest,2025-10-31,Industrials,-0.05
+Long-short | Random Forest,2025-10-31,Technology,0.15
+Long-short | Random Forest,2025-10-31,Utilities,0.05
+Long-short | Random Forest,2025-11-30,Consumer discretionary,-0.07
+Long-short | Random Forest,2025-11-30,Consumer staples,-0.2
+Long-short | Random Forest,2025-11-30,Energy,0.009999999999999995
+Long-short | Random Forest,2025-11-30,Health care,0.11
+Long-short | Random Forest,2025-11-30,Industrials,0.0
+Long-short | Random Forest,2025-11-30,Technology,0.07000000000000002
+Long-short | Random Forest,2025-11-30,Utilities,0.08
+Long-short | Random Forest,2025-12-31,Consumer discretionary,-0.08
+Long-short | Random Forest,2025-12-31,Consumer staples,-0.1
+Long-short | Random Forest,2025-12-31,Energy,0.010000000000000007
+Long-short | Random Forest,2025-12-31,Health care,0.07
+Long-short | Random Forest,2025-12-31,Industrials,0.0
+Long-short | Random Forest,2025-12-31,Technology,-1.3877787807814457e-17
+Long-short | Random Forest,2025-12-31,Utilities,0.1
+Ranked long-short | Equal factors,2023-01-31,Consumer discretionary,-0.05833333333333332
+Ranked long-short | Equal factors,2023-01-31,Consumer staples,-0.11333333333333334
+Ranked long-short | Equal factors,2023-01-31,Energy,0.039999999999999994
+Ranked long-short | Equal factors,2023-01-31,Health care,0.16499999999999998
+Ranked long-short | Equal factors,2023-01-31,Industrials,0.03666666666666667
+Ranked long-short | Equal factors,2023-01-31,Technology,-0.06333333333333332
+Ranked long-short | Equal factors,2023-01-31,Utilities,-0.006666666666666663
+Ranked long-short | Equal factors,2023-02-28,Consumer discretionary,-0.031666666666666655
+Ranked long-short | Equal factors,2023-02-28,Consumer staples,-0.13333333333333333
+Ranked long-short | Equal factors,2023-02-28,Energy,0.043333333333333335
+Ranked long-short | Equal factors,2023-02-28,Health care,0.1383333333333333
+Ranked long-short | Equal factors,2023-02-28,Industrials,0.04333333333333333
+Ranked long-short | Equal factors,2023-02-28,Technology,-0.04
+Ranked long-short | Equal factors,2023-02-28,Utilities,-0.020000000000000004
+Ranked long-short | Equal factors,2023-03-31,Consumer discretionary,-0.014999999999999986
+Ranked long-short | Equal factors,2023-03-31,Consumer staples,-0.10666666666666666
+Ranked long-short | Equal factors,2023-03-31,Energy,0.03333333333333333
+Ranked long-short | Equal factors,2023-03-31,Health care,0.09833333333333333
+Ranked long-short | Equal factors,2023-03-31,Industrials,0.056666666666666664
+Ranked long-short | Equal factors,2023-03-31,Technology,-0.009999999999999997
+Ranked long-short | Equal factors,2023-03-31,Utilities,-0.05666666666666667
+Ranked long-short | Equal factors,2023-04-30,Consumer discretionary,-0.02500000000000001
+Ranked long-short | Equal factors,2023-04-30,Consumer staples,-0.14
+Ranked long-short | Equal factors,2023-04-30,Energy,0.019999999999999997
+Ranked long-short | Equal factors,2023-04-30,Health care,0.07833333333333334
+Ranked long-short | Equal factors,2023-04-30,Industrials,0.030000000000000002
+Ranked long-short | Equal factors,2023-04-30,Technology,0.06333333333333334
+Ranked long-short | Equal factors,2023-04-30,Utilities,-0.02666666666666667
+Ranked long-short | Equal factors,2023-05-31,Consumer discretionary,-0.02833333333333335
+Ranked long-short | Equal factors,2023-05-31,Consumer staples,-0.06333333333333334
+Ranked long-short | Equal factors,2023-05-31,Energy,-0.0033333333333333357
+Ranked long-short | Equal factors,2023-05-31,Health care,0.07500000000000001
+Ranked long-short | Equal factors,2023-05-31,Industrials,0.01
+Ranked long-short | Equal factors,2023-05-31,Technology,0.05666666666666666
+Ranked long-short | Equal factors,2023-05-31,Utilities,-0.04666666666666666
+Ranked long-short | Equal factors,2023-06-30,Consumer discretionary,-0.054999999999999986
+Ranked long-short | Equal factors,2023-06-30,Consumer staples,-0.07666666666666666
+Ranked long-short | Equal factors,2023-06-30,Energy,0.03
+Ranked long-short | Equal factors,2023-06-30,Health care,0.07166666666666667
+Ranked long-short | Equal factors,2023-06-30,Industrials,0.006666666666666666
+Ranked long-short | Equal factors,2023-06-30,Technology,0.10333333333333333
+Ranked long-short | Equal factors,2023-06-30,Utilities,-0.08
+Ranked long-short | Equal factors,2023-07-31,Consumer discretionary,-0.04833333333333333
+Ranked long-short | Equal factors,2023-07-31,Consumer staples,-0.06999999999999999
+Ranked long-short | Equal factors,2023-07-31,Energy,0.02333333333333333
+Ranked long-short | Equal factors,2023-07-31,Health care,0.10166666666666667
+Ranked long-short | Equal factors,2023-07-31,Industrials,0.003333333333333333
+Ranked long-short | Equal factors,2023-07-31,Technology,0.07333333333333332
+Ranked long-short | Equal factors,2023-07-31,Utilities,-0.08333333333333333
+Ranked long-short | Equal factors,2023-08-31,Consumer discretionary,-0.05166666666666666
+Ranked long-short | Equal factors,2023-08-31,Consumer staples,-0.06666666666666667
+Ranked long-short | Equal factors,2023-08-31,Energy,0.006666666666666663
+Ranked long-short | Equal factors,2023-08-31,Health care,0.11166666666666666
+Ranked long-short | Equal factors,2023-08-31,Industrials,0.01
+Ranked long-short | Equal factors,2023-08-31,Technology,0.06333333333333332
+Ranked long-short | Equal factors,2023-08-31,Utilities,-0.07333333333333333
+Ranked long-short | Equal factors,2023-09-30,Consumer discretionary,-0.04499999999999999
+Ranked long-short | Equal factors,2023-09-30,Consumer staples,-0.05999999999999999
+Ranked long-short | Equal factors,2023-09-30,Energy,0.026666666666666665
+Ranked long-short | Equal factors,2023-09-30,Health care,0.075
+Ranked long-short | Equal factors,2023-09-30,Industrials,0.0066666666666666645
+Ranked long-short | Equal factors,2023-09-30,Technology,0.07333333333333332
+Ranked long-short | Equal factors,2023-09-30,Utilities,-0.07666666666666666
+Ranked long-short | Equal factors,2023-10-31,Consumer discretionary,-0.048333333333333325
+Ranked long-short | Equal factors,2023-10-31,Consumer staples,-0.049999999999999996
+Ranked long-short | Equal factors,2023-10-31,Energy,0.03
+Ranked long-short | Equal factors,2023-10-31,Health care,0.061666666666666675
+Ranked long-short | Equal factors,2023-10-31,Industrials,0.003333333333333334
+Ranked long-short | Equal factors,2023-10-31,Technology,0.06999999999999999
+Ranked long-short | Equal factors,2023-10-31,Utilities,-0.06666666666666667
+Ranked long-short | Equal factors,2023-11-30,Consumer discretionary,-0.04166666666666667
+Ranked long-short | Equal factors,2023-11-30,Consumer staples,-0.05
+Ranked long-short | Equal factors,2023-11-30,Energy,0.019999999999999997
+Ranked long-short | Equal factors,2023-11-30,Health care,0.07166666666666667
+Ranked long-short | Equal factors,2023-11-30,Industrials,-0.020000000000000004
+Ranked long-short | Equal factors,2023-11-30,Technology,0.07666666666666666
+Ranked long-short | Equal factors,2023-11-30,Utilities,-0.05666666666666667
+Ranked long-short | Equal factors,2023-12-31,Consumer discretionary,-0.014999999999999989
+Ranked long-short | Equal factors,2023-12-31,Consumer staples,-0.06
+Ranked long-short | Equal factors,2023-12-31,Energy,0.006666666666666666
+Ranked long-short | Equal factors,2023-12-31,Health care,0.065
+Ranked long-short | Equal factors,2023-12-31,Industrials,-0.010000000000000002
+Ranked long-short | Equal factors,2023-12-31,Technology,0.07666666666666666
+Ranked long-short | Equal factors,2023-12-31,Utilities,-0.06333333333333334
+Ranked long-short | Equal factors,2024-01-31,Consumer discretionary,-0.008333333333333335
+Ranked long-short | Equal factors,2024-01-31,Consumer staples,-0.043333333333333335
+Ranked long-short | Equal factors,2024-01-31,Energy,-0.01333333333333334
+Ranked long-short | Equal factors,2024-01-31,Health care,0.06833333333333333
+Ranked long-short | Equal factors,2024-01-31,Industrials,-0.013333333333333334
+Ranked long-short | Equal factors,2024-01-31,Technology,0.06999999999999999
+Ranked long-short | Equal factors,2024-01-31,Utilities,-0.060000000000000005
+Ranked long-short | Equal factors,2024-02-29,Consumer discretionary,-0.008333333333333326
+Ranked long-short | Equal factors,2024-02-29,Consumer staples,-0.056666666666666664
+Ranked long-short | Equal factors,2024-02-29,Energy,-0.010000000000000002
+Ranked long-short | Equal factors,2024-02-29,Health care,0.07833333333333334
+Ranked long-short | Equal factors,2024-02-29,Industrials,-0.013333333333333332
+Ranked long-short | Equal factors,2024-02-29,Technology,0.06333333333333332
+Ranked long-short | Equal factors,2024-02-29,Utilities,-0.053333333333333344
+Ranked long-short | Equal factors,2024-03-31,Consumer discretionary,-0.015
+Ranked long-short | Equal factors,2024-03-31,Consumer staples,-0.04666666666666666
+Ranked long-short | Equal factors,2024-03-31,Energy,0.0033333333333333322
+Ranked long-short | Equal factors,2024-03-31,Health care,0.09833333333333333
+Ranked long-short | Equal factors,2024-03-31,Industrials,-0.016666666666666666
+Ranked long-short | Equal factors,2024-03-31,Technology,0.05333333333333333
+Ranked long-short | Equal factors,2024-03-31,Utilities,-0.07666666666666667
+Ranked long-short | Equal factors,2024-04-30,Consumer discretionary,-0.024999999999999994
+Ranked long-short | Equal factors,2024-04-30,Consumer staples,-0.06666666666666667
+Ranked long-short | Equal factors,2024-04-30,Energy,0.0066666666666666645
+Ranked long-short | Equal factors,2024-04-30,Health care,0.08499999999999999
+Ranked long-short | Equal factors,2024-04-30,Industrials,0.016666666666666666
+Ranked long-short | Equal factors,2024-04-30,Technology,0.049999999999999996
+Ranked long-short | Equal factors,2024-04-30,Utilities,-0.06666666666666668
+Ranked long-short | Equal factors,2024-05-31,Consumer discretionary,-0.035
+Ranked long-short | Equal factors,2024-05-31,Consumer staples,-0.02666666666666666
+Ranked long-short | Equal factors,2024-05-31,Energy,0.02333333333333333
+Ranked long-short | Equal factors,2024-05-31,Health care,0.07833333333333334
+Ranked long-short | Equal factors,2024-05-31,Industrials,0.0
+Ranked long-short | Equal factors,2024-05-31,Technology,0.013333333333333326
+Ranked long-short | Equal factors,2024-05-31,Utilities,-0.05333333333333334
+Ranked long-short | Equal factors,2024-06-30,Consumer discretionary,-0.018333333333333333
+Ranked long-short | Equal factors,2024-06-30,Consumer staples,3.469446951953614e-18
+Ranked long-short | Equal factors,2024-06-30,Energy,0.016666666666666663
+Ranked long-short | Equal factors,2024-06-30,Health care,-0.09833333333333333
+Ranked long-short | Equal factors,2024-06-30,Industrials,0.026666666666666672
+Ranked long-short | Equal factors,2024-06-30,Technology,0.02
+Ranked long-short | Equal factors,2024-06-30,Utilities,0.05333333333333334
+Ranked long-short | Equal factors,2024-07-31,Consumer discretionary,-0.028333333333333335
+Ranked long-short | Equal factors,2024-07-31,Consumer staples,-0.026666666666666658
+Ranked long-short | Equal factors,2024-07-31,Energy,0.016666666666666663
+Ranked long-short | Equal factors,2024-07-31,Health care,-0.09833333333333333
+Ranked long-short | Equal factors,2024-07-31,Industrials,0.05
+Ranked long-short | Equal factors,2024-07-31,Technology,0.06666666666666665
+Ranked long-short | Equal factors,2024-07-31,Utilities,0.019999999999999997
+Ranked long-short | Equal factors,2024-08-31,Consumer discretionary,-0.03833333333333333
+Ranked long-short | Equal factors,2024-08-31,Consumer staples,0.013333333333333336
+Ranked long-short | Equal factors,2024-08-31,Energy,-0.013333333333333338
+Ranked long-short | Equal factors,2024-08-31,Health care,-0.11833333333333332
+Ranked long-short | Equal factors,2024-08-31,Industrials,0.023333333333333334
+Ranked long-short | Equal factors,2024-08-31,Technology,0.05999999999999999
+Ranked long-short | Equal factors,2024-08-31,Utilities,0.07333333333333333
+Ranked long-short | Equal factors,2024-09-30,Consumer discretionary,-0.03166666666666666
+Ranked long-short | Equal factors,2024-09-30,Consumer staples,0.02333333333333334
+Ranked long-short | Equal factors,2024-09-30,Energy,-0.020000000000000004
+Ranked long-short | Equal factors,2024-09-30,Health care,-0.11499999999999999
+Ranked long-short | Equal factors,2024-09-30,Industrials,0.01666666666666667
+Ranked long-short | Equal factors,2024-09-30,Technology,0.059999999999999984
+Ranked long-short | Equal factors,2024-09-30,Utilities,0.06666666666666665
+Ranked long-short | Equal factors,2024-10-31,Consumer discretionary,-0.025
+Ranked long-short | Equal factors,2024-10-31,Consumer staples,0.003333333333333341
+Ranked long-short | Equal factors,2024-10-31,Energy,-0.020000000000000004
+Ranked long-short | Equal factors,2024-10-31,Health care,-0.12166666666666665
+Ranked long-short | Equal factors,2024-10-31,Industrials,0.04000000000000001
+Ranked long-short | Equal factors,2024-10-31,Technology,0.05666666666666665
+Ranked long-short | Equal factors,2024-10-31,Utilities,0.06666666666666667
+Ranked long-short | Equal factors,2024-11-30,Consumer discretionary,-0.02833333333333333
+Ranked long-short | Equal factors,2024-11-30,Consumer staples,-0.009999999999999995
+Ranked long-short | Equal factors,2024-11-30,Energy,0.009999999999999997
+Ranked long-short | Equal factors,2024-11-30,Health care,-0.13166666666666665
+Ranked long-short | Equal factors,2024-11-30,Industrials,0.030000000000000006
+Ranked long-short | Equal factors,2024-11-30,Technology,0.059999999999999984
+Ranked long-short | Equal factors,2024-11-30,Utilities,0.06999999999999999
+Ranked long-short | Equal factors,2024-12-31,Consumer discretionary,-0.02833333333333333
+Ranked long-short | Equal factors,2024-12-31,Consumer staples,-1.734723475976807e-18
+Ranked long-short | Equal factors,2024-12-31,Energy,0.009999999999999997
+Ranked long-short | Equal factors,2024-12-31,Health care,-0.13166666666666665
+Ranked long-short | Equal factors,2024-12-31,Industrials,0.023333333333333338
+Ranked long-short | Equal factors,2024-12-31,Technology,0.06666666666666665
+Ranked long-short | Equal factors,2024-12-31,Utilities,0.06
+Ranked long-short | Equal factors,2025-01-31,Consumer discretionary,-0.028333333333333325
+Ranked long-short | Equal factors,2025-01-31,Consumer staples,-0.030000000000000002
+Ranked long-short | Equal factors,2025-01-31,Energy,-1.734723475976807e-18
+Ranked long-short | Equal factors,2025-01-31,Health care,-0.12833333333333333
+Ranked long-short | Equal factors,2025-01-31,Industrials,0.04
+Ranked long-short | Equal factors,2025-01-31,Technology,0.07999999999999999
+Ranked long-short | Equal factors,2025-01-31,Utilities,0.06666666666666667
+Ranked long-short | Equal factors,2025-02-28,Consumer discretionary,-0.03166666666666666
+Ranked long-short | Equal factors,2025-02-28,Consumer staples,-0.006666666666666666
+Ranked long-short | Equal factors,2025-02-28,Energy,-0.0033333333333333357
+Ranked long-short | Equal factors,2025-02-28,Health care,-0.125
+Ranked long-short | Equal factors,2025-02-28,Industrials,0.02666666666666667
+Ranked long-short | Equal factors,2025-02-28,Technology,0.05666666666666666
+Ranked long-short | Equal factors,2025-02-28,Utilities,0.08333333333333333
+Ranked long-short | Equal factors,2025-03-31,Consumer discretionary,-0.018333333333333333
+Ranked long-short | Equal factors,2025-03-31,Consumer staples,0.013333333333333336
+Ranked long-short | Equal factors,2025-03-31,Energy,0.0033333333333333288
+Ranked long-short | Equal factors,2025-03-31,Health care,-0.11166666666666664
+Ranked long-short | Equal factors,2025-03-31,Industrials,-0.0033333333333333322
+Ranked long-short | Equal factors,2025-03-31,Technology,0.04999999999999999
+Ranked long-short | Equal factors,2025-03-31,Utilities,0.06666666666666668
+Ranked long-short | Equal factors,2025-04-30,Consumer discretionary,-0.014999999999999993
+Ranked long-short | Equal factors,2025-04-30,Consumer staples,0.006666666666666668
+Ranked long-short | Equal factors,2025-04-30,Energy,-3.469446951953614e-18
+Ranked long-short | Equal factors,2025-04-30,Health care,-0.08833333333333332
+Ranked long-short | Equal factors,2025-04-30,Industrials,0.0
+Ranked long-short | Equal factors,2025-04-30,Technology,0.033333333333333326
+Ranked long-short | Equal factors,2025-04-30,Utilities,0.06333333333333332
+Ranked long-short | Equal factors,2025-05-31,Consumer discretionary,0.015000000000000013
+Ranked long-short | Equal factors,2025-05-31,Consumer staples,-0.006666666666666668
+Ranked long-short | Equal factors,2025-05-31,Energy,-0.006666666666666671
+Ranked long-short | Equal factors,2025-05-31,Health care,-0.09499999999999999
+Ranked long-short | Equal factors,2025-05-31,Industrials,0.006666666666666668
+Ranked long-short | Equal factors,2025-05-31,Technology,0.04333333333333332
+Ranked long-short | Equal factors,2025-05-31,Utilities,0.043333333333333335
+Ranked long-short | Equal factors,2025-06-30,Consumer discretionary,0.018333333333333326
+Ranked long-short | Equal factors,2025-06-30,Consumer staples,-0.03
+Ranked long-short | Equal factors,2025-06-30,Energy,-0.03333333333333333
+Ranked long-short | Equal factors,2025-06-30,Health care,0.001666666666666667
+Ranked long-short | Equal factors,2025-06-30,Industrials,0.009999999999999998
+Ranked long-short | Equal factors,2025-06-30,Technology,-0.013333333333333336
+Ranked long-short | Equal factors,2025-06-30,Utilities,0.04666666666666666
+Ranked long-short | Equal factors,2025-07-31,Consumer discretionary,-0.008333333333333338
+Ranked long-short | Equal factors,2025-07-31,Consumer staples,-0.056666666666666664
+Ranked long-short | Equal factors,2025-07-31,Energy,-0.016666666666666666
+Ranked long-short | Equal factors,2025-07-31,Health care,-0.035
+Ranked long-short | Equal factors,2025-07-31,Industrials,0.03666666666666667
+Ranked long-short | Equal factors,2025-07-31,Technology,0.043333333333333335
+Ranked long-short | Equal factors,2025-07-31,Utilities,0.03666666666666667
+Ranked long-short | Equal factors,2025-08-31,Consumer discretionary,-0.01833333333333334
+Ranked long-short | Equal factors,2025-08-31,Consumer staples,-0.08666666666666666
+Ranked long-short | Equal factors,2025-08-31,Energy,2.168404344971009e-19
+Ranked long-short | Equal factors,2025-08-31,Health care,-0.02166666666666667
+Ranked long-short | Equal factors,2025-08-31,Industrials,0.04666666666666666
+Ranked long-short | Equal factors,2025-08-31,Technology,0.049999999999999996
+Ranked long-short | Equal factors,2025-08-31,Utilities,0.03
+Ranked long-short | Equal factors,2025-09-30,Consumer discretionary,-0.015000000000000003
+Ranked long-short | Equal factors,2025-09-30,Consumer staples,-0.09999999999999999
+Ranked long-short | Equal factors,2025-09-30,Energy,0.006666666666666668
+Ranked long-short | Equal factors,2025-09-30,Health care,0.0016666666666666635
+Ranked long-short | Equal factors,2025-09-30,Industrials,0.023333333333333334
+Ranked long-short | Equal factors,2025-09-30,Technology,0.056666666666666664
+Ranked long-short | Equal factors,2025-09-30,Utilities,0.026666666666666665
+Ranked long-short | Equal factors,2025-10-31,Consumer discretionary,-0.045000000000000005
+Ranked long-short | Equal factors,2025-10-31,Consumer staples,-0.08333333333333331
+Ranked long-short | Equal factors,2025-10-31,Energy,-0.02333333333333333
+Ranked long-short | Equal factors,2025-10-31,Health care,0.018333333333333326
+Ranked long-short | Equal factors,2025-10-31,Industrials,0.006666666666666668
+Ranked long-short | Equal factors,2025-10-31,Technology,0.07999999999999999
+Ranked long-short | Equal factors,2025-10-31,Utilities,0.04666666666666667
+Ranked long-short | Equal factors,2025-11-30,Consumer discretionary,-0.03833333333333334
+Ranked long-short | Equal factors,2025-11-30,Consumer staples,-0.12666666666666668
+Ranked long-short | Equal factors,2025-11-30,Energy,8.673617379884035e-19
+Ranked long-short | Equal factors,2025-11-30,Health care,0.03166666666666666
+Ranked long-short | Equal factors,2025-11-30,Industrials,0.02333333333333333
+Ranked long-short | Equal factors,2025-11-30,Technology,0.07333333333333333
+Ranked long-short | Equal factors,2025-11-30,Utilities,0.03666666666666667
+Ranked long-short | Equal factors,2025-12-31,Consumer discretionary,-0.058333333333333334
+Ranked long-short | Equal factors,2025-12-31,Consumer staples,-0.09333333333333335
+Ranked long-short | Equal factors,2025-12-31,Energy,0.009999999999999998
+Ranked long-short | Equal factors,2025-12-31,Health care,0.045
+Ranked long-short | Equal factors,2025-12-31,Industrials,0.013333333333333336
+Ranked long-short | Equal factors,2025-12-31,Technology,0.010000000000000002
+Ranked long-short | Equal factors,2025-12-31,Utilities,0.07333333333333333
+Ranked long-short | Random Forest,2023-01-31,Consumer discretionary,-0.08
+Ranked long-short | Random Forest,2023-01-31,Consumer staples,-0.095
+Ranked long-short | Random Forest,2023-01-31,Energy,0.060000000000000005
+Ranked long-short | Random Forest,2023-01-31,Health care,0.14400000000000002
+Ranked long-short | Random Forest,2023-01-31,Industrials,0.051000000000000004
+Ranked long-short | Random Forest,2023-01-31,Technology,-0.08700000000000001
+Ranked long-short | Random Forest,2023-01-31,Utilities,0.007000000000000003
+Ranked long-short | Random Forest,2023-02-28,Consumer discretionary,-0.04000000000000001
+Ranked long-short | Random Forest,2023-02-28,Consumer staples,-0.128
+Ranked long-short | Random Forest,2023-02-28,Energy,0.05900000000000001
+Ranked long-short | Random Forest,2023-02-28,Health care,0.116
+Ranked long-short | Random Forest,2023-02-28,Industrials,0.055
+Ranked long-short | Random Forest,2023-02-28,Technology,-0.04600000000000001
+Ranked long-short | Random Forest,2023-02-28,Utilities,-0.016000000000000004
+Ranked long-short | Random Forest,2023-03-31,Consumer discretionary,-0.015
+Ranked long-short | Random Forest,2023-03-31,Consumer staples,-0.097
+Ranked long-short | Random Forest,2023-03-31,Energy,0.044000000000000004
+Ranked long-short | Random Forest,2023-03-31,Health care,0.05600000000000001
+Ranked long-short | Random Forest,2023-03-31,Industrials,0.066
+Ranked long-short | Random Forest,2023-03-31,Technology,0.010999999999999996
+Ranked long-short | Random Forest,2023-03-31,Utilities,-0.065
+Ranked long-short | Random Forest,2023-04-30,Consumer discretionary,-0.031
+Ranked long-short | Random Forest,2023-04-30,Consumer staples,-0.14500000000000002
+Ranked long-short | Random Forest,2023-04-30,Energy,-0.015999999999999997
+Ranked long-short | Random Forest,2023-04-30,Health care,0.08600000000000001
+Ranked long-short | Random Forest,2023-04-30,Industrials,0.009000000000000001
+Ranked long-short | Random Forest,2023-04-30,Technology,0.119
+Ranked long-short | Random Forest,2023-04-30,Utilities,-0.022000000000000002
+Ranked long-short | Random Forest,2023-05-31,Consumer discretionary,-0.034
+Ranked long-short | Random Forest,2023-05-31,Consumer staples,-0.07800000000000001
+Ranked long-short | Random Forest,2023-05-31,Energy,-0.039
+Ranked long-short | Random Forest,2023-05-31,Health care,0.085
+Ranked long-short | Random Forest,2023-05-31,Industrials,-0.008
+Ranked long-short | Random Forest,2023-05-31,Technology,0.11499999999999999
+Ranked long-short | Random Forest,2023-05-31,Utilities,-0.040999999999999995
+Ranked long-short | Random Forest,2023-06-30,Consumer discretionary,-0.04
+Ranked long-short | Random Forest,2023-06-30,Consumer staples,-0.07100000000000001
+Ranked long-short | Random Forest,2023-06-30,Energy,0.007000000000000001
+Ranked long-short | Random Forest,2023-06-30,Health care,0.024000000000000007
+Ranked long-short | Random Forest,2023-06-30,Industrials,0.006000000000000002
+Ranked long-short | Random Forest,2023-06-30,Technology,0.172
+Ranked long-short | Random Forest,2023-06-30,Utilities,-0.098
+Ranked long-short | Random Forest,2023-07-31,Consumer discretionary,-0.035
+Ranked long-short | Random Forest,2023-07-31,Consumer staples,-0.056
+Ranked long-short | Random Forest,2023-07-31,Energy,-0.0029999999999999975
+Ranked long-short | Random Forest,2023-07-31,Health care,0.05700000000000001
+Ranked long-short | Random Forest,2023-07-31,Industrials,0.0010000000000000009
+Ranked long-short | Random Forest,2023-07-31,Technology,0.138
+Ranked long-short | Random Forest,2023-07-31,Utilities,-0.10200000000000001
+Ranked long-short | Random Forest,2023-08-31,Consumer discretionary,-0.06099999999999999
+Ranked long-short | Random Forest,2023-08-31,Consumer staples,-0.084
+Ranked long-short | Random Forest,2023-08-31,Energy,0.047
+Ranked long-short | Random Forest,2023-08-31,Health care,0.14400000000000002
+Ranked long-short | Random Forest,2023-08-31,Industrials,0.019999999999999997
+Ranked long-short | Random Forest,2023-08-31,Technology,-0.011999999999999997
+Ranked long-short | Random Forest,2023-08-31,Utilities,-0.054000000000000006
+Ranked long-short | Random Forest,2023-09-30,Consumer discretionary,-0.054000000000000006
+Ranked long-short | Random Forest,2023-09-30,Consumer staples,-0.07400000000000001
+Ranked long-short | Random Forest,2023-09-30,Energy,0.059000000000000004
+Ranked long-short | Random Forest,2023-09-30,Health care,0.11900000000000001
+Ranked long-short | Random Forest,2023-09-30,Industrials,0.015000000000000001
+Ranked long-short | Random Forest,2023-09-30,Technology,-0.005999999999999998
+Ranked long-short | Random Forest,2023-09-30,Utilities,-0.059
+Ranked long-short | Random Forest,2023-10-31,Consumer discretionary,-0.052000000000000005
+Ranked long-short | Random Forest,2023-10-31,Consumer staples,-0.057
+Ranked long-short | Random Forest,2023-10-31,Energy,0.0010000000000000013
+Ranked long-short | Random Forest,2023-10-31,Health care,0.07500000000000001
+Ranked long-short | Random Forest,2023-10-31,Industrials,-0.018999999999999996
+Ranked long-short | Random Forest,2023-10-31,Technology,0.11699999999999999
+Ranked long-short | Random Forest,2023-10-31,Utilities,-0.065
+Ranked long-short | Random Forest,2023-11-30,Consumer discretionary,-0.025
+Ranked long-short | Random Forest,2023-11-30,Consumer staples,-0.028999999999999998
+Ranked long-short | Random Forest,2023-11-30,Energy,-0.007999999999999997
+Ranked long-short | Random Forest,2023-11-30,Health care,0.012000000000000007
+Ranked long-short | Random Forest,2023-11-30,Industrials,-0.031
+Ranked long-short | Random Forest,2023-11-30,Technology,0.152
+Ranked long-short | Random Forest,2023-11-30,Utilities,-0.07100000000000001
+Ranked long-short | Random Forest,2023-12-31,Consumer discretionary,0.018000000000000006
+Ranked long-short | Random Forest,2023-12-31,Consumer staples,-0.04100000000000001
+Ranked long-short | Random Forest,2023-12-31,Energy,-0.027999999999999994
+Ranked long-short | Random Forest,2023-12-31,Health care,0.0020000000000000052
+Ranked long-short | Random Forest,2023-12-31,Industrials,-0.016
+Ranked long-short | Random Forest,2023-12-31,Technology,0.146
+Ranked long-short | Random Forest,2023-12-31,Utilities,-0.081
+Ranked long-short | Random Forest,2024-01-31,Consumer discretionary,0.021999999999999995
+Ranked long-short | Random Forest,2024-01-31,Consumer staples,-0.016000000000000007
+Ranked long-short | Random Forest,2024-01-31,Energy,-0.057999999999999996
+Ranked long-short | Random Forest,2024-01-31,Health care,0.010000000000000005
+Ranked long-short | Random Forest,2024-01-31,Industrials,-0.020999999999999998
+Ranked long-short | Random Forest,2024-01-31,Technology,0.13899999999999998
+Ranked long-short | Random Forest,2024-01-31,Utilities,-0.076
+Ranked long-short | Random Forest,2024-02-29,Consumer discretionary,0.022000000000000002
+Ranked long-short | Random Forest,2024-02-29,Consumer staples,-0.027000000000000003
+Ranked long-short | Random Forest,2024-02-29,Energy,-0.05299999999999999
+Ranked long-short | Random Forest,2024-02-29,Health care,0.022000000000000002
+Ranked long-short | Random Forest,2024-02-29,Industrials,-0.018
+Ranked long-short | Random Forest,2024-02-29,Technology,0.12899999999999998
+Ranked long-short | Random Forest,2024-02-29,Utilities,-0.075
+Ranked long-short | Random Forest,2024-03-31,Consumer discretionary,0.011999999999999995
+Ranked long-short | Random Forest,2024-03-31,Consumer staples,-0.023999999999999997
+Ranked long-short | Random Forest,2024-03-31,Energy,-0.032999999999999995
+Ranked long-short | Random Forest,2024-03-31,Health care,0.052000000000000005
+Ranked long-short | Random Forest,2024-03-31,Industrials,-0.011000000000000001
+Ranked long-short | Random Forest,2024-03-31,Technology,0.099
+Ranked long-short | Random Forest,2024-03-31,Utilities,-0.095
+Ranked long-short | Random Forest,2024-04-30,Consumer discretionary,-0.0029999999999999975
+Ranked long-short | Random Forest,2024-04-30,Consumer staples,-0.036000000000000004
+Ranked long-short | Random Forest,2024-04-30,Energy,-0.027999999999999997
+Ranked long-short | Random Forest,2024-04-30,Health care,0.03200000000000001
+Ranked long-short | Random Forest,2024-04-30,Industrials,0.021000000000000005
+Ranked long-short | Random Forest,2024-04-30,Technology,0.094
+Ranked long-short | Random Forest,2024-04-30,Utilities,-0.08
+Ranked long-short | Random Forest,2024-05-31,Consumer discretionary,-0.027000000000000007
+Ranked long-short | Random Forest,2024-05-31,Consumer staples,0.018000000000000002
+Ranked long-short | Random Forest,2024-05-31,Energy,-0.002999999999999999
+Ranked long-short | Random Forest,2024-05-31,Health care,0.022000000000000013
+Ranked long-short | Random Forest,2024-05-31,Industrials,-0.003999999999999997
+Ranked long-short | Random Forest,2024-05-31,Technology,0.047999999999999994
+Ranked long-short | Random Forest,2024-05-31,Utilities,-0.054000000000000006
+Ranked long-short | Random Forest,2024-06-30,Consumer discretionary,-0.025
+Ranked long-short | Random Forest,2024-06-30,Consumer staples,0.046
+Ranked long-short | Random Forest,2024-06-30,Energy,-0.006999999999999999
+Ranked long-short | Random Forest,2024-06-30,Health care,-0.11199999999999999
+Ranked long-short | Random Forest,2024-06-30,Industrials,0.016000000000000004
+Ranked long-short | Random Forest,2024-06-30,Technology,0.041999999999999996
+Ranked long-short | Random Forest,2024-06-30,Utilities,0.04000000000000001
+Ranked long-short | Random Forest,2024-07-31,Consumer discretionary,-0.028999999999999998
+Ranked long-short | Random Forest,2024-07-31,Consumer staples,-0.054
+Ranked long-short | Random Forest,2024-07-31,Energy,0.007999999999999995
+Ranked long-short | Random Forest,2024-07-31,Health care,-0.089
+Ranked long-short | Random Forest,2024-07-31,Industrials,0.03900000000000001
+Ranked long-short | Random Forest,2024-07-31,Technology,0.091
+Ranked long-short | Random Forest,2024-07-31,Utilities,0.034
+Ranked long-short | Random Forest,2024-08-31,Consumer discretionary,-0.049
+Ranked long-short | Random Forest,2024-08-31,Consumer staples,0.067
+Ranked long-short | Random Forest,2024-08-31,Energy,-0.056
+Ranked long-short | Random Forest,2024-08-31,Health care,-0.14
+Ranked long-short | Random Forest,2024-08-31,Industrials,0.008000000000000002
+Ranked long-short | Random Forest,2024-08-31,Technology,0.098
+Ranked long-short | Random Forest,2024-08-31,Utilities,0.072
+Ranked long-short | Random Forest,2024-09-30,Consumer discretionary,-0.033
+Ranked long-short | Random Forest,2024-09-30,Consumer staples,0.009000000000000005
+Ranked long-short | Random Forest,2024-09-30,Energy,-0.046
+Ranked long-short | Random Forest,2024-09-30,Health care,-0.11099999999999999
+Ranked long-short | Random Forest,2024-09-30,Industrials,0.005000000000000003
+Ranked long-short | Random Forest,2024-09-30,Technology,0.118
+Ranked long-short | Random Forest,2024-09-30,Utilities,0.057999999999999996
+Ranked long-short | Random Forest,2024-10-31,Consumer discretionary,-0.027000000000000007
+Ranked long-short | Random Forest,2024-10-31,Consumer staples,-0.008
+Ranked long-short | Random Forest,2024-10-31,Energy,-0.046
+Ranked long-short | Random Forest,2024-10-31,Health care,-0.11699999999999999
+Ranked long-short | Random Forest,2024-10-31,Industrials,0.026000000000000002
+Ranked long-short | Random Forest,2024-10-31,Technology,0.11399999999999999
+Ranked long-short | Random Forest,2024-10-31,Utilities,0.057999999999999996
+Ranked long-short | Random Forest,2024-11-30,Consumer discretionary,-0.024999999999999994
+Ranked long-short | Random Forest,2024-11-30,Consumer staples,0.028
+Ranked long-short | Random Forest,2024-11-30,Energy,-0.020999999999999998
+Ranked long-short | Random Forest,2024-11-30,Health care,-0.16299999999999998
+Ranked long-short | Random Forest,2024-11-30,Industrials,0.021000000000000005
+Ranked long-short | Random Forest,2024-11-30,Technology,0.09299999999999999
+Ranked long-short | Random Forest,2024-11-30,Utilities,0.067
+Ranked long-short | Random Forest,2024-12-31,Consumer discretionary,-0.027999999999999997
+Ranked long-short | Random Forest,2024-12-31,Consumer staples,0.04599999999999999
+Ranked long-short | Random Forest,2024-12-31,Energy,-0.020999999999999998
+Ranked long-short | Random Forest,2024-12-31,Health care,-0.16299999999999998
+Ranked long-short | Random Forest,2024-12-31,Industrials,0.014000000000000002
+Ranked long-short | Random Forest,2024-12-31,Technology,0.1
+Ranked long-short | Random Forest,2024-12-31,Utilities,0.052000000000000005
+Ranked long-short | Random Forest,2025-01-31,Consumer discretionary,-0.031999999999999994
+Ranked long-short | Random Forest,2025-01-31,Consumer staples,-0.06
+Ranked long-short | Random Forest,2025-01-31,Energy,-0.0020000000000000035
+Ranked long-short | Random Forest,2025-01-31,Health care,-0.106
+Ranked long-short | Random Forest,2025-01-31,Industrials,0.034
+Ranked long-short | Random Forest,2025-01-31,Technology,0.104
+Ranked long-short | Random Forest,2025-01-31,Utilities,0.062
+Ranked long-short | Random Forest,2025-02-28,Consumer discretionary,-0.033
+Ranked long-short | Random Forest,2025-02-28,Consumer staples,-0.045
+Ranked long-short | Random Forest,2025-02-28,Energy,0.04
+Ranked long-short | Random Forest,2025-02-28,Health care,-0.102
+Ranked long-short | Random Forest,2025-02-28,Industrials,0.046
+Ranked long-short | Random Forest,2025-02-28,Technology,0.009999999999999993
+Ranked long-short | Random Forest,2025-02-28,Utilities,0.08399999999999999
+Ranked long-short | Random Forest,2025-03-31,Consumer discretionary,-0.022
+Ranked long-short | Random Forest,2025-03-31,Consumer staples,-0.033
+Ranked long-short | Random Forest,2025-03-31,Energy,0.044
+Ranked long-short | Random Forest,2025-03-31,Health care,-0.09699999999999999
+Ranked long-short | Random Forest,2025-03-31,Industrials,0.028000000000000004
+Ranked long-short | Random Forest,2025-03-31,Technology,0.0059999999999999915
+Ranked long-short | Random Forest,2025-03-31,Utilities,0.074
+Ranked long-short | Random Forest,2025-04-30,Consumer discretionary,-0.001999999999999995
+Ranked long-short | Random Forest,2025-04-30,Consumer staples,0.059
+Ranked long-short | Random Forest,2025-04-30,Energy,-0.036
+Ranked long-short | Random Forest,2025-04-30,Health care,-0.098
+Ranked long-short | Random Forest,2025-04-30,Industrials,-0.03
+Ranked long-short | Random Forest,2025-04-30,Technology,0.049999999999999996
+Ranked long-short | Random Forest,2025-04-30,Utilities,0.056999999999999995
+Ranked long-short | Random Forest,2025-05-31,Consumer discretionary,0.037000000000000005
+Ranked long-short | Random Forest,2025-05-31,Consumer staples,0.04199999999999999
+Ranked long-short | Random Forest,2025-05-31,Energy,-0.046
+Ranked long-short | Random Forest,2025-05-31,Health care,-0.10800000000000001
+Ranked long-short | Random Forest,2025-05-31,Industrials,-0.016999999999999998
+Ranked long-short | Random Forest,2025-05-31,Technology,0.065
+Ranked long-short | Random Forest,2025-05-31,Utilities,0.027000000000000007
+Ranked long-short | Random Forest,2025-06-30,Consumer discretionary,0.041
+Ranked long-short | Random Forest,2025-06-30,Consumer staples,0.032
+Ranked long-short | Random Forest,2025-06-30,Energy,-0.074
+Ranked long-short | Random Forest,2025-06-30,Health care,-0.041999999999999996
+Ranked long-short | Random Forest,2025-06-30,Industrials,-0.006
+Ranked long-short | Random Forest,2025-06-30,Technology,0.010999999999999987
+Ranked long-short | Random Forest,2025-06-30,Utilities,0.038000000000000006
+Ranked long-short | Random Forest,2025-07-31,Consumer discretionary,0.009999999999999998
+Ranked long-short | Random Forest,2025-07-31,Consumer staples,-0.02
+Ranked long-short | Random Forest,2025-07-31,Energy,-0.048999999999999995
+Ranked long-short | Random Forest,2025-07-31,Health care,-0.094
+Ranked long-short | Random Forest,2025-07-31,Industrials,0.031
+Ranked long-short | Random Forest,2025-07-31,Technology,0.09899999999999999
+Ranked long-short | Random Forest,2025-07-31,Utilities,0.023000000000000003
+Ranked long-short | Random Forest,2025-08-31,Consumer discretionary,-0.03
+Ranked long-short | Random Forest,2025-08-31,Consumer staples,-0.103
+Ranked long-short | Random Forest,2025-08-31,Energy,-0.02
+Ranked long-short | Random Forest,2025-08-31,Health care,0.001999999999999995
+Ranked long-short | Random Forest,2025-08-31,Industrials,0.036
+Ranked long-short | Random Forest,2025-08-31,Technology,0.07700000000000001
+Ranked long-short | Random Forest,2025-08-31,Utilities,0.038000000000000006
+Ranked long-short | Random Forest,2025-09-30,Consumer discretionary,0.0
+Ranked long-short | Random Forest,2025-09-30,Consumer staples,-0.088
+Ranked long-short | Random Forest,2025-09-30,Energy,-0.013999999999999995
+Ranked long-short | Random Forest,2025-09-30,Health care,-0.039
+Ranked long-short | Random Forest,2025-09-30,Industrials,0.014000000000000002
+Ranked long-short | Random Forest,2025-09-30,Technology,0.122
+Ranked long-short | Random Forest,2025-09-30,Utilities,0.005000000000000003
+Ranked long-short | Random Forest,2025-10-31,Consumer discretionary,-0.04200000000000001
+Ranked long-short | Random Forest,2025-10-31,Consumer staples,-0.06899999999999999
+Ranked long-short | Random Forest,2025-10-31,Energy,-0.059
+Ranked long-short | Random Forest,2025-10-31,Health care,-0.013999999999999999
+Ranked long-short | Random Forest,2025-10-31,Industrials,-0.005000000000000001
+Ranked long-short | Random Forest,2025-10-31,Technology,0.154
+Ranked long-short | Random Forest,2025-10-31,Utilities,0.035
+Ranked long-short | Random Forest,2025-11-30,Consumer discretionary,-0.042
+Ranked long-short | Random Forest,2025-11-30,Consumer staples,-0.126
+Ranked long-short | Random Forest,2025-11-30,Energy,-0.041999999999999996
+Ranked long-short | Random Forest,2025-11-30,Health care,0.018000000000000002
+Ranked long-short | Random Forest,2025-11-30,Industrials,0.016
+Ranked long-short | Random Forest,2025-11-30,Technology,0.14200000000000002
+Ranked long-short | Random Forest,2025-11-30,Utilities,0.034
+Ranked long-short | Random Forest,2025-12-31,Consumer discretionary,-0.059000000000000004
+Ranked long-short | Random Forest,2025-12-31,Consumer staples,-0.098
+Ranked long-short | Random Forest,2025-12-31,Energy,-0.031999999999999994
+Ranked long-short | Random Forest,2025-12-31,Health care,0.028999999999999998
+Ranked long-short | Random Forest,2025-12-31,Industrials,0.008
+Ranked long-short | Random Forest,2025-12-31,Technology,0.085
+Ranked long-short | Random Forest,2025-12-31,Utilities,0.067
+Sector neutral | Equal factors,2023-01-31,Consumer discretionary,2.7755575615628914e-17
+Sector neutral | Equal factors,2023-01-31,Consumer staples,0.0
+Sector neutral | Equal factors,2023-01-31,Energy,0.0
+Sector neutral | Equal factors,2023-01-31,Health care,3.469446951953614e-17
+Sector neutral | Equal factors,2023-01-31,Industrials,0.0
+Sector neutral | Equal factors,2023-01-31,Technology,-5.204170427930421e-18
+Sector neutral | Equal factors,2023-01-31,Utilities,0.0
+Sector neutral | Equal factors,2023-02-28,Consumer discretionary,0.0
+Sector neutral | Equal factors,2023-02-28,Consumer staples,-3.469446951953614e-18
+Sector neutral | Equal factors,2023-02-28,Energy,0.0
+Sector neutral | Equal factors,2023-02-28,Health care,-6.938893903907228e-18
+Sector neutral | Equal factors,2023-02-28,Industrials,0.0
+Sector neutral | Equal factors,2023-02-28,Technology,5.204170427930421e-18
+Sector neutral | Equal factors,2023-02-28,Utilities,0.0
+Sector neutral | Equal factors,2023-03-31,Consumer discretionary,6.938893903907228e-18
+Sector neutral | Equal factors,2023-03-31,Consumer staples,0.0
+Sector neutral | Equal factors,2023-03-31,Energy,0.0
+Sector neutral | Equal factors,2023-03-31,Health care,-1.3877787807814457e-17
+Sector neutral | Equal factors,2023-03-31,Industrials,0.0
+Sector neutral | Equal factors,2023-03-31,Technology,0.0
+Sector neutral | Equal factors,2023-03-31,Utilities,0.0
+Sector neutral | Equal factors,2023-04-30,Consumer discretionary,0.0
+Sector neutral | Equal factors,2023-04-30,Consumer staples,6.938893903907228e-18
+Sector neutral | Equal factors,2023-04-30,Energy,0.0
+Sector neutral | Equal factors,2023-04-30,Health care,1.3877787807814457e-17
+Sector neutral | Equal factors,2023-04-30,Industrials,0.0
+Sector neutral | Equal factors,2023-04-30,Technology,0.0
+Sector neutral | Equal factors,2023-04-30,Utilities,0.0
+Sector neutral | Equal factors,2023-05-31,Consumer discretionary,-1.3877787807814457e-17
+Sector neutral | Equal factors,2023-05-31,Consumer staples,-1.3877787807814457e-17
+Sector neutral | Equal factors,2023-05-31,Energy,0.0
+Sector neutral | Equal factors,2023-05-31,Health care,2.0816681711721685e-17
+Sector neutral | Equal factors,2023-05-31,Industrials,0.0
+Sector neutral | Equal factors,2023-05-31,Technology,3.469446951953614e-18
+Sector neutral | Equal factors,2023-05-31,Utilities,0.0
+Sector neutral | Equal factors,2023-06-30,Consumer discretionary,-6.938893903907228e-18
+Sector neutral | Equal factors,2023-06-30,Consumer staples,3.469446951953614e-18
+Sector neutral | Equal factors,2023-06-30,Energy,0.0
+Sector neutral | Equal factors,2023-06-30,Health care,2.0816681711721685e-17
+Sector neutral | Equal factors,2023-06-30,Industrials,0.0
+Sector neutral | Equal factors,2023-06-30,Technology,0.0
+Sector neutral | Equal factors,2023-06-30,Utilities,0.0
+Sector neutral | Equal factors,2023-07-31,Consumer discretionary,0.0
+Sector neutral | Equal factors,2023-07-31,Consumer staples,6.938893903907228e-18
+Sector neutral | Equal factors,2023-07-31,Energy,0.0
+Sector neutral | Equal factors,2023-07-31,Health care,-1.3877787807814457e-17
+Sector neutral | Equal factors,2023-07-31,Industrials,0.0
+Sector neutral | Equal factors,2023-07-31,Technology,-6.938893903907228e-18
+Sector neutral | Equal factors,2023-07-31,Utilities,0.0
+Sector neutral | Equal factors,2023-08-31,Consumer discretionary,-6.938893903907228e-18
+Sector neutral | Equal factors,2023-08-31,Consumer staples,-3.469446951953614e-18
+Sector neutral | Equal factors,2023-08-31,Energy,0.0
+Sector neutral | Equal factors,2023-08-31,Health care,-1.3877787807814457e-17
+Sector neutral | Equal factors,2023-08-31,Industrials,0.0
+Sector neutral | Equal factors,2023-08-31,Technology,-3.469446951953614e-18
+Sector neutral | Equal factors,2023-08-31,Utilities,0.0
+Sector neutral | Equal factors,2023-09-30,Consumer discretionary,-6.938893903907228e-18
+Sector neutral | Equal factors,2023-09-30,Consumer staples,1.3877787807814457e-17
+Sector neutral | Equal factors,2023-09-30,Energy,0.0
+Sector neutral | Equal factors,2023-09-30,Health care,-4.163336342344337e-17
+Sector neutral | Equal factors,2023-09-30,Industrials,0.0
+Sector neutral | Equal factors,2023-09-30,Technology,0.0
+Sector neutral | Equal factors,2023-09-30,Utilities,0.0
+Sector neutral | Equal factors,2023-10-31,Consumer discretionary,-2.7755575615628914e-17
+Sector neutral | Equal factors,2023-10-31,Consumer staples,0.0
+Sector neutral | Equal factors,2023-10-31,Energy,0.0
+Sector neutral | Equal factors,2023-10-31,Health care,3.469446951953614e-18
+Sector neutral | Equal factors,2023-10-31,Industrials,0.0
+Sector neutral | Equal factors,2023-10-31,Technology,-3.469446951953614e-18
+Sector neutral | Equal factors,2023-10-31,Utilities,0.0
+Sector neutral | Equal factors,2023-11-30,Consumer discretionary,-2.0816681711721685e-17
+Sector neutral | Equal factors,2023-11-30,Consumer staples,6.938893903907228e-18
+Sector neutral | Equal factors,2023-11-30,Energy,0.0
+Sector neutral | Equal factors,2023-11-30,Health care,-1.3877787807814457e-17
+Sector neutral | Equal factors,2023-11-30,Industrials,0.0
+Sector neutral | Equal factors,2023-11-30,Technology,-3.469446951953614e-18
+Sector neutral | Equal factors,2023-11-30,Utilities,0.0
+Sector neutral | Equal factors,2023-12-31,Consumer discretionary,-2.7755575615628914e-17
+Sector neutral | Equal factors,2023-12-31,Consumer staples,0.0
+Sector neutral | Equal factors,2023-12-31,Energy,0.0
+Sector neutral | Equal factors,2023-12-31,Health care,-8.673617379884035e-18
+Sector neutral | Equal factors,2023-12-31,Industrials,0.0
+Sector neutral | Equal factors,2023-12-31,Technology,0.0
+Sector neutral | Equal factors,2023-12-31,Utilities,0.0
+Sector neutral | Equal factors,2024-01-31,Consumer discretionary,-2.0816681711721685e-17
+Sector neutral | Equal factors,2024-01-31,Consumer staples,0.0
+Sector neutral | Equal factors,2024-01-31,Energy,0.0
+Sector neutral | Equal factors,2024-01-31,Health care,-3.8163916471489756e-17
+Sector neutral | Equal factors,2024-01-31,Industrials,0.0
+Sector neutral | Equal factors,2024-01-31,Technology,0.0
+Sector neutral | Equal factors,2024-01-31,Utilities,0.0
+Sector neutral | Equal factors,2024-02-29,Consumer discretionary,-3.122502256758253e-17
+Sector neutral | Equal factors,2024-02-29,Consumer staples,6.938893903907228e-18
+Sector neutral | Equal factors,2024-02-29,Energy,0.0
+Sector neutral | Equal factors,2024-02-29,Health care,-2.2551405187698492e-17
+Sector neutral | Equal factors,2024-02-29,Industrials,0.0
+Sector neutral | Equal factors,2024-02-29,Technology,0.0
+Sector neutral | Equal factors,2024-02-29,Utilities,0.0
+Sector neutral | Equal factors,2024-03-31,Consumer discretionary,3.469446951953614e-18
+Sector neutral | Equal factors,2024-03-31,Consumer staples,1.3877787807814457e-17
+Sector neutral | Equal factors,2024-03-31,Energy,0.0
+Sector neutral | Equal factors,2024-03-31,Health care,-2.0816681711721685e-17
+Sector neutral | Equal factors,2024-03-31,Industrials,0.0
+Sector neutral | Equal factors,2024-03-31,Technology,0.0
+Sector neutral | Equal factors,2024-03-31,Utilities,0.0
+Sector neutral | Equal factors,2024-04-30,Consumer discretionary,0.0
+Sector neutral | Equal factors,2024-04-30,Consumer staples,1.3877787807814457e-17
+Sector neutral | Equal factors,2024-04-30,Energy,0.0
+Sector neutral | Equal factors,2024-04-30,Health care,-8.673617379884035e-18
+Sector neutral | Equal factors,2024-04-30,Industrials,0.0
+Sector neutral | Equal factors,2024-04-30,Technology,3.469446951953614e-18
+Sector neutral | Equal factors,2024-04-30,Utilities,0.0
+Sector neutral | Equal factors,2024-05-31,Consumer discretionary,0.0
+Sector neutral | Equal factors,2024-05-31,Consumer staples,3.469446951953614e-18
+Sector neutral | Equal factors,2024-05-31,Energy,0.0
+Sector neutral | Equal factors,2024-05-31,Health care,-1.734723475976807e-17
+Sector neutral | Equal factors,2024-05-31,Industrials,0.0
+Sector neutral | Equal factors,2024-05-31,Technology,0.0
+Sector neutral | Equal factors,2024-05-31,Utilities,0.0
+Sector neutral | Equal factors,2024-06-30,Consumer discretionary,-6.938893903907228e-18
+Sector neutral | Equal factors,2024-06-30,Consumer staples,0.0
+Sector neutral | Equal factors,2024-06-30,Energy,0.0
+Sector neutral | Equal factors,2024-06-30,Health care,0.0
+Sector neutral | Equal factors,2024-06-30,Industrials,0.0
+Sector neutral | Equal factors,2024-06-30,Technology,0.0
+Sector neutral | Equal factors,2024-06-30,Utilities,0.0
+Sector neutral | Equal factors,2024-07-31,Consumer discretionary,-1.3877787807814457e-17
+Sector neutral | Equal factors,2024-07-31,Consumer staples,3.469446951953614e-18
+Sector neutral | Equal factors,2024-07-31,Energy,0.0
+Sector neutral | Equal factors,2024-07-31,Health care,-2.0816681711721685e-17
+Sector neutral | Equal factors,2024-07-31,Industrials,0.0
+Sector neutral | Equal factors,2024-07-31,Technology,-6.938893903907228e-18
+Sector neutral | Equal factors,2024-07-31,Utilities,0.0
+Sector neutral | Equal factors,2024-08-31,Consumer discretionary,-1.734723475976807e-17
+Sector neutral | Equal factors,2024-08-31,Consumer staples,3.469446951953614e-18
+Sector neutral | Equal factors,2024-08-31,Energy,0.0
+Sector neutral | Equal factors,2024-08-31,Health care,-1.3877787807814457e-17
+Sector neutral | Equal factors,2024-08-31,Industrials,0.0
+Sector neutral | Equal factors,2024-08-31,Technology,-1.3877787807814457e-17
+Sector neutral | Equal factors,2024-08-31,Utilities,0.0
+Sector neutral | Equal factors,2024-09-30,Consumer discretionary,-3.469446951953614e-18
+Sector neutral | Equal factors,2024-09-30,Consumer staples,0.0
+Sector neutral | Equal factors,2024-09-30,Energy,0.0
+Sector neutral | Equal factors,2024-09-30,Health care,-1.3877787807814457e-17
+Sector neutral | Equal factors,2024-09-30,Industrials,0.0
+Sector neutral | Equal factors,2024-09-30,Technology,-6.938893903907228e-18
+Sector neutral | Equal factors,2024-09-30,Utilities,0.0
+Sector neutral | Equal factors,2024-10-31,Consumer discretionary,6.938893903907228e-18
+Sector neutral | Equal factors,2024-10-31,Consumer staples,0.0
+Sector neutral | Equal factors,2024-10-31,Energy,0.0
+Sector neutral | Equal factors,2024-10-31,Health care,0.0
+Sector neutral | Equal factors,2024-10-31,Industrials,0.0
+Sector neutral | Equal factors,2024-10-31,Technology,0.0
+Sector neutral | Equal factors,2024-10-31,Utilities,0.0
+Sector neutral | Equal factors,2024-11-30,Consumer discretionary,-1.734723475976807e-17
+Sector neutral | Equal factors,2024-11-30,Consumer staples,6.938893903907228e-18
+Sector neutral | Equal factors,2024-11-30,Energy,0.0
+Sector neutral | Equal factors,2024-11-30,Health care,0.0
+Sector neutral | Equal factors,2024-11-30,Industrials,0.0
+Sector neutral | Equal factors,2024-11-30,Technology,6.938893903907228e-18
+Sector neutral | Equal factors,2024-11-30,Utilities,0.0
+Sector neutral | Equal factors,2024-12-31,Consumer discretionary,0.0
+Sector neutral | Equal factors,2024-12-31,Consumer staples,-3.469446951953614e-18
+Sector neutral | Equal factors,2024-12-31,Energy,0.0
+Sector neutral | Equal factors,2024-12-31,Health care,-1.3877787807814457e-17
+Sector neutral | Equal factors,2024-12-31,Industrials,0.0
+Sector neutral | Equal factors,2024-12-31,Technology,1.734723475976807e-18
+Sector neutral | Equal factors,2024-12-31,Utilities,0.0
+Sector neutral | Equal factors,2025-01-31,Consumer discretionary,-1.734723475976807e-17
+Sector neutral | Equal factors,2025-01-31,Consumer staples,-3.469446951953614e-18
+Sector neutral | Equal factors,2025-01-31,Energy,0.0
+Sector neutral | Equal factors,2025-01-31,Health care,-2.7755575615628914e-17
+Sector neutral | Equal factors,2025-01-31,Industrials,0.0
+Sector neutral | Equal factors,2025-01-31,Technology,0.0
+Sector neutral | Equal factors,2025-01-31,Utilities,0.0
+Sector neutral | Equal factors,2025-02-28,Consumer discretionary,-1.0408340855860843e-17
+Sector neutral | Equal factors,2025-02-28,Consumer staples,3.469446951953614e-18
+Sector neutral | Equal factors,2025-02-28,Energy,0.0
+Sector neutral | Equal factors,2025-02-28,Health care,0.0
+Sector neutral | Equal factors,2025-02-28,Industrials,0.0
+Sector neutral | Equal factors,2025-02-28,Technology,1.734723475976807e-18
+Sector neutral | Equal factors,2025-02-28,Utilities,0.0
+Sector neutral | Equal factors,2025-03-31,Consumer discretionary,1.3877787807814457e-17
+Sector neutral | Equal factors,2025-03-31,Consumer staples,0.0
+Sector neutral | Equal factors,2025-03-31,Energy,0.0
+Sector neutral | Equal factors,2025-03-31,Health care,1.3877787807814457e-17
+Sector neutral | Equal factors,2025-03-31,Industrials,0.0
+Sector neutral | Equal factors,2025-03-31,Technology,0.0
+Sector neutral | Equal factors,2025-03-31,Utilities,0.0
+Sector neutral | Equal factors,2025-04-30,Consumer discretionary,0.0
+Sector neutral | Equal factors,2025-04-30,Consumer staples,0.0
+Sector neutral | Equal factors,2025-04-30,Energy,0.0
+Sector neutral | Equal factors,2025-04-30,Health care,-2.7755575615628914e-17
+Sector neutral | Equal factors,2025-04-30,Industrials,0.0
+Sector neutral | Equal factors,2025-04-30,Technology,1.734723475976807e-18
+Sector neutral | Equal factors,2025-04-30,Utilities,0.0
+Sector neutral | Equal factors,2025-05-31,Consumer discretionary,1.3877787807814457e-17
+Sector neutral | Equal factors,2025-05-31,Consumer staples,0.0
+Sector neutral | Equal factors,2025-05-31,Energy,0.0
+Sector neutral | Equal factors,2025-05-31,Health care,-2.7755575615628914e-17
+Sector neutral | Equal factors,2025-05-31,Industrials,0.0
+Sector neutral | Equal factors,2025-05-31,Technology,-1.734723475976807e-18
+Sector neutral | Equal factors,2025-05-31,Utilities,0.0
+Sector neutral | Equal factors,2025-06-30,Consumer discretionary,-1.3877787807814457e-17
+Sector neutral | Equal factors,2025-06-30,Consumer staples,-6.938893903907228e-18
+Sector neutral | Equal factors,2025-06-30,Energy,0.0
+Sector neutral | Equal factors,2025-06-30,Health care,-6.938893903907228e-18
+Sector neutral | Equal factors,2025-06-30,Industrials,0.0
+Sector neutral | Equal factors,2025-06-30,Technology,3.469446951953614e-18
+Sector neutral | Equal factors,2025-06-30,Utilities,0.0
+Sector neutral | Equal factors,2025-07-31,Consumer discretionary,0.0
+Sector neutral | Equal factors,2025-07-31,Consumer staples,0.0
+Sector neutral | Equal factors,2025-07-31,Energy,0.0
+Sector neutral | Equal factors,2025-07-31,Health care,6.938893903907228e-18
+Sector neutral | Equal factors,2025-07-31,Industrials,0.0
+Sector neutral | Equal factors,2025-07-31,Technology,3.469446951953614e-18
+Sector neutral | Equal factors,2025-07-31,Utilities,0.0
+Sector neutral | Equal factors,2025-08-31,Consumer discretionary,1.3877787807814457e-17
+Sector neutral | Equal factors,2025-08-31,Consumer staples,-6.938893903907228e-18
+Sector neutral | Equal factors,2025-08-31,Energy,0.0
+Sector neutral | Equal factors,2025-08-31,Health care,1.3877787807814457e-17
+Sector neutral | Equal factors,2025-08-31,Industrials,0.0
+Sector neutral | Equal factors,2025-08-31,Technology,5.204170427930421e-18
+Sector neutral | Equal factors,2025-08-31,Utilities,0.0
+Sector neutral | Equal factors,2025-09-30,Consumer discretionary,0.0
+Sector neutral | Equal factors,2025-09-30,Consumer staples,0.0
+Sector neutral | Equal factors,2025-09-30,Energy,0.0
+Sector neutral | Equal factors,2025-09-30,Health care,6.938893903907228e-18
+Sector neutral | Equal factors,2025-09-30,Industrials,0.0
+Sector neutral | Equal factors,2025-09-30,Technology,0.0
+Sector neutral | Equal factors,2025-09-30,Utilities,0.0
+Sector neutral | Equal factors,2025-10-31,Consumer discretionary,0.0
+Sector neutral | Equal factors,2025-10-31,Consumer staples,0.0
+Sector neutral | Equal factors,2025-10-31,Energy,0.0
+Sector neutral | Equal factors,2025-10-31,Health care,6.938893903907228e-18
+Sector neutral | Equal factors,2025-10-31,Industrials,0.0
+Sector neutral | Equal factors,2025-10-31,Technology,0.0
+Sector neutral | Equal factors,2025-10-31,Utilities,0.0
+Sector neutral | Equal factors,2025-11-30,Consumer discretionary,6.938893903907228e-18
+Sector neutral | Equal factors,2025-11-30,Consumer staples,0.0
+Sector neutral | Equal factors,2025-11-30,Energy,0.0
+Sector neutral | Equal factors,2025-11-30,Health care,6.938893903907228e-18
+Sector neutral | Equal factors,2025-11-30,Industrials,0.0
+Sector neutral | Equal factors,2025-11-30,Technology,0.0
+Sector neutral | Equal factors,2025-11-30,Utilities,0.0
+Sector neutral | Equal factors,2025-12-31,Consumer discretionary,1.3877787807814457e-17
+Sector neutral | Equal factors,2025-12-31,Consumer staples,1.3877787807814457e-17
+Sector neutral | Equal factors,2025-12-31,Energy,0.0
+Sector neutral | Equal factors,2025-12-31,Health care,2.0816681711721685e-17
+Sector neutral | Equal factors,2025-12-31,Industrials,0.0
+Sector neutral | Equal factors,2025-12-31,Technology,6.938893903907228e-18
+Sector neutral | Equal factors,2025-12-31,Utilities,0.0
+Sector neutral | Random Forest,2023-01-31,Consumer discretionary,0.0
+Sector neutral | Random Forest,2023-01-31,Consumer staples,-2.0816681711721685e-17
+Sector neutral | Random Forest,2023-01-31,Energy,0.0
+Sector neutral | Random Forest,2023-01-31,Health care,3.469446951953614e-17
+Sector neutral | Random Forest,2023-01-31,Industrials,0.0
+Sector neutral | Random Forest,2023-01-31,Technology,0.0
+Sector neutral | Random Forest,2023-01-31,Utilities,0.0
+Sector neutral | Random Forest,2023-02-28,Consumer discretionary,0.0
+Sector neutral | Random Forest,2023-02-28,Consumer staples,-6.938893903907228e-18
+Sector neutral | Random Forest,2023-02-28,Energy,0.0
+Sector neutral | Random Forest,2023-02-28,Health care,-8.673617379884035e-18
+Sector neutral | Random Forest,2023-02-28,Industrials,0.0
+Sector neutral | Random Forest,2023-02-28,Technology,0.0
+Sector neutral | Random Forest,2023-02-28,Utilities,0.0
+Sector neutral | Random Forest,2023-03-31,Consumer discretionary,6.938893903907228e-18
+Sector neutral | Random Forest,2023-03-31,Consumer staples,-6.938893903907228e-18
+Sector neutral | Random Forest,2023-03-31,Energy,0.0
+Sector neutral | Random Forest,2023-03-31,Health care,-1.734723475976807e-18
+Sector neutral | Random Forest,2023-03-31,Industrials,0.0
+Sector neutral | Random Forest,2023-03-31,Technology,3.469446951953614e-18
+Sector neutral | Random Forest,2023-03-31,Utilities,0.0
+Sector neutral | Random Forest,2023-04-30,Consumer discretionary,-6.938893903907228e-18
+Sector neutral | Random Forest,2023-04-30,Consumer staples,6.938893903907228e-18
+Sector neutral | Random Forest,2023-04-30,Energy,0.0
+Sector neutral | Random Forest,2023-04-30,Health care,2.7755575615628914e-17
+Sector neutral | Random Forest,2023-04-30,Industrials,0.0
+Sector neutral | Random Forest,2023-04-30,Technology,0.0
+Sector neutral | Random Forest,2023-04-30,Utilities,0.0
+Sector neutral | Random Forest,2023-05-31,Consumer discretionary,-2.7755575615628914e-17
+Sector neutral | Random Forest,2023-05-31,Consumer staples,1.3877787807814457e-17
+Sector neutral | Random Forest,2023-05-31,Energy,0.0
+Sector neutral | Random Forest,2023-05-31,Health care,2.0816681711721685e-17
+Sector neutral | Random Forest,2023-05-31,Industrials,0.0
+Sector neutral | Random Forest,2023-05-31,Technology,0.0
+Sector neutral | Random Forest,2023-05-31,Utilities,0.0
+Sector neutral | Random Forest,2023-06-30,Consumer discretionary,1.3877787807814457e-17
+Sector neutral | Random Forest,2023-06-30,Consumer staples,6.938893903907228e-18
+Sector neutral | Random Forest,2023-06-30,Energy,0.0
+Sector neutral | Random Forest,2023-06-30,Health care,0.0
+Sector neutral | Random Forest,2023-06-30,Industrials,0.0
+Sector neutral | Random Forest,2023-06-30,Technology,-3.469446951953614e-18
+Sector neutral | Random Forest,2023-06-30,Utilities,0.0
+Sector neutral | Random Forest,2023-07-31,Consumer discretionary,1.3877787807814457e-17
+Sector neutral | Random Forest,2023-07-31,Consumer staples,0.0
+Sector neutral | Random Forest,2023-07-31,Energy,0.0
+Sector neutral | Random Forest,2023-07-31,Health care,-1.3877787807814457e-17
+Sector neutral | Random Forest,2023-07-31,Industrials,0.0
+Sector neutral | Random Forest,2023-07-31,Technology,3.469446951953614e-18
+Sector neutral | Random Forest,2023-07-31,Utilities,0.0
+Sector neutral | Random Forest,2023-08-31,Consumer discretionary,-1.3877787807814457e-17
+Sector neutral | Random Forest,2023-08-31,Consumer staples,-6.938893903907228e-18
+Sector neutral | Random Forest,2023-08-31,Energy,0.0
+Sector neutral | Random Forest,2023-08-31,Health care,-2.0816681711721685e-17
+Sector neutral | Random Forest,2023-08-31,Industrials,0.0
+Sector neutral | Random Forest,2023-08-31,Technology,3.469446951953614e-18
+Sector neutral | Random Forest,2023-08-31,Utilities,0.0
+Sector neutral | Random Forest,2023-09-30,Consumer discretionary,1.3877787807814457e-17
+Sector neutral | Random Forest,2023-09-30,Consumer staples,0.0
+Sector neutral | Random Forest,2023-09-30,Energy,0.0
+Sector neutral | Random Forest,2023-09-30,Health care,-3.469446951953614e-17
+Sector neutral | Random Forest,2023-09-30,Industrials,0.0
+Sector neutral | Random Forest,2023-09-30,Technology,3.469446951953614e-18
+Sector neutral | Random Forest,2023-09-30,Utilities,0.0
+Sector neutral | Random Forest,2023-10-31,Consumer discretionary,-2.0816681711721685e-17
+Sector neutral | Random Forest,2023-10-31,Consumer staples,6.938893903907228e-18
+Sector neutral | Random Forest,2023-10-31,Energy,0.0
+Sector neutral | Random Forest,2023-10-31,Health care,0.0
+Sector neutral | Random Forest,2023-10-31,Industrials,0.0
+Sector neutral | Random Forest,2023-10-31,Technology,0.0
+Sector neutral | Random Forest,2023-10-31,Utilities,0.0
+Sector neutral | Random Forest,2023-11-30,Consumer discretionary,-1.734723475976807e-17
+Sector neutral | Random Forest,2023-11-30,Consumer staples,3.469446951953614e-18
+Sector neutral | Random Forest,2023-11-30,Energy,0.0
+Sector neutral | Random Forest,2023-11-30,Health care,0.0
+Sector neutral | Random Forest,2023-11-30,Industrials,0.0
+Sector neutral | Random Forest,2023-11-30,Technology,-3.469446951953614e-18
+Sector neutral | Random Forest,2023-11-30,Utilities,0.0
+Sector neutral | Random Forest,2023-12-31,Consumer discretionary,-2.0816681711721685e-17
+Sector neutral | Random Forest,2023-12-31,Consumer staples,6.938893903907228e-18
+Sector neutral | Random Forest,2023-12-31,Energy,0.0
+Sector neutral | Random Forest,2023-12-31,Health care,-6.938893903907228e-18
+Sector neutral | Random Forest,2023-12-31,Industrials,0.0
+Sector neutral | Random Forest,2023-12-31,Technology,0.0
+Sector neutral | Random Forest,2023-12-31,Utilities,0.0
+Sector neutral | Random Forest,2024-01-31,Consumer discretionary,-2.42861286636753e-17
+Sector neutral | Random Forest,2024-01-31,Consumer staples,0.0
+Sector neutral | Random Forest,2024-01-31,Energy,0.0
+Sector neutral | Random Forest,2024-01-31,Health care,-2.0816681711721685e-17
+Sector neutral | Random Forest,2024-01-31,Industrials,0.0
+Sector neutral | Random Forest,2024-01-31,Technology,0.0
+Sector neutral | Random Forest,2024-01-31,Utilities,0.0
+Sector neutral | Random Forest,2024-02-29,Consumer discretionary,-2.7755575615628914e-17
+Sector neutral | Random Forest,2024-02-29,Consumer staples,0.0
+Sector neutral | Random Forest,2024-02-29,Energy,0.0
+Sector neutral | Random Forest,2024-02-29,Health care,-2.0816681711721685e-17
+Sector neutral | Random Forest,2024-02-29,Industrials,0.0
+Sector neutral | Random Forest,2024-02-29,Technology,0.0
+Sector neutral | Random Forest,2024-02-29,Utilities,0.0
+Sector neutral | Random Forest,2024-03-31,Consumer discretionary,6.938893903907228e-18
+Sector neutral | Random Forest,2024-03-31,Consumer staples,1.3877787807814457e-17
+Sector neutral | Random Forest,2024-03-31,Energy,0.0
+Sector neutral | Random Forest,2024-03-31,Health care,-1.0408340855860843e-17
+Sector neutral | Random Forest,2024-03-31,Industrials,0.0
+Sector neutral | Random Forest,2024-03-31,Technology,3.469446951953614e-18
+Sector neutral | Random Forest,2024-03-31,Utilities,0.0
+Sector neutral | Random Forest,2024-04-30,Consumer discretionary,3.469446951953614e-18
+Sector neutral | Random Forest,2024-04-30,Consumer staples,-3.469446951953614e-18
+Sector neutral | Random Forest,2024-04-30,Energy,0.0
+Sector neutral | Random Forest,2024-04-30,Health care,-6.938893903907228e-18
+Sector neutral | Random Forest,2024-04-30,Industrials,0.0
+Sector neutral | Random Forest,2024-04-30,Technology,0.0
+Sector neutral | Random Forest,2024-04-30,Utilities,0.0
+Sector neutral | Random Forest,2024-05-31,Consumer discretionary,6.938893903907228e-18
+Sector neutral | Random Forest,2024-05-31,Consumer staples,1.3877787807814457e-17
+Sector neutral | Random Forest,2024-05-31,Energy,0.0
+Sector neutral | Random Forest,2024-05-31,Health care,-1.0408340855860843e-17
+Sector neutral | Random Forest,2024-05-31,Industrials,0.0
+Sector neutral | Random Forest,2024-05-31,Technology,3.469446951953614e-18
+Sector neutral | Random Forest,2024-05-31,Utilities,0.0
+Sector neutral | Random Forest,2024-06-30,Consumer discretionary,-1.214306433183765e-17
+Sector neutral | Random Forest,2024-06-30,Consumer staples,3.469446951953614e-18
+Sector neutral | Random Forest,2024-06-30,Energy,0.0
+Sector neutral | Random Forest,2024-06-30,Health care,-6.938893903907228e-18
+Sector neutral | Random Forest,2024-06-30,Industrials,0.0
+Sector neutral | Random Forest,2024-06-30,Technology,0.0
+Sector neutral | Random Forest,2024-06-30,Utilities,0.0
+Sector neutral | Random Forest,2024-07-31,Consumer discretionary,-1.3877787807814457e-17
+Sector neutral | Random Forest,2024-07-31,Consumer staples,6.938893903907228e-18
+Sector neutral | Random Forest,2024-07-31,Energy,0.0
+Sector neutral | Random Forest,2024-07-31,Health care,0.0
+Sector neutral | Random Forest,2024-07-31,Industrials,0.0
+Sector neutral | Random Forest,2024-07-31,Technology,0.0
+Sector neutral | Random Forest,2024-07-31,Utilities,0.0
+Sector neutral | Random Forest,2024-08-31,Consumer discretionary,-2.0816681711721685e-17
+Sector neutral | Random Forest,2024-08-31,Consumer staples,0.0
+Sector neutral | Random Forest,2024-08-31,Energy,0.0
+Sector neutral | Random Forest,2024-08-31,Health care,0.0
+Sector neutral | Random Forest,2024-08-31,Industrials,0.0
+Sector neutral | Random Forest,2024-08-31,Technology,0.0
+Sector neutral | Random Forest,2024-08-31,Utilities,0.0
+Sector neutral | Random Forest,2024-09-30,Consumer discretionary,6.938893903907228e-18
+Sector neutral | Random Forest,2024-09-30,Consumer staples,0.0
+Sector neutral | Random Forest,2024-09-30,Energy,0.0
+Sector neutral | Random Forest,2024-09-30,Health care,-1.3877787807814457e-17
+Sector neutral | Random Forest,2024-09-30,Industrials,0.0
+Sector neutral | Random Forest,2024-09-30,Technology,-6.938893903907228e-18
+Sector neutral | Random Forest,2024-09-30,Utilities,0.0
+Sector neutral | Random Forest,2024-10-31,Consumer discretionary,1.734723475976807e-18
+Sector neutral | Random Forest,2024-10-31,Consumer staples,6.938893903907228e-18
+Sector neutral | Random Forest,2024-10-31,Energy,0.0
+Sector neutral | Random Forest,2024-10-31,Health care,0.0
+Sector neutral | Random Forest,2024-10-31,Industrials,0.0
+Sector neutral | Random Forest,2024-10-31,Technology,0.0
+Sector neutral | Random Forest,2024-10-31,Utilities,0.0
+Sector neutral | Random Forest,2024-11-30,Consumer discretionary,-9.540979117872439e-18
+Sector neutral | Random Forest,2024-11-30,Consumer staples,6.938893903907228e-18
+Sector neutral | Random Forest,2024-11-30,Energy,0.0
+Sector neutral | Random Forest,2024-11-30,Health care,1.3877787807814457e-17
+Sector neutral | Random Forest,2024-11-30,Industrials,0.0
+Sector neutral | Random Forest,2024-11-30,Technology,1.734723475976807e-18
+Sector neutral | Random Forest,2024-11-30,Utilities,0.0
+Sector neutral | Random Forest,2024-12-31,Consumer discretionary,1.3877787807814457e-17
+Sector neutral | Random Forest,2024-12-31,Consumer staples,0.0
+Sector neutral | Random Forest,2024-12-31,Energy,0.0
+Sector neutral | Random Forest,2024-12-31,Health care,-1.3877787807814457e-17
+Sector neutral | Random Forest,2024-12-31,Industrials,0.0
+Sector neutral | Random Forest,2024-12-31,Technology,0.0
+Sector neutral | Random Forest,2024-12-31,Utilities,0.0
+Sector neutral | Random Forest,2025-01-31,Consumer discretionary,-1.9081958235744878e-17
+Sector neutral | Random Forest,2025-01-31,Consumer staples,3.469446951953614e-18
+Sector neutral | Random Forest,2025-01-31,Energy,0.0
+Sector neutral | Random Forest,2025-01-31,Health care,0.0
+Sector neutral | Random Forest,2025-01-31,Industrials,0.0
+Sector neutral | Random Forest,2025-01-31,Technology,1.1275702593849246e-17
+Sector neutral | Random Forest,2025-01-31,Utilities,0.0
+Sector neutral | Random Forest,2025-02-28,Consumer discretionary,-1.3877787807814457e-17
+Sector neutral | Random Forest,2025-02-28,Consumer staples,6.938893903907228e-18
+Sector neutral | Random Forest,2025-02-28,Energy,0.0
+Sector neutral | Random Forest,2025-02-28,Health care,0.0
+Sector neutral | Random Forest,2025-02-28,Industrials,0.0
+Sector neutral | Random Forest,2025-02-28,Technology,3.469446951953614e-18
+Sector neutral | Random Forest,2025-02-28,Utilities,0.0
+Sector neutral | Random Forest,2025-03-31,Consumer discretionary,0.0
+Sector neutral | Random Forest,2025-03-31,Consumer staples,1.3877787807814457e-17
+Sector neutral | Random Forest,2025-03-31,Energy,0.0
+Sector neutral | Random Forest,2025-03-31,Health care,0.0
+Sector neutral | Random Forest,2025-03-31,Industrials,0.0
+Sector neutral | Random Forest,2025-03-31,Technology,6.938893903907228e-18
+Sector neutral | Random Forest,2025-03-31,Utilities,0.0
+Sector neutral | Random Forest,2025-04-30,Consumer discretionary,0.0
+Sector neutral | Random Forest,2025-04-30,Consumer staples,6.938893903907228e-18
+Sector neutral | Random Forest,2025-04-30,Energy,0.0
+Sector neutral | Random Forest,2025-04-30,Health care,-2.7755575615628914e-17
+Sector neutral | Random Forest,2025-04-30,Industrials,0.0
+Sector neutral | Random Forest,2025-04-30,Technology,3.469446951953614e-18
+Sector neutral | Random Forest,2025-04-30,Utilities,0.0
+Sector neutral | Random Forest,2025-05-31,Consumer discretionary,0.0
+Sector neutral | Random Forest,2025-05-31,Consumer staples,1.3877787807814457e-17
+Sector neutral | Random Forest,2025-05-31,Energy,0.0
+Sector neutral | Random Forest,2025-05-31,Health care,-2.7755575615628914e-17
+Sector neutral | Random Forest,2025-05-31,Industrials,0.0
+Sector neutral | Random Forest,2025-05-31,Technology,1.734723475976807e-18
+Sector neutral | Random Forest,2025-05-31,Utilities,0.0
+Sector neutral | Random Forest,2025-06-30,Consumer discretionary,-1.3877787807814457e-17
+Sector neutral | Random Forest,2025-06-30,Consumer staples,0.0
+Sector neutral | Random Forest,2025-06-30,Energy,0.0
+Sector neutral | Random Forest,2025-06-30,Health care,-6.938893903907228e-18
+Sector neutral | Random Forest,2025-06-30,Industrials,0.0
+Sector neutral | Random Forest,2025-06-30,Technology,3.469446951953614e-18
+Sector neutral | Random Forest,2025-06-30,Utilities,0.0
+Sector neutral | Random Forest,2025-07-31,Consumer discretionary,1.3877787807814457e-17
+Sector neutral | Random Forest,2025-07-31,Consumer staples,3.469446951953614e-18
+Sector neutral | Random Forest,2025-07-31,Energy,0.0
+Sector neutral | Random Forest,2025-07-31,Health care,0.0
+Sector neutral | Random Forest,2025-07-31,Industrials,0.0
+Sector neutral | Random Forest,2025-07-31,Technology,5.204170427930421e-18
+Sector neutral | Random Forest,2025-07-31,Utilities,0.0
+Sector neutral | Random Forest,2025-08-31,Consumer discretionary,2.0816681711721685e-17
+Sector neutral | Random Forest,2025-08-31,Consumer staples,6.938893903907228e-18
+Sector neutral | Random Forest,2025-08-31,Energy,0.0
+Sector neutral | Random Forest,2025-08-31,Health care,0.0
+Sector neutral | Random Forest,2025-08-31,Industrials,0.0
+Sector neutral | Random Forest,2025-08-31,Technology,0.0
+Sector neutral | Random Forest,2025-08-31,Utilities,0.0
+Sector neutral | Random Forest,2025-09-30,Consumer discretionary,-1.0408340855860843e-17
+Sector neutral | Random Forest,2025-09-30,Consumer staples,0.0
+Sector neutral | Random Forest,2025-09-30,Energy,0.0
+Sector neutral | Random Forest,2025-09-30,Health care,1.0408340855860843e-17
+Sector neutral | Random Forest,2025-09-30,Industrials,0.0
+Sector neutral | Random Forest,2025-09-30,Technology,3.469446951953614e-18
+Sector neutral | Random Forest,2025-09-30,Utilities,0.0
+Sector neutral | Random Forest,2025-10-31,Consumer discretionary,-6.938893903907228e-18
+Sector neutral | Random Forest,2025-10-31,Consumer staples,0.0
+Sector neutral | Random Forest,2025-10-31,Energy,0.0
+Sector neutral | Random Forest,2025-10-31,Health care,-6.938893903907228e-18
+Sector neutral | Random Forest,2025-10-31,Industrials,0.0
+Sector neutral | Random Forest,2025-10-31,Technology,-1.734723475976807e-18
+Sector neutral | Random Forest,2025-10-31,Utilities,0.0
+Sector neutral | Random Forest,2025-11-30,Consumer discretionary,6.938893903907228e-18
+Sector neutral | Random Forest,2025-11-30,Consumer staples,0.0
+Sector neutral | Random Forest,2025-11-30,Energy,0.0
+Sector neutral | Random Forest,2025-11-30,Health care,2.42861286636753e-17
+Sector neutral | Random Forest,2025-11-30,Industrials,0.0
+Sector neutral | Random Forest,2025-11-30,Technology,3.469446951953614e-18
+Sector neutral | Random Forest,2025-11-30,Utilities,0.0
+Sector neutral | Random Forest,2025-12-31,Consumer discretionary,0.0
+Sector neutral | Random Forest,2025-12-31,Consumer staples,0.0
+Sector neutral | Random Forest,2025-12-31,Energy,0.0
+Sector neutral | Random Forest,2025-12-31,Health care,2.0816681711721685e-17
+Sector neutral | Random Forest,2025-12-31,Industrials,0.0
+Sector neutral | Random Forest,2025-12-31,Technology,0.0
+Sector neutral | Random Forest,2025-12-31,Utilities,0.0

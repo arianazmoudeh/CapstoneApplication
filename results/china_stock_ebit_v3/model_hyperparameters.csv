@@ -1,0 +1,253 @@
+Model,Parameter,Value
+Ridge,check_inverse,True
+Ridge,func,None
+Ridge,inverse_func,None
+Ridge,regressor__memory,None
+Ridge,regressor__transform_input,None
+Ridge,regressor__verbose,False
+Ridge,regressor__standardscaler__copy,True
+Ridge,regressor__standardscaler__with_mean,True
+Ridge,regressor__standardscaler__with_std,True
+Ridge,regressor__ridge__alpha,10.0
+Ridge,regressor__ridge__copy_X,True
+Ridge,regressor__ridge__fit_intercept,True
+Ridge,regressor__ridge__max_iter,None
+Ridge,regressor__ridge__positive,False
+Ridge,regressor__ridge__random_state,None
+Ridge,regressor__ridge__solver,auto
+Ridge,regressor__ridge__tol,0.0001
+Ridge,transformer__copy,True
+Ridge,transformer__with_mean,True
+Ridge,transformer__with_std,True
+Elastic Net,check_inverse,True
+Elastic Net,func,None
+Elastic Net,inverse_func,None
+Elastic Net,regressor__memory,None
+Elastic Net,regressor__transform_input,None
+Elastic Net,regressor__verbose,False
+Elastic Net,regressor__standardscaler__copy,True
+Elastic Net,regressor__standardscaler__with_mean,True
+Elastic Net,regressor__standardscaler__with_std,True
+Elastic Net,regressor__multioutputregressor__estimator__alpha,0.02
+Elastic Net,regressor__multioutputregressor__estimator__copy_X,True
+Elastic Net,regressor__multioutputregressor__estimator__fit_intercept,True
+Elastic Net,regressor__multioutputregressor__estimator__l1_ratio,0.5
+Elastic Net,regressor__multioutputregressor__estimator__max_iter,10000
+Elastic Net,regressor__multioutputregressor__estimator__positive,False
+Elastic Net,regressor__multioutputregressor__estimator__precompute,False
+Elastic Net,regressor__multioutputregressor__estimator__random_state,42
+Elastic Net,regressor__multioutputregressor__estimator__selection,cyclic
+Elastic Net,regressor__multioutputregressor__estimator__tol,0.0001
+Elastic Net,regressor__multioutputregressor__estimator__warm_start,False
+Elastic Net,regressor__multioutputregressor__n_jobs,None
+Elastic Net,transformer__copy,True
+Elastic Net,transformer__with_mean,True
+Elastic Net,transformer__with_std,True
+KNN,check_inverse,True
+KNN,func,None
+KNN,inverse_func,None
+KNN,regressor__memory,None
+KNN,regressor__transform_input,None
+KNN,regressor__verbose,False
+KNN,regressor__standardscaler__copy,True
+KNN,regressor__standardscaler__with_mean,True
+KNN,regressor__standardscaler__with_std,True
+KNN,regressor__kneighborsregressor__algorithm,auto
+KNN,regressor__kneighborsregressor__leaf_size,30
+KNN,regressor__kneighborsregressor__metric,minkowski
+KNN,regressor__kneighborsregressor__metric_params,None
+KNN,regressor__kneighborsregressor__n_jobs,None
+KNN,regressor__kneighborsregressor__n_neighbors,20
+KNN,regressor__kneighborsregressor__p,2
+KNN,regressor__kneighborsregressor__weights,uniform
+KNN,transformer__copy,True
+KNN,transformer__with_mean,True
+KNN,transformer__with_std,True
+SVR,check_inverse,True
+SVR,func,None
+SVR,inverse_func,None
+SVR,regressor__memory,None
+SVR,regressor__transform_input,None
+SVR,regressor__verbose,False
+SVR,regressor__standardscaler__copy,True
+SVR,regressor__standardscaler__with_mean,True
+SVR,regressor__standardscaler__with_std,True
+SVR,regressor__multioutputregressor__estimator__C,1.0
+SVR,regressor__multioutputregressor__estimator__cache_size,200
+SVR,regressor__multioutputregressor__estimator__coef0,0.0
+SVR,regressor__multioutputregressor__estimator__degree,3
+SVR,regressor__multioutputregressor__estimator__epsilon,0.1
+SVR,regressor__multioutputregressor__estimator__gamma,scale
+SVR,regressor__multioutputregressor__estimator__kernel,rbf
+SVR,regressor__multioutputregressor__estimator__max_iter,-1
+SVR,regressor__multioutputregressor__estimator__shrinking,True
+SVR,regressor__multioutputregressor__estimator__tol,0.001
+SVR,regressor__multioutputregressor__estimator__verbose,False
+SVR,regressor__multioutputregressor__n_jobs,None
+SVR,transformer__copy,True
+SVR,transformer__with_mean,True
+SVR,transformer__with_std,True
+Random Forest,bootstrap,True
+Random Forest,ccp_alpha,0.0
+Random Forest,criterion,squared_error
+Random Forest,max_depth,4
+Random Forest,max_features,1.0
+Random Forest,max_leaf_nodes,None
+Random Forest,max_samples,None
+Random Forest,min_impurity_decrease,0.0
+Random Forest,min_samples_leaf,12
+Random Forest,min_samples_split,2
+Random Forest,min_weight_fraction_leaf,0.0
+Random Forest,monotonic_cst,None
+Random Forest,n_estimators,150
+Random Forest,n_jobs,2
+Random Forest,oob_score,False
+Random Forest,random_state,42
+Random Forest,verbose,0
+Random Forest,warm_start,False
+Extra Trees,bootstrap,False
+Extra Trees,ccp_alpha,0.0
+Extra Trees,criterion,squared_error
+Extra Trees,max_depth,4
+Extra Trees,max_features,1.0
+Extra Trees,max_leaf_nodes,None
+Extra Trees,max_samples,None
+Extra Trees,min_impurity_decrease,0.0
+Extra Trees,min_samples_leaf,12
+Extra Trees,min_samples_split,2
+Extra Trees,min_weight_fraction_leaf,0.0
+Extra Trees,monotonic_cst,None
+Extra Trees,n_estimators,150
+Extra Trees,n_jobs,2
+Extra Trees,oob_score,False
+Extra Trees,random_state,42
+Extra Trees,verbose,0
+Extra Trees,warm_start,False
+XGBoost,estimator__objective,reg:squarederror
+XGBoost,estimator__base_score,None
+XGBoost,estimator__booster,None
+XGBoost,estimator__callbacks,None
+XGBoost,estimator__colsample_bylevel,None
+XGBoost,estimator__colsample_bynode,None
+XGBoost,estimator__colsample_bytree,0.9
+XGBoost,estimator__device,None
+XGBoost,estimator__early_stopping_rounds,None
+XGBoost,estimator__enable_categorical,True
+XGBoost,estimator__eval_metric,None
+XGBoost,estimator__feature_types,None
+XGBoost,estimator__feature_weights,None
+XGBoost,estimator__gamma,None
+XGBoost,estimator__grow_policy,None
+XGBoost,estimator__importance_type,None
+XGBoost,estimator__interaction_constraints,None
+XGBoost,estimator__learning_rate,0.03
+XGBoost,estimator__max_bin,None
+XGBoost,estimator__max_cat_threshold,None
+XGBoost,estimator__max_cat_to_onehot,None
+XGBoost,estimator__max_delta_step,None
+XGBoost,estimator__max_depth,2
+XGBoost,estimator__max_leaves,None
+XGBoost,estimator__min_child_weight,None
+XGBoost,estimator__missing,nan
+XGBoost,estimator__monotone_constraints,None
+XGBoost,estimator__multi_strategy,None
+XGBoost,estimator__n_estimators,120
+XGBoost,estimator__n_jobs,2
+XGBoost,estimator__num_parallel_tree,None
+XGBoost,estimator__random_state,42
+XGBoost,estimator__reg_alpha,None
+XGBoost,estimator__reg_lambda,5
+XGBoost,estimator__sampling_method,None
+XGBoost,estimator__scale_pos_weight,None
+XGBoost,estimator__subsample,0.8
+XGBoost,estimator__tree_method,None
+XGBoost,estimator__validate_parameters,None
+XGBoost,estimator__verbosity,None
+XGBoost,n_jobs,None
+MLP,check_inverse,True
+MLP,func,None
+MLP,inverse_func,None
+MLP,regressor__memory,None
+MLP,regressor__transform_input,None
+MLP,regressor__verbose,False
+MLP,regressor__standardscaler__copy,True
+MLP,regressor__standardscaler__with_mean,True
+MLP,regressor__standardscaler__with_std,True
+MLP,regressor__mlpregressor__activation,relu
+MLP,regressor__mlpregressor__alpha,5.0
+MLP,regressor__mlpregressor__batch_size,auto
+MLP,regressor__mlpregressor__beta_1,0.9
+MLP,regressor__mlpregressor__beta_2,0.999
+MLP,regressor__mlpregressor__early_stopping,False
+MLP,regressor__mlpregressor__epsilon,1e-08
+MLP,regressor__mlpregressor__hidden_layer_sizes,"(12,)"
+MLP,regressor__mlpregressor__learning_rate,constant
+MLP,regressor__mlpregressor__learning_rate_init,0.001
+MLP,regressor__mlpregressor__loss,squared_error
+MLP,regressor__mlpregressor__max_fun,30000
+MLP,regressor__mlpregressor__max_iter,1500
+MLP,regressor__mlpregressor__momentum,0.9
+MLP,regressor__mlpregressor__n_iter_no_change,10
+MLP,regressor__mlpregressor__nesterovs_momentum,True
+MLP,regressor__mlpregressor__power_t,0.5
+MLP,regressor__mlpregressor__random_state,42
+MLP,regressor__mlpregressor__shuffle,True
+MLP,regressor__mlpregressor__solver,lbfgs
+MLP,regressor__mlpregressor__tol,0.0001
+MLP,regressor__mlpregressor__validation_fraction,0.1
+MLP,regressor__mlpregressor__verbose,False
+MLP,regressor__mlpregressor__warm_start,False
+MLP,transformer__copy,True
+MLP,transformer__with_mean,True
+MLP,transformer__with_std,True
+LSTM,input_shape,8 weeks x 13 features
+LSTM,outputs,3
+LSTM,epochs,80
+LSTM,optimizer,Adam
+LSTM,learning_rate,0.001
+LSTM,weight_decay,0.01
+LSTM,loss,MSE
+LSTM,batch,Full training sample
+LSTM,dtype,float32
+LSTM,scaling,Training X and y only
+LSTM,seed,42
+LSTM,threads,1
+LSTM,deterministic_algorithms,True
+LSTM,early_stopping,False
+LSTM,layers,1
+LSTM,hidden_units,8
+LSTM,bidirectional,False
+LSTM,dropout,0
+LSTM,readout,"Last time step, linear 8 to 3"
+CNN,input_shape,8 weeks x 13 features
+CNN,outputs,3
+CNN,epochs,80
+CNN,optimizer,Adam
+CNN,learning_rate,0.001
+CNN,weight_decay,0.01
+CNN,loss,MSE
+CNN,batch,Full training sample
+CNN,dtype,float32
+CNN,scaling,Training X and y only
+CNN,seed,42
+CNN,threads,1
+CNN,deterministic_algorithms,True
+CNN,early_stopping,False
+CNN,filters,8
+CNN,kernel_size,3
+CNN,stride,1
+CNN,padding,0
+CNN,activation,ReLU
+CNN,pooling,"Adaptive average, output length 1"
+CNN,readout,Linear 8 to 3
+Prophet,yearly_seasonality,False
+Prophet,weekly_seasonality,False
+Prophet,daily_seasonality,False
+Prophet,n_changepoints,10
+Prophet,changepoint_prior_scale,0.05
+Prophet,uncertainty_samples,0
+Prophet,growth,linear
+Prophet,changepoint_range,0.8
+Prophet,mcmc_samples,0
+Prophet,fit_seed,42
+Prophet,inputs,Completed monthly factor returns

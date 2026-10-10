@@ -1,0 +1,17 @@
+Date,Price,Previous regime,Volatility %,Regime,Training through,Changed
+2024-11-25,93102.296875,Lower volatility,62.85278100048068,Higher volatility,2024-11-24,True
+2024-12-06,99920.7109375,Higher volatility,56.3043577128941,Lower volatility,2024-12-05,True
+2025-03-03,86065.671875,Lower volatility,59.68758180033983,Higher volatility,2025-03-02,True
+2025-04-01,85169.171875,Higher volatility,60.07473445267226,Lower volatility,2025-03-31,True
+2025-04-11,83404.8359375,Lower volatility,58.74690988205876,Higher volatility,2025-04-10,True
+2025-04-18,84450.8046875,Higher volatility,53.57676358604492,Lower volatility,2025-04-17,True
+2025-04-22,93441.890625,Lower volatility,57.464367104190295,Higher volatility,2025-04-21,True
+2025-05-02,96910.0703125,Higher volatility,53.46805234039061,Lower volatility,2025-05-01,True
+2025-05-04,94315.9765625,Lower volatility,54.264434316133446,Higher volatility,2025-05-03,True
+2025-05-06,96802.4765625,Higher volatility,48.58668473155577,Lower volatility,2025-05-05,True
+2025-12-02,91350.203125,Lower volatility,51.68473100313727,Higher volatility,2025-12-01,True
+2025-12-07,90405.640625,Higher volatility,48.31967819203697,Lower volatility,2025-12-06,True
+2026-02-05,62702.09765625,Lower volatility,64.4187028601289,Higher volatility,2026-02-04,True
+2026-03-15,72789.9140625,Higher volatility,49.73398542181492,Lower volatility,2026-03-14,True
+2026-03-18,71245.578125,Lower volatility,52.17975178588239,Higher volatility,2026-03-17,True
+2026-03-30,66691.4453125,Higher volatility,50.435355998045075,Lower volatility,2026-03-29,True

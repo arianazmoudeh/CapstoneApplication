@@ -1,0 +1,4 @@
+ticker,name,currency,country,downloaded_utc,price_rows,first_date,last_date
+AAPL,Apple Inc,USD,US,2026-10-06T21:30:26.538180+00:00,3238,2014-01-02,2026-09-30
+MSFT,Microsoft Corp,USD,US,2026-10-06T21:30:26.264342+00:00,3204,2014-01-02,2026-09-30
+AMZN,Amazon.com Inc,USD,US,2026-10-06T21:30:26.418635+00:00,3225,2014-01-02,2026-09-30

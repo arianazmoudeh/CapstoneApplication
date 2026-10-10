@@ -1,0 +1,40 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}WorldQuant University Capstone Project{% endblock %}</title>
+  <meta name="description" content="Explore stock factor research, compare market prices, and build your own portfolio.">
+  <link rel="stylesheet" href="{% static 'dashboard/tailwind.css' %}">
+  {% block scripts %}{% endblock %}
+</head>
+<body class="flex min-h-dvh flex-col {% block body_class %}{% endblock %}">
+  <a class="sr-only z-50 rounded-lg bg-white p-3 focus:not-sr-only focus:fixed focus:top-3 focus:left-3" href="#main">Skip to content</a>
+  <header class="border-b border-line bg-white">
+    <div class="page-shell flex min-h-20 items-center justify-between gap-3">
+      <a class="inline-flex items-center gap-2.5 whitespace-nowrap text-ink" href="{% url 'dashboard' %}" aria-label="WorldQuant University Capstone Project home">
+        <span class="flex size-9 shrink-0 items-end justify-center gap-0.5 rounded-lg bg-accent p-2" aria-hidden="true"><i class="h-2 w-1 rounded-sm bg-white/90"></i><i class="h-4 w-1 rounded-sm bg-white/90"></i><i class="h-5 w-1 rounded-sm bg-white/90"></i></span>
+        <span class="text-[10px] leading-relaxed sm:text-xs">WorldQuant University<strong class="block text-sm font-semibold sm:text-base">Capstone Project</strong></span>
+      </a>
+      {% if user.is_authenticated %}
+      <div class="flex items-center gap-2 sm:gap-5">
+        <span class="max-w-16 truncate text-xs sm:max-w-48 sm:text-sm">{{ user.first_name|default:user.username }}</span>
+        <form method="post" action="{% url 'logout' %}">{% csrf_token %}<button class="secondary-button" type="submit">Log out</button></form>
+      </div>
+      {% else %}<span class="hidden text-xs text-muted sm:block">Crypto research</span>{% endif %}
+    </div>
+    {% if user.is_authenticated %}
+    <nav class="page-shell flex flex-wrap gap-x-5 sm:gap-x-7" aria-label="Main navigation">
+      <a class="nav-link" href="{% url 'dashboard' %}" {% if request.resolver_match.url_name == 'dashboard' %}aria-current="page"{% endif %}>Market prices</a>
+      <a class="nav-link" href="{% url 'portfolio' %}" {% if request.resolver_match.url_name == 'portfolio' %}aria-current="page"{% endif %}>My portfolio</a>
+      <a class="nav-link" href="{% url 'research' %}" {% if request.resolver_match.url_name == 'research' or request.resolver_match.url_name == 'china_research' %}aria-current="page"{% endif %}>Research</a>
+      <a class="nav-link" href="{% url 'experiments' %}" {% if request.resolver_match.url_name == 'experiments' or request.resolver_match.url_name == 'prediction' %}aria-current="page"{% endif %}>Experiments</a>
+      <a class="nav-link" href="https://github.com/arianazmoudeh/CapstoneApplication" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in a new tab)">GitHub</a>
+    </nav>
+    {% endif %}
+  </header>
+  {% block content %}{% endblock %}
+  <footer class="page-shell flex flex-wrap justify-between gap-3 border-t border-line py-6 text-[11px] text-muted"><span>WorldQuant University Capstone Project</span><span>{% block data_source %}<a href="https://eulerpool.com/" target="_blank" rel="noopener noreferrer">Data by Eulerpool</a> · Kenneth French{% endblock %}</span></footer>
+</body>
+</html>

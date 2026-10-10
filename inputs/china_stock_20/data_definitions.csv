@@ -1,0 +1,13 @@
+item,definition
+price_close,"Tencent hfq backward-adjusted close; provider convention, not verified reinvested total return"
+price_raw_close,Tencent unadjusted closing price in CNY per A share; use for valuation
+financial_amounts,Eastmoney CPD annual revenue and net profit attributable to parent in absolute CNY; values may be restated
+notice_date,Provider-recorded annual results announcement date; later restatements are not made historically available by this date.
+update_date,Provider record update date; retain for conservative availability and restatement sensitivity
+shares,Absolute total shares across share classes; annual income shares are latest effective event at or before fiscal year end
+share_events,Eastmoney share history with effective_date and published_date retained separately; both must be available before use
+a_h_valuation,"A-share raw price times total A+H shares is an A-share valuation proxy, not aggregate actual market capitalization"
+financials_sector,Bank and insurer revenue definitions and accounting changes differ from industrial companies
+calendar_gaps,"Cross-stock union of observed trading dates, after each stock first available observation; gaps may be suspensions or vendor omissions"
+date_range,Daily prices requested from 2016-01-01 through 2026-10-09; annual statements 2015-2025. Individual trading suspensions and missing observations remain in gaps.csv.
+original_statements,Verified original annual-report values override the corresponding provider annual row in the notebook. Both revenue and parent net income use the same original filing and its publication date; raw provider records remain unchanged.

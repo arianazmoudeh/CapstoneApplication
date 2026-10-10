@@ -1,0 +1,21 @@
+Stock,Forecast rows excluded,Incomplete or invalid rows excluded,Complete annual rows
+AAPL,0,0,43
+MSFT,0,0,44
+NVDA,0,2,31
+ORCL,0,0,43
+AMZN,0,1,30
+HD,0,0,44
+MCD,0,0,43
+WMT,0,0,43
+COST,0,0,41
+PG,0,0,44
+KO,0,0,43
+JNJ,0,0,43
+PFE,0,0,43
+MRK,0,0,43
+XOM,0,0,43
+CVX,0,0,43
+CAT,0,0,43
+HON,0,0,43
+NEE,0,0,43
+DUK,0,0,43

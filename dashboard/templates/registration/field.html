@@ -1,0 +1,6 @@
+<div class="mb-5 min-w-0{% if field.errors %} [&_input]:border-negative{% endif %}">
+  <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+  {{ field }}
+  {% if field.help_text %}<div class="mt-2 text-xs leading-relaxed text-muted" id="{{ field.auto_id }}_helptext">{{ field.help_text }}</div>{% endif %}
+  {% if field.errors %}<ul class="mt-2 list-disc pl-4 text-xs text-negative" id="{{ field.auto_id }}_error" role="alert">{% for error in field.errors %}<li>{{ error }}</li>{% endfor %}</ul>{% endif %}
+</div>

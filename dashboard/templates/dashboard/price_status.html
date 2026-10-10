@@ -1,0 +1,4 @@
+{% if error %}<div class="error" role="alert">{{ error }}</div>{% endif %}
+{% if fetched_at %}
+{% if stale %}<p class="notice">Showing the last saved prices. Newer data is not available yet.</p>{% endif %}
+{% endif %}

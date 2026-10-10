@@ -1,0 +1,12 @@
+Model,Annual return difference pp
+Ridge,0.0
+Elastic Net,0.0
+KNN,0.0
+SVR,0.0
+Random Forest,0.0
+Extra Trees,0.0
+XGBoost,0.0
+MLP,0.0
+LSTM,0.0
+CNN,0.0
+Prophet,0.0

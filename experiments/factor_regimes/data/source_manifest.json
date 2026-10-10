@@ -1,0 +1,37 @@
+[
+  {
+    "file": "Emerging_5_Factors_CSV.zip",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Emerging_5_Factors_CSV.zip",
+    "retrieved_utc": "2026-10-04T09:00:03.454654+00:00",
+    "sha256": "303b5afb42232683f48f80178206a5cb99b1b755e4dc0493f9ec9b26dd74d103",
+    "csv_member": "Emerging_5_Factors.csv"
+  },
+  {
+    "file": "Emerging_MOM_Factor_CSV.zip",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Emerging_MOM_Factor_CSV.zip",
+    "retrieved_utc": "2026-10-04T09:00:03.415475+00:00",
+    "sha256": "5316f98a394947be155ba97f860366a14b214140d37b75c7eb93ad08bda92735",
+    "csv_member": "Emerging_MOM_Factor.csv"
+  },
+  {
+    "file": "Emerging_Markets_6_Portfolios_ME_BE-ME_CSV.zip",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Emerging_Markets_6_Portfolios_ME_BE-ME_CSV.zip",
+    "retrieved_utc": "2026-10-04T09:00:03.886803+00:00",
+    "sha256": "b9be653d6768dc69973a58bba2d8bbfd72fa21c03b3ba677a8688fb6ac8be089",
+    "csv_member": "Emerging_Markets_6_Portfolios_ME_BE-ME.csv"
+  },
+  {
+    "file": "Emerging_Markets_6_Portfolios_ME_OP_CSV.zip",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Emerging_Markets_6_Portfolios_ME_OP_CSV.zip",
+    "retrieved_utc": "2026-10-04T09:00:03.640410+00:00",
+    "sha256": "e5c5c7a314d07739b601dc89403f0b328b017741c0967b5ab707623f1e7cafd2",
+    "csv_member": "Emerging_Markets_6_Portfolios_ME_OP.csv"
+  },
+  {
+    "file": "Emerging_Markets_6_Portfolios_ME_Prior_12_2_CSV.zip",
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/Emerging_Markets_6_Portfolios_ME_Prior_12_2_CSV.zip",
+    "retrieved_utc": "2026-10-04T09:00:03.870960+00:00",
+    "sha256": "faaa649bceb8a6cf06f566d81d401fe89de5e79a5c565168af85eb3b5db410ce",
+    "csv_member": "Emerging_Markets_6_Portfolios_ME_Prior_12_2.csv"
+  }
+]

@@ -1,0 +1,5 @@
+Setting,Return weeks,Risk weeks,Sequence weeks,Inputs per week
+Original,"1, 4, 13",13,8,13
+Longer returns,"2, 8, 26",13,8,13
+Longer risk,"1, 4, 13",26,8,13
+Both longer,"2, 8, 26",26,8,13

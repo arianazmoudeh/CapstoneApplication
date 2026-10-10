@@ -1,0 +1,12 @@
+Model,Main settings,Scaling
+Ridge,alpha=10; intercept=True; solver=auto,Training X and y
+Elastic Net,alpha=0.02; L1 ratio=0.5; max_iter=10000; tol=0.0001; cyclic updates,Training X and y
+KNN,20 neighbours; uniform weights; Euclidean distance,Training X and y
+SVR,RBF kernel; C=1; epsilon=0.1; gamma=scale; tol=0.001,Training X and y
+Random Forest,150 trees; depth=4; min_leaf=12; bootstrap=True; all features; squared error,None
+Extra Trees,150 trees; depth=4; min_leaf=12; bootstrap=False; all features; squared error,None
+XGBoost,120 trees; depth=2; rate=0.03; subsample=0.8; columns=0.9; L2=5; squared error,None
+MLP,12 hidden units; ReLU; L-BFGS; alpha=5; max_iter=1500; max_fun=30000; tol=0.0001,Training X and y
+LSTM,1 layer; 8 hidden units; dropout=0; linear output=3; Adam; 80 epochs,Training X and y
+CNN,8 filters; kernel=3; stride=1; padding=0; ReLU; average pooling; Adam; 80 epochs,Training X and y
+Prophet,10 changepoints; prior=0.05; linear growth; no seasonality; no uncertainty draws,Internal model scaling

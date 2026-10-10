@@ -1,0 +1,32 @@
+{% extends 'dashboard/base.html' %}
+{% load static humanize %}
+{% block title %}Market prices Â· WorldQuant University Capstone Project{% endblock %}
+{% block scripts %}<script src="{% static 'dashboard/app.js' %}" defer></script>{% endblock %}
+{% block content %}
+<main id="main" class="page-shell min-w-0 flex-1">
+  <div class="my-8 sm:my-10 [&_p]:text-muted flex flex-col items-start justify-between gap-4 md:flex-row md:items-center"><div><h1>Market prices</h1><p>Explore US stocks, emerging-market factors and crypto.</p></div><a class="button-link" href="{% url 'portfolio' %}">My portfolio &rarr;</a></div>
+  {% for message in messages %}<p class="notice" role="status">{{ message }}</p>{% endfor %}
+  <section class="panel" aria-labelledby="stocks-title">
+    <div class="section-heading"><div><h2 id="stocks-title">US stocks</h2><p class="text-muted">Large US companies with recent price movement.</p></div><form method="post" class="loading-form">{% csrf_token %}<button type="submit">Refresh prices</button></form></div>
+    {% include 'dashboard/price_status.html' %}
+    {% if market %}
+    {% include 'dashboard/market_table.html' with rows=market.stock_rows %}
+    {% if market.unavailable %}<p class="mt-3 text-xs text-muted">Price history is unavailable for {{ market.unavailable|join:', ' }}.</p>{% endif %}
+    {% endif %}
+  </section>
+  <section class="panel" aria-labelledby="factors-title">
+    <div class="section-heading"><div><h2 id="factors-title">Emerging market factors</h2><p class="text-muted">Monthly long-short factor returns in USD.</p></div><a class="mt-3 text-xs" href="https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html" target="_blank" rel="noopener noreferrer">Kenneth French Data Library &rarr;</a></div>
+    {% if factors_error %}<p class="error" role="alert">{{ factors_error }}</p>{% endif %}
+    {% if factors_stale %}<p class="notice">Showing the last saved factor data. The latest update could not be confirmed.</p>{% endif %}
+    {% if factors %}
+    <div class="w-full overflow-x-auto"><table><thead><tr><th>Month</th><th class="text-right tabular-nums">Value <span class="text-muted">(HML)</span></th><th class="text-right tabular-nums">Profitability <span class="text-muted">(RMW)</span></th><th class="text-right tabular-nums">Momentum <span class="text-muted">(WML)</span></th></tr></thead><tbody>{% for row in factors.rows %}<tr><th>{{ row.month|date:'M Y' }}</th><td class="text-right tabular-nums {% if row.value >= 0 %}text-positive{% else %}text-negative{% endif %}">{{ row.value|floatformat:2 }}%</td><td class="text-right tabular-nums {% if row.profitability >= 0 %}text-positive{% else %}text-negative{% endif %}">{{ row.profitability|floatformat:2 }}%</td><td class="text-right tabular-nums {% if row.momentum >= 0 %}text-positive{% else %}text-negative{% endif %}">{{ row.momentum|floatformat:2 }}%</td></tr>{% endfor %}</tbody></table></div>
+    {% endif %}
+  </section>
+  {% if market %}
+  <section class="panel" aria-labelledby="crypto-title">
+    <div class="section-heading"><div><h2 id="crypto-title">Cryptocurrencies</h2><p class="text-muted">Prices and recent movement in US dollars.</p></div><span class="mt-3 text-xs text-muted">Daily prices</span></div>
+    {% include 'dashboard/market_table.html' with rows=market.crypto_rows %}
+  </section>
+  {% endif %}
+</main>
+{% endblock %}

@@ -1,0 +1,7 @@
+Period,Start,End,Observations
+Daily prices used for all 20 stocks,2016-02-01,2026-10-09,2139
+Validation signals,2023-11-30,2024-10-31,12
+Validation target trades,2023-12-01,2024-12-02,12
+Test signals,2024-12-31,2026-08-31,21
+Test target trades,2025-01-02,2026-10-08,21
+Portfolio valuation dates,2024-12-31,2026-10-08,426

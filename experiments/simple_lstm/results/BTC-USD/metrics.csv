@@ -1,0 +1,3 @@
+Model,Accuracy %,Balanced accuracy %,Test days,Flat days excluded
+LSTM,46.666666666666664,47.71968854282536,60,0
+Majority direction,48.333333333333336,50.0,60,0

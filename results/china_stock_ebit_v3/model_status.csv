@@ -1,0 +1,925 @@
+mode,signal,model,status,notices
+Long only,2024-12-31,Ridge,Completed,0
+Long only,2024-12-31,Elastic Net,Completed,0
+Long only,2024-12-31,KNN,Completed,0
+Long only,2024-12-31,SVR,Completed,0
+Long only,2024-12-31,Random Forest,Completed,0
+Long only,2024-12-31,Extra Trees,Completed,0
+Long only,2024-12-31,XGBoost,Completed,0
+Long only,2024-12-31,MLP,Completed,0
+Long only,2024-12-31,LSTM,Completed,0
+Long only,2024-12-31,CNN,Completed,0
+Long only,2024-12-31,Prophet,Completed,0
+Long only,2025-01-31,Ridge,Completed,0
+Long only,2025-01-31,Elastic Net,Completed,0
+Long only,2025-01-31,KNN,Completed,0
+Long only,2025-01-31,SVR,Completed,0
+Long only,2025-01-31,Random Forest,Completed,0
+Long only,2025-01-31,Extra Trees,Completed,0
+Long only,2025-01-31,XGBoost,Completed,0
+Long only,2025-01-31,MLP,Completed,0
+Long only,2025-01-31,LSTM,Completed,0
+Long only,2025-01-31,CNN,Completed,0
+Long only,2025-01-31,Prophet,Completed,0
+Long only,2025-02-28,Ridge,Completed,0
+Long only,2025-02-28,Elastic Net,Completed,0
+Long only,2025-02-28,KNN,Completed,0
+Long only,2025-02-28,SVR,Completed,0
+Long only,2025-02-28,Random Forest,Completed,0
+Long only,2025-02-28,Extra Trees,Completed,0
+Long only,2025-02-28,XGBoost,Completed,0
+Long only,2025-02-28,MLP,Completed,0
+Long only,2025-02-28,LSTM,Completed,0
+Long only,2025-02-28,CNN,Completed,0
+Long only,2025-02-28,Prophet,Completed,0
+Long only,2025-03-31,Ridge,Completed,0
+Long only,2025-03-31,Elastic Net,Completed,0
+Long only,2025-03-31,KNN,Completed,0
+Long only,2025-03-31,SVR,Completed,0
+Long only,2025-03-31,Random Forest,Completed,0
+Long only,2025-03-31,Extra Trees,Completed,0
+Long only,2025-03-31,XGBoost,Completed,0
+Long only,2025-03-31,MLP,Completed,0
+Long only,2025-03-31,LSTM,Completed,0
+Long only,2025-03-31,CNN,Completed,0
+Long only,2025-03-31,Prophet,Completed,0
+Long only,2025-04-30,Ridge,Completed,0
+Long only,2025-04-30,Elastic Net,Completed,0
+Long only,2025-04-30,KNN,Completed,0
+Long only,2025-04-30,SVR,Completed,0
+Long only,2025-04-30,Random Forest,Completed,0
+Long only,2025-04-30,Extra Trees,Completed,0
+Long only,2025-04-30,XGBoost,Completed,0
+Long only,2025-04-30,MLP,Completed,0
+Long only,2025-04-30,LSTM,Completed,0
+Long only,2025-04-30,CNN,Completed,0
+Long only,2025-04-30,Prophet,Completed,0
+Long only,2025-05-31,Ridge,Completed,0
+Long only,2025-05-31,Elastic Net,Completed,0
+Long only,2025-05-31,KNN,Completed,0
+Long only,2025-05-31,SVR,Completed,0
+Long only,2025-05-31,Random Forest,Completed,0
+Long only,2025-05-31,Extra Trees,Completed,0
+Long only,2025-05-31,XGBoost,Completed,0
+Long only,2025-05-31,MLP,Completed,0
+Long only,2025-05-31,LSTM,Completed,0
+Long only,2025-05-31,CNN,Completed,0
+Long only,2025-05-31,Prophet,Completed,0
+Long only,2025-06-30,Ridge,Completed,0
+Long only,2025-06-30,Elastic Net,Completed,0
+Long only,2025-06-30,KNN,Completed,0
+Long only,2025-06-30,SVR,Completed,0
+Long only,2025-06-30,Random Forest,Completed,0
+Long only,2025-06-30,Extra Trees,Completed,0
+Long only,2025-06-30,XGBoost,Completed,0
+Long only,2025-06-30,MLP,Completed,0
+Long only,2025-06-30,LSTM,Completed,0
+Long only,2025-06-30,CNN,Completed,0
+Long only,2025-06-30,Prophet,Completed,0
+Long only,2025-07-31,Ridge,Completed,0
+Long only,2025-07-31,Elastic Net,Completed,0
+Long only,2025-07-31,KNN,Completed,0
+Long only,2025-07-31,SVR,Completed,0
+Long only,2025-07-31,Random Forest,Completed,0
+Long only,2025-07-31,Extra Trees,Completed,0
+Long only,2025-07-31,XGBoost,Completed,0
+Long only,2025-07-31,MLP,Completed,0
+Long only,2025-07-31,LSTM,Completed,0
+Long only,2025-07-31,CNN,Completed,0
+Long only,2025-07-31,Prophet,Completed,0
+Long only,2025-08-31,Ridge,Completed,0
+Long only,2025-08-31,Elastic Net,Completed,0
+Long only,2025-08-31,KNN,Completed,0
+Long only,2025-08-31,SVR,Completed,0
+Long only,2025-08-31,Random Forest,Completed,0
+Long only,2025-08-31,Extra Trees,Completed,0
+Long only,2025-08-31,XGBoost,Completed,0
+Long only,2025-08-31,MLP,Completed,0
+Long only,2025-08-31,LSTM,Completed,0
+Long only,2025-08-31,CNN,Completed,0
+Long only,2025-08-31,Prophet,Completed,0
+Long only,2025-09-30,Ridge,Completed,0
+Long only,2025-09-30,Elastic Net,Completed,0
+Long only,2025-09-30,KNN,Completed,0
+Long only,2025-09-30,SVR,Completed,0
+Long only,2025-09-30,Random Forest,Completed,0
+Long only,2025-09-30,Extra Trees,Completed,0
+Long only,2025-09-30,XGBoost,Completed,0
+Long only,2025-09-30,MLP,Completed,0
+Long only,2025-09-30,LSTM,Completed,0
+Long only,2025-09-30,CNN,Completed,0
+Long only,2025-09-30,Prophet,Completed,0
+Long only,2025-10-31,Ridge,Completed,0
+Long only,2025-10-31,Elastic Net,Completed,0
+Long only,2025-10-31,KNN,Completed,0
+Long only,2025-10-31,SVR,Completed,0
+Long only,2025-10-31,Random Forest,Completed,0
+Long only,2025-10-31,Extra Trees,Completed,0
+Long only,2025-10-31,XGBoost,Completed,0
+Long only,2025-10-31,MLP,Completed,0
+Long only,2025-10-31,LSTM,Completed,0
+Long only,2025-10-31,CNN,Completed,0
+Long only,2025-10-31,Prophet,Completed,0
+Long only,2025-11-30,Ridge,Completed,0
+Long only,2025-11-30,Elastic Net,Completed,0
+Long only,2025-11-30,KNN,Completed,0
+Long only,2025-11-30,SVR,Completed,0
+Long only,2025-11-30,Random Forest,Completed,0
+Long only,2025-11-30,Extra Trees,Completed,0
+Long only,2025-11-30,XGBoost,Completed,0
+Long only,2025-11-30,MLP,Completed,0
+Long only,2025-11-30,LSTM,Completed,0
+Long only,2025-11-30,CNN,Completed,0
+Long only,2025-11-30,Prophet,Completed,0
+Long only,2025-12-31,Ridge,Completed,0
+Long only,2025-12-31,Elastic Net,Completed,0
+Long only,2025-12-31,KNN,Completed,0
+Long only,2025-12-31,SVR,Completed,0
+Long only,2025-12-31,Random Forest,Completed,0
+Long only,2025-12-31,Extra Trees,Completed,0
+Long only,2025-12-31,XGBoost,Completed,0
+Long only,2025-12-31,MLP,Completed,0
+Long only,2025-12-31,LSTM,Completed,0
+Long only,2025-12-31,CNN,Completed,0
+Long only,2025-12-31,Prophet,Completed,0
+Long only,2026-01-31,Ridge,Completed,0
+Long only,2026-01-31,Elastic Net,Completed,0
+Long only,2026-01-31,KNN,Completed,0
+Long only,2026-01-31,SVR,Completed,0
+Long only,2026-01-31,Random Forest,Completed,0
+Long only,2026-01-31,Extra Trees,Completed,0
+Long only,2026-01-31,XGBoost,Completed,0
+Long only,2026-01-31,MLP,Completed,0
+Long only,2026-01-31,LSTM,Completed,0
+Long only,2026-01-31,CNN,Completed,0
+Long only,2026-01-31,Prophet,Completed,0
+Long only,2026-02-28,Ridge,Completed,0
+Long only,2026-02-28,Elastic Net,Completed,0
+Long only,2026-02-28,KNN,Completed,0
+Long only,2026-02-28,SVR,Completed,0
+Long only,2026-02-28,Random Forest,Completed,0
+Long only,2026-02-28,Extra Trees,Completed,0
+Long only,2026-02-28,XGBoost,Completed,0
+Long only,2026-02-28,MLP,Completed,0
+Long only,2026-02-28,LSTM,Completed,0
+Long only,2026-02-28,CNN,Completed,0
+Long only,2026-02-28,Prophet,Completed,0
+Long only,2026-03-31,Ridge,Completed,0
+Long only,2026-03-31,Elastic Net,Completed,0
+Long only,2026-03-31,KNN,Completed,0
+Long only,2026-03-31,SVR,Completed,0
+Long only,2026-03-31,Random Forest,Completed,0
+Long only,2026-03-31,Extra Trees,Completed,0
+Long only,2026-03-31,XGBoost,Completed,0
+Long only,2026-03-31,MLP,Completed,0
+Long only,2026-03-31,LSTM,Completed,0
+Long only,2026-03-31,CNN,Completed,0
+Long only,2026-03-31,Prophet,Completed,0
+Long only,2026-04-30,Ridge,Completed,0
+Long only,2026-04-30,Elastic Net,Completed,0
+Long only,2026-04-30,KNN,Completed,0
+Long only,2026-04-30,SVR,Completed,0
+Long only,2026-04-30,Random Forest,Completed,0
+Long only,2026-04-30,Extra Trees,Completed,0
+Long only,2026-04-30,XGBoost,Completed,0
+Long only,2026-04-30,MLP,Completed,0
+Long only,2026-04-30,LSTM,Completed,0
+Long only,2026-04-30,CNN,Completed,0
+Long only,2026-04-30,Prophet,Completed,0
+Long only,2026-05-31,Ridge,Completed,0
+Long only,2026-05-31,Elastic Net,Completed,0
+Long only,2026-05-31,KNN,Completed,0
+Long only,2026-05-31,SVR,Completed,0
+Long only,2026-05-31,Random Forest,Completed,0
+Long only,2026-05-31,Extra Trees,Completed,0
+Long only,2026-05-31,XGBoost,Completed,0
+Long only,2026-05-31,MLP,Completed,0
+Long only,2026-05-31,LSTM,Completed,0
+Long only,2026-05-31,CNN,Completed,0
+Long only,2026-05-31,Prophet,Completed,0
+Long only,2026-06-30,Ridge,Completed,0
+Long only,2026-06-30,Elastic Net,Completed,0
+Long only,2026-06-30,KNN,Completed,0
+Long only,2026-06-30,SVR,Completed,0
+Long only,2026-06-30,Random Forest,Completed,0
+Long only,2026-06-30,Extra Trees,Completed,0
+Long only,2026-06-30,XGBoost,Completed,0
+Long only,2026-06-30,MLP,Completed,0
+Long only,2026-06-30,LSTM,Completed,0
+Long only,2026-06-30,CNN,Completed,0
+Long only,2026-06-30,Prophet,Completed,0
+Long only,2026-07-31,Ridge,Completed,0
+Long only,2026-07-31,Elastic Net,Completed,0
+Long only,2026-07-31,KNN,Completed,0
+Long only,2026-07-31,SVR,Completed,0
+Long only,2026-07-31,Random Forest,Completed,0
+Long only,2026-07-31,Extra Trees,Completed,0
+Long only,2026-07-31,XGBoost,Completed,0
+Long only,2026-07-31,MLP,Completed,0
+Long only,2026-07-31,LSTM,Completed,0
+Long only,2026-07-31,CNN,Completed,0
+Long only,2026-07-31,Prophet,Completed,0
+Long only,2026-08-31,Ridge,Completed,0
+Long only,2026-08-31,Elastic Net,Completed,0
+Long only,2026-08-31,KNN,Completed,0
+Long only,2026-08-31,SVR,Completed,0
+Long only,2026-08-31,Random Forest,Completed,0
+Long only,2026-08-31,Extra Trees,Completed,0
+Long only,2026-08-31,XGBoost,Completed,0
+Long only,2026-08-31,MLP,Completed,0
+Long only,2026-08-31,LSTM,Completed,0
+Long only,2026-08-31,CNN,Completed,0
+Long only,2026-08-31,Prophet,Completed,0
+Long-short,2024-12-31,Ridge,Completed,0
+Long-short,2024-12-31,Elastic Net,Completed,0
+Long-short,2024-12-31,KNN,Completed,0
+Long-short,2024-12-31,SVR,Completed,0
+Long-short,2024-12-31,Random Forest,Completed,0
+Long-short,2024-12-31,Extra Trees,Completed,0
+Long-short,2024-12-31,XGBoost,Completed,0
+Long-short,2024-12-31,MLP,Completed,0
+Long-short,2024-12-31,LSTM,Completed,0
+Long-short,2024-12-31,CNN,Completed,0
+Long-short,2024-12-31,Prophet,Completed,0
+Long-short,2025-01-31,Ridge,Completed,0
+Long-short,2025-01-31,Elastic Net,Completed,0
+Long-short,2025-01-31,KNN,Completed,0
+Long-short,2025-01-31,SVR,Completed,0
+Long-short,2025-01-31,Random Forest,Completed,0
+Long-short,2025-01-31,Extra Trees,Completed,0
+Long-short,2025-01-31,XGBoost,Completed,0
+Long-short,2025-01-31,MLP,Completed,0
+Long-short,2025-01-31,LSTM,Completed,0
+Long-short,2025-01-31,CNN,Completed,0
+Long-short,2025-01-31,Prophet,Completed,0
+Long-short,2025-02-28,Ridge,Completed,0
+Long-short,2025-02-28,Elastic Net,Completed,0
+Long-short,2025-02-28,KNN,Completed,0
+Long-short,2025-02-28,SVR,Completed,0
+Long-short,2025-02-28,Random Forest,Completed,0
+Long-short,2025-02-28,Extra Trees,Completed,0
+Long-short,2025-02-28,XGBoost,Completed,0
+Long-short,2025-02-28,MLP,Completed,0
+Long-short,2025-02-28,LSTM,Completed,0
+Long-short,2025-02-28,CNN,Completed,0
+Long-short,2025-02-28,Prophet,Completed,0
+Long-short,2025-03-31,Ridge,Completed,0
+Long-short,2025-03-31,Elastic Net,Completed,0
+Long-short,2025-03-31,KNN,Completed,0
+Long-short,2025-03-31,SVR,Completed,0
+Long-short,2025-03-31,Random Forest,Completed,0
+Long-short,2025-03-31,Extra Trees,Completed,0
+Long-short,2025-03-31,XGBoost,Completed,0
+Long-short,2025-03-31,MLP,Completed,0
+Long-short,2025-03-31,LSTM,Completed,0
+Long-short,2025-03-31,CNN,Completed,0
+Long-short,2025-03-31,Prophet,Completed,0
+Long-short,2025-04-30,Ridge,Completed,0
+Long-short,2025-04-30,Elastic Net,Completed,0
+Long-short,2025-04-30,KNN,Completed,0
+Long-short,2025-04-30,SVR,Completed,0
+Long-short,2025-04-30,Random Forest,Completed,0
+Long-short,2025-04-30,Extra Trees,Completed,0
+Long-short,2025-04-30,XGBoost,Completed,0
+Long-short,2025-04-30,MLP,Completed,0
+Long-short,2025-04-30,LSTM,Completed,0
+Long-short,2025-04-30,CNN,Completed,0
+Long-short,2025-04-30,Prophet,Completed,0
+Long-short,2025-05-31,Ridge,Completed,0
+Long-short,2025-05-31,Elastic Net,Completed,0
+Long-short,2025-05-31,KNN,Completed,0
+Long-short,2025-05-31,SVR,Completed,0
+Long-short,2025-05-31,Random Forest,Completed,0
+Long-short,2025-05-31,Extra Trees,Completed,0
+Long-short,2025-05-31,XGBoost,Completed,0
+Long-short,2025-05-31,MLP,Completed,0
+Long-short,2025-05-31,LSTM,Completed,0
+Long-short,2025-05-31,CNN,Completed,0
+Long-short,2025-05-31,Prophet,Completed,0
+Long-short,2025-06-30,Ridge,Completed,0
+Long-short,2025-06-30,Elastic Net,Completed,0
+Long-short,2025-06-30,KNN,Completed,0
+Long-short,2025-06-30,SVR,Completed,0
+Long-short,2025-06-30,Random Forest,Completed,0
+Long-short,2025-06-30,Extra Trees,Completed,0
+Long-short,2025-06-30,XGBoost,Completed,0
+Long-short,2025-06-30,MLP,Completed,0
+Long-short,2025-06-30,LSTM,Completed,0
+Long-short,2025-06-30,CNN,Completed,0
+Long-short,2025-06-30,Prophet,Completed,0
+Long-short,2025-07-31,Ridge,Completed,0
+Long-short,2025-07-31,Elastic Net,Completed,0
+Long-short,2025-07-31,KNN,Completed,0
+Long-short,2025-07-31,SVR,Completed,0
+Long-short,2025-07-31,Random Forest,Completed,0
+Long-short,2025-07-31,Extra Trees,Completed,0
+Long-short,2025-07-31,XGBoost,Completed,0
+Long-short,2025-07-31,MLP,Completed,0
+Long-short,2025-07-31,LSTM,Completed,0
+Long-short,2025-07-31,CNN,Completed,0
+Long-short,2025-07-31,Prophet,Completed,0
+Long-short,2025-08-31,Ridge,Completed,0
+Long-short,2025-08-31,Elastic Net,Completed,0
+Long-short,2025-08-31,KNN,Completed,0
+Long-short,2025-08-31,SVR,Completed,0
+Long-short,2025-08-31,Random Forest,Completed,0
+Long-short,2025-08-31,Extra Trees,Completed,0
+Long-short,2025-08-31,XGBoost,Completed,0
+Long-short,2025-08-31,MLP,Completed,0
+Long-short,2025-08-31,LSTM,Completed,0
+Long-short,2025-08-31,CNN,Completed,0
+Long-short,2025-08-31,Prophet,Completed,0
+Long-short,2025-09-30,Ridge,Completed,0
+Long-short,2025-09-30,Elastic Net,Completed,0
+Long-short,2025-09-30,KNN,Completed,0
+Long-short,2025-09-30,SVR,Completed,0
+Long-short,2025-09-30,Random Forest,Completed,0
+Long-short,2025-09-30,Extra Trees,Completed,0
+Long-short,2025-09-30,XGBoost,Completed,0
+Long-short,2025-09-30,MLP,Completed,0
+Long-short,2025-09-30,LSTM,Completed,0
+Long-short,2025-09-30,CNN,Completed,0
+Long-short,2025-09-30,Prophet,Completed,0
+Long-short,2025-10-31,Ridge,Completed,0
+Long-short,2025-10-31,Elastic Net,Completed,0
+Long-short,2025-10-31,KNN,Completed,0
+Long-short,2025-10-31,SVR,Completed,0
+Long-short,2025-10-31,Random Forest,Completed,0
+Long-short,2025-10-31,Extra Trees,Completed,0
+Long-short,2025-10-31,XGBoost,Completed,0
+Long-short,2025-10-31,MLP,Completed,0
+Long-short,2025-10-31,LSTM,Completed,0
+Long-short,2025-10-31,CNN,Completed,0
+Long-short,2025-10-31,Prophet,Completed,0
+Long-short,2025-11-30,Ridge,Completed,0
+Long-short,2025-11-30,Elastic Net,Completed,0
+Long-short,2025-11-30,KNN,Completed,0
+Long-short,2025-11-30,SVR,Completed,0
+Long-short,2025-11-30,Random Forest,Completed,0
+Long-short,2025-11-30,Extra Trees,Completed,0
+Long-short,2025-11-30,XGBoost,Completed,0
+Long-short,2025-11-30,MLP,Completed,0
+Long-short,2025-11-30,LSTM,Completed,0
+Long-short,2025-11-30,CNN,Completed,0
+Long-short,2025-11-30,Prophet,Completed,0
+Long-short,2025-12-31,Ridge,Completed,0
+Long-short,2025-12-31,Elastic Net,Completed,0
+Long-short,2025-12-31,KNN,Completed,0
+Long-short,2025-12-31,SVR,Completed,0
+Long-short,2025-12-31,Random Forest,Completed,0
+Long-short,2025-12-31,Extra Trees,Completed,0
+Long-short,2025-12-31,XGBoost,Completed,0
+Long-short,2025-12-31,MLP,Completed,0
+Long-short,2025-12-31,LSTM,Completed,0
+Long-short,2025-12-31,CNN,Completed,0
+Long-short,2025-12-31,Prophet,Completed,0
+Long-short,2026-01-31,Ridge,Completed,0
+Long-short,2026-01-31,Elastic Net,Completed,0
+Long-short,2026-01-31,KNN,Completed,0
+Long-short,2026-01-31,SVR,Completed,0
+Long-short,2026-01-31,Random Forest,Completed,0
+Long-short,2026-01-31,Extra Trees,Completed,0
+Long-short,2026-01-31,XGBoost,Completed,0
+Long-short,2026-01-31,MLP,Completed,0
+Long-short,2026-01-31,LSTM,Completed,0
+Long-short,2026-01-31,CNN,Completed,0
+Long-short,2026-01-31,Prophet,Completed,0
+Long-short,2026-02-28,Ridge,Completed,0
+Long-short,2026-02-28,Elastic Net,Completed,0
+Long-short,2026-02-28,KNN,Completed,0
+Long-short,2026-02-28,SVR,Completed,0
+Long-short,2026-02-28,Random Forest,Completed,0
+Long-short,2026-02-28,Extra Trees,Completed,0
+Long-short,2026-02-28,XGBoost,Completed,0
+Long-short,2026-02-28,MLP,Completed,0
+Long-short,2026-02-28,LSTM,Completed,0
+Long-short,2026-02-28,CNN,Completed,0
+Long-short,2026-02-28,Prophet,Completed,0
+Long-short,2026-03-31,Ridge,Completed,0
+Long-short,2026-03-31,Elastic Net,Completed,0
+Long-short,2026-03-31,KNN,Completed,0
+Long-short,2026-03-31,SVR,Completed,0
+Long-short,2026-03-31,Random Forest,Completed,0
+Long-short,2026-03-31,Extra Trees,Completed,0
+Long-short,2026-03-31,XGBoost,Completed,0
+Long-short,2026-03-31,MLP,Completed,0
+Long-short,2026-03-31,LSTM,Completed,0
+Long-short,2026-03-31,CNN,Completed,0
+Long-short,2026-03-31,Prophet,Completed,0
+Long-short,2026-04-30,Ridge,Completed,0
+Long-short,2026-04-30,Elastic Net,Completed,0
+Long-short,2026-04-30,KNN,Completed,0
+Long-short,2026-04-30,SVR,Completed,0
+Long-short,2026-04-30,Random Forest,Completed,0
+Long-short,2026-04-30,Extra Trees,Completed,0
+Long-short,2026-04-30,XGBoost,Completed,0
+Long-short,2026-04-30,MLP,Completed,0
+Long-short,2026-04-30,LSTM,Completed,0
+Long-short,2026-04-30,CNN,Completed,0
+Long-short,2026-04-30,Prophet,Completed,0
+Long-short,2026-05-31,Ridge,Completed,0
+Long-short,2026-05-31,Elastic Net,Completed,0
+Long-short,2026-05-31,KNN,Completed,0
+Long-short,2026-05-31,SVR,Completed,0
+Long-short,2026-05-31,Random Forest,Completed,0
+Long-short,2026-05-31,Extra Trees,Completed,0
+Long-short,2026-05-31,XGBoost,Completed,0
+Long-short,2026-05-31,MLP,Completed,0
+Long-short,2026-05-31,LSTM,Completed,0
+Long-short,2026-05-31,CNN,Completed,0
+Long-short,2026-05-31,Prophet,Completed,0
+Long-short,2026-06-30,Ridge,Completed,0
+Long-short,2026-06-30,Elastic Net,Completed,0
+Long-short,2026-06-30,KNN,Completed,0
+Long-short,2026-06-30,SVR,Completed,0
+Long-short,2026-06-30,Random Forest,Completed,0
+Long-short,2026-06-30,Extra Trees,Completed,0
+Long-short,2026-06-30,XGBoost,Completed,0
+Long-short,2026-06-30,MLP,Completed,0
+Long-short,2026-06-30,LSTM,Completed,0
+Long-short,2026-06-30,CNN,Completed,0
+Long-short,2026-06-30,Prophet,Completed,0
+Long-short,2026-07-31,Ridge,Completed,0
+Long-short,2026-07-31,Elastic Net,Completed,0
+Long-short,2026-07-31,KNN,Completed,0
+Long-short,2026-07-31,SVR,Completed,0
+Long-short,2026-07-31,Random Forest,Completed,0
+Long-short,2026-07-31,Extra Trees,Completed,0
+Long-short,2026-07-31,XGBoost,Completed,0
+Long-short,2026-07-31,MLP,Completed,0
+Long-short,2026-07-31,LSTM,Completed,0
+Long-short,2026-07-31,CNN,Completed,0
+Long-short,2026-07-31,Prophet,Completed,0
+Long-short,2026-08-31,Ridge,Completed,0
+Long-short,2026-08-31,Elastic Net,Completed,0
+Long-short,2026-08-31,KNN,Completed,0
+Long-short,2026-08-31,SVR,Completed,0
+Long-short,2026-08-31,Random Forest,Completed,0
+Long-short,2026-08-31,Extra Trees,Completed,0
+Long-short,2026-08-31,XGBoost,Completed,0
+Long-short,2026-08-31,MLP,Completed,0
+Long-short,2026-08-31,LSTM,Completed,0
+Long-short,2026-08-31,CNN,Completed,0
+Long-short,2026-08-31,Prophet,Completed,0
+Ranked long-short,2024-12-31,Ridge,Completed,0
+Ranked long-short,2024-12-31,Elastic Net,Completed,0
+Ranked long-short,2024-12-31,KNN,Completed,0
+Ranked long-short,2024-12-31,SVR,Completed,0
+Ranked long-short,2024-12-31,Random Forest,Completed,0
+Ranked long-short,2024-12-31,Extra Trees,Completed,0
+Ranked long-short,2024-12-31,XGBoost,Completed,0
+Ranked long-short,2024-12-31,MLP,Completed,0
+Ranked long-short,2024-12-31,LSTM,Completed,0
+Ranked long-short,2024-12-31,CNN,Completed,0
+Ranked long-short,2024-12-31,Prophet,Completed,0
+Ranked long-short,2025-01-31,Ridge,Completed,0
+Ranked long-short,2025-01-31,Elastic Net,Completed,0
+Ranked long-short,2025-01-31,KNN,Completed,0
+Ranked long-short,2025-01-31,SVR,Completed,0
+Ranked long-short,2025-01-31,Random Forest,Completed,0
+Ranked long-short,2025-01-31,Extra Trees,Completed,0
+Ranked long-short,2025-01-31,XGBoost,Completed,0
+Ranked long-short,2025-01-31,MLP,Completed,0
+Ranked long-short,2025-01-31,LSTM,Completed,0
+Ranked long-short,2025-01-31,CNN,Completed,0
+Ranked long-short,2025-01-31,Prophet,Completed,0
+Ranked long-short,2025-02-28,Ridge,Completed,0
+Ranked long-short,2025-02-28,Elastic Net,Completed,0
+Ranked long-short,2025-02-28,KNN,Completed,0
+Ranked long-short,2025-02-28,SVR,Completed,0
+Ranked long-short,2025-02-28,Random Forest,Completed,0
+Ranked long-short,2025-02-28,Extra Trees,Completed,0
+Ranked long-short,2025-02-28,XGBoost,Completed,0
+Ranked long-short,2025-02-28,MLP,Completed,0
+Ranked long-short,2025-02-28,LSTM,Completed,0
+Ranked long-short,2025-02-28,CNN,Completed,0
+Ranked long-short,2025-02-28,Prophet,Completed,0
+Ranked long-short,2025-03-31,Ridge,Completed,0
+Ranked long-short,2025-03-31,Elastic Net,Completed,0
+Ranked long-short,2025-03-31,KNN,Completed,0
+Ranked long-short,2025-03-31,SVR,Completed,0
+Ranked long-short,2025-03-31,Random Forest,Completed,0
+Ranked long-short,2025-03-31,Extra Trees,Completed,0
+Ranked long-short,2025-03-31,XGBoost,Completed,0
+Ranked long-short,2025-03-31,MLP,Completed,0
+Ranked long-short,2025-03-31,LSTM,Completed,0
+Ranked long-short,2025-03-31,CNN,Completed,0
+Ranked long-short,2025-03-31,Prophet,Completed,0
+Ranked long-short,2025-04-30,Ridge,Completed,0
+Ranked long-short,2025-04-30,Elastic Net,Completed,0
+Ranked long-short,2025-04-30,KNN,Completed,0
+Ranked long-short,2025-04-30,SVR,Completed,0
+Ranked long-short,2025-04-30,Random Forest,Completed,0
+Ranked long-short,2025-04-30,Extra Trees,Completed,0
+Ranked long-short,2025-04-30,XGBoost,Completed,0
+Ranked long-short,2025-04-30,MLP,Completed,0
+Ranked long-short,2025-04-30,LSTM,Completed,0
+Ranked long-short,2025-04-30,CNN,Completed,0
+Ranked long-short,2025-04-30,Prophet,Completed,0
+Ranked long-short,2025-05-31,Ridge,Completed,0
+Ranked long-short,2025-05-31,Elastic Net,Completed,0
+Ranked long-short,2025-05-31,KNN,Completed,0
+Ranked long-short,2025-05-31,SVR,Completed,0
+Ranked long-short,2025-05-31,Random Forest,Completed,0
+Ranked long-short,2025-05-31,Extra Trees,Completed,0
+Ranked long-short,2025-05-31,XGBoost,Completed,0
+Ranked long-short,2025-05-31,MLP,Completed,0
+Ranked long-short,2025-05-31,LSTM,Completed,0
+Ranked long-short,2025-05-31,CNN,Completed,0
+Ranked long-short,2025-05-31,Prophet,Completed,0
+Ranked long-short,2025-06-30,Ridge,Completed,0
+Ranked long-short,2025-06-30,Elastic Net,Completed,0
+Ranked long-short,2025-06-30,KNN,Completed,0
+Ranked long-short,2025-06-30,SVR,Completed,0
+Ranked long-short,2025-06-30,Random Forest,Completed,0
+Ranked long-short,2025-06-30,Extra Trees,Completed,0
+Ranked long-short,2025-06-30,XGBoost,Completed,0
+Ranked long-short,2025-06-30,MLP,Completed,0
+Ranked long-short,2025-06-30,LSTM,Completed,0
+Ranked long-short,2025-06-30,CNN,Completed,0
+Ranked long-short,2025-06-30,Prophet,Completed,0
+Ranked long-short,2025-07-31,Ridge,Completed,0
+Ranked long-short,2025-07-31,Elastic Net,Completed,0
+Ranked long-short,2025-07-31,KNN,Completed,0
+Ranked long-short,2025-07-31,SVR,Completed,0
+Ranked long-short,2025-07-31,Random Forest,Completed,0
+Ranked long-short,2025-07-31,Extra Trees,Completed,0
+Ranked long-short,2025-07-31,XGBoost,Completed,0
+Ranked long-short,2025-07-31,MLP,Completed,0
+Ranked long-short,2025-07-31,LSTM,Completed,0
+Ranked long-short,2025-07-31,CNN,Completed,0
+Ranked long-short,2025-07-31,Prophet,Completed,0
+Ranked long-short,2025-08-31,Ridge,Completed,0
+Ranked long-short,2025-08-31,Elastic Net,Completed,0
+Ranked long-short,2025-08-31,KNN,Completed,0
+Ranked long-short,2025-08-31,SVR,Completed,0
+Ranked long-short,2025-08-31,Random Forest,Completed,0
+Ranked long-short,2025-08-31,Extra Trees,Completed,0
+Ranked long-short,2025-08-31,XGBoost,Completed,0
+Ranked long-short,2025-08-31,MLP,Completed,0
+Ranked long-short,2025-08-31,LSTM,Completed,0
+Ranked long-short,2025-08-31,CNN,Completed,0
+Ranked long-short,2025-08-31,Prophet,Completed,0
+Ranked long-short,2025-09-30,Ridge,Completed,0
+Ranked long-short,2025-09-30,Elastic Net,Completed,0
+Ranked long-short,2025-09-30,KNN,Completed,0
+Ranked long-short,2025-09-30,SVR,Completed,0
+Ranked long-short,2025-09-30,Random Forest,Completed,0
+Ranked long-short,2025-09-30,Extra Trees,Completed,0
+Ranked long-short,2025-09-30,XGBoost,Completed,0
+Ranked long-short,2025-09-30,MLP,Completed,0
+Ranked long-short,2025-09-30,LSTM,Completed,0
+Ranked long-short,2025-09-30,CNN,Completed,0
+Ranked long-short,2025-09-30,Prophet,Completed,0
+Ranked long-short,2025-10-31,Ridge,Completed,0
+Ranked long-short,2025-10-31,Elastic Net,Completed,0
+Ranked long-short,2025-10-31,KNN,Completed,0
+Ranked long-short,2025-10-31,SVR,Completed,0
+Ranked long-short,2025-10-31,Random Forest,Completed,0
+Ranked long-short,2025-10-31,Extra Trees,Completed,0
+Ranked long-short,2025-10-31,XGBoost,Completed,0
+Ranked long-short,2025-10-31,MLP,Completed,0
+Ranked long-short,2025-10-31,LSTM,Completed,0
+Ranked long-short,2025-10-31,CNN,Completed,0
+Ranked long-short,2025-10-31,Prophet,Completed,0
+Ranked long-short,2025-11-30,Ridge,Completed,0
+Ranked long-short,2025-11-30,Elastic Net,Completed,0
+Ranked long-short,2025-11-30,KNN,Completed,0
+Ranked long-short,2025-11-30,SVR,Completed,0
+Ranked long-short,2025-11-30,Random Forest,Completed,0
+Ranked long-short,2025-11-30,Extra Trees,Completed,0
+Ranked long-short,2025-11-30,XGBoost,Completed,0
+Ranked long-short,2025-11-30,MLP,Completed,0
+Ranked long-short,2025-11-30,LSTM,Completed,0
+Ranked long-short,2025-11-30,CNN,Completed,0
+Ranked long-short,2025-11-30,Prophet,Completed,0
+Ranked long-short,2025-12-31,Ridge,Completed,0
+Ranked long-short,2025-12-31,Elastic Net,Completed,0
+Ranked long-short,2025-12-31,KNN,Completed,0
+Ranked long-short,2025-12-31,SVR,Completed,0
+Ranked long-short,2025-12-31,Random Forest,Completed,0
+Ranked long-short,2025-12-31,Extra Trees,Completed,0
+Ranked long-short,2025-12-31,XGBoost,Completed,0
+Ranked long-short,2025-12-31,MLP,Completed,0
+Ranked long-short,2025-12-31,LSTM,Completed,0
+Ranked long-short,2025-12-31,CNN,Completed,0
+Ranked long-short,2025-12-31,Prophet,Completed,0
+Ranked long-short,2026-01-31,Ridge,Completed,0
+Ranked long-short,2026-01-31,Elastic Net,Completed,0
+Ranked long-short,2026-01-31,KNN,Completed,0
+Ranked long-short,2026-01-31,SVR,Completed,0
+Ranked long-short,2026-01-31,Random Forest,Completed,0
+Ranked long-short,2026-01-31,Extra Trees,Completed,0
+Ranked long-short,2026-01-31,XGBoost,Completed,0
+Ranked long-short,2026-01-31,MLP,Completed,0
+Ranked long-short,2026-01-31,LSTM,Completed,0
+Ranked long-short,2026-01-31,CNN,Completed,0
+Ranked long-short,2026-01-31,Prophet,Completed,0
+Ranked long-short,2026-02-28,Ridge,Completed,0
+Ranked long-short,2026-02-28,Elastic Net,Completed,0
+Ranked long-short,2026-02-28,KNN,Completed,0
+Ranked long-short,2026-02-28,SVR,Completed,0
+Ranked long-short,2026-02-28,Random Forest,Completed,0
+Ranked long-short,2026-02-28,Extra Trees,Completed,0
+Ranked long-short,2026-02-28,XGBoost,Completed,0
+Ranked long-short,2026-02-28,MLP,Completed,0
+Ranked long-short,2026-02-28,LSTM,Completed,0
+Ranked long-short,2026-02-28,CNN,Completed,0
+Ranked long-short,2026-02-28,Prophet,Completed,0
+Ranked long-short,2026-03-31,Ridge,Completed,0
+Ranked long-short,2026-03-31,Elastic Net,Completed,0
+Ranked long-short,2026-03-31,KNN,Completed,0
+Ranked long-short,2026-03-31,SVR,Completed,0
+Ranked long-short,2026-03-31,Random Forest,Completed,0
+Ranked long-short,2026-03-31,Extra Trees,Completed,0
+Ranked long-short,2026-03-31,XGBoost,Completed,0
+Ranked long-short,2026-03-31,MLP,Completed,0
+Ranked long-short,2026-03-31,LSTM,Completed,0
+Ranked long-short,2026-03-31,CNN,Completed,0
+Ranked long-short,2026-03-31,Prophet,Completed,0
+Ranked long-short,2026-04-30,Ridge,Completed,0
+Ranked long-short,2026-04-30,Elastic Net,Completed,0
+Ranked long-short,2026-04-30,KNN,Completed,0
+Ranked long-short,2026-04-30,SVR,Completed,0
+Ranked long-short,2026-04-30,Random Forest,Completed,0
+Ranked long-short,2026-04-30,Extra Trees,Completed,0
+Ranked long-short,2026-04-30,XGBoost,Completed,0
+Ranked long-short,2026-04-30,MLP,Completed,0
+Ranked long-short,2026-04-30,LSTM,Completed,0
+Ranked long-short,2026-04-30,CNN,Completed,0
+Ranked long-short,2026-04-30,Prophet,Completed,0
+Ranked long-short,2026-05-31,Ridge,Completed,0
+Ranked long-short,2026-05-31,Elastic Net,Completed,0
+Ranked long-short,2026-05-31,KNN,Completed,0
+Ranked long-short,2026-05-31,SVR,Completed,0
+Ranked long-short,2026-05-31,Random Forest,Completed,0
+Ranked long-short,2026-05-31,Extra Trees,Completed,0
+Ranked long-short,2026-05-31,XGBoost,Completed,0
+Ranked long-short,2026-05-31,MLP,Completed,0
+Ranked long-short,2026-05-31,LSTM,Completed,0
+Ranked long-short,2026-05-31,CNN,Completed,0
+Ranked long-short,2026-05-31,Prophet,Completed,0
+Ranked long-short,2026-06-30,Ridge,Completed,0
+Ranked long-short,2026-06-30,Elastic Net,Completed,0
+Ranked long-short,2026-06-30,KNN,Completed,0
+Ranked long-short,2026-06-30,SVR,Completed,0
+Ranked long-short,2026-06-30,Random Forest,Completed,0
+Ranked long-short,2026-06-30,Extra Trees,Completed,0
+Ranked long-short,2026-06-30,XGBoost,Completed,0
+Ranked long-short,2026-06-30,MLP,Completed,0
+Ranked long-short,2026-06-30,LSTM,Completed,0
+Ranked long-short,2026-06-30,CNN,Completed,0
+Ranked long-short,2026-06-30,Prophet,Completed,0
+Ranked long-short,2026-07-31,Ridge,Completed,0
+Ranked long-short,2026-07-31,Elastic Net,Completed,0
+Ranked long-short,2026-07-31,KNN,Completed,0
+Ranked long-short,2026-07-31,SVR,Completed,0
+Ranked long-short,2026-07-31,Random Forest,Completed,0
+Ranked long-short,2026-07-31,Extra Trees,Completed,0
+Ranked long-short,2026-07-31,XGBoost,Completed,0
+Ranked long-short,2026-07-31,MLP,Completed,0
+Ranked long-short,2026-07-31,LSTM,Completed,0
+Ranked long-short,2026-07-31,CNN,Completed,0
+Ranked long-short,2026-07-31,Prophet,Completed,0
+Ranked long-short,2026-08-31,Ridge,Completed,0
+Ranked long-short,2026-08-31,Elastic Net,Completed,0
+Ranked long-short,2026-08-31,KNN,Completed,0
+Ranked long-short,2026-08-31,SVR,Completed,0
+Ranked long-short,2026-08-31,Random Forest,Completed,0
+Ranked long-short,2026-08-31,Extra Trees,Completed,0
+Ranked long-short,2026-08-31,XGBoost,Completed,0
+Ranked long-short,2026-08-31,MLP,Completed,0
+Ranked long-short,2026-08-31,LSTM,Completed,0
+Ranked long-short,2026-08-31,CNN,Completed,0
+Ranked long-short,2026-08-31,Prophet,Completed,0
+Sector neutral,2024-12-31,Ridge,Completed,0
+Sector neutral,2024-12-31,Elastic Net,Completed,0
+Sector neutral,2024-12-31,KNN,Completed,0
+Sector neutral,2024-12-31,SVR,Completed,0
+Sector neutral,2024-12-31,Random Forest,Completed,0
+Sector neutral,2024-12-31,Extra Trees,Completed,0
+Sector neutral,2024-12-31,XGBoost,Completed,0
+Sector neutral,2024-12-31,MLP,Completed,0
+Sector neutral,2024-12-31,LSTM,Completed,0
+Sector neutral,2024-12-31,CNN,Completed,0
+Sector neutral,2024-12-31,Prophet,Completed,0
+Sector neutral,2025-01-31,Ridge,Completed,0
+Sector neutral,2025-01-31,Elastic Net,Completed,0
+Sector neutral,2025-01-31,KNN,Completed,0
+Sector neutral,2025-01-31,SVR,Completed,0
+Sector neutral,2025-01-31,Random Forest,Completed,0
+Sector neutral,2025-01-31,Extra Trees,Completed,0
+Sector neutral,2025-01-31,XGBoost,Completed,0
+Sector neutral,2025-01-31,MLP,Completed,0
+Sector neutral,2025-01-31,LSTM,Completed,0
+Sector neutral,2025-01-31,CNN,Completed,0
+Sector neutral,2025-01-31,Prophet,Completed,0
+Sector neutral,2025-02-28,Ridge,Completed,0
+Sector neutral,2025-02-28,Elastic Net,Completed,0
+Sector neutral,2025-02-28,KNN,Completed,0
+Sector neutral,2025-02-28,SVR,Completed,0
+Sector neutral,2025-02-28,Random Forest,Completed,0
+Sector neutral,2025-02-28,Extra Trees,Completed,0
+Sector neutral,2025-02-28,XGBoost,Completed,0
+Sector neutral,2025-02-28,MLP,Completed,0
+Sector neutral,2025-02-28,LSTM,Completed,0
+Sector neutral,2025-02-28,CNN,Completed,0
+Sector neutral,2025-02-28,Prophet,Completed,0
+Sector neutral,2025-03-31,Ridge,Completed,0
+Sector neutral,2025-03-31,Elastic Net,Completed,0
+Sector neutral,2025-03-31,KNN,Completed,0
+Sector neutral,2025-03-31,SVR,Completed,0
+Sector neutral,2025-03-31,Random Forest,Completed,0
+Sector neutral,2025-03-31,Extra Trees,Completed,0
+Sector neutral,2025-03-31,XGBoost,Completed,0
+Sector neutral,2025-03-31,MLP,Completed,0
+Sector neutral,2025-03-31,LSTM,Completed,0
+Sector neutral,2025-03-31,CNN,Completed,0
+Sector neutral,2025-03-31,Prophet,Completed,0
+Sector neutral,2025-04-30,Ridge,Completed,0
+Sector neutral,2025-04-30,Elastic Net,Completed,0
+Sector neutral,2025-04-30,KNN,Completed,0
+Sector neutral,2025-04-30,SVR,Completed,0
+Sector neutral,2025-04-30,Random Forest,Completed,0
+Sector neutral,2025-04-30,Extra Trees,Completed,0
+Sector neutral,2025-04-30,XGBoost,Completed,0
+Sector neutral,2025-04-30,MLP,Completed,0
+Sector neutral,2025-04-30,LSTM,Completed,0
+Sector neutral,2025-04-30,CNN,Completed,0
+Sector neutral,2025-04-30,Prophet,Completed,0
+Sector neutral,2025-05-31,Ridge,Completed,0
+Sector neutral,2025-05-31,Elastic Net,Completed,0
+Sector neutral,2025-05-31,KNN,Completed,0
+Sector neutral,2025-05-31,SVR,Completed,0
+Sector neutral,2025-05-31,Random Forest,Completed,0
+Sector neutral,2025-05-31,Extra Trees,Completed,0
+Sector neutral,2025-05-31,XGBoost,Completed,0
+Sector neutral,2025-05-31,MLP,Completed,0
+Sector neutral,2025-05-31,LSTM,Completed,0
+Sector neutral,2025-05-31,CNN,Completed,0
+Sector neutral,2025-05-31,Prophet,Completed,0
+Sector neutral,2025-06-30,Ridge,Completed,0
+Sector neutral,2025-06-30,Elastic Net,Completed,0
+Sector neutral,2025-06-30,KNN,Completed,0
+Sector neutral,2025-06-30,SVR,Completed,0
+Sector neutral,2025-06-30,Random Forest,Completed,0
+Sector neutral,2025-06-30,Extra Trees,Completed,0
+Sector neutral,2025-06-30,XGBoost,Completed,0
+Sector neutral,2025-06-30,MLP,Completed,0
+Sector neutral,2025-06-30,LSTM,Completed,0
+Sector neutral,2025-06-30,CNN,Completed,0
+Sector neutral,2025-06-30,Prophet,Completed,0
+Sector neutral,2025-07-31,Ridge,Completed,0
+Sector neutral,2025-07-31,Elastic Net,Completed,0
+Sector neutral,2025-07-31,KNN,Completed,0
+Sector neutral,2025-07-31,SVR,Completed,0
+Sector neutral,2025-07-31,Random Forest,Completed,0
+Sector neutral,2025-07-31,Extra Trees,Completed,0
+Sector neutral,2025-07-31,XGBoost,Completed,0
+Sector neutral,2025-07-31,MLP,Completed,0
+Sector neutral,2025-07-31,LSTM,Completed,0
+Sector neutral,2025-07-31,CNN,Completed,0
+Sector neutral,2025-07-31,Prophet,Completed,0
+Sector neutral,2025-08-31,Ridge,Completed,0
+Sector neutral,2025-08-31,Elastic Net,Completed,0
+Sector neutral,2025-08-31,KNN,Completed,0
+Sector neutral,2025-08-31,SVR,Completed,0
+Sector neutral,2025-08-31,Random Forest,Completed,0
+Sector neutral,2025-08-31,Extra Trees,Completed,0
+Sector neutral,2025-08-31,XGBoost,Completed,0
+Sector neutral,2025-08-31,MLP,Completed,0
+Sector neutral,2025-08-31,LSTM,Completed,0
+Sector neutral,2025-08-31,CNN,Completed,0
+Sector neutral,2025-08-31,Prophet,Completed,0
+Sector neutral,2025-09-30,Ridge,Completed,0
+Sector neutral,2025-09-30,Elastic Net,Completed,0
+Sector neutral,2025-09-30,KNN,Completed,0
+Sector neutral,2025-09-30,SVR,Completed,0
+Sector neutral,2025-09-30,Random Forest,Completed,0
+Sector neutral,2025-09-30,Extra Trees,Completed,0
+Sector neutral,2025-09-30,XGBoost,Completed,0
+Sector neutral,2025-09-30,MLP,Completed,0
+Sector neutral,2025-09-30,LSTM,Completed,0
+Sector neutral,2025-09-30,CNN,Completed,0
+Sector neutral,2025-09-30,Prophet,Completed,0
+Sector neutral,2025-10-31,Ridge,Completed,0
+Sector neutral,2025-10-31,Elastic Net,Completed,0
+Sector neutral,2025-10-31,KNN,Completed,0
+Sector neutral,2025-10-31,SVR,Completed,0
+Sector neutral,2025-10-31,Random Forest,Completed,0
+Sector neutral,2025-10-31,Extra Trees,Completed,0
+Sector neutral,2025-10-31,XGBoost,Completed,0
+Sector neutral,2025-10-31,MLP,Completed,0
+Sector neutral,2025-10-31,LSTM,Completed,0
+Sector neutral,2025-10-31,CNN,Completed,0
+Sector neutral,2025-10-31,Prophet,Completed,0
+Sector neutral,2025-11-30,Ridge,Completed,0
+Sector neutral,2025-11-30,Elastic Net,Completed,0
+Sector neutral,2025-11-30,KNN,Completed,0
+Sector neutral,2025-11-30,SVR,Completed,0
+Sector neutral,2025-11-30,Random Forest,Completed,0
+Sector neutral,2025-11-30,Extra Trees,Completed,0
+Sector neutral,2025-11-30,XGBoost,Completed,0
+Sector neutral,2025-11-30,MLP,Completed,0
+Sector neutral,2025-11-30,LSTM,Completed,0
+Sector neutral,2025-11-30,CNN,Completed,0
+Sector neutral,2025-11-30,Prophet,Completed,0
+Sector neutral,2025-12-31,Ridge,Completed,0
+Sector neutral,2025-12-31,Elastic Net,Completed,0
+Sector neutral,2025-12-31,KNN,Completed,0
+Sector neutral,2025-12-31,SVR,Completed,0
+Sector neutral,2025-12-31,Random Forest,Completed,0
+Sector neutral,2025-12-31,Extra Trees,Completed,0
+Sector neutral,2025-12-31,XGBoost,Completed,0
+Sector neutral,2025-12-31,MLP,Completed,0
+Sector neutral,2025-12-31,LSTM,Completed,0
+Sector neutral,2025-12-31,CNN,Completed,0
+Sector neutral,2025-12-31,Prophet,Completed,0
+Sector neutral,2026-01-31,Ridge,Completed,0
+Sector neutral,2026-01-31,Elastic Net,Completed,0
+Sector neutral,2026-01-31,KNN,Completed,0
+Sector neutral,2026-01-31,SVR,Completed,0
+Sector neutral,2026-01-31,Random Forest,Completed,0
+Sector neutral,2026-01-31,Extra Trees,Completed,0
+Sector neutral,2026-01-31,XGBoost,Completed,0
+Sector neutral,2026-01-31,MLP,Completed,0
+Sector neutral,2026-01-31,LSTM,Completed,0
+Sector neutral,2026-01-31,CNN,Completed,0
+Sector neutral,2026-01-31,Prophet,Completed,0
+Sector neutral,2026-02-28,Ridge,Completed,0
+Sector neutral,2026-02-28,Elastic Net,Completed,0
+Sector neutral,2026-02-28,KNN,Completed,0
+Sector neutral,2026-02-28,SVR,Completed,0
+Sector neutral,2026-02-28,Random Forest,Completed,0
+Sector neutral,2026-02-28,Extra Trees,Completed,0
+Sector neutral,2026-02-28,XGBoost,Completed,0
+Sector neutral,2026-02-28,MLP,Completed,0
+Sector neutral,2026-02-28,LSTM,Completed,0
+Sector neutral,2026-02-28,CNN,Completed,0
+Sector neutral,2026-02-28,Prophet,Completed,0
+Sector neutral,2026-03-31,Ridge,Completed,0
+Sector neutral,2026-03-31,Elastic Net,Completed,0
+Sector neutral,2026-03-31,KNN,Completed,0
+Sector neutral,2026-03-31,SVR,Completed,0
+Sector neutral,2026-03-31,Random Forest,Completed,0
+Sector neutral,2026-03-31,Extra Trees,Completed,0
+Sector neutral,2026-03-31,XGBoost,Completed,0
+Sector neutral,2026-03-31,MLP,Completed,0
+Sector neutral,2026-03-31,LSTM,Completed,0
+Sector neutral,2026-03-31,CNN,Completed,0
+Sector neutral,2026-03-31,Prophet,Completed,0
+Sector neutral,2026-04-30,Ridge,Completed,0
+Sector neutral,2026-04-30,Elastic Net,Completed,0
+Sector neutral,2026-04-30,KNN,Completed,0
+Sector neutral,2026-04-30,SVR,Completed,0
+Sector neutral,2026-04-30,Random Forest,Completed,0
+Sector neutral,2026-04-30,Extra Trees,Completed,0
+Sector neutral,2026-04-30,XGBoost,Completed,0
+Sector neutral,2026-04-30,MLP,Completed,0
+Sector neutral,2026-04-30,LSTM,Completed,0
+Sector neutral,2026-04-30,CNN,Completed,0
+Sector neutral,2026-04-30,Prophet,Completed,0
+Sector neutral,2026-05-31,Ridge,Completed,0
+Sector neutral,2026-05-31,Elastic Net,Completed,0
+Sector neutral,2026-05-31,KNN,Completed,0
+Sector neutral,2026-05-31,SVR,Completed,0
+Sector neutral,2026-05-31,Random Forest,Completed,0
+Sector neutral,2026-05-31,Extra Trees,Completed,0
+Sector neutral,2026-05-31,XGBoost,Completed,0
+Sector neutral,2026-05-31,MLP,Completed,0
+Sector neutral,2026-05-31,LSTM,Completed,0
+Sector neutral,2026-05-31,CNN,Completed,0
+Sector neutral,2026-05-31,Prophet,Completed,0
+Sector neutral,2026-06-30,Ridge,Completed,0
+Sector neutral,2026-06-30,Elastic Net,Completed,0
+Sector neutral,2026-06-30,KNN,Completed,0
+Sector neutral,2026-06-30,SVR,Completed,0
+Sector neutral,2026-06-30,Random Forest,Completed,0
+Sector neutral,2026-06-30,Extra Trees,Completed,0
+Sector neutral,2026-06-30,XGBoost,Completed,0
+Sector neutral,2026-06-30,MLP,Completed,0
+Sector neutral,2026-06-30,LSTM,Completed,0
+Sector neutral,2026-06-30,CNN,Completed,0
+Sector neutral,2026-06-30,Prophet,Completed,0
+Sector neutral,2026-07-31,Ridge,Completed,0
+Sector neutral,2026-07-31,Elastic Net,Completed,0
+Sector neutral,2026-07-31,KNN,Completed,0
+Sector neutral,2026-07-31,SVR,Completed,0
+Sector neutral,2026-07-31,Random Forest,Completed,0
+Sector neutral,2026-07-31,Extra Trees,Completed,0
+Sector neutral,2026-07-31,XGBoost,Completed,0
+Sector neutral,2026-07-31,MLP,Completed,0
+Sector neutral,2026-07-31,LSTM,Completed,0
+Sector neutral,2026-07-31,CNN,Completed,0
+Sector neutral,2026-07-31,Prophet,Completed,0
+Sector neutral,2026-08-31,Ridge,Completed,0
+Sector neutral,2026-08-31,Elastic Net,Completed,0
+Sector neutral,2026-08-31,KNN,Completed,0
+Sector neutral,2026-08-31,SVR,Completed,0
+Sector neutral,2026-08-31,Random Forest,Completed,0
+Sector neutral,2026-08-31,Extra Trees,Completed,0
+Sector neutral,2026-08-31,XGBoost,Completed,0
+Sector neutral,2026-08-31,MLP,Completed,0
+Sector neutral,2026-08-31,LSTM,Completed,0
+Sector neutral,2026-08-31,CNN,Completed,0
+Sector neutral,2026-08-31,Prophet,Completed,0
