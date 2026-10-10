@@ -1,0 +1,10 @@
+ticker,dataset,url,currency,unit,downloaded_utc
+AAPL,income,https://api.eulerpool.com/api/1/equity/incomestatement/AAPL,USD,USD millions; shares in millions,2026-10-06T21:30:25.477801+00:00
+AAPL,splits,https://api.eulerpool.com/api/1/equity/splits/AAPL,USD,split ratio,2026-10-06T21:30:26.122533+00:00
+AAPL,prices,https://api.eulerpool.com/api/1/charting/ohlcv/AAPL?resolution=D&from=1388534400&to=1790812800,USD,USD per adjusted share,2026-10-06T21:30:26.538180+00:00
+MSFT,income,https://api.eulerpool.com/api/1/equity/incomestatement/MSFT,USD,USD millions; shares in millions,2026-10-06T21:30:25.323674+00:00
+MSFT,splits,https://api.eulerpool.com/api/1/equity/splits/MSFT,USD,split ratio,2026-10-06T21:30:25.810708+00:00
+MSFT,prices,https://api.eulerpool.com/api/1/charting/ohlcv/MSFT?resolution=D&from=1388534400&to=1790812800,USD,USD per adjusted share,2026-10-06T21:30:26.264342+00:00
+AMZN,income,https://api.eulerpool.com/api/1/equity/incomestatement/AMZN,USD,USD millions; shares in millions,2026-10-06T21:30:25.432229+00:00
+AMZN,splits,https://api.eulerpool.com/api/1/equity/splits/AMZN,USD,split ratio,2026-10-06T21:30:26.023686+00:00
+AMZN,prices,https://api.eulerpool.com/api/1/charting/ohlcv/AMZN?resolution=D&from=1388534400&to=1790812800,USD,USD per adjusted share,2026-10-06T21:30:26.418635+00:00

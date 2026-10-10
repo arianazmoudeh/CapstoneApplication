@@ -1,0 +1,16 @@
+{% extends 'registration/auth_base.html' %}
+{% block title %}Log in · WorldQuant University Capstone Project{% endblock %}
+{% block auth_content %}
+  <span class="mb-3 block text-[10px] font-semibold tracking-widest text-accent uppercase">Welcome back</span>
+  <h2 id="auth-title" class="text-2xl">Log in to your account</h2>
+  <p class="mb-7 text-muted">View crypto prices and your portfolio.</p>
+  <form method="post">
+    {% csrf_token %}
+    <input type="hidden" name="next" value="{{ next }}">
+    {% if form.non_field_errors %}<div class="error" role="alert">{% for error in form.non_field_errors %}<p>{{ error }}</p>{% endfor %}</div>{% endif %}
+    {% include 'registration/field.html' with field=form.username %}
+    {% include 'registration/field.html' with field=form.password %}
+    <button type="submit" class="mt-6 flex w-full items-center justify-between [&_span]:text-lg">Log in <span aria-hidden="true">&rarr;</span></button>
+  </form>
+  <p class="mt-6 mb-0 border-t border-line pt-5 text-center text-xs text-muted [&_a]:ml-1 [&_a]:font-semibold">New here? <a href="{% url 'signup' %}">Create an account</a></p>
+{% endblock %}

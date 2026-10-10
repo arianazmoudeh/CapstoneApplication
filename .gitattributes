@@ -1,0 +1,2 @@
+/inputs/china_stock_20/*.csv -text
+/dashboard/china_research_results/*.csv -text

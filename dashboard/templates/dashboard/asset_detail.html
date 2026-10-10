@@ -1,0 +1,22 @@
+{% extends 'dashboard/base.html' %}
+{% load humanize %}
+{% block title %}{{ symbol }} details · WorldQuant University Capstone Project{% endblock %}
+{% block content %}
+<main id="main" class="page-shell min-w-0 flex-1">
+  <div class="my-8 sm:my-10 [&_p]:text-muted flex flex-col items-start justify-between gap-4 md:flex-row md:items-center"><div><span class="mb-3 block text-[10px] font-semibold tracking-widest text-accent uppercase">Portfolio asset</span><h1>{% if result %}{{ result.ticker }}{% else %}{{ symbol }}{% endif %}</h1>{% if result %}<p>{{ result.name }} · One year of daily prices and technical indicators.</p>{% endif %}</div><a class="button-link" href="{% url 'portfolio' %}">&larr; My portfolio</a></div>
+  {% include 'dashboard/price_status.html' %}
+  {% if symbol == 'BTC-USD' %}<section class="panel"><div class="section-heading mb-0"><div><h2>Trend prediction</h2><p class="text-muted">LSTM and Prophet forecasts for the next daily price.</p></div><a class="button-link" href="{% url 'prediction' %}">Run prediction &rarr;</a></div></section>{% endif %}
+  {% if result %}
+  <section class="stat-grid" aria-label="Asset summary">
+    <div><span>Latest price</span><strong>${{ result.price|floatformat:2|intcomma }}</strong></div>
+    <div><span>Daily change</span><strong class="{% if result.daily_change >= 0 %}text-positive{% else %}text-negative{% endif %}">{{ result.daily_change|floatformat:2 }}%</strong></div>
+    <div><span>30-day momentum</span><strong class="{% if result.month_change >= 0 %}text-positive{% else %}text-negative{% endif %}">{{ result.month_change|floatformat:2 }}%</strong></div>
+  </section>
+  <section class="panel" aria-labelledby="price-title"><div class="section-heading"><div><h2 id="price-title">Price and moving averages</h2><p class="text-muted">Daily prices with 20-day and 50-day exponential moving averages.</p></div><span class="mt-3 text-xs text-muted">{{ result.start|date:'d M Y' }} to {{ result.end|date:'d M Y' }}</span></div>{% include 'dashboard/chart.html' with chart=result.price_chart label='One-year price with EMA 20 and EMA 50' %}<div class="metrics"><div><span>One-year change</span><strong class="{% if result.year_change >= 0 %}text-positive{% else %}text-negative{% endif %}">{{ result.year_change|floatformat:2 }}%</strong></div><div><span>EMA 20</span><strong>${{ result.ema20|floatformat:2|intcomma }}</strong></div><div><span>EMA 50</span><strong>${{ result.ema50|floatformat:2|intcomma }}</strong></div><div><span>Price trend</span><strong>{{ result.trend }}</strong></div><div><span>Max. drawdown</span><strong>{{ result.drawdown|floatformat:2 }}%</strong></div></div></section>
+  <div class="grid gap-6 lg:grid-cols-2 [&_.chart_svg]:min-w-[420px]">
+    <section class="panel" aria-labelledby="rsi-title"><div class="section-heading"><div><h2 id="rsi-title">RSI</h2><p class="text-muted">14-day relative strength index.</p></div><strong>{{ result.rsi|floatformat:2 }} · {{ result.rsi_status }}</strong></div>{% include 'dashboard/chart.html' with chart=result.rsi_chart label='14-day RSI' hide_legend=True %}</section>
+    <section class="panel" aria-labelledby="macd-title"><div class="section-heading"><div><h2 id="macd-title">MACD</h2><p class="text-muted">MACD line compared with its signal line.</p></div><strong>{{ result.macd|floatformat:2 }}</strong></div>{% include 'dashboard/chart.html' with chart=result.macd_chart label='MACD and signal line' %}</section>
+  </div>
+  {% endif %}
+</main>
+{% endblock %}

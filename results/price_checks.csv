@@ -1,0 +1,4 @@
+Stock,Rows,Conflicting dates excluded,First date,Last date
+AAPL,3163,37,2014-01-02,2026-09-30
+MSFT,3200,2,2014-01-02,2026-09-30
+AMZN,3160,32,2014-01-02,2026-09-30

@@ -1,0 +1,78 @@
+ticker,dataset,url,currency,unit,downloaded_utc
+AAPL,income,https://api.eulerpool.com/api/1/equity/incomestatement/AAPL,USD,USD millions; shares in millions,2026-10-06T21:30:25.477801+00:00
+AAPL,splits,https://api.eulerpool.com/api/1/equity/splits/AAPL,USD,split ratio,2026-10-06T21:30:26.122533+00:00
+AAPL,prices,https://api.eulerpool.com/api/1/charting/ohlcv/AAPL?resolution=D&from=1388534400&to=1790812800,USD,USD per adjusted share,2026-10-06T21:30:26.538180+00:00
+MSFT,income,https://api.eulerpool.com/api/1/equity/incomestatement/MSFT,USD,USD millions; shares in millions,2026-10-06T21:30:25.323674+00:00
+MSFT,splits,https://api.eulerpool.com/api/1/equity/splits/MSFT,USD,split ratio,2026-10-06T21:30:25.810708+00:00
+MSFT,prices,https://api.eulerpool.com/api/1/charting/ohlcv/MSFT?resolution=D&from=1388534400&to=1790812800,USD,USD per adjusted share,2026-10-06T21:30:26.264342+00:00
+NVDA,profile,https://api.eulerpool.com/api/1/equity/profile/NVDA,USD,company information,2026-10-08T08:55:01.051554+00:00
+NVDA,income,https://api.eulerpool.com/api/1/equity/incomestatement/NVDA,USD,USD millions; shares in millions,2026-10-08T08:55:01.375523+00:00
+NVDA,splits,https://api.eulerpool.com/api/1/equity/splits/NVDA,USD,split ratio,2026-10-08T08:55:01.686645+00:00
+NVDA,prices,https://api.eulerpool.com/api/1/charting/ohlcv/NVDA?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:02.096356+00:00
+ORCL,profile,https://api.eulerpool.com/api/1/equity/profile/ORCL,USD,company information,2026-10-08T08:55:01.051554+00:00
+ORCL,income,https://api.eulerpool.com/api/1/equity/incomestatement/ORCL,USD,USD millions; shares in millions,2026-10-08T08:55:01.368595+00:00
+ORCL,splits,https://api.eulerpool.com/api/1/equity/splits/ORCL,USD,split ratio,2026-10-08T08:55:01.669649+00:00
+ORCL,prices,https://api.eulerpool.com/api/1/charting/ohlcv/ORCL?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:02.056001+00:00
+AMZN,income,https://api.eulerpool.com/api/1/equity/incomestatement/AMZN,USD,USD millions; shares in millions,2026-10-06T21:30:25.432229+00:00
+AMZN,splits,https://api.eulerpool.com/api/1/equity/splits/AMZN,USD,split ratio,2026-10-06T21:30:26.023686+00:00
+AMZN,prices,https://api.eulerpool.com/api/1/charting/ohlcv/AMZN?resolution=D&from=1388534400&to=1790812800,USD,USD per adjusted share,2026-10-06T21:30:26.418635+00:00
+HD,profile,https://api.eulerpool.com/api/1/equity/profile/HD,USD,company information,2026-10-08T08:55:01.036957+00:00
+HD,income,https://api.eulerpool.com/api/1/equity/incomestatement/HD,USD,USD millions; shares in millions,2026-10-08T08:55:01.325277+00:00
+HD,splits,https://api.eulerpool.com/api/1/equity/splits/HD,USD,split ratio,2026-10-08T08:55:01.649594+00:00
+HD,prices,https://api.eulerpool.com/api/1/charting/ohlcv/HD?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:02.036175+00:00
+MCD,profile,https://api.eulerpool.com/api/1/equity/profile/MCD,USD,company information,2026-10-08T08:55:02.333301+00:00
+MCD,income,https://api.eulerpool.com/api/1/equity/incomestatement/MCD,USD,USD millions; shares in millions,2026-10-08T08:55:02.576386+00:00
+MCD,splits,https://api.eulerpool.com/api/1/equity/splits/MCD,USD,split ratio,2026-10-08T08:55:02.954803+00:00
+MCD,prices,https://api.eulerpool.com/api/1/charting/ohlcv/MCD?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:03.242180+00:00
+WMT,profile,https://api.eulerpool.com/api/1/equity/profile/WMT,USD,company information,2026-10-08T08:55:02.365103+00:00
+WMT,income,https://api.eulerpool.com/api/1/equity/incomestatement/WMT,USD,USD millions; shares in millions,2026-10-08T08:55:02.706625+00:00
+WMT,splits,https://api.eulerpool.com/api/1/equity/splits/WMT,USD,split ratio,2026-10-08T08:55:03.023712+00:00
+WMT,prices,https://api.eulerpool.com/api/1/charting/ohlcv/WMT?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:03.425878+00:00
+COST,profile,https://api.eulerpool.com/api/1/equity/profile/COST,USD,company information,2026-10-08T08:55:02.435745+00:00
+COST,income,https://api.eulerpool.com/api/1/equity/incomestatement/COST,USD,USD millions; shares in millions,2026-10-08T08:55:02.695526+00:00
+COST,splits,https://api.eulerpool.com/api/1/equity/splits/COST,USD,split ratio,2026-10-08T08:55:02.995445+00:00
+COST,prices,https://api.eulerpool.com/api/1/charting/ohlcv/COST?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:03.577618+00:00
+PG,profile,https://api.eulerpool.com/api/1/equity/profile/PG,USD,company information,2026-10-08T08:55:03.548951+00:00
+PG,income,https://api.eulerpool.com/api/1/equity/incomestatement/PG,USD,USD millions; shares in millions,2026-10-08T08:55:03.836594+00:00
+PG,splits,https://api.eulerpool.com/api/1/equity/splits/PG,USD,split ratio,2026-10-08T08:55:04.074503+00:00
+PG,prices,https://api.eulerpool.com/api/1/charting/ohlcv/PG?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:04.505923+00:00
+KO,profile,https://api.eulerpool.com/api/1/equity/profile/KO,USD,company information,2026-10-08T08:55:03.722268+00:00
+KO,income,https://api.eulerpool.com/api/1/equity/incomestatement/KO,USD,USD millions; shares in millions,2026-10-08T08:55:04.002871+00:00
+KO,splits,https://api.eulerpool.com/api/1/equity/splits/KO,USD,split ratio,2026-10-08T08:55:04.291105+00:00
+KO,prices,https://api.eulerpool.com/api/1/charting/ohlcv/KO?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:04.619647+00:00
+JNJ,profile,https://api.eulerpool.com/api/1/equity/profile/JNJ,USD,company information,2026-10-08T08:55:03.812989+00:00
+JNJ,income,https://api.eulerpool.com/api/1/equity/incomestatement/JNJ,USD,USD millions; shares in millions,2026-10-08T08:55:04.068462+00:00
+JNJ,splits,https://api.eulerpool.com/api/1/equity/splits/JNJ,USD,split ratio,2026-10-08T08:55:04.388442+00:00
+JNJ,prices,https://api.eulerpool.com/api/1/charting/ohlcv/JNJ?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:04.792194+00:00
+PFE,profile,https://api.eulerpool.com/api/1/equity/profile/PFE,USD,company information,2026-10-08T08:55:04.818361+00:00
+PFE,income,https://api.eulerpool.com/api/1/equity/incomestatement/PFE,USD,USD millions; shares in millions,2026-10-08T08:55:05.124856+00:00
+PFE,splits,https://api.eulerpool.com/api/1/equity/splits/PFE,USD,split ratio,2026-10-08T08:55:05.327609+00:00
+PFE,prices,https://api.eulerpool.com/api/1/charting/ohlcv/PFE?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:05.736945+00:00
+MRK,profile,https://api.eulerpool.com/api/1/equity/profile/MRK,USD,company information,2026-10-08T08:55:04.917013+00:00
+MRK,income,https://api.eulerpool.com/api/1/equity/incomestatement/MRK,USD,USD millions; shares in millions,2026-10-08T08:55:05.199229+00:00
+MRK,splits,https://api.eulerpool.com/api/1/equity/splits/MRK,USD,split ratio,2026-10-08T08:55:05.476996+00:00
+MRK,prices,https://api.eulerpool.com/api/1/charting/ohlcv/MRK?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:05.869198+00:00
+XOM,profile,https://api.eulerpool.com/api/1/equity/profile/XOM,USD,company information,2026-10-08T08:55:05.083791+00:00
+XOM,income,https://api.eulerpool.com/api/1/equity/incomestatement/XOM,USD,USD millions; shares in millions,2026-10-08T08:55:05.303533+00:00
+XOM,splits,https://api.eulerpool.com/api/1/equity/splits/XOM,USD,split ratio,2026-10-08T08:55:05.613600+00:00
+XOM,prices,https://api.eulerpool.com/api/1/charting/ohlcv/XOM?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:05.965353+00:00
+CVX,profile,https://api.eulerpool.com/api/1/equity/profile/CVX,USD,company information,2026-10-08T08:55:06.079336+00:00
+CVX,income,https://api.eulerpool.com/api/1/equity/incomestatement/CVX,USD,USD millions; shares in millions,2026-10-08T08:55:06.375813+00:00
+CVX,splits,https://api.eulerpool.com/api/1/equity/splits/CVX,USD,split ratio,2026-10-08T08:55:06.664137+00:00
+CVX,prices,https://api.eulerpool.com/api/1/charting/ohlcv/CVX?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:07.080423+00:00
+CAT,profile,https://api.eulerpool.com/api/1/equity/profile/CAT,USD,company information,2026-10-08T08:55:06.177370+00:00
+CAT,income,https://api.eulerpool.com/api/1/equity/incomestatement/CAT,USD,USD millions; shares in millions,2026-10-08T08:55:06.387811+00:00
+CAT,splits,https://api.eulerpool.com/api/1/equity/splits/CAT,USD,split ratio,2026-10-08T08:55:06.644675+00:00
+CAT,prices,https://api.eulerpool.com/api/1/charting/ohlcv/CAT?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:07.003690+00:00
+HON,profile,https://api.eulerpool.com/api/1/equity/profile/HON,USD,company information,2026-10-08T08:55:06.295560+00:00
+HON,income,https://api.eulerpool.com/api/1/equity/incomestatement/HON,USD,USD millions; shares in millions,2026-10-08T08:55:06.606507+00:00
+HON,splits,https://api.eulerpool.com/api/1/equity/splits/HON,USD,split ratio,2026-10-08T08:55:06.795369+00:00
+HON,prices,https://api.eulerpool.com/api/1/charting/ohlcv/HON?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:07.114891+00:00
+NEE,profile,https://api.eulerpool.com/api/1/equity/profile/NEE,USD,company information,2026-10-08T08:55:07.267155+00:00
+NEE,income,https://api.eulerpool.com/api/1/equity/incomestatement/NEE,USD,USD millions; shares in millions,2026-10-08T08:55:07.524508+00:00
+NEE,splits,https://api.eulerpool.com/api/1/equity/splits/NEE,USD,split ratio,2026-10-08T08:55:07.806953+00:00
+NEE,prices,https://api.eulerpool.com/api/1/charting/ohlcv/NEE?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:08.101255+00:00
+DUK,profile,https://api.eulerpool.com/api/1/equity/profile/DUK,USD,company information,2026-10-08T08:55:07.357164+00:00
+DUK,income,https://api.eulerpool.com/api/1/equity/incomestatement/DUK,USD,USD millions; shares in millions,2026-10-08T08:55:07.636001+00:00
+DUK,splits,https://api.eulerpool.com/api/1/equity/splits/DUK,USD,split ratio,2026-10-08T08:55:07.844329+00:00
+DUK,prices,https://api.eulerpool.com/api/1/charting/ohlcv/DUK?resolution=D&from=1388534400&to=1790812800,USD,USD per provider-adjusted share; dividend treatment unverified,2026-10-08T08:55:08.167732+00:00

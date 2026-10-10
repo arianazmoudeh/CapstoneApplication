@@ -1,0 +1,10 @@
+<div class="chart">
+  <svg viewBox="-25 0 945 290" role="img" aria-label="Portfolio value in {{ currency }} over the full test period">
+    <title>Selected model and equal-weight portfolio values over time</title>
+    {% for tick in chart.ticks %}<line x1="58" x2="875" y1="{{ tick.y }}" y2="{{ tick.y }}" class="stroke-line stroke-1" /><text x="47" y="{{ tick.y }}" text-anchor="end" dominant-baseline="middle">{{ tick.label }}</text>{% endfor %}
+    {% for tick in chart.labels %}<text x="{{ tick.x }}" y="260" text-anchor="middle">{{ tick.label }}</text>{% endfor %}
+    {% for line in chart.lines %}<polyline points="{{ line.points }}" fill="none" stroke="{{ line.color }}" stroke-width="2" vector-effect="non-scaling-stroke" />{% endfor %}
+    <text x="466" y="285" text-anchor="middle">Date</text>
+  </svg>
+</div>
+<div class="legend">{% for line in chart.lines %}<span><i style="background: {{ line.color }}"></i>{{ line.name }}</span>{% endfor %}</div>

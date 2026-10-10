@@ -1,0 +1,4 @@
+Reference,Strategy,Annualized mean advantage pp,95% lower pp,95% upper pp
+Historical mean tilt,Flexible regime,0.02614005490192463,-0.06905568909518923,0.12028291933755675
+Volatility rule,Flexible regime,-0.01199183868739138,-0.1332859754310837,0.10648304025548401
+Linear regime,Flexible regime,0.008386309954331688,-0.08129762812426282,0.0945500825514519

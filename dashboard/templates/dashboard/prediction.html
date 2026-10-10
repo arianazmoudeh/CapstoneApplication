@@ -1,0 +1,28 @@
+{% extends 'dashboard/base.html' %}
+{% load static humanize %}
+{% block title %}Trend prediction · WorldQuant University Capstone Project{% endblock %}
+{% block scripts %}<script src="{% static 'dashboard/prediction.js' %}" defer></script>{% endblock %}
+{% block content %}
+<main id="main" class="page-shell min-w-0 flex-1">
+  <div class="my-8 flex flex-wrap items-start justify-between gap-4 sm:my-10"><div><h1>Trend prediction</h1><p class="text-muted">Bitcoin · Next daily price</p></div><a href="{% url 'experiments' %}" class="button-link">&larr; Experiments</a></div>
+  <section class="panel" aria-labelledby="run-title">
+    <div class="section-heading mb-0"><div><h2 id="run-title">Run a prediction</h2><p class="text-muted">Compare LSTM and Prophet using the latest completed daily prices.</p></div><form method="post" id="prediction-form">{% csrf_token %}<button type="submit" id="prediction-button">Run prediction</button></form></div>
+    <p id="prediction-status" role="status" class="mt-3 mb-0 text-xs text-muted">The result stays the same until a new daily price is available. Dates use UTC.</p>
+  </section>
+  {% if error %}<div class="error" role="alert">{{ error }}</div>{% endif %}
+  {% if prediction %}
+  {% if not current_prediction %}<p class="notice">This is a previous forecast. Run a prediction to check the next daily price.</p>{% endif %}
+  <section class="stat-grid" aria-label="Prediction dates and price">
+    <div><span>Forecast date</span><strong>{{ prediction.target_date }}</strong></div>
+    <div><span>Last daily price</span><strong>${{ prediction.last_close|floatformat:2|intcomma }}</strong></div>
+    <div><span>Prices through</span><strong>{{ prediction.price_date }}</strong></div>
+  </section>
+  <div class="grid gap-5 sm:grid-cols-2">
+    <section class="panel" aria-labelledby="lstm-title"><h2 id="lstm-title">LSTM</h2><p class="my-5 text-3xl font-semibold {% if prediction.lstm.trend == 'Up' %}text-positive{% else %}text-negative{% endif %}">{{ prediction.lstm.trend }}</p><p>Estimated probability of up: <strong>{{ prediction.lstm.up_probability|floatformat:1 }}%</strong></p><p class="mb-0 text-xs text-muted">Trained through {{ prediction.lstm.trained_through }}.</p></section>
+    <section class="panel" aria-labelledby="prophet-title"><h2 id="prophet-title">Prophet</h2><p class="my-5 text-3xl font-semibold {% if prediction.prophet.trend == 'Up' %}text-positive{% elif prediction.prophet.trend == 'Down' %}text-negative{% else %}text-muted{% endif %}">{{ prediction.prophet.trend }}</p><p>Forecast price: <strong>${{ prediction.prophet.price|floatformat:2|intcomma }}</strong> <span class="text-muted">({{ prediction.prophet.change|floatformat:2 }}%)</span></p><p class="mb-0 text-xs text-muted">Fitted using the latest year of daily prices.</p></section>
+  </div>
+  <p class="mb-6 text-xs text-muted">Generated {{ generated_at|date:'d M Y, H:i' }} UTC. LSTM's probability is a model estimate, not its measured accuracy.</p>
+  <section class="panel" aria-labelledby="history-title"><h2 id="history-title">Recent predictions</h2><div class="overflow-x-auto"><table><thead><tr><th scope="col">Forecast date</th><th scope="col">LSTM</th><th scope="col">Prophet</th><th scope="col">Actual move</th></tr></thead><tbody>{% for row in history %}<tr><td>{{ row.target_date }}</td><td>{{ row.lstm.trend }}</td><td>{{ row.prophet.trend }}</td><td>{{ row.actual_trend|default:'Awaiting price' }}</td></tr>{% endfor %}</tbody></table></div><p class="mt-3 mb-0 text-xs text-muted">Finished forecasts are checked when you run the next prediction.</p></section>
+  {% endif %}
+</main>
+{% endblock %}

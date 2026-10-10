@@ -1,0 +1,18 @@
+<div class="chart">
+  <svg viewBox="0 0 920 275" role="img" aria-label="{{ label }}">
+    <title>{{ label }}</title>
+    {% for tick in chart.ticks %}
+      <line x1="58" x2="875" y1="{{ tick.y }}" y2="{{ tick.y }}" class="stroke-line stroke-1" />
+      <text x="47" y="{{ tick.y }}" text-anchor="end" dominant-baseline="middle">{{ tick.label }}</text>
+    {% endfor %}
+    {% for tick in chart.labels %}
+      <text x="{{ tick.x }}" y="262" text-anchor="middle">{{ tick.label }}</text>
+    {% endfor %}
+    {% for line in chart.lines %}
+      <polyline points="{{ line.points }}" fill="none" stroke="{{ line.color }}" stroke-width="2" vector-effect="non-scaling-stroke" />
+    {% endfor %}
+  </svg>
+</div>
+{% if not hide_legend %}<div class="legend">
+  {% for line in chart.lines %}<span><i style="background: {{ line.color }}"></i>{{ line.name }}</span>{% endfor %}
+</div>{% endif %}

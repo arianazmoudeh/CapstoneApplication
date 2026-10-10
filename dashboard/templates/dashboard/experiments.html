@@ -1,0 +1,46 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}Experiments · WorldQuant University Capstone Project{% endblock %}
+{% block content %}
+<main id="main" class="page-shell min-w-0 flex-1">
+  <div class="my-8 sm:my-10 [&_p]:text-muted"><h1>Experiments</h1><p>Open our Python notebooks to see the code and results.</p></div>
+  <section class="panel" aria-labelledby="monthly-factor-title">
+    <div class="section-heading"><div><h2 id="monthly-factor-title">Monthly factor portfolios</h2></div></div>
+    <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/US_Stock_Monthly_Factor_Experiment.ipynb" target="_blank" rel="noopener noreferrer" aria-label="Monthly factor portfolio experiment notebook (opens in a new tab)"><strong>Month-end rebalancing and factor signals</strong><span>Use Random Forest to compare month-end rebalancing, long-short portfolios, overlapping holdings and sector-neutral signals.</span><span class="text-accent">Open notebook &rarr;</span></a>
+  </section>
+  <section class="panel" aria-labelledby="expanded-us-title">
+    <div class="section-heading"><div><h2 id="expanded-us-title">20 US companies and 10 models</h2></div></div>
+    <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/US_Stock_Expanded_Experiment.ipynb" target="_blank" rel="noopener noreferrer" aria-label="Expanded US stock experiment notebook (opens in a new tab)"><strong>Trend forecasts and factor portfolios</strong><span>Compare Ridge, Elastic Net, KNN, SVR, Random Forest, Extra Trees, XGBoost, MLP, LSTM and CNN using the same data and portfolio rules.</span><span class="text-accent">Open notebook &rarr;</span></a>
+  </section>
+  <section class="panel" aria-labelledby="us-stock-title">
+    <div class="section-heading"><div><h2 id="us-stock-title">US stock experiment</h2></div></div>
+    <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/US_Stock_Factor_Experiment.ipynb" target="_blank" rel="noopener noreferrer" aria-label="US stock experiment notebook (opens in a new tab)"><strong>Apple, Microsoft and Amazon</strong><span>Compare Random Forest, XGBoost, MLP, LSTM and CNN using Value, Profitability and Momentum.</span><span class="text-accent">Open notebook &rarr;</span></a>
+  </section>
+  <section class="panel" aria-labelledby="china-stock-title">
+    <div class="section-heading"><div><h2 id="china-stock-title">20 China A-share companies and 11 models</h2></div><a class="button-link" href="{% url 'china_research' %}">Explore results &rarr;</a></div>
+    <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/China_A_Share_Monthly_Factor_Experiment.ipynb" target="_blank" rel="noopener noreferrer" aria-label="China A-share factor experiment notebook (opens in a new tab)"><strong>Monthly factor predictions and portfolios</strong><span>Compare Value, Profitability and Momentum with eleven models, including LSTM, CNN and Prophet.</span><span class="text-accent">Open notebook &rarr;</span></a>
+  </section>
+  <section class="panel" aria-labelledby="trend-title">
+    <div class="section-heading"><div><h2 id="trend-title">Trend prediction</h2></div><a class="button-link" href="{% url 'prediction' %}">Run online prediction &rarr;</a></div>
+    <div class="grid gap-4 sm:grid-cols-2">
+      <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/simple_lstm/LSTM_Trend_Prediction.ipynb" target="_blank" rel="noopener noreferrer" aria-label="LSTM trend prediction notebook (opens in a new tab)"><strong>LSTM trend prediction</strong><span>Predict the next day's direction using recent price changes.</span><span class="text-accent">Open notebook &rarr;</span></a>
+      <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/simple_prophet/Prophet_Trend_Prediction.ipynb" target="_blank" rel="noopener noreferrer" aria-label="Prophet trend prediction notebook (opens in a new tab)"><strong>Prophet trend prediction</strong><span>Use Prophet's forecast to estimate the next day's direction.</span><span class="text-accent">Open notebook &rarr;</span></a>
+    </div>
+  </section>
+  <section class="panel" aria-labelledby="regime-title">
+    <div class="section-heading"><div><h2 id="regime-title">Regime change</h2></div></div>
+    <div class="grid gap-4 md:grid-cols-3">
+      <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/simple_regimes/Price_Regimes.ipynb" target="_blank" rel="noopener noreferrer" aria-label="Price rules notebook (opens in a new tab)"><strong>1. Price rules</strong><span>Compare Bitcoin's volatility with a threshold from earlier prices.</span><span class="text-accent">Open notebook &rarr;</span></a>
+      <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/ml_regimes/ML_Regimes.ipynb" target="_blank" rel="noopener noreferrer" aria-label="Machine learning regimes notebook (opens in a new tab)"><strong>2. Machine learning</strong><span>Use a Gaussian Mixture model with the same Bitcoin prices.</span><span class="text-accent">Open notebook &rarr;</span></a>
+      <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/regime_change/Regime_Change.ipynb" target="_blank" rel="noopener noreferrer" aria-label="Kenneth French factor regimes notebook (opens in a new tab)"><strong>3. Kenneth French factors</strong><span>Use ML with Value, Profitability and Momentum in emerging markets.</span><span class="text-accent">Open notebook &rarr;</span></a>
+    </div>
+  </section>
+  <section class="panel" aria-labelledby="portfolio-title">
+    <div class="section-heading"><div><h2 id="portfolio-title">Portfolio experiments</h2></div></div>
+    <div class="grid gap-4 md:grid-cols-3">
+      <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/portfolios/01_Equal_Weight_Portfolio.ipynb" target="_blank" rel="noopener noreferrer" aria-label="Equal-weight portfolio notebook (opens in a new tab)"><strong>1. Equal weights</strong><span>Split the portfolio between Value, Profitability and Momentum.</span><span class="text-accent">Open notebook &rarr;</span></a>
+      <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/portfolios/02_ML_Factor_Allocation.ipynb" target="_blank" rel="noopener noreferrer" aria-label="ML factor allocation notebook (opens in a new tab)"><strong>2. ML allocation</strong><span>Use regime signals to adjust factor weights.</span><span class="text-accent">Open notebook &rarr;</span></a>
+      <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/portfolios/03_Portfolio_Risk_Management.ipynb" target="_blank" rel="noopener noreferrer" aria-label="Portfolio risk management notebook (opens in a new tab)"><strong>3. Risk management</strong><span>Compare a cash rule with full investment and fixed cash holdings.</span><span class="text-accent">Open notebook &rarr;</span></a>
+    </div>
+  </section>
+</main>
+{% endblock %}

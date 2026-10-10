@@ -1,0 +1,21 @@
+ticker,name,sector,currency,country
+AAPL,Apple Inc,Technology,USD,US
+MSFT,Microsoft Corp,Technology,USD,US
+NVDA,NVIDIA Corp,Technology,USD,US
+ORCL,Oracle Corp,Technology,USD,US
+AMZN,Amazon.com Inc,Consumer discretionary,USD,US
+HD,Home Depot Inc,Consumer discretionary,USD,US
+MCD,McDonald's Corp,Consumer discretionary,USD,US
+WMT,Walmart Inc,Consumer staples,USD,US
+COST,Costco Wholesale Corp,Consumer staples,USD,US
+PG,Procter & Gamble Co,Consumer staples,USD,US
+KO,Coca-Cola Co,Consumer staples,USD,US
+JNJ,Johnson & Johnson,Health care,USD,US
+PFE,Pfizer Inc,Health care,USD,US
+MRK,Merck & Co Inc,Health care,USD,US
+XOM,Exxon Mobil Corp,Energy,USD,US
+CVX,Chevron Corp,Energy,USD,US
+CAT,Caterpillar Inc,Industrials,USD,US
+HON,Honeywell International Inc,Industrials,USD,US
+NEE,Nextera Energy Inc,Utilities,USD,US
+DUK,Duke Energy Corp,Utilities,USD,US

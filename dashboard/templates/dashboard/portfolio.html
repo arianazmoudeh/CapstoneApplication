@@ -1,0 +1,46 @@
+{% extends 'dashboard/base.html' %}
+{% load static humanize %}
+{% block title %}My portfolio · WorldQuant University Capstone Project{% endblock %}
+{% block scripts %}<script src="{% static 'dashboard/app.js' %}" defer></script><script src="{% static 'dashboard/asset-search.js' %}" defer></script>{% endblock %}
+{% block content %}
+<main id="main" class="page-shell min-w-0 flex-1">
+  <div class="my-8 sm:my-10 [&_p]:text-muted"><span class="mb-3 block text-[10px] font-semibold tracking-widest text-accent uppercase">Portfolio</span><h1>My portfolio</h1><p>Add stocks or crypto quoted in US dollars to see the current value of your portfolio.</p></div>
+  {% for message in messages %}<p class="notice" role="status">{{ message }}</p>{% endfor %}
+  <div class="grid items-start gap-6 lg:grid-cols-[20rem_minmax(0,1fr)] [&>div]:min-w-0">
+    <section class="panel [&_h2]:mb-5" aria-labelledby="allocation-title">
+      <h2 id="allocation-title">Add or update an asset</h2>
+      <form method="post" id="portfolio-form">
+        {% csrf_token %}
+        {% if form.non_field_errors %}<div class="error" role="alert">{% for error in form.non_field_errors %}<p>{{ error }}</p>{% endfor %}</div>{% endif %}
+        <div class="mb-5 min-w-0" data-asset-search data-search-url="{% url 'asset_search' %}">
+          <label for="{{ form.symbol.id_for_label }}">{{ form.symbol.label }}</label>
+          <div class="asset-search">
+            {{ form.symbol }}
+            <div id="asset-search-results" class="asset-search-results" role="listbox" aria-label="Matching assets" hidden></div>
+          </div>
+          <p id="asset-search-status" class="mt-2 text-xs text-muted" role="status" aria-live="polite"></p>
+          {% if form.symbol.errors %}<ul class="mt-2 list-disc pl-4 text-xs text-negative" role="alert">{% for error in form.symbol.errors %}<li>{{ error }}</li>{% endfor %}</ul>{% endif %}
+        </div>
+        {% include 'registration/field.html' with field=form.quantity %}
+        <p class="mt-3 text-xs text-muted">Search by name or symbol, then select an asset. You can also enter a symbol directly. Enter 0 to remove a saved asset.</p>
+        <button type="submit" class="mt-6 flex w-full items-center justify-between [&_span]:text-lg">Save asset <span aria-hidden="true">&rarr;</span></button>
+      </form>
+    </section>
+    <div>
+      {% include 'dashboard/price_status.html' %}
+      {% if portfolio %}
+      <section class="panel" aria-labelledby="saved-title">
+        <div class="section-heading"><div><span class="mb-3 block text-[10px] font-semibold tracking-widest text-accent uppercase">Current value</span><h2 id="saved-title">{% if result %}${{ result.end_value|floatformat:2|intcomma }}{% else %}Portfolio saved{% endif %}</h2></div><span class="mt-3 text-xs text-muted">Saved {{ portfolio.updated_at|date:'d M Y, H:i' }} UTC</span></div>
+        {% if result %}<div class="w-full overflow-x-auto"><table><thead><tr><th scope="col">Asset</th><th scope="col" class="text-right tabular-nums">Quantity</th><th scope="col" class="text-right tabular-nums">Latest price</th><th scope="col" class="text-right tabular-nums">Value</th><th scope="col" class="text-right tabular-nums">Weight</th><th scope="col" class="text-right tabular-nums">Action</th></tr></thead><tbody>{% for coin in result.holdings %}<tr><th scope="row"><a class="asset-link" href="{% url 'asset_detail' coin.symbol %}"><strong>{{ coin.ticker }}</strong><span class="mt-1 block text-xs font-normal text-muted">{{ coin.name }}</span></a></th><td class="text-right tabular-nums">{{ coin.quantity|floatformat:-8 }}</td><td class="text-right tabular-nums">${{ coin.price|floatformat:2|intcomma }}</td><td class="text-right tabular-nums">${{ coin.value|floatformat:2|intcomma }}</td><td class="text-right tabular-nums">{{ coin.weight|floatformat:2 }}%</td><td class="text-right tabular-nums"><form method="post">{% csrf_token %}<input type="hidden" name="action" value="remove"><input type="hidden" name="symbol" value="{{ coin.symbol }}"><button type="submit" class="text-button">Delete</button></form></td></tr>{% endfor %}</tbody></table></div><p class="mt-3 text-xs text-muted">Select an asset to view its price history and indicators.</p>{% else %}{% if portfolio.quantities %}<div class="w-full overflow-x-auto"><table><thead><tr><th>Asset</th><th class="text-right tabular-nums">Quantity</th><th class="text-right">Action</th></tr></thead><tbody>{% for symbol, quantity in portfolio.quantities.items %}<tr><th>{{ symbol }}</th><td class="text-right tabular-nums">{{ quantity }}</td><td class="text-right"><form method="post">{% csrf_token %}<input type="hidden" name="action" value="remove"><input type="hidden" name="symbol" value="{{ symbol }}"><button type="submit" class="text-button">Delete</button></form></td></tr>{% endfor %}</tbody></table></div>{% else %}<p class="text-muted">Add an asset to calculate the portfolio value.</p>{% endif %}{% endif %}
+      </section>
+      {% if result %}
+      <section class="panel" aria-labelledby="history-title"><h2 id="history-title">Portfolio performance</h2><p class="text-muted">How the same asset quantities would have changed in value from {{ result.start|date:'d M Y' }} to {{ result.end|date:'d M Y' }}.</p>
+        {% include 'dashboard/chart.html' with chart=result.chart label='Historical portfolio value in US dollars' %}
+        <div class="metrics"><div><span>Value at start</span><strong>${{ result.start_value|floatformat:2|intcomma }}</strong></div><div><span>Current value</span><strong>${{ result.end_value|floatformat:2|intcomma }}</strong></div><div><span>Value change</span><strong class="{% if result.value_change >= 0 %}text-positive{% else %}text-negative{% endif %}">${{ result.value_change|floatformat:2|intcomma }}</strong></div><div><span>Return</span><strong class="{% if result.total_return >= 0 %}text-positive{% else %}text-negative{% endif %}">{{ result.total_return|floatformat:2 }}%</strong></div><div><span>Annual volatility</span><strong>{{ result.volatility|floatformat:2 }}%</strong></div><div><span>Max. drawdown</span><strong>{{ result.drawdown|floatformat:2 }}%</strong></div></div>
+      </section>
+      {% endif %}
+      {% else %}<section class="panel py-10 sm:py-12"><span class="mb-3 block text-[10px] font-semibold tracking-widest text-accent uppercase">Start here</span><h2>Your portfolio, your choices.</h2><p class="text-muted">Find an asset, enter your quantity, then select Save asset.</p><p class="mt-3 text-xs text-muted">Each asset is checked before it is saved.</p></section>{% endif %}
+    </div>
+  </div>
+</main>
+{% endblock %}

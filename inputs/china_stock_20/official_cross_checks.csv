@@ -1,0 +1,7 @@
+ticker,period,metric,actual,expected,passed,source_url,basis
+002371.SZ,2024-12-31,revenue,30074860164.89,30074860164.89,True,https://static.cninfo.com.cn/finalpage/2026-04-18/1225122918.PDF,Restated comparative figures in FY2025 report; not originally published FY2024 figures
+002371.SZ,2024-12-31,netIncome,5621756343.64,5621756343.64,True,https://static.cninfo.com.cn/finalpage/2026-04-18/1225122918.PDF,Restated comparative figures in FY2025 report; not originally published FY2024 figures
+002371.SZ,2025-12-31,revenue,39353112419.78,39353112419.78,True,https://static.cninfo.com.cn/finalpage/2026-04-18/1225122918.PDF,FY2025 reported figures
+002371.SZ,2025-12-31,netIncome,5521993004.86,5521993004.86,True,https://static.cninfo.com.cn/finalpage/2026-04-18/1225122918.PDF,FY2025 reported figures
+600309.SH,2024-12-31,revenue,182069119160.94,182069119160.94,True,https://pdf.dfcfw.com/pdf/H2_AN202504141656494643_1.pdf,FY2024 original report
+600309.SH,2024-12-31,netIncome,13033066612.84,13033066612.84,True,https://pdf.dfcfw.com/pdf/H2_AN202504141656494643_1.pdf,FY2024 original report
