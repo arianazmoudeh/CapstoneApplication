@@ -5,11 +5,12 @@
 <main id="main" class="page-shell min-w-0 flex-1">
   <div class="my-8 flex flex-wrap items-start justify-between gap-4 sm:my-10">
     <div><h1>{% if market == "china" %}China A-share research{% else %}US stock research{% endif %}</h1><p class="mb-0 text-muted">Explore factor predictions, portfolio allocations and results.</p></div>
-    <a class="button-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/{% if market == 'china' %}China_A_Share_EBIT_Factor_Experiment_V3.ipynb{% else %}US_Stock_Expanded_Experiment.ipynb{% endif %}" target="_blank" rel="noopener noreferrer" aria-label="Open research notebook (opens in a new tab)">Open notebook &rarr;</a>
+    <div class="flex flex-wrap gap-3">{% if market == 'china' %}<a class="button-link" href="{% url 'china_benchmark' %}">Equal-weight benchmark &rarr;</a>{% endif %}<a class="button-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/{% if market == 'china' %}China_A_Share_EBIT_Factor_Experiment_V3.ipynb{% else %}US_Stock_Expanded_Experiment.ipynb{% endif %}" target="_blank" rel="noopener noreferrer" aria-label="Open research notebook (opens in a new tab)">Open notebook &rarr;</a></div>
   </div>
-  <nav class="mb-6 flex gap-6 border-b border-line" aria-label="Research market">
+  <nav class="mb-6 flex flex-wrap gap-x-6 border-b border-line" aria-label="Research market">
+    <a class="nav-link" href="{% url 'china_factor_study' %}">China factor study</a>
     <a class="nav-link" href="{% url 'research' %}" {% if market == 'us' %}aria-current="page"{% endif %}>US stocks</a>
-    <a class="nav-link" href="{% url 'china_research' %}" {% if market == 'china' %}aria-current="page"{% endif %}>China A-shares</a>
+    <a class="nav-link" href="{% url 'china_research' %}" {% if market == 'china' %}aria-current="page"{% endif %}>20-stock study</a>
   </nav>
   {% if error %}<div class="error" role="alert">{{ error }}</div>{% endif %}
   {% if form %}

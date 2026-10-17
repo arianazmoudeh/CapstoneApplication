@@ -1,0 +1,103 @@
+{% extends 'dashboard/base.html' %}
+{% load humanize %}
+{% block title %}China factor study · WorldQuant University Capstone Project{% endblock %}
+{% block content %}
+<main id="main" class="page-shell min-w-0 flex-1">
+  <div class="my-8 flex flex-wrap items-start justify-between gap-4 sm:my-10">
+    <div><h1>China factor study</h1><p class="mb-0 text-muted">Can machine learning help us choose the weights of Value, Profitability and Momentum?</p></div>
+    <a class="button-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/China_A_Share_Factor_Timing_100.ipynb" target="_blank" rel="noopener noreferrer">Open notebook &rarr;</a>
+  </div>
+  <nav class="mb-6 flex flex-wrap gap-x-6 border-b border-line" aria-label="Research study">
+    <a class="nav-link" href="{% url 'china_factor_study' %}" aria-current="page">China factor study</a>
+    <a class="nav-link" href="{% url 'research' %}">US stocks</a>
+    <a class="nav-link" href="{% url 'china_research' %}">20-stock study</a>
+  </nav>
+  {% if error %}<div class="error" role="alert">{{ error }}</div>{% endif %}
+  {% if study %}
+  <section class="panel" aria-labelledby="study-question">
+    <h2 id="study-question">What we compare</h2>
+    <p class="text-muted">We start with our list of {{ study.candidate_count }} companies. For each month, we check which shares have enough prices and financial data. We then compare three ways to invest in the same eligible group.</p>
+    <div class="grid gap-4 md:grid-cols-3">
+      <div class="rounded-lg bg-canvas p-4"><h3 class="mb-2 font-semibold">1. Equal stock weights</h3><p class="mb-0 text-sm text-muted">We give the same weight to each eligible company. This is our starting point.</p></div>
+      <div class="rounded-lg bg-canvas p-4"><h3 class="mb-2 font-semibold">2. Equal factor weights</h3><p class="mb-0 text-sm text-muted">We choose stocks using three factors. Each factor gets one-third of the portfolio.</p></div>
+      <div class="rounded-lg bg-canvas p-4"><h3 class="mb-2 font-semibold">3. Model factor weights</h3><p class="mb-0 text-sm text-muted">We predict next month's factor returns. The highest forecast gets 50%, then 30% and 20%.</p></div>
+    </div>
+  </section>
+  <section class="panel" aria-label="Study controls">
+    <form method="get" class="grid items-start gap-4 sm:grid-cols-[1fr_1fr_auto]">
+      <div><label for="study-model">Prediction model</label><select id="study-model" name="model">{% for name in study.models %}<option value="{{ name }}" {% if name == study.model %}selected{% endif %}>{{ name }}{% if name == study.selected_model %} · selected on validation{% endif %}</option>{% endfor %}</select></div>
+      <div><label for="study-month">Month to inspect</label><select id="study-month" name="signal">{% for row in study.dates %}<option value="{{ row.value }}" {% if row.value == study.signal_value %}selected{% endif %}>{{ row.label }}</option>{% endfor %}</select></div>
+      <button type="submit" class="mt-6">View results</button>
+    </form>
+    <p class="mt-3 mb-0 text-xs text-muted">{{ study.selected_model }} was chosen using an earlier validation period{% if study.validation_start %}, {{ study.validation_start|date:'j M Y' }} – {{ study.validation_end|date:'j M Y' }}{% endif %}. Changing the month shows its forecast and planned stock weights; the performance chart keeps the full test period.</p>
+  </section>
+  <div class="mb-5 flex flex-wrap justify-between gap-3 text-xs text-muted"><span>{{ study.candidate_count }} companies in our list · {{ study.model_count }} models · {{ study.period_count }} test months</span><span>Historical results · Monthly rebalance · CNY</span></div>
+  <section class="panel" aria-labelledby="study-findings">
+    <div class="section-heading"><div><h2 id="study-findings">What we found</h2><p class="text-muted">{{ study.start|date:'j M Y' }} – {{ study.end|date:'j M Y' }} · All three portfolios include the same trading cost rule.</p></div></div>
+    <div class="grid gap-4 md:grid-cols-3">
+      <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">Factor selection vs equal stocks</span><strong class="mt-1 block text-2xl tabular-nums {% if study.factor_difference >= 0 %}text-positive{% else %}text-negative{% endif %}">{% if study.factor_difference > 0 %}+{% endif %}{{ study.factor_difference|floatformat:2 }} pp</strong><p class="mt-2 mb-0 text-xs text-muted">Difference in annualized return</p></div>
+      <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">{{ study.model }} vs equal factors</span><strong class="mt-1 block text-2xl tabular-nums {% if study.model_difference >= 0 %}text-positive{% else %}text-negative{% endif %}">{% if study.model_difference > 0 %}+{% endif %}{{ study.model_difference|floatformat:2 }} pp</strong><p class="mt-2 mb-0 text-xs text-muted">Difference in annualized return</p></div>
+      <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">{{ study.model }} maximum drawdown</span><strong class="mt-1 block text-2xl tabular-nums">{{ study.selected_metrics.drawdown|floatformat:2 }}%</strong><p class="mt-2 mb-0 text-xs text-muted">Largest fall from an earlier portfolio high</p></div>
+    </div>
+    <p class="mt-4 mb-0 text-sm">Equal factor weights returned {{ study.factor_difference_abs|floatformat:2 }} percentage points {% if study.factor_difference >= 0 %}more{% else %}less{% endif %} per year than equal stock weights. With {{ study.model }}, the annualized return was {{ study.model_difference_abs|floatformat:2 }} points {% if study.model_difference >= 0 %}higher{% else %}lower{% endif %} than equal factor weights. Its maximum drawdown was {{ study.selected_metrics.drawdown|floatformat:2 }}%, compared with {{ study.equal_factor_metrics.drawdown|floatformat:2 }}% for equal factors. These comparisons show how the three rules performed in this sample.</p>
+    {% if not study.is_selected_model %}<p class="mt-3 mb-0 text-xs text-muted">You are viewing {{ study.model }}. Our model chosen before the test was {{ study.selected_model }}.</p>{% endif %}
+  </section>
+  {% if study.fixed_control %}
+  <section class="panel" aria-labelledby="study-fixed-weights"><h2 id="study-fixed-weights">Keeping factor weights fixed</h2><p class="text-muted">We also test the first allocation from {{ study.fixed_control.model }}, our model chosen during validation: {% for row in study.fixed_control.weights %}{{ row.name }} {{ row.weight|floatformat:0 }}%{% if not forloop.last %}, {% endif %}{% endfor %}. We keep these factor weights for the whole test. Stocks inside each factor still change monthly.</p>
+    <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="Chosen model against fixed starting factor weights"><table><thead><tr><th>Allocation rule</th><th class="text-right">Annual return</th><th class="text-right">Maximum drawdown</th></tr></thead><tbody><tr><th>{{ study.fixed_control.model }} monthly forecasts</th><td class="text-right tabular-nums">{{ study.fixed_control.dynamic.annual_return|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ study.fixed_control.dynamic.drawdown|floatformat:2 }}%</td></tr><tr><th>Keep the first factor weights</th><td class="text-right tabular-nums">{{ study.fixed_control.fixed.annual_return|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ study.fixed_control.fixed.drawdown|floatformat:2 }}%</td></tr></tbody></table></div>
+    <p class="mt-4 mb-0 text-sm">{{ study.fixed_control.model }} used weights different from its starting allocation in {{ study.fixed_control.different_months }} of {{ study.period_count }} months. Its annual return was {{ study.fixed_control.gap_abs|floatformat:2 }} percentage points {% if study.fixed_control.gap >= 0 %}higher{% else %}lower{% endif %} than keeping those weights fixed.</p>
+  </section>
+  {% endif %}
+  <section class="panel" aria-labelledby="study-performance">
+    <div class="section-heading"><div><h2 id="study-performance">Portfolio performance</h2><p class="text-muted">We start each portfolio with ¥{{ study.initial_value|floatformat:0|intcomma }} and use the same test dates.</p></div></div>
+    <p class="mb-0 text-xs text-muted">Portfolio value (CNY)</p>
+    {% include 'dashboard/research_chart.html' with chart=study.chart %}
+    <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="Three portfolio results"><table><thead><tr><th>Portfolio</th><th class="text-right">Annual return</th><th class="text-right">Volatility</th><th class="text-right">Sharpe</th><th class="text-right">Drawdown</th><th class="text-right">Final value (CNY)</th></tr></thead><tbody>
+      {% for row in study.metrics %}<tr {% if row.name == study.model %}class="bg-accent/5"{% endif %}><th class="font-semibold">{{ row.name }}</th><td class="text-right tabular-nums">{{ row.annual_return|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.volatility|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.sharpe|floatformat:2 }}</td><td class="text-right tabular-nums">{{ row.drawdown|floatformat:2 }}%</td><td class="text-right tabular-nums">¥{{ row.final_value|floatformat:0|intcomma }}</td></tr>{% endfor %}
+    </tbody></table></div>
+    <p class="mt-4 mb-0 text-xs text-muted">Returns include {{ study.cost_rate|floatformat:2 }}% on every amount bought or sold. Sharpe uses a zero reference rate.</p>
+    <details class="mt-5 border-t border-line pt-4"><summary class="cursor-pointer text-sm font-semibold">Wider stock benchmark</summary><p class="mt-3 mb-0 text-sm text-muted">The wider basket uses companies with enough price history in each month. It does not require financial data. Its annualized return was {{ study.broad_metrics.annual_return|floatformat:2 }}%, with a maximum drawdown of {{ study.broad_metrics.drawdown|floatformat:2 }}%. We use the eligible-stock basket in the main comparison so that factor selection is tested on the same companies.</p></details>
+  </section>
+  <section class="panel" aria-labelledby="study-monthly">
+    <div class="section-heading"><div><h2 id="study-monthly">Prediction and factor weights</h2><p class="text-muted">Forecast on {{ study.signal|date:'j M Y' }} · Holding period {{ study.entry|date:'j M Y' }} – {{ study.exit|date:'j M Y' }}</p></div></div>
+    <div class="grid gap-4 md:grid-cols-3">{% for factor in study.factor_rows %}<div class="rounded-lg border border-line p-4"><div class="flex justify-between gap-3"><h3 class="font-semibold">{{ factor.name }}</h3><strong>{{ factor.weight|floatformat:0 }}%</strong></div><span class="mt-4 block text-xs text-muted">Predicted next-month return</span><strong class="mt-1 block text-2xl tabular-nums {% if factor.predicted_return >= 0 %}text-positive{% else %}text-negative{% endif %}">{% if factor.predicted_return > 0 %}+{% endif %}{{ factor.predicted_return|floatformat:2 }}%</strong><p class="mt-2 mb-0 text-xs text-muted">Observed factor return: {{ factor.actual_return|floatformat:2 }}%</p></div>{% endfor %}</div>
+    <p class="mt-4 mb-0 text-xs text-muted">{{ study.eligible_count }} companies meet the factor data rules in this month. These are saved forecasts from the historical test. Observed factor returns are shown for comparison with the forecasts.</p>
+  </section>
+  <details class="panel"><summary class="cursor-pointer font-semibold">Planned stock weights ({{ study.holdings|length }} companies)</summary>
+    <p class="mt-4 text-sm text-muted">A stock can be selected by more than one factor. We add those weights to find its target share of the portfolio. If a stock has no quote on the trade date, the trade follows the availability rule in the notebook.</p>
+    <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="Planned stock weights for the selected month"><table><thead><tr><th>Code</th><th>Company</th><th class="text-right">Target weight</th></tr></thead><tbody>{% for row in study.holdings %}<tr><th class="tabular-nums">{{ row.code }}{% if row.exchange %}.{{ row.exchange }}{% endif %}</th><td>{{ row.name_en|default:row.name_zh|default:row.code }}{% if row.name_en and row.name_zh %}<span class="ml-2 text-xs text-muted" lang="zh">{{ row.name_zh }}</span>{% endif %}</td><td class="text-right tabular-nums">{{ row.weight|floatformat:2 }}%</td></tr>{% endfor %}</tbody></table></div>
+  </details>
+  <section class="panel" aria-labelledby="study-forecast-results"><h2 id="study-forecast-results">How accurate were the forecasts?</h2><p class="text-muted">We check {{ study.forecast_result.count }} factor forecasts over the full test period.</p>
+    <div class="grid gap-4 md:grid-cols-3">
+      <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">{{ study.model }} direction accuracy</span><strong class="mt-1 block text-2xl tabular-nums">{{ study.forecast_result.accuracy|floatformat:2 }}%</strong><p class="mt-2 mb-0 text-xs text-muted">Correct Up or Down forecasts</p></div>
+      <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">Always predict Up</span><strong class="mt-1 block text-2xl tabular-nums">{{ study.forecast_result.always_up_accuracy|floatformat:2 }}%</strong><p class="mt-2 mb-0 text-xs text-muted">The same prediction in every month</p></div>
+      <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">{{ study.model }} average forecast error</span><strong class="mt-1 block text-2xl tabular-nums">{{ study.forecast_result.mae|floatformat:2 }} pp</strong><p class="mt-2 mb-0 text-xs text-muted">Mean absolute error in factor returns</p></div>
+    </div>
+    <p class="mt-4 mb-0 text-sm">{{ study.model }} predicted the direction correctly in {{ study.forecast_result.accuracy|floatformat:2 }}% of the forecasts. Predicting Up every time gave {{ study.forecast_result.always_up_accuracy|floatformat:2 }}%. The average forecast error was {{ study.forecast_result.mae|floatformat:2 }} percentage points, compared with {{ study.forecast_result.mean_mae|floatformat:2 }} for the historical mean. Our portfolio weights depend on the order of the three forecasts, so direction accuracy and portfolio returns measure different things.</p>
+  </section>
+  <section class="panel" aria-labelledby="study-definitions"><h2 id="study-definitions">Do the factor measures matter?</h2><p class="text-muted">We change one measure in the equal-factor portfolio. The other two stay the same. Each pair uses the same companies.</p>
+    <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="Factor measure comparisons"><table><thead><tr><th>Factor</th><th>Alternative measure</th><th class="text-right">Main portfolio return</th><th class="text-right">Alternative portfolio return</th><th class="text-right">Main drawdown</th><th class="text-right">Alternative drawdown</th></tr></thead><tbody>{% for row in study.definition_rows %}<tr><th class="font-semibold">{{ row.factor }}</th><td>{{ row.alternative }}</td><td class="text-right tabular-nums">{{ row.main_return|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.alternative_return|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.main_drawdown|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.alternative_drawdown|floatformat:2 }}%</td></tr>{% endfor %}</tbody></table></div>
+    <p class="mt-4 mb-0 text-xs text-muted">Returns are annualized and cover the whole portfolio, after trading costs. Company coverage can differ between the three pairs because each measure needs different data.</p>
+  </section>
+  <section class="panel" aria-labelledby="study-models"><h2 id="study-models">Model results</h2><p class="text-muted">Each model predicts the same three factor returns. We use the same portfolio rule and test dates for all models.</p>
+    <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="All prediction model results"><table><thead><tr><th>Model</th><th class="text-right">Validation error</th><th class="text-right">Annual return</th><th class="text-right">Sharpe</th><th class="text-right">Drawdown</th></tr></thead><tbody>{% for row in study.model_rows %}<tr {% if row.selected %}class="bg-accent/5"{% endif %}><th><span class="font-semibold">{{ row.name }}</span>{% if row.selected %}<span class="mt-1 block text-xs text-accent">Chosen before the test</span>{% endif %}</th><td class="text-right tabular-nums">{{ row.validation_mae|floatformat:2 }} pp</td><td class="text-right tabular-nums">{{ row.annual_return|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.sharpe|floatformat:2 }}</td><td class="text-right tabular-nums">{{ row.drawdown|floatformat:2 }}%</td></tr>{% endfor %}</tbody></table></div>
+    <p class="mt-4 mb-0 text-xs text-muted">Validation error is the mean absolute difference between a forecast and the observed factor return. Lower is better. For comparison, allocating by historical mean returns produced {{ study.historical_metrics.annual_return|floatformat:2 }}% a year during the test.</p>
+  </section>
+  <details class="panel"><summary class="cursor-pointer font-semibold">Our {{ study.candidate_count }} companies</summary>
+    <p class="mt-4 text-sm text-muted">This is the company list for the study. A company enters a monthly portfolio only when it meets that portfolio's data rules. Status below is for {{ study.signal|date:'j M Y' }}. The month count covers the full test period.</p>
+    <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="Full study company list"><table><thead><tr><th>Code</th><th>Company</th><th>Status in selected month</th></tr></thead><tbody>{% for row in study.coverage %}<tr><th class="tabular-nums">{{ row.code }}{% if row.exchange %}.{{ row.exchange }}{% endif %}</th><td>{{ row.name_en|default:row.name_zh|default:row.code }}{% if row.name_en and row.name_zh %}<span class="ml-2 text-xs text-muted" lang="zh">{{ row.name_zh }}</span>{% endif %}</td><td class="whitespace-normal text-xs text-muted">{{ row.status }}{% if row.eligible_months != None and row.eligible_months != '' %}<span class="block">Eligible in {{ row.eligible_months }} of {{ study.period_count }} test months</span>{% endif %}</td></tr>{% endfor %}</tbody></table></div>
+  </details>
+  <details class="panel"><summary class="cursor-pointer font-semibold">How we run the study</summary>
+    <div class="mt-4 space-y-3 text-sm text-muted">
+      <p>We calculate Value, Profitability and Momentum for each eligible company. For each factor, we select the highest-ranked quarter of the group and use equal weights inside that basket.</p>
+      <p>Value is EBIT divided by our enterprise value estimate. We use the A-share price and total ordinary shares to estimate company value, then add debt and minority equity and subtract cash. Profitability is EBIT divided by average invested capital. We calculate invested capital as equity plus interest-bearing debt minus cash. Momentum uses the return from 12 months ago to one month ago, divided by volatility.</p>
+      <p>Financial companies stay in the wider stock benchmark. We leave them out of the factor baskets because their debt and capital have a different role.</p>
+      <p>We keep time in order. Models learn from earlier months and forecast a later month. We use an earlier validation period to choose a model, then compare results in a separate test period.</p>
+      <p>We use annual financial information after its reported release date and at least six months after the year-end. We rebalance after the monthly signal date. Saved financial statements may contain later revisions.</p>
+      <p class="mb-0">We chose this company list for our research and applied it to past data. The results describe this group and test period. The notebook contains the data checks, factor definitions and model settings.</p>
+    </div>
+  </details>
+  {% endif %}
+</main>
+{% endblock %}
+{% block data_source %}Saved China A-share research results{% endblock %}

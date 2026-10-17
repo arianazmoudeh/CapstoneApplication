@@ -1,0 +1,10 @@
+check,passed
+100_unique_companies,True
+same_curve_dates,True
+same_initial_value,True
+positive_portfolio_values,True
+all_models_all_months,True
+training_finished_before_signal,True
+accounts_known_by_signal,True
+factor_weights_sum_to_one,True
+no_negative_cash,True

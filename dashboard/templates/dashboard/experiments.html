@@ -3,6 +3,10 @@
 {% block content %}
 <main id="main" class="page-shell min-w-0 flex-1">
   <div class="my-8 sm:my-10 [&_p]:text-muted"><h1>Experiments</h1><p>Open our Python notebooks to see the code and results.</p></div>
+  <section class="panel" aria-labelledby="china-factor-study-title">
+    <div class="section-heading"><div><h2 id="china-factor-study-title">China factor study · 100-company list</h2><p class="text-muted">Does factor selection help, and does model allocation add to it?</p></div><a class="button-link" href="{% url 'china_factor_study' %}">Explore results &rarr;</a></div>
+    <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/China_A_Share_Factor_Timing_100.ipynb" target="_blank" rel="noopener noreferrer"><strong>Stock selection and monthly factor weights</strong><span>Compare equal stock weights, equal factor weights and eleven prediction models. Each month uses companies with enough data.</span><span class="text-accent">Open notebook &rarr;</span></a>
+  </section>
   <section class="panel" aria-labelledby="monthly-factor-title">
     <div class="section-heading"><div><h2 id="monthly-factor-title">Monthly factor portfolios</h2></div></div>
     <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/US_Stock_Monthly_Factor_Experiment.ipynb" target="_blank" rel="noopener noreferrer" aria-label="Monthly factor portfolio experiment notebook (opens in a new tab)"><strong>Month-end rebalancing and factor signals</strong><span>Use Random Forest to compare month-end rebalancing, long-short portfolios, overlapping holdings and sector-neutral signals.</span><span class="text-accent">Open notebook &rarr;</span></a>

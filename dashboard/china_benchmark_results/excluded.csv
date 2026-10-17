@@ -1,0 +1,19 @@
+row,code,name_zh,exchange,name,name_en,listing_date,industry,h_share_code,status,reason
+3,601728,中國電信,SH,中国电信,China Telecom Corporation Limited,2021-08-20,通信-通信服务-电信运营商,00728.HK,excluded_listing,A-share listing is after 2015-12-31
+7,688981,中芯國際,SH,中芯国际,SEMICONDUCTOR MANUFACTURING INTERNATIONAL CORPORATION,2020-07-16,电子-半导体-集成电路制造,00981.HK,excluded_listing,A-share listing is after 2015-12-31
+8,300760,邁瑞醫療,SZ,迈瑞医疗,"Shenzhen Mindray Bio-Medical Electronics Co., Ltd.",2018-10-16,医药生物-医疗器械-医疗设备,,excluded_listing,A-share listing is after 2015-12-31
+9,688271,聯影醫療,SH,联影医疗,"Shanghai United Imaging Healthcare Co., Ltd.",2022-08-22,医药生物-医疗器械-医疗设备,,excluded_listing,A-share listing is after 2015-12-31
+10,688111,金山辦公,SH,金山办公,"Beijing Kingsoft Office Software, Inc.",2019-11-18,计算机-软件开发-横向通用软件,,excluded_listing,A-share listing is after 2015-12-31
+15,600941,中國移動,SH,中国移动,China Mobile Limited,2022-01-05,通信-通信服务-电信运营商,00941.HK,excluded_listing,A-share listing is after 2015-12-31
+17,688012,中微公司,SH,中微公司,Advanced Micro-Fabrication Equipment Inc. China,2019-07-22,电子-半导体-半导体设备,,excluded_listing,A-share listing is after 2015-12-31
+24,603259,藥明康德,SH,药明康德,"WuXi AppTec Co., Ltd.",2018-05-08,医药生物-医疗服务-医疗研发外包,02359.HK,excluded_listing,A-share listing is after 2015-12-31
+41,601816,京滬高鐵,SH,京沪高铁,"Beijing-Shanghai High Speed Railway Co.,Ltd",2020-01-16,交通运输-铁路公路-铁路运输,,excluded_listing,A-share listing is after 2015-12-31
+44,300750,寧德時代,SZ,宁德时代,"Contemporary Amperex Technology Co., Ltd.",2018-06-11,电力设备-电池-锂电池,03750.HK,excluded_listing,A-share listing is after 2015-12-31
+59,603501,豪威集團,SH,豪威集团,"OmniVision Integrated Circuits Group, Inc.",2017-05-04,电子-半导体-数字芯片设计,00501.HK,excluded_listing,A-share listing is after 2015-12-31
+86,600989,寶豐能源,SH,宝丰能源,"Ningxia Baofeng Energy Group Co., Ltd.",2019-05-16,基础化工-化学原料-煤化工,,excluded_listing,A-share listing is after 2015-12-31
+87,688256,寒武紀,SH,寒武纪,Cambricon Technologies Corporation Limited,2020-07-20,电子-半导体-数字芯片设计,,excluded_listing,A-share listing is after 2015-12-31
+89,688041,海光信息,SH,海光信息,"Hygon Information Technology Co., Ltd.",2022-08-12,电子-半导体-数字芯片设计,,excluded_listing,A-share listing is after 2015-12-31
+94,603986,兆易創新,SH,兆易创新,GigaDevice Semiconductor Inc.,2016-08-18,电子-半导体-数字芯片设计,03986.HK,excluded_listing,A-share listing is after 2015-12-31
+97,688008,瀾起科技,SH,澜起科技,"Montage Technology Co., Ltd.",2019-07-22,电子-半导体-数字芯片设计,06809.HK,excluded_listing,A-share listing is after 2015-12-31
+99,601127,賽力斯,SH,赛力斯,"Seres Group Co.,Ltd.",2016-06-15,汽车-乘用车-电动乘用车,09927.HK,excluded_listing,A-share listing is after 2015-12-31
+100,300502,新易盛,SZ,新易盛,"Eoptolink Technology Inc.,Ltd.",2016-03-03,通信-通信设备-通信网络设备及器件,,excluded_listing,A-share listing is after 2015-12-31

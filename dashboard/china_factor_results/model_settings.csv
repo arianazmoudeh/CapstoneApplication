@@ -1,0 +1,12 @@
+model,settings
+Ridge,alpha=10; standardize training X and y
+Elastic Net,alpha=0.02; L1 ratio=0.5; max_iter=10000; seed=42; standardize training X and y
+KNN,20 neighbours; uniform weights; Euclidean distance; standardize training X and y
+SVR,RBF; C=1; epsilon=0.1; gamma=scale; standardize training X and y
+Random Forest,150 trees; depth=4; min_leaf=12; seed=42
+Extra Trees,150 trees; depth=4; min_leaf=12; seed=42
+XGBoost,120 trees; depth=2; rate=0.03; subsample=0.8; columns=0.9; L2=5; seed=42
+MLP,12 hidden units; ReLU; L-BFGS; alpha=5; max_iter=1500; max_fun=30000; seed=42; standardize training X and y
+LSTM,1 layer; 8 hidden units; 3 outputs; 80 epochs; Adam; rate=0.001; weight_decay=0.01; seed=42; standardize training X and y
+CNN,8 filters; kernel=3; ReLU; average pooling; 3 outputs; 80 epochs; Adam; rate=0.001; weight_decay=0.01; seed=42; standardize training X and y
+Prophet,linear; 10 changepoints; prior=0.05; no seasonality; no uncertainty draws; seed=42; separate monthly returns

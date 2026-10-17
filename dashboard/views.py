@@ -7,6 +7,8 @@ from django.views.decorators.http import require_GET, require_http_methods
 
 from .asset_analysis import asset_summary
 from .asset_search import search_assets
+from .china_benchmark import BenchmarkError, benchmark_context
+from .china_factor_study import FactorStudyError, StudySelectionError, study_context
 from .crypto import market_summary, portfolio_summary
 from .factor_research import FactorResearchError, build_research, research_options
 from .factors import FactorDataError, get_factor_data
@@ -169,6 +171,37 @@ def research(request, market="us"):
         context["error"] = str(exc)
         status = 503
     return render(request, "dashboard/research.html", context, status=status)
+
+
+@login_required
+@never_cache
+@require_GET
+def china_factor_study(request):
+    context = {"currency": "CNY"}
+    status = 200
+    try:
+        context["study"] = study_context(request.GET.get("model"), request.GET.get("signal"))
+    except StudySelectionError as exc:
+        context["error"] = str(exc)
+        status = 400
+    except FactorStudyError as exc:
+        context["error"] = str(exc)
+        status = 503
+    return render(request, "dashboard/china_factor_study.html", context, status=status)
+
+
+@login_required
+@never_cache
+@require_GET
+def china_benchmark(request):
+    context = {"currency": "CNY"}
+    status = 200
+    try:
+        context["benchmark"] = benchmark_context()
+    except BenchmarkError as exc:
+        context["error"] = str(exc)
+        status = 503
+    return render(request, "dashboard/china_benchmark.html", context, status=status)
 
 
 @login_required

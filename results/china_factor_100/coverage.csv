@@ -1,0 +1,101 @@
+row,code,ticker,name_en,name_zh,sector,industry,listing_date,h_share_code,is_financial,exchange,price_start,price_end,financial_count,eligible_months,eligible,status
+1,002371,002371.SZ,"NAURA Technology Group Co.,Ltd.",北方華創,电子,电子-半导体-半导体设备,2010-03-16,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+2,002422,002422.SZ,"Sichuan Kelun Pharmaceutical Co., Ltd.",科倫藥業,医药生物,医药生物-化学制药-化学制剂,2010-06-03,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+3,601728,601728.SH,China Telecom Corporation Limited,中國電信,通信,通信-通信服务-电信运营商,2021-08-20,00728.HK,False,SH,2021-08-20,2026-10-16,13,21,True,Available
+4,600276,600276.SH,"Jiangsu Hengrui Pharmaceuticals Co.,Ltd.",恒瑞醫藥,医药生物,医药生物-化学制药-化学制剂,2000-10-18,01276.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+5,600519,600519.SH,"Kweichow Moutai Co.,Ltd.",貴州茅臺,食品饮料,食品饮料-白酒Ⅱ-白酒Ⅲ,2001-08-27,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+6,300059,300059.SZ,"East Money Information Co.,Ltd.",東方財富,非银金融,非银金融-证券Ⅱ-证券Ⅲ,2010-03-19,,True,SZ,2015-01-05,2026-10-16,13,0,False,Financial business
+7,688981,688981.SH,SEMICONDUCTOR MANUFACTURING INTERNATIONAL CORPORATION,中芯國際,电子,电子-半导体-集成电路制造,2020-07-16,00981.HK,False,SH,2020-07-16,2026-10-16,13,21,True,Available
+8,300760,300760.SZ,"Shenzhen Mindray Bio-Medical Electronics Co., Ltd.",邁瑞醫療,医药生物,医药生物-医疗器械-医疗设备,2018-10-16,,False,SZ,2018-10-16,2026-10-16,12,21,True,Available
+9,688271,688271.SH,"Shanghai United Imaging Healthcare Co., Ltd.",聯影醫療,医药生物,医药生物-医疗器械-医疗设备,2022-08-22,,False,SH,2022-08-22,2026-10-16,8,21,True,Available
+10,688111,688111.SH,"Beijing Kingsoft Office Software, Inc.",金山辦公,计算机,计算机-软件开发-横向通用软件,2019-11-18,,False,SH,2019-11-18,2026-10-16,12,21,True,Available
+11,600406,600406.SH,"NARI Technology Co., Ltd.",國電南瑞,电力设备,电力设备-电网设备-电网自动化设备,2003-10-16,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+12,000333,000333.SZ,"Midea Group Co., Ltd.",美的集團,家用电器,家用电器-白色家电-空调,2013-09-18,00300.HK,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+13,601318,601318.SH,"Ping An Insurance (Group) Company of China, Ltd.",中國平安,非银金融,非银金融-保险Ⅱ-保险Ⅲ,2007-03-01,02318.HK,True,SH,2015-01-05,2026-10-16,0,0,False,Financial business
+14,002463,002463.SZ,"WUS PRINTED CIRCUIT (KUNSHAN) CO., LTD.",滬電股份,电子,电子-元件-印制电路板,2010-08-18,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+15,600941,600941.SH,China Mobile Limited,中國移動,通信,通信-通信服务-电信运营商,2022-01-05,00941.HK,False,SH,2022-01-05,2026-10-16,8,21,True,Available
+16,002594,002594.SZ,BYD Company Limited,比亞迪,汽车,汽车-乘用车-电动乘用车,2011-06-30,01211.HK,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+17,688012,688012.SH,Advanced Micro-Fabrication Equipment Inc. China,中微公司,电子,电子-半导体-半导体设备,2019-07-22,,False,SH,2019-07-22,2026-10-16,10,20,True,Available
+18,600111,600111.SH,"China Northern Rare Earth (Group) High-Tech Co.,Ltd.",北方稀土,有色金属,有色金属-小金属-稀土,1997-09-24,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+19,601398,601398.SH,Industrial And Commercial Bank Of China Limited,工商銀行,银行,银行-银行Ⅱ-国有大型银行Ⅲ,2006-10-27,01398.HK,True,SH,2015-01-05,2026-10-16,0,0,False,Financial business
+20,600900,600900.SH,"China Yangtze Power Co.,Ltd.",長江電力,公用事业,公用事业-电力-水力发电,2003-11-18,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+21,000538,000538.SZ,"YUNNAN BAIYAO GROUP CO.,LTD",雲南白藥,医药生物,医药生物-中药Ⅱ-中药Ⅲ,1993-12-15,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+22,600031,600031.SH,"SANY HEAVY INDUSTRY CO.,LTD",三一重工,机械设备,机械设备-工程机械-工程机械整机,2003-07-03,06031.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+23,601857,601857.SH,PetroChina Company Limited,中國石油,石油石化,石油石化-炼化及贸易-炼油化工,2007-11-05,00857.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+24,603259,603259.SH,"WuXi AppTec Co., Ltd.",藥明康德,医药生物,医药生物-医疗服务-医疗研发外包,2018-05-08,02359.HK,False,SH,2018-05-08,2026-10-16,12,21,True,Available
+25,300015,300015.SZ,"Aier Eye Hospital Group Co.,Ltd.",愛爾眼科,医药生物,医药生物-医疗服务-医院,2009-10-30,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+26,300124,300124.SZ,"Shenzhen Inovance Technology Co., Ltd",匯川技術,机械设备,机械设备-自动化设备-工控设备,2010-09-28,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+27,601088,601088.SH,China Shenhua Energy Company Limited,中國神華,煤炭,煤炭-煤炭开采-动力煤,2007-10-09,01088.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+28,601225,601225.SH,SHAANXI COAL INDUSTRY COMPANY LIMITED,陝西煤業,煤炭,煤炭-煤炭开采-动力煤,2014-01-28,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+29,002028,002028.SZ,"Sieyuan Electric Co.,Ltd.",思源電氣,电力设备,电力设备-电网设备-输变电设备,2004-08-05,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+30,601766,601766.SH,CRRC Corporation Limited,中國中車,机械设备,机械设备-轨交设备Ⅱ-轨交设备Ⅲ,2008-08-18,01766.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+31,600036,600036.SH,"China Merchants Bank Co., Ltd.",招商銀行,银行,银行-银行Ⅱ-股份制银行Ⅲ,2002-04-09,03968.HK,True,SH,2015-01-05,2026-10-16,0,0,False,Financial business
+32,002230,002230.SZ,"iFLYTEK CO.,LTD",科大訊飛,计算机,计算机-软件开发-横向通用软件,2008-05-12,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+33,000963,000963.SZ,"HUADONG MEDICINE CO., LTD",華東醫藥,医药生物,医药生物-化学制药-化学制剂,2000-01-27,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+34,000651,000651.SZ,"GREE ELECTRIC APPLIANCES,INC.OF ZHUHAI",格力電器,家用电器,家用电器-白色家电-空调,1996-11-18,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+35,601985,601985.SH,"China National Nuclear Power Co., Ltd.",中國核電,公用事业,公用事业-电力-核力发电,2015-06-10,,False,SH,2015-06-10,2026-10-16,13,21,True,Available
+36,600585,600585.SH,Anhui Conch Cement Company Limited.,海螺水泥,建筑材料,建筑材料-水泥-水泥制造,2002-02-07,00914.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+37,000792,000792.SZ,"QINGHAI YANHU INDUSTRY CO.,LTD.",鹽湖股份,基础化工,基础化工-农化制品-钾肥,1997-09-04,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+38,601668,601668.SH,China State Construction Engineering Corporation Limited,中國建築,建筑装饰,建筑装饰-房屋建设Ⅱ-房屋建设Ⅲ,2009-07-29,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+39,000100,000100.SZ,TCL Technology Group Corporation,TCL科技,电子,电子-光学光电子-面板,2004-01-30,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+40,600196,600196.SH,"Shanghai Fosun Pharmaceutical (Group) Co.,Ltd.",復星醫藥,医药生物,医药生物-化学制药-化学制剂,1998-08-07,02196.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+41,601816,601816.SH,"Beijing-Shanghai High Speed Railway Co.,Ltd",京滬高鐵,交通运输,交通运输-铁路公路-铁路运输,2020-01-16,,False,SH,2020-01-16,2026-10-16,10,21,True,Available
+42,600660,600660.SH,"FUYAO GLASS INDUSTRY GROUP CO.,LTD.",福耀玻璃,汽车,汽车-汽车零部件-车身附件及饰件,1993-06-10,03606.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+43,300014,300014.SZ,"EVE Energy Co., Ltd",億緯鋰能,电力设备,电力设备-电池-锂电池,2009-10-30,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+44,300750,300750.SZ,"Contemporary Amperex Technology Co., Ltd.",寧德時代,电力设备,电力设备-电池-锂电池,2018-06-11,03750.HK,False,SZ,2018-06-11,2026-10-16,12,3,True,Available
+45,002415,002415.SZ,"HANGZHOU HIKVISION DIGITAL TECHNOLOGY CO., LTD.",海康威視,计算机,计算机-计算机设备-安防设备,2010-05-28,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+46,002475,002475.SZ,"Luxshare Precision Industry Co., Ltd.",立訊精密,电子,电子-消费电子-消费电子零部件及组装,2010-09-15,02475.HK,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+47,600019,600019.SH,"Baoshan Iron & Steel Co.,Ltd.",寶鋼股份,钢铁,钢铁-普钢-板材,2000-12-12,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+48,600690,600690.SH,"Haier Smart Home Co., Ltd.",海爾智家,家用电器,家用电器-白色家电-冰洗,1993-11-19,06690.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+49,600436,600436.SH,"ZHANGZHOU PIENTZEHUANG PHARMACEUTICAL CO., LTD.",片仔癀,医药生物,医药生物-中药Ⅱ-中药Ⅲ,2003-06-16,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+50,601100,601100.SH,"Jiangsu Hengli Hydraulic CO.,Ltd.",恒立液壓,机械设备,机械设备-工程机械-工程机械器件,2011-10-28,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+51,002352,002352.SZ,"S.F. Holding Co., Ltd.",順豐控股,交通运输,交通运输-物流-快递,2010-02-05,06936.HK,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+52,601012,601012.SH,"LONGi Green Energy Technology Co.,Ltd.",隆基綠能,电力设备,电力设备-光伏设备-光伏主材,2012-04-11,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+53,600760,600760.SH,AVIC SHENYANG AIRCRAFT COMPANY LIMITED,中航沈飛,国防军工,国防军工-航空装备Ⅱ-航空装备Ⅲ,1996-10-11,,False,SH,2015-01-05,2026-10-16,13,15,True,Available
+54,002001,002001.SZ,Zhejiang NHU Company Ltd.,新和成,基础化工,基础化工-化学制品-食品及饲料添加剂,2004-06-25,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+55,601669,601669.SH,"Power Construction Corporation of China, Ltd(POWERCHINA Ltd)",中國電建,建筑装饰,建筑装饰-基础建设-基建市政工程,2011-10-18,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+56,002625,002625.SZ,"Kuang-Chi Technologies Co., Ltd.",光啟技術,国防军工,国防军工-航空装备Ⅱ-航空装备Ⅲ,2011-11-03,,False,SZ,2015-03-26,2026-10-16,13,0,False,Incomplete EBIT or capital fields
+57,600160,600160.SH,"Zhejiang Juhua Co.,Ltd.",巨化股份,基础化工,基础化工-化学制品-氟化工,1998-06-26,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+58,600089,600089.SH,"TBEA Co., Ltd.",特變電工,电力设备,电力设备-电网设备-输变电设备,1997-06-18,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+59,603501,603501.SH,"OmniVision Integrated Circuits Group, Inc.",豪威集團,电子,电子-半导体-数字芯片设计,2017-05-04,00501.HK,False,SH,2017-05-04,2026-10-16,13,21,True,Available
+60,600895,600895.SH,"Shanghai Zhangjiang Hi-Tech Park Development Co.,Ltd",張江高科,房地产,房地产-房地产开发-产业地产,1996-04-22,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+61,601888,601888.SH,China Tourism Group Duty Free Corporation Limited,中國中免,商贸零售,商贸零售-旅游零售Ⅱ-旅游零售Ⅲ,2009-10-15,01880.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+62,601006,601006.SH,"Daqin Railway Co., Ltd.",大秦鐵路,交通运输,交通运输-铁路公路-铁路运输,2006-08-01,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+63,601390,601390.SH,CHINA RAILWAY GROUP LIMITED,中國中鐵,建筑装饰,建筑装饰-基础建设-基建市政工程,2007-12-03,00390.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+64,000002,000002.SZ,"CHINA VANKE CO., LTD.",萬科A,房地产,房地产-房地产开发-住宅开发,1991-01-29,02202.HK,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+65,601899,601899.SH,Zijin Mining Group Company Limited,紫金礦業,有色金属,有色金属-工业金属-铜,2008-04-25,02899.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+66,601919,601919.SH,"COSCO SHIPPING Holdings Co.,Ltd.",中遠海控,交通运输,交通运输-航运港口-航运,2007-06-26,01919.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+67,001979,001979.SZ,"China Merchants Shekou Industrial Zone Holdings Co,.Ltd.",招商蛇口,房地产,房地产-房地产开发-商业地产,2015-12-30,,False,SZ,2015-12-30,2026-10-16,13,21,True,Available
+68,600309,600309.SH,"Wanhua Chemical Group Co.,Ltd.",萬華化學,基础化工,基础化工-化学制品-聚氨酯,2001-01-05,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+69,002179,002179.SZ,"Jonhon Optronic Technology Co.,Ltd",中航光電,国防军工,国防军工-军工电子Ⅱ-军工电子Ⅲ,2007-11-01,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+70,600547,600547.SH,"Shandong Gold Mining Co.,Ltd.",山東黃金,有色金属,有色金属-贵金属-黄金,2003-08-28,01787.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+71,600010,600010.SH,"Inner Mongolia BaoTou Steel Union Co.,Ltd",包鋼股份,钢铁,钢铁-普钢-板材,2001-03-09,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+72,002466,002466.SZ,Tianqi Lithium Corporation,天齊鋰業,有色金属,有色金属-能源金属-锂,2010-08-31,09696.HK,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+73,002460,002460.SZ,"Ganfeng Lithium Group Co., Ltd.",贛鋒鋰業,有色金属,有色金属-能源金属-锂,2010-08-10,01772.HK,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+74,600438,600438.SH,"Tongwei Co.,Ltd.",通威股份,电力设备,电力设备-光伏设备-光伏主材,2004-03-02,,False,SH,2015-01-05,2026-10-16,13,20,True,Available
+75,300274,300274.SZ,"Sungrow Power Supply Co.,Ltd.",陽光電源,电力设备,电力设备-光伏设备-逆变器,2011-11-02,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+76,601727,601727.SH,Shanghai Electric Group Company Limited,上海電氣,电力设备,电力设备-其他电源设备Ⅱ-综合电力设备商,2008-12-05,02727.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+77,000725,000725.SZ,"Boe Technology Group Co., Ltd.",京東方A,电子,电子-光学光电子-面板,2001-01-12,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+78,600426,600426.SH,"SHANDONG HUALU-HENGSHENG CHEMICAL CO.,LTD",華魯恒升,基础化工,基础化工-农化制品-氮肥,2002-06-20,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+79,002714,002714.SZ,"MUYUAN FOODS GROUP CO.,LTD.",牧原股份,农林牧渔,农林牧渔-养殖业-生猪养殖,2014-01-28,02714.HK,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+80,603019,603019.SH,"Dawning Information Industry Co.,Ltd",中科曙光,计算机,计算机-计算机设备-其他计算机设备,2014-11-06,,False,SH,2015-01-05,2026-10-16,13,20,True,Available
+81,600489,600489.SH,"Zhongjin Gold Corp.,Ltd.",中金黃金,有色金属,有色金属-贵金属-黄金,2003-08-14,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+82,000063,000063.SZ,ZTE Corporation,中興通訊,通信,通信-通信设备-通信网络设备及器件,1997-11-18,00763.HK,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+83,603799,603799.SH,"ZHEJIANG HUAYOU COBALT CO., LTD",華友鈷業,有色金属,有色金属-能源金属-镍,2015-01-29,,False,SH,2015-01-29,2026-10-16,13,21,True,Available
+84,000425,000425.SZ,"XCMG Construction Machinery Co., Ltd.",徐工機械,机械设备,机械设备-工程机械-工程机械整机,1996-08-28,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+85,601600,601600.SH,ALUMINUM CORPORATION OF CHINA LIMITED,中國鋁業,有色金属,有色金属-工业金属-铝,2007-04-30,02600.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+86,600989,600989.SH,"Ningxia Baofeng Energy Group Co., Ltd.",寶豐能源,基础化工,基础化工-化学原料-煤化工,2019-05-16,,False,SH,2019-05-16,2026-10-16,13,21,True,Available
+87,688256,688256.SH,Cambricon Technologies Corporation Limited,寒武紀,电子,电子-半导体-数字芯片设计,2020-07-20,,False,SH,2020-07-20,2026-10-16,9,21,True,Available
+88,600893,600893.SH,"AECC AVIATION POWER CO,LTD",航發動力,国防军工,国防军工-航空装备Ⅱ-航空装备Ⅲ,1996-04-08,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+89,688041,688041.SH,"Hygon Information Technology Co., Ltd.",海光信息,电子,电子-半导体-数字芯片设计,2022-08-12,,False,SH,2022-08-12,2026-10-16,8,20,True,Available
+90,600048,600048.SH,"Poly Developments and Holdings Group Co., Ltd.",保利發展,房地产,房地产-房地产开发-住宅开发,2006-07-31,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+91,603993,603993.SH,CMOC Group Limited,洛陽鉬業,有色金属,有色金属-工业金属-铜,2012-10-09,03993.HK,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+92,300476,300476.SZ,"Victory Giant Technology (HuiZhou)Co.,Ltd.",勝宏科技,电子,电子-元件-印制电路板,2015-06-11,02476.HK,False,SZ,2015-06-11,2026-10-16,13,21,True,Available
+93,000807,000807.SZ,"Yunnan Aluminium Co.,Ltd.",雲鋁股份,有色金属,有色金属-工业金属-铝,1998-04-08,,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+94,603986,603986.SH,GigaDevice Semiconductor Inc.,兆易創新,电子,电子-半导体-数字芯片设计,2016-08-18,03986.HK,False,SH,2016-08-18,2026-10-16,13,21,True,Available
+95,300308,300308.SZ,"Zhongji Innolight Co.,Ltd.",中際旭創,通信,通信-通信设备-通信网络设备及器件,2012-04-10,03308.HK,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+96,000338,000338.SZ,"Weichai Power Co., Ltd.",濰柴動力,汽车,汽车-汽车零部件-底盘与发动机系统,2007-04-30,02338.HK,False,SZ,2015-01-05,2026-10-16,13,21,True,Available
+97,688008,688008.SH,"Montage Technology Co., Ltd.",瀾起科技,电子,电子-半导体-数字芯片设计,2019-07-22,06809.HK,False,SH,2019-07-22,2026-10-16,10,21,True,Available
+98,600150,600150.SH,China CSSC Holdings Limited,中國船舶,国防军工,国防军工-航海装备Ⅱ-航海装备Ⅲ,1998-05-20,,False,SH,2015-01-05,2026-10-16,13,21,True,Available
+99,601127,601127.SH,"Seres Group Co.,Ltd.",賽力斯,汽车,汽车-乘用车-电动乘用车,2016-06-15,09927.HK,False,SH,2016-06-15,2026-10-16,13,0,False,Incomplete EBIT or capital fields
+100,300502,300502.SZ,"Eoptolink Technology Inc.,Ltd.",新易盛,通信,通信-通信设备-通信网络设备及器件,2016-03-03,,False,SZ,2016-03-03,2026-10-16,13,21,True,Available

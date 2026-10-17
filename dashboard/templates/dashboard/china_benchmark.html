@@ -1,0 +1,89 @@
+{% extends 'dashboard/base.html' %}
+{% load humanize %}
+{% block title %}China benchmark · WorldQuant University Capstone Project{% endblock %}
+{% block content %}
+<main id="main" class="page-shell min-w-0 flex-1">
+  <div class="my-8 flex flex-wrap items-start justify-between gap-4 sm:my-10">
+    <div><h1>China equal-weight benchmark</h1><p class="mb-0 text-muted">A basket of A-shares from our company list, held in equal amounts at each monthly rebalance.</p></div>
+    <a class="button-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/China_A_Share_Equal_Weight_Benchmark.ipynb" target="_blank" rel="noopener noreferrer">Open notebook &rarr;</a>
+  </div>
+  <nav class="mb-6 flex flex-wrap gap-x-6 border-b border-line" aria-label="Research market">
+    <a class="nav-link" href="{% url 'research' %}">US stocks</a>
+    <a class="nav-link" href="{% url 'china_factor_study' %}">China factor study</a>
+    <a class="nav-link" href="{% url 'china_research' %}">20-stock study</a>
+    <a class="nav-link" href="{% url 'china_benchmark' %}" aria-current="page">China benchmark</a>
+  </nav>
+  {% if error %}<div class="error" role="alert">{{ error }}</div>{% endif %}
+  {% if benchmark %}
+  <div class="stat-grid">
+    <div><span>Companies included</span><strong>{{ benchmark.stock_count }} / {{ benchmark.candidate_count }}</strong></div>
+    <div><span>Weight at each rebalance</span><strong>{{ benchmark.target_weight|floatformat:2 }}%</strong></div>
+    <div><span>Daily return period</span><p class="mt-1 mb-0 text-lg font-semibold">{{ benchmark.start|date:'j M Y' }} – {{ benchmark.end|date:'j M Y' }}</p></div>
+  </div>
+  <section class="panel" aria-labelledby="benchmark-performance-title">
+    <div class="section-heading">
+      <div><h2 id="benchmark-performance-title">Benchmark performance</h2><p class="text-muted">Starting with ¥{{ benchmark.initial_value|floatformat:0|intcomma }} on {{ benchmark.base_date|date:'j M Y' }}.</p></div>
+      <span class="rounded-full bg-accent/10 px-3 py-1 text-xs font-semibold text-accent">Monthly rebalance · Long only</span>
+    </div>
+    <div class="mb-4 grid gap-4 sm:grid-cols-3">
+      <div class="rounded-lg bg-canvas p-4"><span class="text-xs text-muted">Final value</span><strong class="mt-1 block text-2xl tabular-nums">¥{{ benchmark.final_value|floatformat:2|intcomma }}</strong></div>
+      <div class="rounded-lg bg-canvas p-4"><span class="text-xs text-muted">Annualized return</span><strong class="mt-1 block text-2xl tabular-nums">{{ benchmark.annual_return|floatformat:2 }}%</strong></div>
+      <div class="rounded-lg bg-canvas p-4"><span class="text-xs text-muted">Maximum drawdown</span><strong class="mt-1 block text-2xl tabular-nums">{{ benchmark.drawdown|floatformat:2 }}%</strong></div>
+    </div>
+    <p class="mb-0 text-xs text-muted">Portfolio value (CNY)</p>
+    <div class="chart">
+      <svg viewBox="-25 0 945 290" role="img" aria-label="Equal-weight benchmark value in CNY from {{ benchmark.base_date|date:'j M Y' }} to {{ benchmark.end|date:'j M Y' }}">
+        <title>China A-share equal-weight benchmark</title>
+        {% for tick in benchmark.chart.ticks %}<line x1="58" x2="875" y1="{{ tick.y }}" y2="{{ tick.y }}" class="stroke-line stroke-1" /><text x="47" y="{{ tick.y }}" text-anchor="end" dominant-baseline="middle">{{ tick.label }}</text>{% endfor %}
+        {% for tick in benchmark.chart.labels %}<text x="{{ tick.x }}" y="260" text-anchor="middle">{{ tick.label }}</text>{% endfor %}
+        {% for line in benchmark.chart.lines %}<polyline points="{{ line.points }}" fill="none" stroke="{{ line.color }}" stroke-width="2" vector-effect="non-scaling-stroke" />{% endfor %}
+        <text x="466" y="285" text-anchor="middle">Date</text>
+      </svg>
+    </div>
+    <div class="legend">{% for line in benchmark.chart.lines %}<span><i style="background: {{ line.color }}"></i>{{ line.name }}</span>{% endfor %}</div>
+    <div class="grid gap-4 border-t border-line pt-4 sm:grid-cols-3">
+      <div><span class="block text-xs text-muted">Total return</span><strong class="tabular-nums">{{ benchmark.total_return|floatformat:2 }}%</strong></div>
+      <div><span class="block text-xs text-muted">Annualized volatility</span><strong class="tabular-nums">{{ benchmark.volatility|floatformat:2 }}%</strong></div>
+      <div><span class="block text-xs text-muted">Rebalances</span><strong class="tabular-nums">{{ benchmark.rebalance_count }}</strong></div>
+    </div>
+    <p class="mt-4 mb-0 text-xs text-muted">Gross returns, before fees and trading costs. Values use adjusted daily closing prices.</p>
+  </section>
+  <section class="panel" aria-labelledby="benchmark-method-title">
+    <h2 id="benchmark-method-title">How we build the basket</h2>
+    <div class="space-y-3 text-sm text-muted">
+      <p>We check the {{ benchmark.candidate_count }} A-share codes in our list and keep companies listed by 31 December 2015 with enough price history for our 2016 start. {{ benchmark.stock_count }} companies are included and {{ benchmark.excluded_count }} are left out.</p>
+      <p>Each company starts with the same weight. At each month-end close, we reset the weights to {{ benchmark.target_weight|floatformat:2 }}% for the following trading session. Between those dates, the weights move as share prices change.</p>
+      <p class="mb-0">This basket gives us a reference with a fixed group from the start of 2016. Our <a href="{% url 'china_factor_study' %}" class="underline">factor study</a> compares stock selection and model allocation using the 100-company list and monthly data checks.</p>
+    </div>
+  </section>
+  <details class="panel">
+    <summary class="cursor-pointer font-semibold">Included companies ({{ benchmark.stock_count }})</summary>
+    <p class="mt-4 text-xs text-muted">Target weights apply at each rebalance. Latest weights are the holdings on {{ benchmark.end|date:'j M Y' }}.</p>
+    <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="Included benchmark companies">
+      <table><thead><tr><th>Code</th><th>Company</th><th>A-share listing date</th><th class="text-right">Target weight</th><th class="text-right">Latest weight</th></tr></thead><tbody>
+        {% for row in benchmark.holdings %}<tr><th class="font-semibold tabular-nums">{{ row.code }}.{{ row.exchange }}</th><td><span lang="zh">{{ row.name_zh }}</span><span class="mt-0.5 block text-xs text-muted">{{ row.name_en }}</span></td><td>{{ row.listing_date|date:'j M Y' }}</td><td class="text-right tabular-nums">{{ row.weight|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.latest_weight|floatformat:2 }}%</td></tr>{% endfor %}
+      </tbody></table>
+    </div>
+  </details>
+  <details class="panel">
+    <summary class="cursor-pointer font-semibold">Companies left out ({{ benchmark.excluded_count }})</summary>
+    <div class="mt-4 w-full overflow-x-auto" tabindex="0" role="region" aria-label="Excluded benchmark companies">
+      <table><thead><tr><th>Code</th><th>Company</th><th>A-share listing date</th><th>Reason</th></tr></thead><tbody>
+        {% for row in benchmark.excluded %}<tr><th class="font-semibold tabular-nums">{{ row.code }}</th><td lang="zh">{{ row.name_zh }}</td><td>{{ row.listing_date|date:'j M Y'|default:'Not confirmed' }}</td><td class="whitespace-normal">{{ row.reason }}</td></tr>{% empty %}<tr><td colspan="4">Every company in the list meets the selection rules.</td></tr>{% endfor %}
+      </tbody></table>
+    </div>
+  </details>
+  <details class="panel">
+    <summary class="cursor-pointer font-semibold">Data and calculation notes</summary>
+    <div class="mt-4 space-y-3 text-sm text-muted">
+      {% for note in benchmark.notes %}<p>{{ note }}</p>{% endfor %}
+      <p>Volatility uses daily returns and 252 trading days per year.</p>
+      {% if benchmark.carried_quote_count %}<p>There are {{ benchmark.carried_quote_count|intcomma }} stock-day values carried forward from an earlier close. The longest gap is {{ benchmark.longest_gap }} trading days.</p>{% endif %}
+      <p>On days without a quote, we carry the last price. The monthly reset is an index calculation; trading at a carried price is not assumed to be possible.</p>
+      <p class="mb-0">We selected this company list today and applied it to past prices. It is a retrospective benchmark, rather than a record of which companies an investor would have chosen in 2016.</p>
+    </div>
+  </details>
+  {% endif %}
+</main>
+{% endblock %}
+{% block data_source %}Data: Tencent · Eastmoney{% endblock %}

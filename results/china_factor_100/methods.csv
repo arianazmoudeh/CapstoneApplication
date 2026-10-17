@@ -1,0 +1,17 @@
+item,detail
+Question,"Does factor selection help, and does ML improve monthly allocation between factors?"
+Decision and trade,Last monthly trading close; execute at the next trading close.
+Accounting,Annual EBIT; available after announcement and no earlier than 30 June after that financial year.
+Value,EBIT / (raw A-share price * total ordinary shares + funded debt + minority equity - cash).
+Profitability,EBIT / average opening and closing (total equity + funded debt - cash).
+Momentum,Twelve-to-one-month price return / annualized daily volatility over twelve months.
+Eligibility,Nonfinancial company; current trading quote; twelve months of history with at least 160 observed trading quotes; available annual statements no more than eighteen months old.
+Portfolio,"Top quarter per factor, rounded up; equal weights inside each basket; monthly rebalancing."
+ML allocation,"50%, 30%, 20% ordered by predicted next-month factor returns."
+Fixed-weight diagnostic,Hold the chosen model first-decision factor weights throughout evaluation; stock baskets still rebalance monthly. No weights are chosen from evaluation returns.
+Trading gaps,No trading without a current quote; retain held positions; rescale tradable targets to remaining funds.
+Training,Expanding historical sample; only labels completed by the signal date; no random time shuffle.
+Selection,Lowest validation MAE across three factor returns; test returns are not used to choose a model.
+Costs,"0.10% per amount bought or sold, including initial purchases; zero cash yield."
+Price data,Provider-adjusted closes for return proxies and raw closes for market value.
+Scope,Retrospective study of the selected 100 A-share companies; vendor accounts can include later revisions.
