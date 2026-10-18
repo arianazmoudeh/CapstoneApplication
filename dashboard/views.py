@@ -9,13 +9,14 @@ from .asset_analysis import asset_summary
 from .asset_search import search_assets
 from .china_benchmark import BenchmarkError, benchmark_context
 from .china_factor_study import FactorStudyError, StudySelectionError, study_context
-from .crypto import market_summary, portfolio_summary
+from .crypto import market_summary
 from .factor_research import FactorResearchError, build_research, research_options
 from .factors import FactorDataError, get_factor_data
-from .forms import PortfolioForm, ResearchForm
+from .forms import ResearchForm, ResearchPortfolioForm
 from .market import MarketError, get_prices, get_symbol_prices
-from .models import Portfolio
+from .models import Portfolio, ResearchPortfolio
 from .prediction import PredictionError, prediction_context, run_prediction
+from .research_portfolio import portfolio_context, portfolio_snapshot
 
 
 def price_context(force=False):
@@ -70,45 +71,48 @@ def prediction(request):
 @never_cache
 @require_http_methods(["GET", "POST"])
 def my_portfolio(request):
-    portfolio = Portfolio.objects.filter(user=request.user).first()
-    if request.method == "POST" and request.POST.get("action") == "remove" and portfolio:
-        symbol = request.POST.get("symbol", "").strip().upper()
-        quantities = dict(portfolio.quantities)
-        if symbol in quantities:
-            quantities.pop(symbol)
-            portfolio.quantities = quantities
-            portfolio.save(update_fields=["quantities", "updated_at"])
-            messages.success(request, f"{symbol} was removed from your portfolio.")
-        return redirect("portfolio")
-    form = PortfolioForm(request.POST if request.method == "POST" else None)
-    if request.method == "POST" and form.is_valid():
-        symbol = form.cleaned_data["symbol"]
-        quantity = form.cleaned_data["quantity"]
+    saved = ResearchPortfolio.objects.filter(user=request.user).first()
+    coming_from_research = "model" in request.GET or "signal" in request.GET
+    context = {"saved_portfolio": saved, "coming_from_research": coming_from_research}
+    status = 200
+    if saved:
         try:
-            if quantity > 0:
-                get_symbol_prices([symbol])
-        except MarketError as exc:
-            form.add_error("symbol", str(exc))
-        else:
-            quantities = dict(portfolio.quantities) if portfolio else {}
-            if quantity == 0:
-                quantities.pop(symbol, None)
-            else:
-                quantities[symbol] = str(quantity)
-            Portfolio.objects.update_or_create(user=request.user, defaults={
-                "budget": 0, "weights": {}, "quantities": quantities,
-            })
-            messages.success(request, "Your portfolio has been saved.")
-            return redirect("portfolio")
-    context = {"form": form, "portfolio": portfolio}
-    if portfolio and portfolio.quantities:
-        try:
-            prices, fetched_at, stale = get_symbol_prices(portfolio.quantities)
-            context.update(fetched_at=fetched_at, stale=stale)
-            context["result"] = portfolio_summary(portfolio, prices)
-        except MarketError as exc:
+            context["allocation"] = portfolio_context(saved.snapshot, saved.budget)
+        except FactorStudyError as exc:
             context["error"] = str(exc)
-    return render(request, "dashboard/portfolio.html", context)
+    try:
+        study = study_context()
+        initial = {
+            "model": saved.model_name if saved else study["model"],
+            "signal": saved.signal.isoformat() if saved else study["signal_value"],
+            "budget": saved.budget if saved else "100000.00",
+        }
+        for field in ["model", "signal"]:
+            if field in request.GET:
+                initial[field] = request.GET[field]
+        data = request.POST if request.method == "POST" else initial if coming_from_research else None
+        form = ResearchPortfolioForm(data, initial=initial, study=study)
+        context["form"] = form
+        if data is not None:
+            if form.is_valid():
+                if request.method == "POST":
+                    selected = study_context(form.cleaned_data["model"], form.cleaned_data["signal"])
+                    snapshot = portfolio_snapshot(selected)
+                    ResearchPortfolio.objects.update_or_create(user=request.user, defaults={
+                        "model_name": selected["model"], "signal": selected["signal"],
+                        "budget": form.cleaned_data["budget"], "snapshot": snapshot,
+                    })
+                    messages.success(request, "Your research portfolio has been saved.")
+                    return redirect("portfolio")
+            else:
+                status = 400
+    except StudySelectionError as exc:
+        context["error"] = str(exc)
+        status = 400
+    except FactorStudyError as exc:
+        context["error"] = str(exc)
+        status = 503
+    return render(request, "dashboard/portfolio.html", context, status=status)
 
 
 @login_required

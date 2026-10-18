@@ -61,6 +61,21 @@ class PortfolioForm(forms.Form):
         return symbol
 
 
+class ResearchPortfolioForm(forms.Form):
+    model = forms.ChoiceField(label="Prediction model")
+    signal = forms.ChoiceField(label="Historical month")
+    budget = forms.DecimalField(
+        label="Amount to allocate (CNY)", min_value=Decimal("1"), max_value=Decimal("1000000000"),
+        max_digits=12, decimal_places=2,
+        widget=forms.NumberInput(attrs={"step": "0.01", "inputmode": "decimal"}),
+    )
+
+    def __init__(self, *args, study, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields["model"].choices = [(name, name) for name in study["models"]]
+        self.fields["signal"].choices = [(row["value"], row["label"]) for row in study["dates"]]
+
+
 class ResearchForm(forms.Form):
     model = forms.ChoiceField(label="Model")
     signal = forms.ChoiceField(label="Research date")

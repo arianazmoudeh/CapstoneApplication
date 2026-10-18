@@ -115,56 +115,9 @@ class CryptoPageTests(TestCase):
             self.assertContains(csv, 'date,symbol,close')
             download.assert_not_called()
 
-    def test_save_and_update_only_the_current_users_portfolio(self):
-        other = Portfolio.objects.create(user=self.other, name='Private portfolio', budget=0, weights={}, quantities={'SOL-USD': '2'})
-        response = self.client.post('/portfolio/', self.holding(user=self.other.pk))
-        self.assertRedirects(response, '/portfolio/', fetch_redirect_response=False)
-        own = Portfolio.objects.get(user=self.user)
-        self.assertEqual(own.quantities['SOL-USD'], '1')
-        self.assertNotContains(self.client.get('/portfolio/'), 'Private portfolio')
-        self.client.post('/portfolio/', self.holding(quantity='2.5'))
-        self.assertEqual(Portfolio.objects.filter(user=self.user).count(), 1)
-        own.refresh_from_db()
-        self.assertEqual(own.quantities['SOL-USD'], '2.5')
-        other.refresh_from_db()
-        self.assertEqual(other.name, 'Private portfolio')
-        self.assertEqual(other.quantities['SOL-USD'], '2')
-
-    def test_bad_quantities_do_not_overwrite_a_saved_portfolio(self):
-        self.client.post('/portfolio/', self.holding())
-        for changes in [{'quantity': '-5'}, {'quantity': 'NaN'}, {'quantity': '1.000000001'}, {'symbol': 'bad symbol!'}]:
-            with self.subTest(changes=changes):
-                response = self.client.post('/portfolio/', self.holding(**changes))
-                self.assertEqual(response.status_code, 200)
-                self.assertTrue(response.context['form'].errors)
-        self.assertEqual(Portfolio.objects.get(user=self.user).quantities['SOL-USD'], '1')
-
     def test_one_coin_portfolio_is_allowed(self):
         form = PortfolioForm(self.holding(quantity='0.25'))
         self.assertTrue(form.is_valid(), form.errors)
-
-    def test_saved_asset_can_be_deleted(self):
-        Portfolio.objects.create(
-            user=self.user, name='My portfolio', budget=0, weights={},
-            quantities={'SOL-USD': '1', 'BNB-USD': '2'},
-        )
-        response = self.client.post('/portfolio/', {'action': 'remove', 'symbol': 'SOL-USD'})
-        self.assertRedirects(response, '/portfolio/', fetch_redirect_response=False)
-        portfolio = Portfolio.objects.get(user=self.user)
-        self.assertEqual(portfolio.quantities, {'BNB-USD': '2'})
-
-    @patch('dashboard.views.get_symbol_prices', side_effect=MarketError('Prices unavailable'))
-    def test_saved_assets_can_still_be_removed_when_data_is_unavailable(self, prices):
-        portfolio = Portfolio.objects.create(user=self.user, budget=0, weights={}, quantities={'ETC-USD': '2'})
-        response = self.client.get('/portfolio/')
-        self.assertContains(response, 'ETC-USD')
-        self.assertContains(response, '>Delete</button>')
-        prices.reset_mock()
-        response = self.client.post('/portfolio/', self.holding(symbol='ETC-USD', quantity='0'))
-        self.assertRedirects(response, '/portfolio/', fetch_redirect_response=False)
-        prices.assert_not_called()
-        portfolio.refresh_from_db()
-        self.assertEqual(portfolio.quantities, {})
 
     @patch('dashboard.market.download_symbol_prices')
     def test_stock_analysis_and_portfolio_dates_do_not_depend_on_market_cache(self, download):
@@ -197,30 +150,6 @@ class CryptoPageTests(TestCase):
     def test_asset_page_only_opens_for_a_saved_holding(self):
         response = self.client.get('/portfolio/asset/SOL-USD/')
         self.assertRedirects(response, '/portfolio/', fetch_redirect_response=False)
-
-    @patch('dashboard.views.get_symbol_prices')
-    def test_valid_asset_symbol_can_be_added(self, get_symbol_prices_mock):
-        get_symbol_prices_mock.return_value = (self.prices[['SOL-USD']].rename(columns={'SOL-USD': 'AAPL'}), datetime.now(timezone.utc), False)
-        response = self.client.post('/portfolio/', self.holding(symbol='aapl', quantity='3'))
-        self.assertRedirects(response, '/portfolio/', fetch_redirect_response=False)
-        self.assertEqual(Portfolio.objects.get(user=self.user).quantities, {'AAPL': '3'})
-
-    @patch('dashboard.views.get_symbol_prices')
-    def test_unknown_asset_symbol_is_rejected(self, get_symbol_prices_mock):
-        get_symbol_prices_mock.side_effect = MarketError('Not found')
-        response = self.client.post('/portfolio/', self.holding(symbol='NOT-A-REAL-SYMBOL'))
-        self.assertEqual(response.status_code, 200)
-        self.assertIn('symbol', response.context['form'].errors)
-        self.assertContains(response, 'Not found')
-        self.assertFalse(Portfolio.objects.filter(user=self.user).exists())
-
-    @patch('dashboard.views.get_symbol_prices')
-    def test_provider_access_error_is_preserved(self, get_symbol_prices_mock):
-        message = 'Eulerpool rejected this request. Check the API key and data access.'
-        get_symbol_prices_mock.side_effect = MarketError(message)
-        response = self.client.post('/portfolio/', self.holding())
-        self.assertContains(response, message)
-        self.assertFalse(Portfolio.objects.filter(user=self.user).exists())
 
     def test_missing_asset_is_omitted_without_hiding_other_prices(self):
         prices = self.prices.astype(float)
