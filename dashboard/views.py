@@ -16,6 +16,7 @@ from .forms import ResearchForm, ResearchPortfolioForm
 from .market import MarketError, get_prices, get_symbol_prices
 from .models import Portfolio, ResearchPortfolio
 from .prediction import PredictionError, prediction_context, run_prediction
+from .portfolio_periods import period_context
 from .research_portfolio import portfolio_context, portfolio_snapshot
 
 
@@ -80,6 +81,13 @@ def my_portfolio(request):
             context["allocation"] = portfolio_context(saved.snapshot, saved.budget)
         except FactorStudyError as exc:
             context["error"] = str(exc)
+            status = 503
+        else:
+            try:
+                context["period"] = period_context(saved.snapshot, saved.budget)
+            except FactorStudyError as exc:
+                context["period_error"] = str(exc)
+                status = 503
     try:
         study = study_context()
         initial = {
@@ -98,6 +106,7 @@ def my_portfolio(request):
                 if request.method == "POST":
                     selected = study_context(form.cleaned_data["model"], form.cleaned_data["signal"])
                     snapshot = portfolio_snapshot(selected)
+                    period_context(snapshot, form.cleaned_data["budget"])
                     ResearchPortfolio.objects.update_or_create(user=request.user, defaults={
                         "model_name": selected["model"], "signal": selected["signal"],
                         "budget": form.cleaned_data["budget"], "snapshot": snapshot,

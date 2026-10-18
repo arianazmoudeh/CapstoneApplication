@@ -3,13 +3,13 @@
 {% block title %}Research portfolio · WorldQuant University Capstone Project{% endblock %}
 {% block content %}
 <main id="main" class="page-shell min-w-0 flex-1">
-  <div class="my-8 sm:my-10"><h1>Research portfolio</h1><p class="text-muted">Choose a model, a month and an amount. See which companies the strategy selected and how it divides your money.</p></div>
+  <div class="my-8 sm:my-10"><h1>Research portfolio</h1><p class="text-muted">Choose a model, a historical month and a budget. See the result and compare it with equal stock and factor weights.</p></div>
   {% for message in messages %}<p class="notice" role="status">{{ message }}</p>{% endfor %}
   {% if error %}<div class="error" role="alert">{{ error }}</div>{% endif %}
   <div class="{% if form %}grid items-start gap-6 lg:grid-cols-[20rem_minmax(0,1fr)] {% endif %}[&>div]:min-w-0">
     {% if form %}
     <section class="panel" aria-labelledby="portfolio-form-title">
-      <h2 id="portfolio-form-title">Choose your allocation</h2>
+      <h2 id="portfolio-form-title">Choose your portfolio</h2>
       <p class="text-sm text-muted">Use the saved forecasts from our China A-share study.</p>
       {% if coming_from_research %}<p class="notice">The model and month are filled in from Research. Enter an amount and save your portfolio.</p>{% endif %}
       <form method="post">
@@ -28,32 +28,81 @@
       <section class="panel" aria-labelledby="saved-portfolio-title">
         <div class="section-heading">
           <div><span class="mb-3 block text-[10px] font-semibold tracking-widest text-accent uppercase">Saved allocation</span><h2 id="saved-portfolio-title">¥{{ allocation.budget|floatformat:2|intcomma }}</h2><p class="text-muted">{{ allocation.model }} · {{ allocation.signal|date:'F Y' }}</p></div>
-          <a class="button-link" href="{% url 'china_factor_study' %}?model={{ allocation.model|urlencode }}&amp;signal={{ allocation.signal|date:'Y-m-d' }}">View research results &rarr;</a>
+          <a class="button-link" href="{% url 'china_factor_study' %}?model={{ allocation.model|urlencode }}&amp;signal={{ allocation.signal|date:'Y-m-d' }}">View the full research test &rarr;</a>
         </div>
         <p class="text-sm text-muted">Historical planned allocation for {{ allocation.company_count }} companies. The signal is from {{ allocation.signal|date:'j M Y' }}, with a holding period from {{ allocation.entry|date:'j M Y' }} to {{ allocation.exit|date:'j M Y' }}.</p>
-        <div class="grid gap-4 md:grid-cols-3">
-          {% for factor in allocation.factor_rows %}
-          <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">{{ factor.name }}</span><strong class="mt-1 block text-xl tabular-nums">{{ factor.weight|floatformat:0 }}%</strong><p class="mt-2 mb-0 text-sm tabular-nums">¥{{ factor.amount|floatformat:2|intcomma }}</p></div>
-          {% endfor %}
-        </div>
+        <details>
+          <summary class="cursor-pointer text-sm font-semibold">Planned factor split</summary>
+          <p class="mt-3 text-xs text-muted">Amounts before trading costs.</p>
+          <div class="grid gap-4 md:grid-cols-3">
+            {% for factor in allocation.factor_rows %}
+            <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">{{ factor.name }}</span><strong class="mt-1 block text-xl tabular-nums">{{ factor.weight|floatformat:0 }}%</strong><p class="mt-2 mb-0 text-sm tabular-nums">¥{{ factor.amount|floatformat:2|intcomma }}</p></div>
+            {% endfor %}
+          </div>
+        </details>
         {% if saved_portfolio %}<p class="mt-4 mb-0 text-xs text-muted">Saved {{ saved_portfolio.updated_at|date:'j M Y, H:i' }} UTC</p>{% endif %}
       </section>
+      {% if period %}
+      <section class="panel" aria-labelledby="portfolio-period-title">
+        <span class="mb-3 block text-[10px] font-semibold tracking-widest text-accent uppercase">{{ allocation.model }} · Historical result</span>
+        <h2 id="portfolio-period-title">Results for this holding period</h2>
+        <p class="text-muted">{{ period.start|date:'j M Y' }} to {{ period.end|date:'j M Y' }} · Returns for these dates, after trading costs.</p>
+        <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+          <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">Starting amount</span><strong class="mt-1 block text-xl tabular-nums">¥{{ period.selected.initial_value|floatformat:2|intcomma }}</strong></div>
+          <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">Ending value</span><strong class="mt-1 block text-xl tabular-nums">¥{{ period.selected.final_value|floatformat:2|intcomma }}</strong></div>
+          <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">Gain or loss</span><strong class="mt-1 block text-xl tabular-nums {% if period.selected.profit_loss >= 0 %}text-positive{% else %}text-negative{% endif %}">{% if period.selected.profit_loss > 0 %}+{% endif %}¥{{ period.selected.profit_loss|floatformat:2|intcomma }}</strong></div>
+          <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">Period return</span><strong class="mt-1 block text-xl tabular-nums {% if period.selected.total_return >= 0 %}text-positive{% else %}text-negative{% endif %}">{% if period.selected.total_return > 0 %}+{% endif %}{{ period.selected.total_return|floatformat:2 }}%</strong></div>
+          <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">Largest fall from a previous high</span><strong class="mt-1 block text-xl tabular-nums">{{ period.selected.drawdown|floatformat:2 }}%</strong></div>
+          <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">Trading costs</span><strong class="mt-1 block text-xl tabular-nums">¥{{ period.selected.costs|floatformat:2|intcomma }}</strong></div>
+        </div>
+        <p class="mt-4 mb-0 text-xs text-muted">We start with cash, buy at the entry close and include the {{ period.cost_rate|floatformat:2 }}% purchase cost. The end value is before any final sale.</p>
+        <div class="mt-6 border-t border-line pt-5">
+          <h3 class="mb-2 text-lg font-semibold">Same budget, same dates</h3>
+          <p class="text-sm text-muted">Equal stocks divides the budget across eligible companies. Equal factors gives one-third to each factor. {{ allocation.model }} uses its predicted factor weights.</p>
+          <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="Portfolio results compared with equal stock and factor weights">
+            <table>
+              <thead><tr><th scope="col">Portfolio</th><th scope="col" class="text-right">Ending value (CNY)</th><th scope="col" class="text-right">Period return</th><th scope="col" class="text-right">Largest fall</th><th scope="col" class="text-right">Costs (CNY)</th></tr></thead>
+              <tbody>{% for row in period.rows %}<tr {% if row.name == period.selected.name %}class="bg-accent/5"{% endif %}><th scope="row" class="font-semibold">{{ row.name }}</th><td class="text-right tabular-nums">¥{{ row.final_value|floatformat:2|intcomma }}</td><td class="text-right tabular-nums {% if row.total_return >= 0 %}text-positive{% else %}text-negative{% endif %}">{% if row.total_return > 0 %}+{% endif %}{{ row.total_return|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.drawdown|floatformat:2 }}%</td><td class="text-right tabular-nums">¥{{ row.costs|floatformat:2|intcomma }}</td></tr>{% endfor %}</tbody>
+            </table>
+          </div>
+          <div class="mt-4 grid gap-4 sm:grid-cols-2">
+            <div class="rounded-lg border border-line p-4"><span class="block text-xs text-muted">{{ allocation.model }} compared with equal stocks</span><strong class="mt-1 block text-lg tabular-nums {% if period.gains_vs_stocks.amount >= 0 %}text-positive{% else %}text-negative{% endif %}">{% if period.gains_vs_stocks.amount > 0 %}+{% endif %}¥{{ period.gains_vs_stocks.amount|floatformat:2|intcomma }}</strong><p class="mt-2 mb-0 text-xs text-muted">{% if period.gains_vs_stocks.percentage_points > 0 %}+{% endif %}{{ period.gains_vs_stocks.percentage_points|floatformat:2 }} percentage points in period return</p></div>
+            <div class="rounded-lg border border-line p-4"><span class="block text-xs text-muted">{{ allocation.model }} compared with equal factors</span><strong class="mt-1 block text-lg tabular-nums {% if period.gains_vs_factors.amount >= 0 %}text-positive{% else %}text-negative{% endif %}">{% if period.gains_vs_factors.amount > 0 %}+{% endif %}¥{{ period.gains_vs_factors.amount|floatformat:2|intcomma }}</strong><p class="mt-2 mb-0 text-xs text-muted">{% if period.gains_vs_factors.percentage_points > 0 %}+{% endif %}{{ period.gains_vs_factors.percentage_points|floatformat:2 }} percentage points in period return</p></div>
+          </div>
+          {% if period.chart %}
+          <h3 class="mt-6 mb-2 text-lg font-semibold">Portfolio value (CNY)</h3>
+          {% include 'dashboard/research_chart.html' with chart=period.chart currency='CNY' chart_label='Portfolio value in CNY for the selected holding period' chart_title='Selected model and equal-weight portfolio values for the selected holding period' %}
+          <p class="mb-0 text-xs text-muted">The first point shows starting cash before the purchase.</p>
+          {% endif %}
+        </div>
+      </section>
+      {% elif period_error %}
+      <div class="error" role="alert">{{ period_error }}</div>
+      {% endif %}
       <section class="panel" aria-labelledby="portfolio-companies-title">
         <h2 id="portfolio-companies-title">Selected companies</h2>
         <p class="text-sm text-muted">A company can be selected by more than one factor. Its allocation includes each factor's share.</p>
+        {% if period.selected.unavailable_codes %}<p class="text-sm text-muted">Some selected shares had no tradable quote at entry. Their amounts were spread across the available shares.</p>{% endif %}
+        {% with portfolio_holdings=period.holdings|default:allocation.holdings %}
         <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="Research portfolio company allocations">
           <table>
-            <thead><tr><th scope="col">Company</th><th scope="col">Selected by</th><th scope="col" class="text-right">Weight</th><th scope="col" class="text-right">Amount (CNY)</th></tr></thead>
-            <tbody>{% for holding in allocation.holdings %}<tr><th scope="row"><strong class="font-semibold">{{ holding.name_en|default:holding.name_zh|default:holding.code }}</strong><span class="mt-1 block text-xs text-muted">{{ holding.code }}{% if holding.exchange %}.{{ holding.exchange }}{% endif %}</span></th><td class="whitespace-normal text-xs text-muted">{{ holding.factors|join:', ' }}</td><td class="text-right tabular-nums">{{ holding.weight|floatformat:2 }}%</td><td class="text-right tabular-nums">¥{{ holding.amount|floatformat:2|intcomma }}</td></tr>{% endfor %}</tbody>
+            <thead><tr><th scope="col">Company</th><th scope="col">Selected by</th><th scope="col" class="text-right">{% if period %}Invested weight{% else %}Weight{% endif %}</th><th scope="col" class="text-right">{% if period %}Invested amount (CNY){% else %}Amount (CNY){% endif %}</th></tr></thead>
+            <tbody>{% for holding in portfolio_holdings %}<tr><th scope="row"><strong class="font-semibold">{{ holding.name_en|default:holding.name_zh|default:holding.code }}</strong><span class="mt-1 block text-xs text-muted">{{ holding.code }}{% if holding.exchange %}.{{ holding.exchange }}{% endif %}</span>{% if period and not holding.purchased %}<span class="mt-1 block text-xs text-muted">Not traded on entry date</span>{% endif %}</th><td class="whitespace-normal text-xs text-muted">{{ holding.factors|join:', ' }}</td><td class="text-right tabular-nums">{{ holding.weight|floatformat:2 }}%</td><td class="text-right tabular-nums">¥{{ holding.amount|floatformat:2|intcomma }}</td></tr>{% endfor %}</tbody>
           </table>
         </div>
+        {% endwith %}
+        {% if period %}
+        <p class="mt-4 mb-0 text-xs text-muted">Invested amounts show the simulated purchases after the entry cost. The result above values these holdings at the end of the period.</p>
+        {% if period.selected.entry_cash > 0.005 %}<p class="mt-2 mb-0 text-xs text-muted">Uninvested cash: ¥{{ period.selected.entry_cash|floatformat:2|intcomma }}</p>{% endif %}
+        {% else %}
         <p class="mt-4 mb-0 text-xs text-muted">Amounts show how the chosen budget is divided by the strategy. They are planned amounts for this historical month, before trading costs.</p>
+        {% endif %}
       </section>
       {% elif form %}
       <section class="panel py-10 sm:py-12" aria-labelledby="empty-portfolio-title">
         <span class="mb-3 block text-[10px] font-semibold tracking-widest text-accent uppercase">Your research portfolio</span>
-        <h2 id="empty-portfolio-title">See the strategy in company names and amounts.</h2>
-        <p class="text-muted">Choose a model, a month and a budget, then select Save portfolio. We will show the factor weights, selected companies and the amount for each company.</p>
+        <h2 id="empty-portfolio-title">See what your budget would have become.</h2>
+        <p class="text-muted">Choose a model, a historical month and a budget, then select Save portfolio. We will show its result, compare two other portfolio rules and list the selected companies.</p>
         <a class="button-link mt-3" href="{% url 'china_factor_study' %}">Explore the research &rarr;</a>
       </section>
       {% endif %}

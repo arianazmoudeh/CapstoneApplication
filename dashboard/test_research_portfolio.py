@@ -49,7 +49,7 @@ class ResearchPortfolioTests(TestCase):
         self.assertTrue(any(len(row["factors"]) > 1 for row in allocation["holdings"]))
         self.assertContains(page, "Selected by")
         self.assertContains(page, "before trading costs")
-        self.assertContains(page, "View research results")
+        self.assertContains(page, 'href="/research/china/factors/?model=CNN&amp;signal=2026-08-31"')
         legacy.refresh_from_db()
         self.assertEqual(legacy.quantities, {"AAPL": "3"})
         prices.assert_not_called()
