@@ -1,0 +1,7 @@
+library,version
+numpy,2.5.3
+pandas,3.0.6
+scikit-learn,1.9.1
+xgboost,3.4.1
+torch,2.14.1
+prophet,1.4.0

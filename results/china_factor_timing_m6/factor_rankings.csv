@@ -1,0 +1,529 @@
+signal,split,model,predicted_best_factor,actual_best_factor,best_factor_correct,rank_correlation
+2022-12-30,validation,Historical mean,Momentum,Profitability,False,-0.5
+2023-01-31,validation,Historical mean,Momentum,Value,False,-1.0
+2023-02-28,validation,Historical mean,Momentum,Profitability,False,-0.5
+2023-03-31,validation,Historical mean,Momentum,Momentum,True,0.5
+2023-04-28,validation,Historical mean,Momentum,Momentum,True,1.0
+2023-05-31,validation,Historical mean,Momentum,Value,False,-1.0
+2023-06-30,validation,Historical mean,Momentum,Value,False,-1.0
+2023-07-31,validation,Historical mean,Momentum,Value,False,-0.5
+2023-08-31,validation,Historical mean,Momentum,Momentum,True,0.5
+2023-09-28,validation,Historical mean,Momentum,Value,False,-1.0
+2023-10-31,validation,Historical mean,Momentum,Momentum,True,1.0
+2023-11-30,validation,Historical mean,Momentum,Value,False,-1.0
+2023-12-29,validation,Historical mean,Momentum,Value,False,-0.5
+2024-01-31,validation,Historical mean,Momentum,Momentum,True,1.0
+2024-02-29,validation,Historical mean,Momentum,Momentum,True,0.5
+2024-03-29,validation,Historical mean,Momentum,Momentum,True,1.0
+2024-04-30,validation,Historical mean,Momentum,Value,False,-0.5
+2024-05-31,validation,Historical mean,Momentum,Momentum,True,0.5
+2024-06-28,validation,Historical mean,Momentum,Profitability,False,0.5
+2024-07-31,validation,Historical mean,Momentum,Value,False,-1.0
+2024-08-30,validation,Historical mean,Momentum,Profitability,False,0.5
+2024-09-30,validation,Historical mean,Momentum,Value,False,-0.5
+2024-10-31,validation,Historical mean,Momentum,Profitability,False,0.5
+2022-12-30,validation,Ridge,Profitability,Profitability,True,0.5
+2023-01-31,validation,Ridge,Profitability,Value,False,0.5
+2023-02-28,validation,Ridge,Profitability,Profitability,True,0.5
+2023-03-31,validation,Ridge,Momentum,Momentum,True,0.5
+2023-04-28,validation,Ridge,Profitability,Momentum,False,-0.5
+2023-05-31,validation,Ridge,Value,Value,True,1.0
+2023-06-30,validation,Ridge,Momentum,Value,False,-0.5
+2023-07-31,validation,Ridge,Momentum,Value,False,-0.5
+2023-08-31,validation,Ridge,Profitability,Momentum,False,-0.5
+2023-09-28,validation,Ridge,Profitability,Value,False,-0.5
+2023-10-31,validation,Ridge,Momentum,Momentum,True,1.0
+2023-11-30,validation,Ridge,Momentum,Value,False,-1.0
+2023-12-29,validation,Ridge,Profitability,Value,False,-1.0
+2024-01-31,validation,Ridge,Profitability,Momentum,False,-0.5
+2024-02-29,validation,Ridge,Profitability,Momentum,False,-1.0
+2024-03-29,validation,Ridge,Profitability,Momentum,False,-0.5
+2024-04-30,validation,Ridge,Value,Value,True,1.0
+2024-05-31,validation,Ridge,Profitability,Momentum,False,-0.5
+2024-06-28,validation,Ridge,Profitability,Profitability,True,0.5
+2024-07-31,validation,Ridge,Momentum,Value,False,-1.0
+2024-08-30,validation,Ridge,Momentum,Profitability,False,0.5
+2024-09-30,validation,Ridge,Momentum,Value,False,0.5
+2024-10-31,validation,Ridge,Momentum,Profitability,False,-0.5
+2022-12-30,validation,Elastic Net,Profitability,Profitability,True,0.5
+2023-01-31,validation,Elastic Net,Profitability,Value,False,0.5
+2023-02-28,validation,Elastic Net,Momentum,Profitability,False,-0.5
+2023-03-31,validation,Elastic Net,Momentum,Momentum,True,0.5
+2023-04-28,validation,Elastic Net,Value,Momentum,False,-1.0
+2023-05-31,validation,Elastic Net,Value,Value,True,0.5
+2023-06-30,validation,Elastic Net,Value,Value,True,1.0
+2023-07-31,validation,Elastic Net,Momentum,Value,False,-0.5
+2023-08-31,validation,Elastic Net,Profitability,Momentum,False,-0.5
+2023-09-28,validation,Elastic Net,Profitability,Value,False,-0.5
+2023-10-31,validation,Elastic Net,Momentum,Momentum,True,1.0
+2023-11-30,validation,Elastic Net,Momentum,Value,False,-1.0
+2023-12-29,validation,Elastic Net,Value,Value,True,1.0
+2024-01-31,validation,Elastic Net,Profitability,Momentum,False,-0.5
+2024-02-29,validation,Elastic Net,Profitability,Momentum,False,-1.0
+2024-03-29,validation,Elastic Net,Profitability,Momentum,False,0.5
+2024-04-30,validation,Elastic Net,Value,Value,True,0.5
+2024-05-31,validation,Elastic Net,Profitability,Momentum,False,-0.5
+2024-06-28,validation,Elastic Net,Profitability,Profitability,True,0.5
+2024-07-31,validation,Elastic Net,Momentum,Value,False,-1.0
+2024-08-30,validation,Elastic Net,Momentum,Profitability,False,0.5
+2024-09-30,validation,Elastic Net,Momentum,Value,False,0.5
+2024-10-31,validation,Elastic Net,Momentum,Profitability,False,-0.5
+2022-12-30,validation,KNN,Momentum,Profitability,False,-0.5
+2023-01-31,validation,KNN,Momentum,Value,False,-1.0
+2023-02-28,validation,KNN,Momentum,Profitability,False,-0.5
+2023-03-31,validation,KNN,Momentum,Momentum,True,0.5
+2023-04-28,validation,KNN,Momentum,Momentum,True,1.0
+2023-05-31,validation,KNN,Momentum,Value,False,-1.0
+2023-06-30,validation,KNN,Momentum,Value,False,-1.0
+2023-07-31,validation,KNN,Momentum,Value,False,-0.5
+2023-08-31,validation,KNN,Momentum,Momentum,True,0.5
+2023-09-28,validation,KNN,Momentum,Value,False,-1.0
+2023-10-31,validation,KNN,Momentum,Momentum,True,1.0
+2023-11-30,validation,KNN,Momentum,Value,False,-1.0
+2023-12-29,validation,KNN,Momentum,Value,False,-0.5
+2024-01-31,validation,KNN,Momentum,Momentum,True,1.0
+2024-02-29,validation,KNN,Momentum,Momentum,True,0.5
+2024-03-29,validation,KNN,Momentum,Momentum,True,1.0
+2024-04-30,validation,KNN,Momentum,Value,False,-0.5
+2024-05-31,validation,KNN,Momentum,Momentum,True,0.5
+2024-06-28,validation,KNN,Momentum,Profitability,False,0.5
+2024-07-31,validation,KNN,Momentum,Value,False,-1.0
+2024-08-30,validation,KNN,Momentum,Profitability,False,0.5
+2024-09-30,validation,KNN,Momentum,Value,False,-0.5
+2024-10-31,validation,KNN,Momentum,Profitability,False,0.5
+2022-12-30,validation,SVR,Momentum,Profitability,False,-0.5
+2023-01-31,validation,SVR,Momentum,Value,False,-1.0
+2023-02-28,validation,SVR,Momentum,Profitability,False,-0.5
+2023-03-31,validation,SVR,Momentum,Momentum,True,0.5
+2023-04-28,validation,SVR,Momentum,Momentum,True,1.0
+2023-05-31,validation,SVR,Momentum,Value,False,-1.0
+2023-06-30,validation,SVR,Momentum,Value,False,-1.0
+2023-07-31,validation,SVR,Momentum,Value,False,-0.5
+2023-08-31,validation,SVR,Momentum,Momentum,True,0.5
+2023-09-28,validation,SVR,Momentum,Value,False,-1.0
+2023-10-31,validation,SVR,Momentum,Momentum,True,1.0
+2023-11-30,validation,SVR,Momentum,Value,False,-1.0
+2023-12-29,validation,SVR,Momentum,Value,False,-0.5
+2024-01-31,validation,SVR,Momentum,Momentum,True,1.0
+2024-02-29,validation,SVR,Profitability,Momentum,False,-0.5
+2024-03-29,validation,SVR,Momentum,Momentum,True,1.0
+2024-04-30,validation,SVR,Momentum,Value,False,-0.5
+2024-05-31,validation,SVR,Momentum,Momentum,True,0.5
+2024-06-28,validation,SVR,Momentum,Profitability,False,0.5
+2024-07-31,validation,SVR,Momentum,Value,False,-1.0
+2024-08-30,validation,SVR,Momentum,Profitability,False,-0.5
+2024-09-30,validation,SVR,Momentum,Value,False,-0.5
+2024-10-31,validation,SVR,Momentum,Profitability,False,0.5
+2022-12-30,validation,Random Forest,Momentum,Profitability,False,-0.5
+2023-01-31,validation,Random Forest,Momentum,Value,False,-1.0
+2023-02-28,validation,Random Forest,Momentum,Profitability,False,-0.5
+2023-03-31,validation,Random Forest,Momentum,Momentum,True,0.5
+2023-04-28,validation,Random Forest,Momentum,Momentum,True,1.0
+2023-05-31,validation,Random Forest,Momentum,Value,False,-1.0
+2023-06-30,validation,Random Forest,Momentum,Value,False,-1.0
+2023-07-31,validation,Random Forest,Momentum,Value,False,-0.5
+2023-08-31,validation,Random Forest,Momentum,Momentum,True,0.5
+2023-09-28,validation,Random Forest,Momentum,Value,False,-1.0
+2023-10-31,validation,Random Forest,Momentum,Momentum,True,1.0
+2023-11-30,validation,Random Forest,Momentum,Value,False,-1.0
+2023-12-29,validation,Random Forest,Momentum,Value,False,-0.5
+2024-01-31,validation,Random Forest,Momentum,Momentum,True,1.0
+2024-02-29,validation,Random Forest,Momentum,Momentum,True,0.5
+2024-03-29,validation,Random Forest,Momentum,Momentum,True,0.5
+2024-04-30,validation,Random Forest,Momentum,Value,False,-0.5
+2024-05-31,validation,Random Forest,Momentum,Momentum,True,0.5
+2024-06-28,validation,Random Forest,Value,Profitability,False,-1.0
+2024-07-31,validation,Random Forest,Momentum,Value,False,-1.0
+2024-08-30,validation,Random Forest,Momentum,Profitability,False,0.5
+2024-09-30,validation,Random Forest,Momentum,Value,False,-0.5
+2024-10-31,validation,Random Forest,Momentum,Profitability,False,0.5
+2022-12-30,validation,Extra Trees,Momentum,Profitability,False,-0.5
+2023-01-31,validation,Extra Trees,Momentum,Value,False,-1.0
+2023-02-28,validation,Extra Trees,Momentum,Profitability,False,-0.5
+2023-03-31,validation,Extra Trees,Momentum,Momentum,True,0.5
+2023-04-28,validation,Extra Trees,Momentum,Momentum,True,1.0
+2023-05-31,validation,Extra Trees,Momentum,Value,False,-0.5
+2023-06-30,validation,Extra Trees,Momentum,Value,False,-1.0
+2023-07-31,validation,Extra Trees,Momentum,Value,False,-0.5
+2023-08-31,validation,Extra Trees,Momentum,Momentum,True,0.5
+2023-09-28,validation,Extra Trees,Momentum,Value,False,-1.0
+2023-10-31,validation,Extra Trees,Momentum,Momentum,True,1.0
+2023-11-30,validation,Extra Trees,Momentum,Value,False,-1.0
+2023-12-29,validation,Extra Trees,Momentum,Value,False,-0.5
+2024-01-31,validation,Extra Trees,Momentum,Momentum,True,1.0
+2024-02-29,validation,Extra Trees,Momentum,Momentum,True,0.5
+2024-03-29,validation,Extra Trees,Momentum,Momentum,True,1.0
+2024-04-30,validation,Extra Trees,Momentum,Value,False,-0.5
+2024-05-31,validation,Extra Trees,Momentum,Momentum,True,0.5
+2024-06-28,validation,Extra Trees,Momentum,Profitability,False,-0.5
+2024-07-31,validation,Extra Trees,Momentum,Value,False,-1.0
+2024-08-30,validation,Extra Trees,Momentum,Profitability,False,0.5
+2024-09-30,validation,Extra Trees,Momentum,Value,False,-0.5
+2024-10-31,validation,Extra Trees,Momentum,Profitability,False,0.5
+2022-12-30,validation,XGBoost,Momentum,Profitability,False,-0.5
+2023-01-31,validation,XGBoost,Momentum,Value,False,-1.0
+2023-02-28,validation,XGBoost,Momentum,Profitability,False,-0.5
+2023-03-31,validation,XGBoost,Momentum,Momentum,True,0.5
+2023-04-28,validation,XGBoost,Value,Momentum,False,-1.0
+2023-05-31,validation,XGBoost,Momentum,Value,False,-1.0
+2023-06-30,validation,XGBoost,Profitability,Value,False,-0.5
+2023-07-31,validation,XGBoost,Momentum,Value,False,-0.5
+2023-08-31,validation,XGBoost,Profitability,Momentum,False,-0.5
+2023-09-28,validation,XGBoost,Momentum,Value,False,-1.0
+2023-10-31,validation,XGBoost,Momentum,Momentum,True,1.0
+2023-11-30,validation,XGBoost,Momentum,Value,False,-1.0
+2023-12-29,validation,XGBoost,Momentum,Value,False,-0.5
+2024-01-31,validation,XGBoost,Momentum,Momentum,True,0.5
+2024-02-29,validation,XGBoost,Momentum,Momentum,True,0.5
+2024-03-29,validation,XGBoost,Momentum,Momentum,True,1.0
+2024-04-30,validation,XGBoost,Momentum,Value,False,-0.5
+2024-05-31,validation,XGBoost,Momentum,Momentum,True,0.5
+2024-06-28,validation,XGBoost,Value,Profitability,False,-0.5
+2024-07-31,validation,XGBoost,Momentum,Value,False,-1.0
+2024-08-30,validation,XGBoost,Momentum,Profitability,False,0.5
+2024-09-30,validation,XGBoost,Momentum,Value,False,-0.5
+2024-10-31,validation,XGBoost,Momentum,Profitability,False,-0.5
+2022-12-30,validation,MLP,Profitability,Profitability,True,0.5
+2023-01-31,validation,MLP,Profitability,Value,False,-0.5
+2023-02-28,validation,MLP,Momentum,Profitability,False,-0.5
+2023-03-31,validation,MLP,Momentum,Momentum,True,1.0
+2023-04-28,validation,MLP,Profitability,Momentum,False,0.5
+2023-05-31,validation,MLP,Profitability,Value,False,-0.5
+2023-06-30,validation,MLP,Momentum,Value,False,-1.0
+2023-07-31,validation,MLP,Momentum,Value,False,-0.5
+2023-08-31,validation,MLP,Momentum,Momentum,True,0.5
+2023-09-28,validation,MLP,Profitability,Value,False,-0.5
+2023-10-31,validation,MLP,Momentum,Momentum,True,1.0
+2023-11-30,validation,MLP,Profitability,Value,False,-0.5
+2023-12-29,validation,MLP,Profitability,Value,False,-1.0
+2024-01-31,validation,MLP,Profitability,Momentum,False,-0.5
+2024-02-29,validation,MLP,Profitability,Momentum,False,-0.5
+2024-03-29,validation,MLP,Profitability,Momentum,False,0.5
+2024-04-30,validation,MLP,Momentum,Value,False,-0.5
+2024-05-31,validation,MLP,Momentum,Momentum,True,0.5
+2024-06-28,validation,MLP,Momentum,Profitability,False,0.5
+2024-07-31,validation,MLP,Momentum,Value,False,-1.0
+2024-08-30,validation,MLP,Momentum,Profitability,False,-0.5
+2024-09-30,validation,MLP,Momentum,Value,False,0.5
+2024-10-31,validation,MLP,Momentum,Profitability,False,-0.5
+2022-12-30,validation,LSTM,Momentum,Profitability,False,-0.5
+2023-01-31,validation,LSTM,Momentum,Value,False,-1.0
+2023-02-28,validation,LSTM,Momentum,Profitability,False,-0.5
+2023-03-31,validation,LSTM,Momentum,Momentum,True,0.5
+2023-04-28,validation,LSTM,Momentum,Momentum,True,1.0
+2023-05-31,validation,LSTM,Momentum,Value,False,-1.0
+2023-06-30,validation,LSTM,Momentum,Value,False,-1.0
+2023-07-31,validation,LSTM,Momentum,Value,False,-0.5
+2023-08-31,validation,LSTM,Momentum,Momentum,True,0.5
+2023-09-28,validation,LSTM,Momentum,Value,False,-1.0
+2023-10-31,validation,LSTM,Momentum,Momentum,True,1.0
+2023-11-30,validation,LSTM,Momentum,Value,False,-1.0
+2023-12-29,validation,LSTM,Momentum,Value,False,-0.5
+2024-01-31,validation,LSTM,Momentum,Momentum,True,1.0
+2024-02-29,validation,LSTM,Momentum,Momentum,True,0.5
+2024-03-29,validation,LSTM,Momentum,Momentum,True,1.0
+2024-04-30,validation,LSTM,Momentum,Value,False,-0.5
+2024-05-31,validation,LSTM,Momentum,Momentum,True,0.5
+2024-06-28,validation,LSTM,Momentum,Profitability,False,0.5
+2024-07-31,validation,LSTM,Momentum,Value,False,-1.0
+2024-08-30,validation,LSTM,Momentum,Profitability,False,0.5
+2024-09-30,validation,LSTM,Momentum,Value,False,-0.5
+2024-10-31,validation,LSTM,Momentum,Profitability,False,0.5
+2022-12-30,validation,CNN,Momentum,Profitability,False,-0.5
+2023-01-31,validation,CNN,Momentum,Value,False,-1.0
+2023-02-28,validation,CNN,Momentum,Profitability,False,-0.5
+2023-03-31,validation,CNN,Momentum,Momentum,True,0.5
+2023-04-28,validation,CNN,Momentum,Momentum,True,1.0
+2023-05-31,validation,CNN,Momentum,Value,False,-1.0
+2023-06-30,validation,CNN,Momentum,Value,False,-1.0
+2023-07-31,validation,CNN,Momentum,Value,False,-0.5
+2023-08-31,validation,CNN,Momentum,Momentum,True,0.5
+2023-09-28,validation,CNN,Momentum,Value,False,-1.0
+2023-10-31,validation,CNN,Momentum,Momentum,True,1.0
+2023-11-30,validation,CNN,Momentum,Value,False,-1.0
+2023-12-29,validation,CNN,Momentum,Value,False,-0.5
+2024-01-31,validation,CNN,Momentum,Momentum,True,1.0
+2024-02-29,validation,CNN,Momentum,Momentum,True,0.5
+2024-03-29,validation,CNN,Momentum,Momentum,True,1.0
+2024-04-30,validation,CNN,Momentum,Value,False,-0.5
+2024-05-31,validation,CNN,Momentum,Momentum,True,0.5
+2024-06-28,validation,CNN,Momentum,Profitability,False,0.5
+2024-07-31,validation,CNN,Momentum,Value,False,-1.0
+2024-08-30,validation,CNN,Momentum,Profitability,False,0.5
+2024-09-30,validation,CNN,Momentum,Value,False,-0.5
+2024-10-31,validation,CNN,Momentum,Profitability,False,0.5
+2022-12-30,validation,Prophet,Value,Profitability,False,-0.5
+2023-01-31,validation,Prophet,Value,Value,True,0.5
+2023-02-28,validation,Prophet,Value,Profitability,False,-0.5
+2023-03-31,validation,Prophet,Value,Momentum,False,0.5
+2023-04-28,validation,Prophet,Value,Momentum,False,-0.5
+2023-05-31,validation,Prophet,Value,Value,True,0.5
+2023-06-30,validation,Prophet,Value,Value,True,0.5
+2023-07-31,validation,Prophet,Value,Value,True,1.0
+2023-08-31,validation,Prophet,Value,Momentum,False,0.5
+2023-09-28,validation,Prophet,Value,Value,True,0.5
+2023-10-31,validation,Prophet,Value,Momentum,False,-0.5
+2023-11-30,validation,Prophet,Value,Value,True,0.5
+2023-12-29,validation,Prophet,Value,Value,True,1.0
+2024-01-31,validation,Prophet,Value,Momentum,False,-0.5
+2024-02-29,validation,Prophet,Value,Momentum,False,0.5
+2024-03-29,validation,Prophet,Value,Momentum,False,-0.5
+2024-04-30,validation,Prophet,Value,Value,True,1.0
+2024-05-31,validation,Prophet,Value,Momentum,False,0.5
+2024-06-28,validation,Prophet,Value,Profitability,False,-1.0
+2024-07-31,validation,Prophet,Value,Value,True,0.5
+2024-08-30,validation,Prophet,Value,Profitability,False,-1.0
+2024-09-30,validation,Prophet,Value,Value,True,1.0
+2024-10-31,validation,Prophet,Value,Profitability,False,-1.0
+2024-12-31,evaluation,Historical mean,Momentum,Profitability,False,-0.5
+2025-01-27,evaluation,Historical mean,Momentum,Profitability,False,-0.5
+2025-02-28,evaluation,Historical mean,Momentum,Momentum,True,0.5
+2025-03-31,evaluation,Historical mean,Momentum,Momentum,True,1.0
+2025-04-30,evaluation,Historical mean,Momentum,Value,False,-1.0
+2025-05-30,evaluation,Historical mean,Momentum,Profitability,False,0.5
+2025-06-30,evaluation,Historical mean,Momentum,Momentum,True,1.0
+2025-07-31,evaluation,Historical mean,Momentum,Momentum,True,1.0
+2025-08-29,evaluation,Historical mean,Momentum,Momentum,True,1.0
+2025-09-30,evaluation,Historical mean,Momentum,Value,False,-1.0
+2025-10-31,evaluation,Historical mean,Momentum,Value,False,-1.0
+2025-11-28,evaluation,Historical mean,Momentum,Momentum,True,1.0
+2025-12-31,evaluation,Historical mean,Momentum,Momentum,True,1.0
+2026-01-30,evaluation,Historical mean,Momentum,Momentum,True,0.5
+2026-02-27,evaluation,Historical mean,Momentum,Value,False,-1.0
+2026-03-31,evaluation,Historical mean,Momentum,Momentum,True,1.0
+2026-04-30,evaluation,Historical mean,Momentum,Profitability,False,0.5
+2026-05-29,evaluation,Historical mean,Momentum,Momentum,True,1.0
+2026-06-30,evaluation,Historical mean,Momentum,Value,False,-1.0
+2026-07-31,evaluation,Historical mean,Momentum,Momentum,True,1.0
+2026-08-31,evaluation,Historical mean,Momentum,Value,False,-1.0
+2024-12-31,evaluation,Ridge,Value,Profitability,False,-0.5
+2025-01-27,evaluation,Ridge,Value,Profitability,False,0.5
+2025-02-28,evaluation,Ridge,Momentum,Momentum,True,0.5
+2025-03-31,evaluation,Ridge,Value,Momentum,False,-0.5
+2025-04-30,evaluation,Ridge,Momentum,Value,False,-0.5
+2025-05-30,evaluation,Ridge,Momentum,Profitability,False,0.5
+2025-06-30,evaluation,Ridge,Profitability,Momentum,False,-0.5
+2025-07-31,evaluation,Ridge,Profitability,Momentum,False,0.5
+2025-08-29,evaluation,Ridge,Momentum,Momentum,True,1.0
+2025-09-30,evaluation,Ridge,Profitability,Value,False,-0.5
+2025-10-31,evaluation,Ridge,Momentum,Value,False,-1.0
+2025-11-28,evaluation,Ridge,Momentum,Momentum,True,1.0
+2025-12-31,evaluation,Ridge,Profitability,Momentum,False,0.5
+2026-01-30,evaluation,Ridge,Value,Momentum,False,0.5
+2026-02-27,evaluation,Ridge,Momentum,Value,False,-1.0
+2026-03-31,evaluation,Ridge,Profitability,Momentum,False,0.5
+2026-04-30,evaluation,Ridge,Momentum,Profitability,False,-0.5
+2026-05-29,evaluation,Ridge,Momentum,Momentum,True,1.0
+2026-06-30,evaluation,Ridge,Value,Value,True,1.0
+2026-07-31,evaluation,Ridge,Profitability,Momentum,False,-0.5
+2026-08-31,evaluation,Ridge,Value,Value,True,0.5
+2024-12-31,evaluation,Elastic Net,Value,Profitability,False,0.5
+2025-01-27,evaluation,Elastic Net,Value,Profitability,False,0.5
+2025-02-28,evaluation,Elastic Net,Momentum,Momentum,True,0.5
+2025-03-31,evaluation,Elastic Net,Value,Momentum,False,-1.0
+2025-04-30,evaluation,Elastic Net,Momentum,Value,False,-0.5
+2025-05-30,evaluation,Elastic Net,Momentum,Profitability,False,0.5
+2025-06-30,evaluation,Elastic Net,Profitability,Momentum,False,0.5
+2025-07-31,evaluation,Elastic Net,Profitability,Momentum,False,0.5
+2025-08-29,evaluation,Elastic Net,Profitability,Momentum,False,0.5
+2025-09-30,evaluation,Elastic Net,Profitability,Value,False,0.5
+2025-10-31,evaluation,Elastic Net,Momentum,Value,False,-0.5
+2025-11-28,evaluation,Elastic Net,Momentum,Momentum,True,1.0
+2025-12-31,evaluation,Elastic Net,Profitability,Momentum,False,0.5
+2026-01-30,evaluation,Elastic Net,Value,Momentum,False,0.5
+2026-02-27,evaluation,Elastic Net,Momentum,Value,False,-1.0
+2026-03-31,evaluation,Elastic Net,Profitability,Momentum,False,0.5
+2026-04-30,evaluation,Elastic Net,Momentum,Profitability,False,-0.5
+2026-05-29,evaluation,Elastic Net,Momentum,Momentum,True,1.0
+2026-06-30,evaluation,Elastic Net,Value,Value,True,1.0
+2026-07-31,evaluation,Elastic Net,Profitability,Momentum,False,-0.5
+2026-08-31,evaluation,Elastic Net,Value,Value,True,1.0
+2024-12-31,evaluation,KNN,Profitability,Profitability,True,1.0
+2025-01-27,evaluation,KNN,Profitability,Profitability,True,1.0
+2025-02-28,evaluation,KNN,Profitability,Momentum,False,-0.5
+2025-03-31,evaluation,KNN,Momentum,Momentum,True,1.0
+2025-04-30,evaluation,KNN,Profitability,Value,False,-0.5
+2025-05-30,evaluation,KNN,Profitability,Profitability,True,1.0
+2025-06-30,evaluation,KNN,Profitability,Momentum,False,0.5
+2025-07-31,evaluation,KNN,Profitability,Momentum,False,0.5
+2025-08-29,evaluation,KNN,Momentum,Momentum,True,1.0
+2025-09-30,evaluation,KNN,Momentum,Value,False,-0.5
+2025-10-31,evaluation,KNN,Momentum,Value,False,-1.0
+2025-11-28,evaluation,KNN,Momentum,Momentum,True,1.0
+2025-12-31,evaluation,KNN,Momentum,Momentum,True,1.0
+2026-01-30,evaluation,KNN,Momentum,Momentum,True,0.5
+2026-02-27,evaluation,KNN,Momentum,Value,False,-1.0
+2026-03-31,evaluation,KNN,Momentum,Momentum,True,1.0
+2026-04-30,evaluation,KNN,Momentum,Profitability,False,0.5
+2026-05-29,evaluation,KNN,Momentum,Momentum,True,1.0
+2026-06-30,evaluation,KNN,Momentum,Value,False,-1.0
+2026-07-31,evaluation,KNN,Momentum,Momentum,True,1.0
+2026-08-31,evaluation,KNN,Momentum,Value,False,-1.0
+2024-12-31,evaluation,SVR,Value,Profitability,False,-0.5
+2025-01-27,evaluation,SVR,Profitability,Profitability,True,1.0
+2025-02-28,evaluation,SVR,Profitability,Momentum,False,-0.5
+2025-03-31,evaluation,SVR,Momentum,Momentum,True,0.5
+2025-04-30,evaluation,SVR,Momentum,Value,False,-0.5
+2025-05-30,evaluation,SVR,Momentum,Profitability,False,0.5
+2025-06-30,evaluation,SVR,Profitability,Momentum,False,-0.5
+2025-07-31,evaluation,SVR,Profitability,Momentum,False,-0.5
+2025-08-29,evaluation,SVR,Momentum,Momentum,True,1.0
+2025-09-30,evaluation,SVR,Momentum,Value,False,-0.5
+2025-10-31,evaluation,SVR,Momentum,Value,False,-1.0
+2025-11-28,evaluation,SVR,Momentum,Momentum,True,1.0
+2025-12-31,evaluation,SVR,Value,Momentum,False,-1.0
+2026-01-30,evaluation,SVR,Momentum,Momentum,True,0.5
+2026-02-27,evaluation,SVR,Momentum,Value,False,-1.0
+2026-03-31,evaluation,SVR,Momentum,Momentum,True,1.0
+2026-04-30,evaluation,SVR,Momentum,Profitability,False,-0.5
+2026-05-29,evaluation,SVR,Momentum,Momentum,True,0.5
+2026-06-30,evaluation,SVR,Profitability,Value,False,-0.5
+2026-07-31,evaluation,SVR,Momentum,Momentum,True,1.0
+2026-08-31,evaluation,SVR,Momentum,Value,False,-1.0
+2024-12-31,evaluation,Random Forest,Momentum,Profitability,False,-0.5
+2025-01-27,evaluation,Random Forest,Value,Profitability,False,-0.5
+2025-02-28,evaluation,Random Forest,Momentum,Momentum,True,0.5
+2025-03-31,evaluation,Random Forest,Momentum,Momentum,True,1.0
+2025-04-30,evaluation,Random Forest,Momentum,Value,False,-1.0
+2025-05-30,evaluation,Random Forest,Momentum,Profitability,False,0.5
+2025-06-30,evaluation,Random Forest,Momentum,Momentum,True,1.0
+2025-07-31,evaluation,Random Forest,Momentum,Momentum,True,1.0
+2025-08-29,evaluation,Random Forest,Momentum,Momentum,True,1.0
+2025-09-30,evaluation,Random Forest,Momentum,Value,False,-0.5
+2025-10-31,evaluation,Random Forest,Momentum,Value,False,-1.0
+2025-11-28,evaluation,Random Forest,Momentum,Momentum,True,1.0
+2025-12-31,evaluation,Random Forest,Value,Momentum,False,-0.5
+2026-01-30,evaluation,Random Forest,Momentum,Momentum,True,1.0
+2026-02-27,evaluation,Random Forest,Momentum,Value,False,-1.0
+2026-03-31,evaluation,Random Forest,Momentum,Momentum,True,1.0
+2026-04-30,evaluation,Random Forest,Momentum,Profitability,False,-0.5
+2026-05-29,evaluation,Random Forest,Momentum,Momentum,True,0.5
+2026-06-30,evaluation,Random Forest,Momentum,Value,False,-1.0
+2026-07-31,evaluation,Random Forest,Momentum,Momentum,True,1.0
+2026-08-31,evaluation,Random Forest,Momentum,Value,False,-1.0
+2024-12-31,evaluation,Extra Trees,Momentum,Profitability,False,-0.5
+2025-01-27,evaluation,Extra Trees,Momentum,Profitability,False,-0.5
+2025-02-28,evaluation,Extra Trees,Momentum,Momentum,True,0.5
+2025-03-31,evaluation,Extra Trees,Momentum,Momentum,True,1.0
+2025-04-30,evaluation,Extra Trees,Momentum,Value,False,-1.0
+2025-05-30,evaluation,Extra Trees,Momentum,Profitability,False,0.5
+2025-06-30,evaluation,Extra Trees,Momentum,Momentum,True,1.0
+2025-07-31,evaluation,Extra Trees,Momentum,Momentum,True,1.0
+2025-08-29,evaluation,Extra Trees,Momentum,Momentum,True,1.0
+2025-09-30,evaluation,Extra Trees,Momentum,Value,False,-0.5
+2025-10-31,evaluation,Extra Trees,Momentum,Value,False,-1.0
+2025-11-28,evaluation,Extra Trees,Momentum,Momentum,True,1.0
+2025-12-31,evaluation,Extra Trees,Momentum,Momentum,True,0.5
+2026-01-30,evaluation,Extra Trees,Momentum,Momentum,True,1.0
+2026-02-27,evaluation,Extra Trees,Momentum,Value,False,-1.0
+2026-03-31,evaluation,Extra Trees,Momentum,Momentum,True,1.0
+2026-04-30,evaluation,Extra Trees,Momentum,Profitability,False,0.5
+2026-05-29,evaluation,Extra Trees,Momentum,Momentum,True,1.0
+2026-06-30,evaluation,Extra Trees,Momentum,Value,False,-1.0
+2026-07-31,evaluation,Extra Trees,Momentum,Momentum,True,1.0
+2026-08-31,evaluation,Extra Trees,Momentum,Value,False,-1.0
+2024-12-31,evaluation,XGBoost,Profitability,Profitability,True,1.0
+2025-01-27,evaluation,XGBoost,Value,Profitability,False,0.5
+2025-02-28,evaluation,XGBoost,Profitability,Momentum,False,-1.0
+2025-03-31,evaluation,XGBoost,Profitability,Momentum,False,0.5
+2025-04-30,evaluation,XGBoost,Momentum,Value,False,-1.0
+2025-05-30,evaluation,XGBoost,Profitability,Profitability,True,1.0
+2025-06-30,evaluation,XGBoost,Profitability,Momentum,False,-0.5
+2025-07-31,evaluation,XGBoost,Momentum,Momentum,True,1.0
+2025-08-29,evaluation,XGBoost,Momentum,Momentum,True,1.0
+2025-09-30,evaluation,XGBoost,Value,Value,True,0.5
+2025-10-31,evaluation,XGBoost,Momentum,Value,False,-1.0
+2025-11-28,evaluation,XGBoost,Momentum,Momentum,True,1.0
+2025-12-31,evaluation,XGBoost,Value,Momentum,False,-0.5
+2026-01-30,evaluation,XGBoost,Momentum,Momentum,True,0.5
+2026-02-27,evaluation,XGBoost,Momentum,Value,False,-1.0
+2026-03-31,evaluation,XGBoost,Momentum,Momentum,True,1.0
+2026-04-30,evaluation,XGBoost,Momentum,Profitability,False,-0.5
+2026-05-29,evaluation,XGBoost,Momentum,Momentum,True,0.5
+2026-06-30,evaluation,XGBoost,Value,Value,True,0.5
+2026-07-31,evaluation,XGBoost,Momentum,Momentum,True,1.0
+2026-08-31,evaluation,XGBoost,Momentum,Value,False,-1.0
+2024-12-31,evaluation,MLP,Value,Profitability,False,0.5
+2025-01-27,evaluation,MLP,Value,Profitability,False,0.5
+2025-02-28,evaluation,MLP,Profitability,Momentum,False,-0.5
+2025-03-31,evaluation,MLP,Value,Momentum,False,-0.5
+2025-04-30,evaluation,MLP,Momentum,Value,False,-0.5
+2025-05-30,evaluation,MLP,Profitability,Profitability,True,1.0
+2025-06-30,evaluation,MLP,Profitability,Momentum,False,-0.5
+2025-07-31,evaluation,MLP,Profitability,Momentum,False,-0.5
+2025-08-29,evaluation,MLP,Value,Momentum,False,-1.0
+2025-09-30,evaluation,MLP,Value,Value,True,0.5
+2025-10-31,evaluation,MLP,Momentum,Value,False,-1.0
+2025-11-28,evaluation,MLP,Momentum,Momentum,True,1.0
+2025-12-31,evaluation,MLP,Profitability,Momentum,False,-0.5
+2026-01-30,evaluation,MLP,Momentum,Momentum,True,0.5
+2026-02-27,evaluation,MLP,Profitability,Value,False,0.5
+2026-03-31,evaluation,MLP,Profitability,Momentum,False,-0.5
+2026-04-30,evaluation,MLP,Value,Profitability,False,-1.0
+2026-05-29,evaluation,MLP,Value,Momentum,False,-0.5
+2026-06-30,evaluation,MLP,Value,Value,True,1.0
+2026-07-31,evaluation,MLP,Profitability,Momentum,False,0.5
+2026-08-31,evaluation,MLP,Value,Value,True,1.0
+2024-12-31,evaluation,LSTM,Momentum,Profitability,False,-0.5
+2025-01-27,evaluation,LSTM,Momentum,Profitability,False,-0.5
+2025-02-28,evaluation,LSTM,Momentum,Momentum,True,0.5
+2025-03-31,evaluation,LSTM,Momentum,Momentum,True,1.0
+2025-04-30,evaluation,LSTM,Momentum,Value,False,-1.0
+2025-05-30,evaluation,LSTM,Momentum,Profitability,False,0.5
+2025-06-30,evaluation,LSTM,Momentum,Momentum,True,1.0
+2025-07-31,evaluation,LSTM,Momentum,Momentum,True,1.0
+2025-08-29,evaluation,LSTM,Momentum,Momentum,True,1.0
+2025-09-30,evaluation,LSTM,Momentum,Value,False,-1.0
+2025-10-31,evaluation,LSTM,Momentum,Value,False,-1.0
+2025-11-28,evaluation,LSTM,Momentum,Momentum,True,1.0
+2025-12-31,evaluation,LSTM,Momentum,Momentum,True,0.5
+2026-01-30,evaluation,LSTM,Momentum,Momentum,True,0.5
+2026-02-27,evaluation,LSTM,Momentum,Value,False,-1.0
+2026-03-31,evaluation,LSTM,Momentum,Momentum,True,1.0
+2026-04-30,evaluation,LSTM,Momentum,Profitability,False,-0.5
+2026-05-29,evaluation,LSTM,Momentum,Momentum,True,1.0
+2026-06-30,evaluation,LSTM,Momentum,Value,False,-1.0
+2026-07-31,evaluation,LSTM,Momentum,Momentum,True,1.0
+2026-08-31,evaluation,LSTM,Momentum,Value,False,-1.0
+2024-12-31,evaluation,CNN,Momentum,Profitability,False,-0.5
+2025-01-27,evaluation,CNN,Momentum,Profitability,False,-0.5
+2025-02-28,evaluation,CNN,Momentum,Momentum,True,0.5
+2025-03-31,evaluation,CNN,Momentum,Momentum,True,1.0
+2025-04-30,evaluation,CNN,Momentum,Value,False,-1.0
+2025-05-30,evaluation,CNN,Momentum,Profitability,False,0.5
+2025-06-30,evaluation,CNN,Profitability,Momentum,False,0.5
+2025-07-31,evaluation,CNN,Profitability,Momentum,False,0.5
+2025-08-29,evaluation,CNN,Momentum,Momentum,True,1.0
+2025-09-30,evaluation,CNN,Momentum,Value,False,-0.5
+2025-10-31,evaluation,CNN,Momentum,Value,False,-1.0
+2025-11-28,evaluation,CNN,Momentum,Momentum,True,1.0
+2025-12-31,evaluation,CNN,Momentum,Momentum,True,1.0
+2026-01-30,evaluation,CNN,Momentum,Momentum,True,0.5
+2026-02-27,evaluation,CNN,Momentum,Value,False,-1.0
+2026-03-31,evaluation,CNN,Momentum,Momentum,True,1.0
+2026-04-30,evaluation,CNN,Momentum,Profitability,False,0.5
+2026-05-29,evaluation,CNN,Momentum,Momentum,True,1.0
+2026-06-30,evaluation,CNN,Momentum,Value,False,-1.0
+2026-07-31,evaluation,CNN,Momentum,Momentum,True,1.0
+2026-08-31,evaluation,CNN,Momentum,Value,False,-1.0
+2024-12-31,evaluation,Prophet,Value,Profitability,False,-0.5
+2025-01-27,evaluation,Prophet,Value,Profitability,False,-0.5
+2025-02-28,evaluation,Prophet,Value,Momentum,False,0.5
+2025-03-31,evaluation,Prophet,Value,Momentum,False,-0.5
+2025-04-30,evaluation,Prophet,Value,Value,True,0.5
+2025-05-30,evaluation,Prophet,Value,Profitability,False,-1.0
+2025-06-30,evaluation,Prophet,Value,Momentum,False,-0.5
+2025-07-31,evaluation,Prophet,Value,Momentum,False,-0.5
+2025-08-29,evaluation,Prophet,Value,Momentum,False,-0.5
+2025-09-30,evaluation,Prophet,Momentum,Value,False,-0.5
+2025-10-31,evaluation,Prophet,Momentum,Value,False,-1.0
+2025-11-28,evaluation,Prophet,Momentum,Momentum,True,0.5
+2025-12-31,evaluation,Prophet,Momentum,Momentum,True,0.5
+2026-01-30,evaluation,Prophet,Momentum,Momentum,True,1.0
+2026-02-27,evaluation,Prophet,Momentum,Value,False,-0.5
+2026-03-31,evaluation,Prophet,Momentum,Momentum,True,0.5
+2026-04-30,evaluation,Prophet,Momentum,Profitability,False,-0.5
+2026-05-29,evaluation,Prophet,Momentum,Momentum,True,1.0
+2026-06-30,evaluation,Prophet,Momentum,Value,False,-1.0
+2026-07-31,evaluation,Prophet,Momentum,Momentum,True,1.0
+2026-08-31,evaluation,Prophet,Momentum,Value,False,-1.0
