@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "Forecast grid, target dates and baseline reproduction",
+      "status": "PASS",
+      "detail": "10,800 forecasts; all 45 common dates; bridge present; 2,112 seed 42 forecasts reproduce M6."
+    },
+    {
+      "check": "Training timing, bridge and early stopping",
+      "status": "PASS",
+      "detail": "All 2,520 fits use completed outcomes; 675 deep fits have purged early stopping within 100 epochs; bridge cutoff verified."
+    },
+    {
+      "check": "Past-only six-month model selection",
+      "status": "PASS",
+      "detail": "All 20 selections recomputed from 18 completed paired shadow returns; ties, turnover and execution dates match."
+    },
+    {
+      "check": "Factor mixes, fixed controls and stock-level netting",
+      "status": "PASS",
+      "detail": "All 756 factor mixes and 75,600 stock targets match monthly forecasts, frozen-family/frozen-mix controls and netting."
+    },
+    {
+      "check": "Continuous shadow accounting",
+      "status": "PASS",
+      "detail": "80 continuous ledgers; 45 periods each; cash, fees, borrowing, frozen holdings, NAV and all risk/return metrics reconcile."
+    },
+    {
+      "check": "Evaluation accounting across all seeds",
+      "status": "PASS",
+      "detail": "36 continuous ledgers; 21 periods each; cash, fees, borrowing, frozen holdings, NAV and all risk/return metrics reconcile."
+    },
+    {
+      "check": "Unchanged M6 portfolio results",
+      "status": "PASS",
+      "detail": "All 17 original comparable portfolio results reproduce the M6 engine."
+    },
+    {
+      "check": "Bootstrap, costs and seed coverage",
+      "status": "PASS",
+      "detail": "All three stationary bootstrap intervals exactly recomputed; 36 cost rows and all five seeds present."
+    },
+    {
+      "check": "Matched return-window sensitivity",
+      "status": "PASS",
+      "detail": "All three return/risk definitions, three models, common training history and identical 23/21 forecast dates verified."
+    }
+  ],
+  "limitations": "This audit checks saved calculations and timing. It does not establish point-in-time source completeness, historical borrow availability or independent out-of-sample evidence."
+}

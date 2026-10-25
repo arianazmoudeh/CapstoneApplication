@@ -1,0 +1,23 @@
+{
+  "checked_on": "2026-10-25",
+  "status": "share_with_caveats",
+  "master_companies": 100,
+  "price_rows": 261601,
+  "financial_rows": 1229,
+  "financial_usable_rows": 839,
+  "later_provider_update_rows": 1212,
+  "later_provider_update_usable_rows": 835,
+  "annual_report_company_years_checked": 5,
+  "annual_report_direct_fields_checked": 33,
+  "annual_report_direct_fields_matching": 33,
+  "ebit_reconstructions": 5,
+  "gree_2020_profitability_reconstructed": 5.6917719530176205,
+  "input_files_changed": false,
+  "material_limitations": [
+    "Provider revisions prevent a complete point-in-time claim.",
+    "Current selected companies introduce survivor and selection bias.",
+    "Broad cash netting can produce a small invested-capital denominator.",
+    "Two raw/adjusted volume discrepancies remain unresolved.",
+    "Price adjustment multipliers and short-sale availability are not independently verified for every date."
+  ]
+}

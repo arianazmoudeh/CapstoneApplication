@@ -4,6 +4,7 @@
 {% block content %}
 <main id="main" class="page-shell min-w-0 flex-1">
   <div class="my-8 sm:my-10"><h1>Research portfolio</h1><p class="text-muted">Choose a model, a historical month and a budget. See the result and compare it with equal stock and factor weights.</p></div>
+  <p class="mb-6 text-sm text-muted">This page explores the long-only stock-selection study. <a class="underline" href="{% url 'china_final_study' %}">Open the final long-short factor timing results &rarr;</a></p>
   {% for message in messages %}<p class="notice" role="status">{{ message }}</p>{% endfor %}
   {% if error %}<div class="error" role="alert">{{ error }}</div>{% endif %}
   <div class="{% if form %}grid items-start gap-6 lg:grid-cols-[20rem_minmax(0,1fr)] {% endif %}[&>div]:min-w-0">

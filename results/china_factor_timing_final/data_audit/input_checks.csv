@@ -1,0 +1,6 @@
+file,rows,columns,duplicate_key_rows,sha256
+inputs/china_factor_100/stocks.csv,100,10,0,453629ca2697698d0f6d23dd1a10d2592ce916727b5cc1bc89ed508bd334de63
+inputs/china_factor_100/prices.csv,261601,9,0,b77e9c7e99cc13b08ccb6491b5f6d356d432bd5e5c5b6cf932fe62fd0d6155dc
+inputs/china_factor_100/financials.csv,1229,46,0,52ded4590017b05d516ead91b6854417e237cbfbab86e2a6865972855969434d
+inputs/china_factor_100/shares.csv,6592,9,0,e62bfe1068ee8990b086c7b5cbb8603c6953a5c4c03ca7f1d417d006d124f1b9
+inputs/china_benchmark/market_calendar.csv,2862,1,0,71b56defe19c6d23a4eafb0653d1b426ea3c96c4a3518d7d5f0857d656edb709

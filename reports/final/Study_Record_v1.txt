@@ -1,0 +1,200 @@
+Study Record Version 1
+
+Recorded on 25 October 2026 before the supplementary selector experiment.
+
+This is a retrospective research protocol, not a preregistration of earlier work.
+
+Baseline commit: 12076c84ee8d50422e1a0cc0acd929e7e8bcefad
+
+Plan file: Final_Research_Plan_v1.docx
+
+Plan SHA256: 78284b7663e3f6c3613032922ed41a56f92c0c983e45c58c6b88d9a91b8b478a
+
+
+
+Exact 18-period scoring windows
+
+Selection 2024-12-31: first entry 2023-06-01; first exit 2023-07-03; last completed exit 2024-12-02; execute 2025-01-02.
+
+Selection 2025-06-30: first entry 2023-12-01; first exit 2024-01-02; last completed exit 2025-06-03; execute 2025-07-01.
+
+Selection 2025-12-31: first entry 2024-06-03; first exit 2024-07-01; last completed exit 2025-12-01; execute 2026-01-05.
+
+Selection 2026-06-30: first entry 2024-12-02; first exit 2025-01-02; last completed exit 2026-06-01; execute 2026-07-01.
+
+Completed histories available after the required boundary forecast: 23, 29, 35, 41 periods respectively.
+
+Shadow ledgers start with CNY 100000 before entry 2023-01-03. Evaluation ledgers start fresh with CNY 100000 before entry 2025-01-02.
+
+Monthly net return = exit value before the next rebalance / entry value before that month's trades - 1.
+
+Entry costs and holding costs belong to that month. The next rebalance cost belongs to the next month.
+
+Training outcomes must finish on or before the after-close signal. No unfinished holding outcome enters a selection score.
+
+
+
+Files fixed for this version
+
+experiments/China_A_Share_Long_Short_Factor_Timing_M6.ipynb
+SHA256 3ad5c890df03104623311355753760d0ec2cdd3b709dd09913be3455816558a3
+
+inputs/china_factor_100/stocks.csv
+SHA256 453629ca2697698d0f6d23dd1a10d2592ce916727b5cc1bc89ed508bd334de63
+
+inputs/china_factor_100/prices.csv
+SHA256 b77e9c7e99cc13b08ccb6491b5f6d356d432bd5e5c5b6cf932fe62fd0d6155dc
+
+inputs/china_factor_100/financials.csv
+SHA256 52ded4590017b05d516ead91b6854417e237cbfbab86e2a6865972855969434d
+
+inputs/china_factor_100/shares.csv
+SHA256 e62bfe1068ee8990b086c7b5cbb8603c6953a5c4c03ca7f1d417d006d124f1b9
+
+inputs/china_benchmark/market_calendar.csv
+SHA256 71b56defe19c6d23a4eafb0653d1b426ea3c96c4a3518d7d5f0857d656edb709
+
+requirements-research.txt
+SHA256 1106594bcdbe0ae82c0a671b0384b179426adbf544d980eb997417c6425e81f8
+
+
+
+Complete plan text
+
+Final Research Plan for China A Share Factor Timing
+
+Version 1 dated 25 October 2026
+
+We will use this plan to complete our factor timing study. It records the choices for one further experiment before we run it. We keep the M6 results and use the new experiment to study how a model can be selected from past results. We will report both outcomes, whether the new rule earns more or less.
+
+Research question
+
+Can forecasts of next-month Value, Profitability and Momentum returns improve a portfolio after trading and borrowing costs? Our further question is whether a model chosen from past portfolio results can improve on equal factor weights in the following months.
+
+Our intended contribution is to study the gap between forecast quality and portfolio performance in a selected group of China A-share stocks. We compare changing factor weights with fixed weights under the same trading rules. Shu and Mulvey study dynamic factor allocation in US equities. Our market, factor construction and model selection rules are different. We will check the wider literature before claiming that this contribution is new (Shu and Mulvey).
+
+Results already known
+
+The M6 comparison covers 21 completed holding periods from 2 January 2025 to 8 October 2026. These results were known when we wrote this plan. They are a reference for the research, not results of the proposed selector.
+
+Portfolio | Annual return | Sharpe | Max drawdown
+
+Equal factor weights | -2.56% | -0.42 | 11.81%
+
+Historical mean | 1.41% | 0.22 | 9.90%
+
+Prophet selected in M6 | -6.82% | -0.92 | 17.11%
+
+XGBoost | 5.74% | 0.83 | 10.22%
+
+GRU | 2.71% | 0.41 | 9.90%
+
+The M6 rule chose Prophet using the earlier best-factor hit rate. XGBoost had the highest later return, but it was not selected by that rule. We keep this distinction. The new study is retrospective and exploratory because we have already examined these dates. This document is not a preregistration of the earlier experiments.
+
+Data and portfolio rules
+
+We use the saved M6 data without a new download. The master list has 100 companies. During the evaluation, 90 to 94 have all three valid scores. A company enters the baskets only when its required data is available. Financial businesses remain in the list but stay outside the EBIT baskets. We record exclusions for every month.
+
+Daily prices cover 5 January 2015 to 16 October 2026. Factor trading starts on 1 August 2018. There are 93 usable monthly model samples. The original validation has 23 completed periods from 3 January 2023 to 2 December 2024. We keep the evaluation dates at 2 January 2025 to 8 October 2026. Extra price rows do not add completed evaluation periods.
+
+Value is EBIT divided by enterprise value. Profitability is EBIT divided by average opening and closing invested capital. Momentum is the adjusted price return from twelve months ago to one month ago, divided by annual volatility. We keep the financial availability rules, field definitions and share-class assumptions of the recorded M6 notebook.
+
+For each factor, we buy the top 30% and short the bottom 30% of eligible companies, rounded down. Each side has equal stock weights. We target +50% long and -50% short. After combining factors, opposite positions in the same stock cancel. We scale the remaining target positions back to 100% gross exposure and zero net exposure. Actual exposure can change between trades.
+
+A decision uses information available after the last trading close of the month. Execution is at the next trading close. A stock without a fresh quote and positive volume cannot trade. Existing suspended positions stay at their last observed price. Each evaluated portfolio starts with CNY 100,000. Trading costs are 0.10% per net traded amount. Borrowing costs are 3% a year on prior-close short value, using calendar days. Cash interest is zero. We do not force a sale at the final date.
+
+Models and training
+
+We keep Ridge, Elastic Net, KNN, SVR, Random Forest, Extra Trees, XGBoost, Decision Tree, AdaBoost, LightGBM, MLP, LSTM, GRU, CNN and Prophet. Historical mean stays as a separate baseline and is not a candidate in the new selector. We add no model families or parameter search.
+
+The recorded M6 notebook fixes the model settings and eight-week input construction. Most models use the same thirteen weekly measures. Prophet and historical mean use completed monthly factor returns. Every model is refitted each month using only completed past outcomes. Scaling uses past fitting data. We keep the time-based internal validation for early stopping. LSTM, GRU and CNN have a maximum of 100 epochs and patience of ten.
+
+We preserve time order and exclude training labels that finish after a decision. Models never train on the monthly outcome they are asked to forecast. This follows the purpose of time-series validation (Scikit-learn Developers).
+
+The six month model selection rule
+
+We choose a model family every six calendar months. Its fitted parameters and forecasts still update monthly. At each selection date, we take the latest 18 completed holding periods from the common date calendar. All fifteen candidates and equal factors must have finite net returns for these exact periods. We do not replace a missing period with an older one. This window is fixed from data coverage before running the selector.
+
+We first run a continuous shadow portfolio for each candidate and for equal factors. These are simulated portfolios used only to score past performance. They start from equal cash before the 3 January 2023 entry. We include initial entry costs once and do not reset them at selection dates or moving-window boundaries. The first scoring window leaves that startup month out.
+
+A monthly net return uses portfolio value before the next rebalance divided by value before the current trades, minus one. It includes current entry costs and holding costs. The next rebalance costs belong to the next period.
+
+For each past month, we subtract the equal-factor net return from the candidate net return. The score is the mean of those eighteen differences. The highest score selects the model, even if every score is negative. A score tie within 0.000000000001 uses lower average normalized turnover over the same months, then model name in alphabetical order. There is no extra cash fallback.
+
+Selection after close | First execution | Latest completed exit used
+
+31 December 2024 | 2 January 2025 | 2 December 2024
+
+30 June 2025 | 1 July 2025 | 3 June 2025
+
+31 December 2025 | 5 January 2026 | 1 December 2025
+
+30 June 2026 | 1 July 2026 | 1 June 2026
+
+A holding period must finish on or before the selection close. A month still in progress cannot enter the score. All candidates must have eighteen valid observations for the same periods. If a required prediction or accounting record is missing, we stop and report it. We do not remove a weak or failed candidate from the comparison without a recorded amendment.
+
+The selected model gives 50% to its highest forecast factor, 30% to the second and 20% to the third. Equal forecasts use Value, Profitability and Momentum in that order. The actual selector portfolio keeps its own cash and holdings across all evaluation months. When the model family changes, we trade from those actual holdings and charge the resulting net stock trades. We do not join candidate portfolio returns as if switching were free.
+
+Before this calculation, we must fill one missing forecast date: 29 November 2024, with entry on 2 December 2024 and exit on 2 January 2025. It crosses the original split boundary. We use the unchanged model settings and only data available at that signal. This period is needed for a continuous shadow history, but it cannot enter the first selection score because it has not finished by 31 December 2024.
+
+Comparisons and measures
+
+The main planned comparison for the new experiment is the selector against equal factor weights. Our main measure is the mean paired monthly net return difference, in percentage points. A positive value means the selector earned more per month on average in this sample. We also show compounded annual return, final value, volatility, Sharpe, maximum drawdown, trading costs, borrowing costs and turnover.
+
+We keep the original Prophet-selected M6 result. Further controls are historical mean, the first model family selected by the new rule kept for all 21 periods, and the new selector's first factor mix kept fixed for all 21 periods. The fixed-family control still refits and forecasts monthly. The fixed-mix control still updates companies inside the factor baskets. All controls use the same execution rules, eligible companies, dates and costs.
+
+We report all fifteen model results in an appendix. Forecast measures are mean absolute error, direction accuracy and best-factor hit rate. We do not use the final evaluation ranking to replace the earlier selected model. The forecast comparison and the portfolio comparison answer different parts of our question.
+
+Uncertainty and planned checks
+
+For the main paired monthly difference, we use a stationary bootstrap with 10,000 repetitions, expected block length of three months and seed 20261025. We resample the paired differences together, continue consecutive months within each block and wrap at the end. We report the 2.5th and 97.5th percentiles. Expected block lengths of two and six months are fixed sensitivity checks. This method keeps some time dependence in the resampled observations (Politis and Romano).
+
+There are only 21 evaluation periods. These intervals are descriptive and conditional on this data and recorded rule. They do not correct earlier research choices or prove that the best of fifteen models is superior. We do not treat the three factor forecasts or the daily prices as extra independent monthly experiments. The bootstrap does not rerun model training or the selector.
+
+The main model seed stays 42. We repeat the complete selection and portfolio process with seeds 7, 21, 42, 84 and 123 for models with random training. Deterministic models stay unchanged. We report all five outcomes, their median and range. We do not choose the best seed. These runs measure training sensitivity, not independent market samples.
+
+We keep the cost checks at trading rates of 0%, 0.10% and 0.30%, and annual borrowing rates of 0%, 3% and 6%, changing one rate at a time. The selected families and forecasts from the main-cost run stay fixed in these checks. We report each calendar year and mark 2026 as partial. No additional settings will be selected from the evaluation results.
+
+We record prior and new trials, including failed models and changes in settings. Earlier trials extend beyond the fifteen current candidates. We will not describe fifteen as the total number of research trials or claim a corrected Sharpe probability without the required trial history. Repeated selection can inflate reported performance (Bailey et al.; Bailey and López de Prado).
+
+Data checks and the limits of our claims
+
+Before running the new selector, we check the saved input hashes, duplicate dates, adjustment fields, missing quotes, extreme returns, financial notice dates and share-count dates. We compare five company-years spanning the two exchanges and several sectors with original annual reports. We include at least one large score change. We report the exact records checked and any unresolved differences; this is a sample check, not proof that all records are correct.
+
+Provider accounts may include later revisions. A reporting delay alone does not recreate the figures known at every past date. The list was selected from companies available when we built the sample, which can favour surviving firms. Total company shares valued at the A-share price can also approximate firms with other share classes. We keep these limits beside the results and avoid claims about the whole Chinese stock market.
+
+We assume that shorted shares can be borrowed. Fees do not prove historical availability. Price limits, borrowing recalls, separate collateral rules and market impact are not simulated. We describe the result as a research long-short portfolio, not as verified executable trading performance. A claim about live trading would need evidence for these constraints.
+
+Before making a stronger journal claim, we would freeze the complete rule and specify an independent evaluation period or data set before examining its outcomes. Its scope, dates and required observations must be written in a new version. We will not call reused history unseen or extend the period only after seeing favourable results. The present paper can report an exploratory historical result with these limits.
+
+Work order and final outputs
+
+First, archive this plan and check the inputs. Second, complete the missing boundary forecasts and build the continuous shadow ledgers. Third, run the fixed selector, controls and sensitivity checks. Fourth, check the accounting and write the findings from the saved outputs. Any material change needs a dated amendment with a reason. A result does not trigger a redesign of this version.
+
+We will produce one final notebook, a table of selection dates and past scores, two main results tables, and charts of portfolio value, drawdown and factor weights. The website will show the same saved results and explain the research question. The report will include all model outcomes, exclusions, uncertainty and data limits. We will provide the input record, package versions and code needed to repeat the work. Data sharing will follow the providers' permitted use.
+
+The planned new experiment has not been run in this document. We will accept a positive, negative or mixed finding. We will explain whether the observed return came with more risk or costs and whether changing the model helped compared with keeping the first model or factor mix.
+
+Recorded version
+
+The baseline is GitHub commit 12076c84ee8d50422e1a0cc0acd929e7e8bcefad. The companion Study Record contains the full baseline notebook hash, the five required input hashes, exact scoring windows and this document's hash. We keep this version unchanged and use a new numbered version for a later amendment.
+
+Works cited
+
+Bailey, David H., et al. "The Probability of Backtest Overfitting." Manuscript, revised 27 Feb. 2015, https://www.davidhbailey.com/dhbpapers/backtest-prob.pdf. Accessed 25 Oct. 2026.
+
+Bailey, David H., and Marcos López de Prado. "The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting and Non-Normality." Manuscript, 31 July 2014, https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf. Accessed 25 Oct. 2026.
+
+Politis, Dimitris N., and Joseph P. Romano. "The Stationary Bootstrap." Journal of the American Statistical Association, vol. 89, no. 428, 1994, pp. 1303–13. https://doi.org/10.1080/01621459.1994.10476870.
+
+Scikit-learn Developers. "Cross-Validation: Evaluating Estimator Performance." Scikit-learn User Guide, version 1.9.1, https://scikit-learn.org/stable/modules/cross_validation.html. Accessed 25 Oct. 2026.
+
+Shu, Yizhan, and John M. Mulvey. "Dynamic Factor Allocation Leveraging Regime-Switching Signals." arXiv, 18 Oct. 2024, https://doi.org/10.48550/arXiv.2410.14841.
+
+Project evidence
+
+The existing findings and portfolio table come from our M6 notebook and saved results at commit 12076c8. These are project outputs, not independent evidence that the strategy will work in future periods.
+
+Notebook: https://github.com/arianazmoudeh/CapstoneApplication/blob/12076c84ee8d50422e1a0cc0acd929e7e8bcefad/experiments/China_A_Share_Long_Short_Factor_Timing_M6.ipynb
+
+Main result files: results/china_factor_timing_m6/performance.csv, model_selection.csv, forecast_metrics.csv and periods.csv. The five inputs and their hashes are listed in the companion Study Record.

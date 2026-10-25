@@ -28,7 +28,7 @@
     <nav class="page-shell flex flex-wrap gap-x-5 sm:gap-x-7" aria-label="Main navigation">
       <a class="nav-link" href="{% url 'dashboard' %}" {% if request.resolver_match.url_name == 'dashboard' %}aria-current="page"{% endif %}>Market prices</a>
       <a class="nav-link" href="{% url 'portfolio' %}" {% if request.resolver_match.url_name == 'portfolio' %}aria-current="page"{% endif %}>Research portfolio</a>
-      <a class="nav-link" href="{% url 'china_factor_study' %}" {% if request.resolver_match.url_name == 'research' or request.resolver_match.url_name == 'china_research' or request.resolver_match.url_name == 'china_benchmark' or request.resolver_match.url_name == 'china_factor_study' %}aria-current="page"{% endif %}>Research</a>
+      <a class="nav-link" href="{% url 'china_final_study' %}" {% if request.resolver_match.url_name == 'research' or request.resolver_match.url_name == 'china_research' or request.resolver_match.url_name == 'china_benchmark' or request.resolver_match.url_name == 'china_factor_study' or request.resolver_match.url_name == 'china_final_study' %}aria-current="page"{% endif %}>Research</a>
       <a class="nav-link" href="{% url 'experiments' %}" {% if request.resolver_match.url_name == 'experiments' or request.resolver_match.url_name == 'prediction' %}aria-current="page"{% endif %}>Experiments</a>
       <a class="nav-link" href="https://github.com/arianazmoudeh/CapstoneApplication" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in a new tab)">GitHub</a>
     </nav>

@@ -20,3 +20,6 @@ data/
 !/experiments/simple_lstm/data/
 !/experiments/simple_prophet/data/
 scripts/
+results/china_factor_timing_final/shadow/
+results/china_factor_timing_final/seed_runs/
+results/china_factor_timing_final/model_outputs/

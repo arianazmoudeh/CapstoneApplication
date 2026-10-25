@@ -9,6 +9,7 @@ from .asset_analysis import asset_summary
 from .asset_search import search_assets
 from .china_benchmark import BenchmarkError, benchmark_context
 from .china_factor_study import FactorStudyError, StudySelectionError, study_context
+from .china_final_study import FinalStudyError, final_study_context
 from .crypto import market_summary
 from .factor_research import FactorResearchError, build_research, research_options
 from .factors import FactorDataError, get_factor_data
@@ -184,6 +185,20 @@ def research(request, market="us"):
         context["error"] = str(exc)
         status = 503
     return render(request, "dashboard/research.html", context, status=status)
+
+
+@login_required
+@never_cache
+@require_GET
+def china_final_study(request):
+    context = {}
+    status = 200
+    try:
+        context["study"] = final_study_context()
+    except FinalStudyError as exc:
+        context["error"] = str(exc)
+        status = 503
+    return render(request, "dashboard/china_final_study.html", context, status=status)
 
 
 @login_required

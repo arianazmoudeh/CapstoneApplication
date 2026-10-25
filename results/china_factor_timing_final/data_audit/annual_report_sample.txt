@@ -1,0 +1,17 @@
+Annual-report sample check
+
+We checked five company-years against the original annual reports. The sample includes Shenzhen and Shanghai A-share companies in home appliances, cars, drinks and medicines. Gree 2020 was included because its profitability score was unusually large.
+
+All 33 direct amounts checked agree with the saved data. These cover revenue, profit before tax, interest expense, operating interest expense where reported, total assets, total equity and cash. Midea and BYD report these statements in CNY thousands. Their values were multiplied by 1,000. We used the consolidated current-year column. We also reconstructed EBIT for all five cases.
+
+The checked fields and exact 1-based PDF pages are in annual_report_field_checks.csv. Source URLs and downloaded PDF hashes are in annual_report_sources.csv. Company-authored reports are hosted on CNINFO, HKEX or company websites. Full PDFs are not bundled with the public results.
+
+Gree 2020: the report balance sheet on PDF pages 95-96 gives the closing and opening cash, equity and debt items. The five debt items are short-term loans, deposits/interbank placements, interbank borrowing, repurchase funding and long-term loans. The income statement is on PDF page 99.
+
+Gree closing invested capital = CNY116,880,487,088.14 + CNY23,201,159,352.29 - CNY136,413,143,859.81 = CNY3,668,502,580.62. Opening invested capital = CNY6,065,462,579.70. Average capital = CNY4,866,982,580.16. EBIT = CNY27,701,754,945.58. Their ratio is 5.691772, or 569.18%. It is not a missing decimal point.
+
+This ratio is sensitive because cash nearly offsets equity and debt. The same report states that CNY20,335,403,491.19 of cash was restricted (PDF page 177). The current definition subtracts the broad cash field. It does not separate operating cash from freely available excess cash. We keep this economic limitation visible and do not change the definition after seeing portfolio returns.
+
+These five cases are a sample. We did not verify every debt component for the four other companies, all historical share-class counts, or every revised financial statement. Matching current-year report figures does not establish point-in-time data for the full backtest. The later provider updates and the selected surviving-company list remain limitations.
+
+We reviewed the original income statement page images for all five companies and the two Gree balance sheet images. Other checked balance-sheet amounts were compared using the report text and column context. No saved input was changed by this check.

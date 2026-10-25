@@ -1,0 +1,58 @@
+{
+  "status": "complete",
+  "protocol_version": "2",
+  "evaluation_start": "2025-01-02",
+  "evaluation_end": "2026-10-08",
+  "period_count": 21,
+  "company_count": 100,
+  "eligible_min": 90,
+  "eligible_max": 94,
+  "model_count": 15,
+  "models": [
+    "Ridge",
+    "Elastic Net",
+    "KNN",
+    "SVR",
+    "Random Forest",
+    "Extra Trees",
+    "XGBoost",
+    "Decision Tree",
+    "AdaBoost",
+    "LightGBM",
+    "MLP",
+    "LSTM",
+    "GRU",
+    "CNN",
+    "Prophet"
+  ],
+  "initial_value": 100000,
+  "primary_strategy": "Six-month selector",
+  "selected_before_test": "Prophet",
+  "comparison_strategies": [
+    "Six-month selector",
+    "Equal factors",
+    "Initial model family",
+    "Initial factor mix",
+    "Prophet",
+    "Historical mean"
+  ],
+  "notebook_filename": "China_A_Share_Final_Factor_Timing.ipynb",
+  "findings": [
+    "The six-month selector returned 0.27% a year after costs. Equal factor weights returned -2.56%. The difference was +2.83 percentage points a year. Starting with CNY 100,000, the selector ended at CNY 100,476 and equal factors at CNY 95,527.",
+    "Keeping the first selected model family returned 1.71% a year. Keeping its first factor mix returned 1.41%. The selector's differences were -1.44 and -1.14 percentage points. These controls keep the company baskets changing each month. They separate a changing family from a changing factor mix.",
+    "The selector's maximum drawdown was 10.09%, compared with 11.81% for equal factors. Its Sharpe ratio was 0.08, compared with -0.42. Its trading fees were CNY 1,018 and borrowing fees were CNY 2,600.",
+    "The mean monthly return difference was +0.248 percentage points. The 95% stationary-bootstrap interval was -0.310 to +0.755 percentage points, using an expected block length of three months. This interval includes zero, so these months do not give a precise positive or negative average advantage. The calculation uses 21 paired months and does not undo earlier research choices."
+  ],
+  "limitations": [
+    "These dates were already examined in M6. This is a retrospective supplementary test, not a new unseen evaluation.",
+    "The selected company list can favour surviving firms. Of 839 usable financial records, 835 have a later provider update. A delay rule cannot establish fully point-in-time accounts.",
+    "The research portfolios assume shares can be borrowed. We include borrowing fees but do not model historical loan availability, recalls, price limits, collateral rules or market impact.",
+    "Only 21 monthly periods are evaluated. The bootstrap intervals are conditional on these results and do not correct the complete history of earlier model trials.",
+    "EBIT divided by cash-net invested capital can be large when capital is small. Our five-report sample check confirms amounts for selected records, not every field in the full data set."
+  ],
+  "conclusion": "Our main question is whether using forecasts to change factor weights helps after costs. The recorded six-month selection rule earned 2.83 percentage points more annual return than equal factors in this sample. The original Prophet-selected strategy returned -6.82% a year. The two selection rules therefore need to be read separately. The six-month selector earned less than keeping the first model family and less than keeping its first factor mix. Changing model families did not improve on those controls in this sample. We found that the selection rule, initial factor mix and trading costs matter when we turn forecasts into a portfolio. We do not conclude that machine learning always improves investing. These findings describe the selected A-share group, the stated data and 21 completed monthly periods.",
+  "selection_description": "We selected December 2024: Extra Trees; June 2025: KNN; December 2025: GRU; June 2026: GRU. Each decision used eighteen completed past periods. The factor mix changed in 6 of the twenty monthly transitions. We charged the stock trades caused by these changes.",
+  "seed_description": "Across the five training seeds, the selector's annual return ranged from -2.70% to 0.62%, with a median of -0.53%. We keep seed 42 as the main result. These are training checks on the same market history, not five independent market tests.",
+  "forecast_description": "The selector's mean absolute forecast error was 2.55 percentage points. It predicted the factor direction correctly in 50.79% of the 63 forecasts and chose the best factor in 42.86% of the 21 months. Forecast accuracy and net portfolio return answer different questions.",
+  "earlier_result": "The original M6 rule selected Prophet before the evaluation, using the validation best-factor hit rate. Its later annual return remains -6.82%. XGBoost had the highest individual model return at 5.74%, but this later ranking was not used to choose the original model. We report both facts."
+}

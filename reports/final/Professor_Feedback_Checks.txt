@@ -1,0 +1,17 @@
+Professor feedback and completed evidence
+
+Focus on factor timing: fixed Value, Profitability and Momentum; no new factor definition competition.
+Exact common dates: all evaluation portfolios use 2 January 2025 to 8 October 2026; 21 completed holding periods.
+Raw and adjusted prices: adjusted closes for return changes; raw A-share prices for company value; both explained in notebook and report.
+Other window values: separate recorded comparisons of (1,4,13)/13, (1,3,12)/12 and (1,6,26)/26 with common training history; results saved. Earlier 1/4/8 sequence-length comparison retained.
+No shuffled time series: past outcomes only; labels and internal fitting split checked against decision dates.
+Fixed seed: main42 for repeatability;7,21,84,123 check random-training sensitivity without choosing the best seed.
+Same long and short format: top 30% with +50% total; bottom 30% with -50% total; equal stock weights on each side; 27 to 28 eligible stocks per side during evaluation.
+Model parameters: fifteen separate fitting cells, explicit parameters and model_settings.csv; deep models use at most 100 epochs with patience of ten.
+EBIT and invested capital: fixed EBIT/average opening-and-closing invested capital; not net margin. Gree's small cash-net denominator checked and explained.
+Common holdings and overlap: stock-level netting, target gross exposure scaled to 100%, continuous actual positions and fees charged on net trades.
+Results and inference: main rule against equal factors, the first model family, the first factor mix, historical mean and M6 Prophet; all models, costs, seeds, uncertainty and window checks are shown.
+Bibliography: methodological papers, original annual reports, in-text references and a works cited list.
+Code and report: executed notebook, saved outputs including charts, independent audit, TXT execution instructions, separate Word report and plan.
+
+Remaining limits, not completed claims: full historical point-in-time accounts; selection/survivorship-free company membership; verified stock borrowing and price-limit execution; a new independent evaluation; complete earlier trial history. These do not prevent an honest historical result, but limit journal and live-trading claims.

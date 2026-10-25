@@ -1,0 +1,11 @@
+M6 guideline and professor feedback checklist
+
+Report Guidelines: Abstract (typically no more than 300 words); Introduction and research question; Theoretical Framework; Methodology, sources and constraints; Results with selected charts and tables; Discussion of meaning and relation to research; Conclusion without new evidence; alphabetical References; optional Appendix. Upload the PDF separately from the supporting ZIP.
+
+Source Code Development Guidelines: repository access for group and read-only access for reviewers; useful comments and descriptions; dependencies and execution instructions; contributor information; meaningful commits. Plain TXT execution/contributor notes can serve the user preference against new Markdown files. These are handoff needs, not permission to publish credentials or erase history.
+
+Professor: focus on known factor definitions as ML inputs, not a new factor-definition competition. Preserve Value EBIT/EV, Profitability EBIT/average invested capital and risk-adjusted 12-minus-1 Momentum for this fixed comparison. State exact dates, raw versus adjusted price use, alternative input lengths, time-order rationale, seed rationale, identical long/short formats and concrete hyperparameters.
+
+The final report should say that temporal order keeps future outcomes out of past fitting. Fixed seeds support repeatability; multiple seeds check sensitivity. Long top30% and short bottom30% means 27-28 stocks per side when 90-94 are eligible. The separate historical input-length tests are sensitivity evidence; do not tune the new final rule against the already-inspected evaluation dates.
+
+Scope of this audit: saved-input and five-report checks only. Root's experiment checks must cover fitting, bridge forecasts, selector dates, portfolio accounting, result reconciliation and website consistency.

@@ -23,3 +23,6 @@ config/local_settings.py
 inputs
 results
 requirements-research.txt
+review_support
+reports
+FINAL_RESEARCH.txt

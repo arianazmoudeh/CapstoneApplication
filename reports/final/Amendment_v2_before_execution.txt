@@ -1,0 +1,13 @@
+Final Research Plan Version 2: execution amendment
+Recorded 25 October 2026, before the supplementary selector was run.
+
+We keep every main selection, portfolio and uncertainty rule from Version 1. We keep the original M6 results. The new experiment is a retrospective study on dates already examined.
+
+Our professor asked whether other return and volatility windows were tested. The earlier input comparison changed sequence length, not these calculation windows. We therefore add one separate forecast sensitivity check with three fixed settings:
+1. Returns over 1, 4 and 13 observed weeks; volatility over 13 weeks.
+2. Returns over 1, 3 and 12 observed weeks; volatility over 12 weeks.
+3. Returns over 1, 6 and 26 observed weeks; volatility over 26 weeks.
+
+Each uses an eight-week sequence, Ridge, Random Forest and XGBoost, their existing M6 settings, and seed 42. All three variants use the same common training-sample history and the same 23 validation and 21 evaluation decisions. The baseline-window rerun in this check may have a shorter training history than the main experiment. We report that difference. These forecasts do not enter model selection, portfolio weights or the main performance result. We do not select a window from these results.
+
+The final notebook will contain each model in its own cell, with direct fitting code, useful short comments and simple English explanations. The report, separate conclusion file and website will use the same saved results. A completed experiment means the planned calculations ran and were checked; it does not mean that full historical point-in-time data or executable short-sale availability has been established.

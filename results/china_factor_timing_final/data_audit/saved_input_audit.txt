@@ -1,0 +1,41 @@
+Saved-input audit for the final factor timing study
+
+Checked on 25 October 2026. This audit reads saved inputs; it does not replace them or train models.
+
+Master companies: 100; unique codes: 100; financial companies: 4.
+
+Price rows: 261,601; date range 2015-01-05 to 2026-10-16. Price source flags: {'hfqday': 260092, 'day response to hfq request; Sina factor 1 verified': 1509}.
+
+Nonpositive or missing raw close: 0; adjusted close: 0; negative volume: 0; volume disagreement: 2.
+
+Invalid quote rows: 0; zero volume rows: 0. Individual missing-price dates are not invented.
+
+Adjusted single-observation moves above 25% in absolute value: 2. These are flagged for inspection, not automatically deleted. They can include returns across a suspension or initial-listing periods.
+
+Financial annual records: 1229; usable: 839; unique companies: 97; periods 2013-12-31 to 2025-12-31.
+
+Available date before latest income/balance notice: 0; missing available date: 0.
+
+Provider update date after assumed availability: 1212 records, including 835 usable records. A later update is evidence that these snapshots are not a fully point-in-time archive; it does not by itself identify which historical number changed.
+
+Maximum stored accounting identity errors (CNY): {'income_error': 100.0, 'balance_error': 0.0001220703125, 'equity_error': 9321327000.0}.
+
+Maximum accounting errors among usable records only (CNY): {'income_error': 0.0100021362304687, 'balance_error': 0.0001220703125, 'equity_error': 4.1961669921875e-05}. The large ZTE 2015 discrepancy and CATL rounding discrepancies are already excluded by the saved flags.
+
+Maximum EBIT identity residual (CNY): 0.000015; capital identity residual (CNY): 0.000122. Missing expense entries are treated as zero only in this arithmetic check; usability remains governed by the saved flags.
+
+Share records: 6592; missing/nonpositive total shares: 0; available before effective date: 0; available before notice date: 0.
+
+Eligible score rows with missing or future availability dates: {'available_date': 0, 'opening_available_date': 0, 'share_available_date': 0, 'share_effective_date': 0}.
+
+Financial companies in eligible EBIT scores: 0.
+
+Price rows before recorded company listing: 0; distinct price dates outside the saved market calendar: 0.
+
+Evaluation eligible counts: 90 to 94.
+
+The current selected list is not a historical index-membership archive. This creates survivor/selection bias. A common evaluation calendar does not mean every company traded on every date.
+
+Adjusted closing prices are used for returns; raw A-share closing prices and historical total share counts are used for market value. Backward-adjusted prices are not tradeable currency quotes.
+
+The separate annual-report sample check covers five company-years only. It cannot certify all provider fields or historical vintages.

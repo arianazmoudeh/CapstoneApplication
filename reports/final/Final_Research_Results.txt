@@ -1,0 +1,317 @@
+China A Share Factor Timing Results
+
+Final research experiment completed 25 October 2026
+
+Abstract
+
+We studied whether forecasts of Value, Profitability and Momentum can improve a long-short portfolio after costs. We used a selected group of 100 A-share companies and compared fifteen models over 21 completed monthly periods from 2 January 2025 to 8 October 2026. We also tested one rule that selects a model every six months using eighteen completed past portfolio returns. The selector returned 0.27% a year, compared with a 2.56% annual loss for equal factors. However, keeping the first model family returned 1.71%, and keeping its first factor mix returned 1.41%. Changing the model family therefore did not improve on these two controls. The mean monthly advantage over equal factors was 0.248 percentage points. Its conditional 95% bootstrap interval included zero. Results also changed across training seeds. We report these findings as an exploratory historical study. The dates had already been studied, the company list was selected later, and the financial records do not fully establish point-in-time data.
+
+Our research question
+
+Can forecasts of next-month factor returns improve a portfolio after trading and borrowing costs? We focus on timing three existing factors. We do not compare new factor definitions. This follows our professor's advice to focus on the second stage of the project.
+
+Our further question is whether selecting a model from past net portfolio returns helps in the following months. We compare this rule with equal factors, a fixed model family and a fixed starting factor mix. This is a factor-timing study. Its long-short return is not directly comparable with the return of a fully invested long-only stock benchmark.
+
+Why this question matters
+
+A forecast can have a small prediction error and still lead to weak portfolio results. The order of the three forecasts sets our weights. Those weights then affect stock trades, fees and risk. Shu and Mulvey study changing factor allocations in US equities using regime signals. Our study uses a different market and direct return forecasts. We do not claim that our method is new without a wider literature review (Shu and Mulvey).
+
+We kept the original M6 results and recorded the supplementary rules before this run. We also kept every model result. Comparing many strategies can make a later winner look stronger than it is. This is why we separate a model selected from past data from the best model seen afterwards (Bailey et al.; Bailey and López de Prado).
+
+Data and common dates
+
+Item | Recorded scope
+
+Company list | 100 A-share securities from Shanghai and Shenzhen
+
+Saved daily prices | 5 January 2015 to 16 October 2026
+
+First factor trade | 1 August 2018
+
+Main model samples | 93 usable monthly samples
+
+Original validation | 23 periods from 3 January 2023 to 2 December 2024
+
+Continuous forecast history | 45 periods including the December 2024 boundary period
+
+Evaluation for every strategy | 21 periods from 2 January 2025 to 8 October 2026
+
+Eligible stocks in evaluation | 90 to 94 each month; 27 to 28 on each factor side
+
+The source files use Tencent daily prices and EastMoney company accounts and shares. Earlier application work tried Yahoo Finance, Eulerpool and Infoway. Their coverage and access limits were different. The final experiment uses the saved files, so it does not depend on a live API call. MySQL stores the website accounts and user portfolios. It is not the source of the financial statements in this experiment.
+
+We keep all 100 securities in the company table. Companies enter factor baskets only when the needed information is available. Financial businesses stay outside the EBIT baskets because their debt and capital have a different role. Some issuers also have other share classes; this is an A-share securities sample, not a claim that every issuer is listed only in mainland China.
+
+The three factors
+
+Value is EBIT divided by enterprise value. Profitability is EBIT divided by average opening and closing invested capital. Invested capital uses equity plus the included debt items minus cash. Momentum is the adjusted-price return from twelve months ago to one month ago, divided by annual volatility. We keep these definitions fixed.
+
+Adjusted prices are used for returns. Raw A-share prices are used for company value. Annual accounts enter only after their saved announcement date and 30 June of the following year. Share counts enter after their saved effective and available dates. A later provider revision can still remain in these files. The lag rule does not remove that limitation.
+
+Portfolio execution
+
+Long side: top 30% of eligible companies, equal stock weights, +50% total exposure. Short side: bottom 30%, equal stock weights, -50% total exposure. We round each group down. We combine signed stock weights across factors, cancel opposite holdings and scale the remaining target back to 100% gross and zero net exposure.
+
+We decide after month-end close and trade at the next trading close. A trade needs a fresh quote and positive volume. A suspended holding stays at its last observed value. We charge 0.10% per net trade and 3% a year on prior-close short value, using calendar days. Cash interest is zero. We do not force a sale at the final date.
+
+Models and settings
+
+Each model has its own code cell. The main settings below are fixed. The full estimator arguments are saved in model_settings.csv, and the notebook shows the fitting code. We use the same factor outcomes and decision dates for every model.
+
+Model | Main settings
+
+Ridge | Penalty alpha 10
+
+Elastic Net | Alpha 0.02; L1 ratio 0.5; maximum 10,000 iterations; cyclic selection
+
+KNN | 20 neighbours; uniform weights
+
+SVR | RBF kernel; C 1; epsilon 0.1; one estimator per factor
+
+Random Forest | 150 trees; depth 4; minimum leaf 12
+
+Extra Trees | 150 trees; depth 4; minimum leaf 12
+
+XGBoost | 120 trees; depth 2; learning rate 0.03; row sample 0.8; column sample 0.9; L2 penalty 5
+
+Decision Tree | Depth 3; minimum leaf 12
+
+AdaBoost | 100 trees; depth 2; minimum leaf 8; learning rate 0.03; linear loss
+
+LightGBM | 120 trees; depth 2; 4 leaves; minimum leaf 12; learning rate 0.03; L2 penalty 5
+
+MLP | One hidden layer with 12 units; alpha 5; L-BFGS; 1,500 iterations; 30,000 function calls
+
+LSTM | 2 layers; 32 hidden units; dropout 0.1
+
+GRU | 2 layers; 32 hidden units; dropout 0.1
+
+CNN | 8 filters; kernel 3; ReLU; average pooling; linear output
+
+Prophet | 10 changepoints; prior scale 0.05; daily, weekly and yearly seasonality off; no uncertainty samples
+
+The LSTM, GRU and CNN use Adam, learning rate 0.001, weight decay 0.01 and mean squared error. They run for at most 100 epochs. Training stops after ten epochs without an improvement of 0.0001 in internal validation loss. We keep the best validation weights. The last 20% of the completed training samples form this internal validation period; earlier fitting labels must finish before that period begins.
+
+Most models use eight weeks of thirteen measures, or 104 values when flattened. Prophet and the historical-mean baseline use completed monthly factor returns. Each model refits monthly. Scalers use only fitting data. We preserve time order because future outcomes must not enter a past forecast. We use seed 42 for the main run and seeds 7, 21, 84 and 123 for training checks (Scikit-learn Developers).
+
+Selecting a model from past portfolio results
+
+Each candidate has a continuous shadow portfolio from 3 January 2023. We use these simulated portfolios only to score past performance. Each starts with CNY 100,000. We include entry costs once and keep cash and holdings across months. We do not restart a candidate at each selection date.
+
+Every six calendar months, we take the latest eighteen completed holding periods from the shared calendar. The score is the mean of the candidate's monthly net return minus the equal-factor return. The highest score wins even if every score is negative. A tie within 0.000000000001 uses lower average turnover, then model name. Missing data stops the calculation; it does not remove a candidate or bring in an older month.
+
+Decision date | First execution | Selected model | Past score in pp
+
+2024-12-31 | 2025-01-02 | Extra Trees | 0.150
+
+2025-06-30 | 2025-07-01 | KNN | 0.360
+
+2025-12-31 | 2026-01-05 | GRU | 0.480
+
+2026-06-30 | 2026-07-01 | GRU | 0.697
+
+The selected family stays for six months, but refits and forecasts monthly. It gives 50% to its highest predicted factor, 30% to the second and 20% to the third. Equal forecasts use Value, Profitability and Momentum in that order. The selector has its own continuous holdings. A change of family therefore pays the actual net stock trading costs.
+
+Our controls
+
+Equal factors keeps one-third in each factor. The initial-family control keeps Extra Trees for all 21 periods but refits it monthly. The initial-mix control keeps the first three factor weights while the stock baskets still change monthly. Historical mean forecasts from past factor returns. Prophet remains the original M6 selection. We also show every individual learned model.
+
+Checks before reading the conclusion
+
+The main forecast run reproduced all 2,112 overlapping M6 forecasts. The missing boundary forecast uses 70 completed past samples. Independent checks covered the 80 shadow portfolios and 36 evaluation portfolios across seeds, including cash, holdings, trade fees, borrow fees and monthly returns. All seventeen comparable M6 strategy results were unchanged.
+
+We used a stationary bootstrap with 10,000 repetitions, expected block length of three months and seed 20261025. Expected lengths of two and six are fixed checks. We resample paired monthly differences, not independent daily rows. This describes uncertainty conditional on the recorded strategy path. It does not rerun learning or correct the full history of model searches (Politis and Romano).
+
+The separate return-window checks were recorded in Version 2 before they ran. They do not feed the selector. We also keep five training seeds and vary one trading or borrowing rate at a time. No setting was selected from the final portfolio ranking.
+
+Annual return compounds the start and end values using elapsed calendar days and 365.25 days per year. Volatility and Sharpe use daily returns and 252 trading days, with a zero risk-free rate. Drawdown compares value with its earlier high. A monthly net return includes entry trading fees and holding costs, but excludes the next month's rebalance fee.
+
+Portfolio results
+
+The six-month selector returned 0.27% a year after costs. Equal factor weights returned -2.56%. The difference was +2.83 percentage points a year. Starting with CNY 100,000, the selector ended at CNY 100,476 and equal factors at CNY 95,527.
+
+Portfolio | Annual return | Sharpe | Max drawdown | Final CNY
+
+Six-month selector | 0.27% | 0.08 | 10.09% | 100,476
+
+Equal factors | -2.56% | -0.42 | 11.81% | 95,527
+
+Initial model family | 1.71% | 0.26 | 9.90% | 103,040
+
+Initial factor mix | 1.41% | 0.22 | 9.90% | 102,492
+
+Prophet | -6.82% | -0.92 | 17.11% | 88,283
+
+Historical mean | 1.41% | 0.22 | 9.90% | 102,492
+
+Figure 1. All portfolios start with CNY 100,000. Values include the stated trading and borrowing costs.
+
+Keeping the first selected model family returned 1.71% a year. Keeping its first factor mix returned 1.41%. The selector's differences were -1.44 and -1.14 percentage points. These controls keep the company baskets changing each month. They separate a changing family from a changing factor mix.
+
+The selector did better than equal factors in this sample. It did not beat keeping the first selected model or the first factor mix. We therefore do not attribute the whole advantage over equal factors to changing model families. The starting allocation and model choice explain an important part of the comparison.
+
+Risk and allocation
+
+The selector's maximum drawdown was 10.09%, compared with 11.81% for equal factors. Its Sharpe ratio was 0.08, compared with -0.42. Its trading fees were CNY 1,018 and borrowing fees were CNY 2,600.
+
+Figure 2. Drawdown is the fall from each portfolio's earlier high.
+
+Figure 3. Factor weights before combining and netting stock positions.
+
+We selected December 2024: Extra Trees; June 2025: KNN; December 2025: GRU; June 2026: GRU. Each decision used eighteen completed past periods. The factor mix changed in 6 of the twenty monthly transitions. We charged the stock trades caused by these changes.
+
+Forecasts and all model results
+
+The selector's mean absolute forecast error was 2.55 percentage points. It predicted the factor direction correctly in 50.79% of the 63 forecasts and chose the best factor in 42.86% of the 21 months. Forecast accuracy and net portfolio return answer different questions.
+
+Model | Annual return | Sharpe | MAE in pp | Best factor
+
+Historical mean | 1.41% | 0.22 | 2.52 | 52.38%
+
+Ridge | 3.67% | 0.57 | 2.79 | 28.57%
+
+Elastic Net | 4.42% | 0.70 | 2.78 | 23.81%
+
+KNN | 1.63% | 0.26 | 2.54 | 52.38%
+
+SVR | -2.35% | -0.30 | 2.63 | 38.10%
+
+Random Forest | -0.02% | 0.04 | 2.58 | 47.62%
+
+Extra Trees | 1.71% | 0.26 | 2.52 | 52.38%
+
+XGBoost | 5.74% | 0.83 | 2.60 | 52.38%
+
+Decision Tree | -10.87% | -1.51 | 2.89 | 23.81%
+
+AdaBoost | -0.58% | -0.04 | 2.62 | 47.62%
+
+LightGBM | -0.71% | -0.06 | 2.60 | 38.10%
+
+MLP | -1.36% | -0.17 | 3.24 | 28.57%
+
+LSTM | 1.02% | 0.17 | 2.55 | 52.38%
+
+GRU | 2.71% | 0.41 | 2.49 | 57.14%
+
+CNN | 0.11% | 0.05 | 2.71 | 42.86%
+
+Prophet | -6.82% | -0.92 | 2.65 | 33.33%
+
+The original M6 rule selected Prophet before the evaluation, using the validation best-factor hit rate. Its later annual return remains -6.82%. XGBoost had the highest individual model return at 5.74%, but this later ranking was not used to choose the original model. We report both facts.
+
+Our allocation uses the order of forecasts, not only their signs. A model can be wrong about Up or Down and still rank the factors usefully. The opposite can also happen. We therefore report forecast error, direction, ranking and portfolio return separately. The full direction measures and drawdowns are in the saved CSV tables.
+
+A higher result in this table is an observed result, not proof that the model will be the best next time. We did not replace Prophet with the later best performer. The new selector has its own past-only economic rule and its own result.
+
+Uncertainty and training sensitivity
+
+The mean monthly return difference was +0.248 percentage points. The 95% stationary-bootstrap interval was -0.310 to +0.755 percentage points, using an expected block length of three months. This interval includes zero, so these months do not give a precise positive or negative average advantage. The calculation uses 21 paired months and does not undo earlier research choices.
+
+Expected block months | Mean difference in pp | Lower 95% | Upper 95%
+
+3 | 0.248 | -0.310 | 0.755
+
+2 | 0.248 | -0.364 | 0.822
+
+6 | 0.248 | -0.217 | 0.677
+
+Across the five training seeds, the selector's annual return ranged from -2.70% to 0.62%, with a median of -0.53%. We keep seed 42 as the main result. These are training checks on the same market history, not five independent market tests.
+
+Seed | Selector annual return | Sharpe | Max drawdown
+
+7 | -2.70% | -0.35 | 9.91%
+
+21 | -0.53% | -0.03 | 10.50%
+
+42 | 0.27% | 0.08 | 10.09%
+
+84 | 0.62% | 0.12 | 9.33%
+
+123 | -0.93% | -0.09 | 9.33%
+
+Cost assumptions
+
+Check | Trade rate | Borrow rate | Selector annual return
+
+Trading cost | 0.00% | 3% | 0.86%
+
+Trading cost | 0.10% | 3% | 0.27%
+
+Trading cost | 0.30% | 3% | -0.91%
+
+Borrow cost | 0.10% | 0% | 1.79%
+
+Borrow cost | 0.10% | 3% | 0.27%
+
+Borrow cost | 0.10% | 6% | -1.23%
+
+We keep the main selected families and forecasts fixed in the cost checks. These rows show a cost effect, not a new model search. Borrowing costs matter for this long-short design. A fee assumption also does not show that the shares were available to borrow.
+
+Other return and volatility windows
+
+Our professor asked whether other values had been tried. We compared the three settings below, keeping an eight-week input sequence. All variants use the same 89 usable training-history samples and the same 23 validation and 21 evaluation decisions. The first fit has 43 completed months, compared with 47 in the main run. This makes the window comparison fair, but its baseline is a separate matched-history rerun.
+
+Model | Return weeks and risk weeks | Eval MAE in pp | Best factor
+
+Ridge | 1/4/13; risk13 | 3.00 | 19.05%
+
+Ridge | 1/3/12; risk12 | 3.15 | 19.05%
+
+Ridge | 1/6/26; risk26 | 3.25 | 28.57%
+
+Random Forest | 1/4/13; risk13 | 2.59 | 47.62%
+
+Random Forest | 1/3/12; risk12 | 2.53 | 47.62%
+
+Random Forest | 1/6/26; risk26 | 2.58 | 52.38%
+
+XGBoost | 1/4/13; risk13 | 2.59 | 52.38%
+
+XGBoost | 1/3/12; risk12 | 2.68 | 42.86%
+
+XGBoost | 1/6/26; risk26 | 2.69 | 47.62%
+
+M6 also tested one, four and eight input weeks. That changed sequence length. The new table changes return and volatility calculations. None of these evaluation rows changes the main strategy.
+
+Data checks and interpretation
+
+We checked Gree 2020 and Midea, BYD, Moutai and Hengrui 2024 against original annual reports. All 33 amounts checked matched, and five EBIT calculations reconciled. Gree's large profitability ratio came from small cash-net invested capital. Broad cash includes restricted cash. This limits the capital definition (Gree Electric Appliances).
+
+Of 839 usable financial rows, 835 have later provider updates. Our sample check cannot establish full historical accuracy. Company selection can favour survivors, and share classes add valuation assumptions. Historical borrowing, price limits, recalls, collateral and market impact remain unverified.
+
+Conclusion
+
+Our main question is whether using forecasts to change factor weights helps after costs. The recorded six-month selection rule earned 2.83 percentage points more annual return than equal factors in this sample. The original Prophet-selected strategy returned -6.82% a year. The two selection rules therefore need to be read separately. The six-month selector earned less than keeping the first model family and less than keeping its first factor mix. Changing model families did not improve on those controls in this sample. We found that the selection rule, initial factor mix and trading costs matter when we turn forecasts into a portfolio. We do not conclude that machine learning always improves investing. These findings describe the selected A-share group, the stated data and 21 completed monthly periods.
+
+The bootstrap interval includes zero and seeds change the outcome. We report a mixed historical result. A stronger publication claim needs an independent evaluation and better historical data evidence.
+
+Works cited
+
+Bailey, David H., et al. “The Probability of Backtest Overfitting.” Manuscript, revised 27 Feb. 2015. https://www.davidhbailey.com/dhbpapers/backtest-prob.pdf. Accessed 25 Oct. 2026.
+
+Bailey, David H., and Marcos López de Prado. “The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting and Non-Normality.” Manuscript, 31 July 2014. https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf. Accessed 25 Oct. 2026.
+
+BYD Company Limited. Annual Report 2024. 2025. https://www.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401238.pdf. Accessed 25 Oct. 2026.
+
+Gree Electric Appliances, Inc. of Zhuhai. Annual Report 2020. 2021. https://static.cninfo.com.cn/finalpage/2021-04-29/1209855305.PDF. Accessed 25 Oct. 2026.
+
+Jiangsu Hengrui Pharmaceuticals Co., Ltd. Annual Report 2024. 2025. https://static.cninfo.com.cn/finalpage/2025-03-31/1222961962.PDF. Accessed 25 Oct. 2026.
+
+Kweichow Moutai Co., Ltd. Annual Report 2024. 2025. https://www.moutai.com.cn/mtgf/attachDir/2025/04/2025040817535978980.pdf. Accessed 25 Oct. 2026.
+
+Midea Group Co., Ltd. Annual Report 2024. 2025. midea.com.cn. Accessed 25 Oct. 2026. https://www.midea.com.cn/content/dam/mideacn-aem/%E6%8A%95%E8%B5%84%E8%80%85%E5%85%B3%E7%B3%BB/%E6%8A%95%E8%B5%84%E8%80%85%E5%85%B3%E7%B3%BB%E6%96%87%E4%BB%B6%E6%80%BB%E8%A7%88/2024%E6%96%87%E4%BB%B6/%E7%BE%8E%E7%9A%84%E9%9B%86%E5%9B%A2-2024%E5%B9%B4%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A.PDF.coredownload.inline.pdf
+
+Politis, Dimitris N., and Joseph P. Romano. “The Stationary Bootstrap.” Journal of the American Statistical Association, vol. 89, no. 428, 1994, pp. 1303–13. https://doi.org/10.1080/01621459.1994.10476870. Accessed 25 Oct. 2026.
+
+Scikit-learn Developers. “Cross-Validation: Evaluating Estimator Performance.” Scikit-learn User Guide, version 1.9.1. https://scikit-learn.org/stable/modules/cross_validation.html. Accessed 25 Oct. 2026.
+
+Shu, Yizhan, and John M. Mulvey. “Dynamic Factor Allocation Leveraging Regime-Switching Signals.” The Journal of Portfolio Management, vol. 51, no. 3, 2025, pp. 50–72. https://doi.org/10.3905/jpm.2024.1.649. Accessed 25 Oct. 2026.
+
+Code and supporting evidence
+
+Website: Final research page https://capstone-project.arianazmoudeh.com/research/china/final/
+
+Notebook: China A Share Final Factor Timing https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/China_A_Share_Final_Factor_Timing.ipynb
+
+The supporting package includes the executed notebook, saved inputs, full result tables, model settings, package versions, audit records and plain-text execution notes. Dates and units appear in the tables and figures. Original annual-report PDFs are linked, not redistributed. The web page reads the same reviewed result files.

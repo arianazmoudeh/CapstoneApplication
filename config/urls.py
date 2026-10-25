@@ -14,6 +14,7 @@ urlpatterns = [
     path("portfolio/asset/<path:symbol>/", views.asset_detail, name="asset_detail"),
     path("research/", views.research, name="research"),
     path("research/china/", views.research, {"market": "china"}, name="china_research"),
+    path("research/china/final/", views.china_final_study, name="china_final_study"),
     path("research/china/factors/", views.china_factor_study, name="china_factor_study"),
     path("research/china/benchmark/", views.china_benchmark, name="china_benchmark"),
     path("experiments/", views.experiments, name="experiments"),

@@ -1,0 +1,4 @@
+window,available_samples,first_available_signal,last_available_signal,common_samples,first_common_signal,last_common_signal,validation_months,evaluation_months
+1/4/13; risk13,93,2018-12-28,2026-08-31,89,2019-04-30,2026-08-31,23,21
+1/3/12; risk12,93,2018-12-28,2026-08-31,89,2019-04-30,2026-08-31,23,21
+1/6/26; risk26,89,2019-04-30,2026-08-31,89,2019-04-30,2026-08-31,23,21
