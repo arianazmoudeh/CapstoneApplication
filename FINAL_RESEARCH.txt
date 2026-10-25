@@ -1,6 +1,6 @@
 China A-share factor timing research
 
-Open experiments/China_A_Share_Final_Factor_Timing.ipynb. Its saved outputs include the full main experiment and four figures.
+Open experiments/China_A_Share_Final_Factor_Timing.ipynb. Its saved outputs include the full main experiment and 39 figures. After each model, we show predicted and actual factor returns, forecast errors and direction counts. LSTM, GRU and CNN also have training and early-stopping charts. The final charts compare forecasts, portfolio results and result stability.
 
 Read Code Explanation.txt for the method, each model, the recorded findings and the limits. The notebook keeps short section labels and direct code. Each model has its own fitting cell, with its settings at the top. The code uses no custom functions or model classes. Common data tables flow from the earlier preparation cells.
 

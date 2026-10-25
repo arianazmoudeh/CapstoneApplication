@@ -172,3 +172,17 @@ We found a small positive net return for the main six-month rule and a higher re
 We had already examined the evaluation dates in M6. This is a retrospective study. The current company list can favour firms that survived. Of 839 usable financial records, 835 have a later provider update. A date delay cannot make these records fully point-in-time.
 
 We assume that shorted shares can be borrowed. We charge borrowing fees but do not verify historical loan availability, recalls, price limits, collateral rules or market impact. Subtracting broad cash from invested capital can also create a small denominator and a large profitability score. These limits remain part of the research result. An independent period and better historical data would be needed for stronger claims.
+
+16. How to read the charts
+
+Each model has a chart with three panels: Value, Profitability and Momentum. The lines show the actual return, the model forecast and the historical-mean forecast. We use seed 42 and the same 21 evaluation periods. The date on the horizontal axis is the holding period's end, not the date when we made the forecast. A positive factor return means that the long-short factor basket gained. It does not mean that every stock price rose.
+
+The second chart compares each factor's mean absolute error with historical mean. The error is in percentage points, and lower is better. Its direction table counts actual and predicted outcomes. Above zero is Up; zero or below is Down/flat. The diagonal counts correct directions. The other two boxes count mistakes. There are 63 factor forecasts from 21 months. They are related observations, not 63 independent monthly tests.
+
+LSTM, GRU and CNN also show recorded learning curves. The first example is the fit at the 31 December 2024 signal. It shows training and internal validation mean squared error across the epochs actually run. The loss uses standardized returns, so it is not a return percentage. The best-epoch marker uses the checkpoint saved by the early-stopping rule. It is not chosen again from the chart.
+
+A further learning chart shows the best and stopping epochs for all 21 evaluation fits. The maximum is 100 epochs, but early stopping can end training sooner. These curves describe fitting and internal validation, not final portfolio performance. Other models, including MLP, show forecast comparisons. We did not record their per-iteration training loss, so we do not draw a training-loss curve for them.
+
+The summary charts compare forecast error and direction accuracy across all models. Another chart shows the bootstrap intervals for expected block lengths of two, three and six months, beside the five seed results. An interval crossing zero includes both a positive and a negative average monthly difference. The seed panel shows annual returns after costs. These are repeated fits on the same market history.
+
+The forecast charts use factor returns before costs. The portfolio charts use results after trading and borrowing costs. We read both because a closer forecast does not always produce a higher net portfolio return.
