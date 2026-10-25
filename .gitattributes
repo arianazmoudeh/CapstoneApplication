@@ -1,2 +1,9 @@
 /inputs/china_stock_20/*.csv -text
 /dashboard/china_research_results/*.csv -text
+/inputs/china_factor_100/*.csv -text
+/inputs/china_benchmark/market_calendar.csv -text
+/experiments/China_A_Share_Final_Factor_Timing.ipynb -text
+/experiments/China_A_Share_Long_Short_Factor_Timing_M6.ipynb -text
+/requirements-research.txt -text
+/results/china_factor_timing_final/** -text
+/reports/final/** -text
