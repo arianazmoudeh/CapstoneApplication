@@ -129,23 +129,7 @@ for item in sorted((root/'experiments').glob('*.ipynb')):
         'sha256':hashlib.sha256(item.read_bytes()).hexdigest()})
 pd.DataFrame(inventory).to_csv(result/'trial_inventory.csv',index=False)
 
-replacements={
-    'We select a model after the June': selected_summary,
-    'Our main comparison is the difference': uncertainty_summary+'\n\n'+seed_summary,
-    'We compare portfolio value': main_summary+'\n\n'+risk_summary,
-}
-nb.cells=[c for c in nb.cells if not c.metadata.get('final_findings')]
-for prefix,text in replacements.items():
-    target=next(i for i,c in enumerate(nb.cells) if c.cell_type=='markdown' and c.source.startswith(prefix))
-    item=nbformat.v4.new_markdown_cell(text)
-    item.metadata['final_findings']=True
-    nb.cells.insert(target,item)
-end=next(i for i,c in enumerate(nb.cells) if c.cell_type=='markdown' and c.source.startswith('The financial data may'))
-item=nbformat.v4.new_markdown_cell('What did we find?\n\n'+conclusion+'\n\n'+control_summary+'\n\n'+forecast_summary+'\n\n'+earlier_summary)
-item.metadata['final_findings']=True
-nb.cells.insert(end,item)
 nbformat.validate(nb)
-nbformat.write(nb,path)
 trial_inventory = pd.read_csv(result/'trial_inventory.csv')
 trial_inventory.loc[trial_inventory.notebook.eq(path.name),'sha256'] = hashlib.sha256(path.read_bytes()).hexdigest()
 trial_inventory.to_csv(result/'trial_inventory.csv',index=False)

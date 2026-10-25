@@ -1,0 +1,174 @@
+Code Explanation
+China A-share final factor timing experiment
+
+Notebook: experiments/China_A_Share_Final_Factor_Timing.ipynb
+Saved results: results/china_factor_timing_final/
+Recorded experiment completed on 25 October 2026
+
+How to read the notebook
+
+We run the cells from top to bottom. Imports are in the first code cell. Data preparation comes next. Each model has one complete cell with its own settings, fitting steps, forecast and saved output. The tables prepared earlier are shared inputs. We use direct code instead of custom functions or classes. The notebook keeps short section names. This file gives the longer explanation and the findings.
+
+1. What we want to find
+
+We want to know whether forecasts can help us change the money placed in three factors: Value, Profitability and Momentum. We first build a stock basket for each factor. We then predict the next month's return for each basket. We use the order of these three forecasts to set the factor weights.
+
+This experiment does not predict the next day's price for each stock. It is a monthly factor timing study. We also ask whether choosing a model from its past portfolio results helps more than keeping the same model or the same factor weights.
+
+2. Libraries and saved data
+
+We use pandas and NumPy to prepare the data and calculate returns. Scikit-learn, XGBoost and LightGBM provide the statistical and tree models. PyTorch provides LSTM, GRU and CNN. Prophet is a separate time-series comparison. Matplotlib draws the charts.
+
+The notebook reads saved CSV files. It does not need to call a live market API. The five inputs are the company list, daily prices, annual financial accounts, historical share counts and the market trading calendar. They are in inputs/china_factor_100/ and inputs/china_benchmark/market_calendar.csv. We save file hashes so we can check that another run uses the same inputs.
+
+The prices come from Tencent. The financial accounts and share records come from EastMoney. The group contains 100 A-share securities from Shanghai and Shenzhen. Some companies also have other share classes. We are selecting their A shares; we are not saying that all these companies are listed only in mainland China.
+
+3. Dates and company checks
+
+The saved daily prices run from 5 January 2015 to 16 October 2026. The first factor trade is on 1 August 2018. There are 93 usable monthly model samples. The original validation comparison contains 23 completed periods, from 3 January 2023 to 2 December 2024.
+
+Every final portfolio is evaluated over the same 21 completed holding periods, from 2 January 2025 to 8 October 2026. The extra price rows after 8 October do not add another completed test month.
+
+We keep all 100 names in the company table. A company enters a factor basket only when its information is available. It needs a fresh trading quote, enough price history, suitable accounts and a share count known by the decision date. The code checks for at least twelve months of price history and 160 trading quotes in that period. Accounts cannot be more than eighteen months old. The factor denominators must be positive.
+
+Banks and insurance companies do not enter these EBIT baskets. Their debt and capital have a different role. Other missing fields can also exclude a company. In the evaluation, 90 to 94 companies qualify each month. The reason for each exclusion is saved.
+
+4. Prices and the three factor scores
+
+We use adjusted closing prices to calculate price changes. We use raw A-share prices to calculate company market value. An adjusted price is not the actual currency quote used to buy a share. When a quote is missing, the previous price can value an existing holding. It cannot create a new trade.
+
+Value is EBIT divided by enterprise value. Market value uses the raw A-share price multiplied by the saved total share count. Enterprise value adds the included debt and minority equity, then subtracts cash.
+
+Profitability is EBIT divided by the average of opening and closing invested capital. Invested capital is equity plus the included debt items minus cash. We use EBIT, not net margin. EBIT is calculated from profit before tax and the reported interest expenses.
+
+Momentum is the price return from twelve months ago to one month ago. We leave the latest month out of that return. We divide it by annualized volatility calculated from the previous year's daily returns.
+
+Annual accounts are available only after the saved notice date and 30 June of the following year. Share records must also pass their effective and available dates. These checks stop a dated record from entering too early. They cannot remove later revisions already included in a provider's saved figures.
+
+5. Building the factor baskets
+
+For each factor, we rank the eligible companies. We buy the top 30% and short the bottom 30%, rounding the number down. Every stock on the long side has the same weight. Every stock on the short side also has the same weight. With 90 to 94 eligible companies, this gives 27 to 28 companies on each side.
+
+The long side has a target of +50% of portfolio value. The short side has a target of -50%. This means 100% gross exposure and zero net exposure at the target. It does not mean the portfolio has no risk. Exposure can change as prices move or a holding cannot trade.
+
+The code builds a return history for each of the three factor baskets. These histories and the model target returns are before trading and borrowing costs. The final portfolio results are calculated separately after costs.
+
+6. What enters a model
+
+For each monthly decision, most models receive eight observed weeks of information. Each week contains thirteen measures. For each factor, we calculate returns over one, four and thirteen weeks, plus volatility over thirteen weeks. This gives twelve measures. The last measure is the average of the three pairwise factor correlations over the same risk window.
+
+The input therefore has eight rows and thirteen columns. The ordinary models read it as 104 values. LSTM and GRU read the weekly order. CNN looks for patterns across nearby weeks. The models predict three numbers: the next completed monthly return of Value, Profitability and Momentum.
+
+Prophet uses the past monthly return series for each factor. It does not use the thirteen weekly measures. The historical-mean baseline also uses completed monthly factor returns.
+
+7. The fifteen models
+
+We use the following fixed settings. We do not search the evaluation results for a better set of parameters.
+
+Ridge: a linear model with penalty alpha 10. The penalty reduces large coefficients.
+
+Elastic Net: a linear model with two penalties. Alpha is 0.02, the L1 ratio is 0.5, and the maximum is 10,000 iterations.
+
+KNN: it averages the outcomes of twenty similar past samples. Each neighbour has the same weight.
+
+SVR: it uses an RBF kernel, C of 1 and epsilon of 0.1. We fit a separate estimator for each factor.
+
+Random Forest: 150 trees, maximum depth 4 and at least twelve samples in a leaf.
+
+Extra Trees: 150 trees with the same depth and leaf limits. It makes more random choices when it splits the inputs.
+
+XGBoost: 120 trees, depth 2, learning rate 0.03, row sample 0.8, column sample 0.9 and L2 penalty 5.
+
+Decision Tree: one tree with depth 3 and at least twelve samples in a leaf.
+
+AdaBoost: 100 small trees, depth 2, at least eight samples in a leaf, learning rate 0.03 and linear loss.
+
+LightGBM: 120 trees, depth 2, four leaves, at least twelve samples in a leaf, learning rate 0.03 and L2 penalty 5.
+
+MLP: a neural network with one hidden layer of twelve units. It uses L-BFGS, alpha 5 and up to 1,500 iterations.
+
+LSTM: two recurrent layers with 32 hidden units and dropout of 0.1.
+
+GRU: two recurrent layers with 32 hidden units and dropout of 0.1. It is another way to learn from an ordered sequence.
+
+CNN: eight filters, kernel size 3, ReLU, average pooling and a linear output.
+
+Prophet: ten changepoints and changepoint prior scale 0.05. Daily, weekly and yearly seasonality are off. Uncertainty samples are off.
+
+Historical mean is an additional comparison. It is the average past return for each factor. It is not one of the fifteen models that the six-month rule can select.
+
+8. Fitting and early stopping
+
+We fit the models again at each monthly decision. A training outcome must have finished by that decision date. The code requires at least 36 completed training samples. We do not shuffle the time order. Otherwise, a future outcome could enter a past forecast.
+
+LSTM, GRU and CNN use Adam with learning rate 0.001 and weight decay 0.01. Their loss is mean squared error. They train for at most 100 epochs. They stop if the internal validation loss does not improve enough for ten epochs. We keep the weights from the best validation epoch.
+
+The last 20% of the available completed training samples form this internal validation period. Earlier fitting outcomes must finish before that period begins. Scalers learn from the fitting part only. This prevents the early-stopping check from sharing unfinished outcomes with the fitting part.
+
+The main seed is 42. A fixed seed helps us repeat a run. We also use 7, 21, 84 and 123 for models with random training. Deterministic model predictions stay unchanged. We report all five runs, rather than choosing the best seed.
+
+9. Choosing a model every six months
+
+We first simulate a separate continuous portfolio for each candidate and for equal factor weights. These past portfolios start with CNY 100,000 on 3 January 2023. We call them shadow portfolios because they are used to score the models. They keep their cash and holdings from one month to the next.
+
+The continuous forecast history has 45 completed periods. It includes the holding period from 2 December 2024 to 2 January 2025. That period is needed to keep the history connected. It is not used in the first selection score because it had not finished by 31 December 2024.
+
+We select a model after the June and December month-end closes. At each selection date, we take the latest eighteen completed periods from the shared calendar. All fifteen candidates must have results for these exact periods. The code stops if a required record is missing. It does not replace the missing period with an older one.
+
+For each month, we subtract the equal-factor net return from each model's net return. The model's score is the average of these eighteen differences. The highest score wins, even if every score is negative. A numerical tie uses lower average turnover, then alphabetical model name.
+
+The chosen model family stays for six months. Its fitted parameters and forecasts still update monthly. The model gives 50% to the factor with the highest predicted return, 30% to the second and 20% to the third. Equal forecasts follow the fixed Value, Profitability and Momentum order. We use forecast ranks, not a rule that buys only when a forecast is positive.
+
+10. Combining holdings and charging costs
+
+A company can appear in more than one factor. We combine the signed stock positions first. A long and a short position in the same company cancel where they overlap. We then scale the remaining target back to 100% gross exposure and zero net exposure.
+
+The evaluated selector starts with its own CNY 100,000 on 2 January 2025. It keeps its own cash and holdings. When its selected model changes, we calculate the stock trades from its current holdings. We do not join model return lines as if changing models were free.
+
+We decide after the month-end close and trade at the next trading close. A trade needs a fresh quote and positive volume. Trading costs are 0.10% of the net amount traded in each stock. Borrowing costs are 3% a year on the previous close's short position value, using calendar days. Cash interest is zero. There is no forced sale at the final date.
+
+11. Comparisons and checks
+
+Equal factors puts one-third in each factor. Initial model family keeps the first selected model family for all 21 months, while fitting and forecasting again each month. Initial factor mix keeps the first three factor weights, while companies inside the factor baskets still change monthly. We also show historical mean, the original Prophet strategy and every individual model.
+
+We calculate final portfolio value, annualized return, volatility, Sharpe ratio, maximum drawdown, turnover and fees. Forecast error, direction accuracy and best-factor hit rate are separate measures. A better direction score does not automatically mean a better net portfolio return.
+
+We compare the selector and equal factors month by month. A stationary bootstrap repeats this paired calculation 10,000 times, keeping short groups of nearby months together. The main expected block length is three months. Two and six months are extra checks. These intervals describe uncertainty in the saved results. They do not rerun training or remove the effect of our earlier research choices.
+
+We also check trading costs of 0%, 0.10% and 0.30%, and annual borrowing costs of 0%, 3% and 6%. We change one cost at a time. The model choices and forecasts stay fixed during these checks.
+
+To answer the professor's question about input windows, we compare return windows of 1/4/13, 1/3/12 and 1/6/26 weeks. Their risk windows are 13, 12 and 26 weeks. These checks use Ridge, Random Forest and XGBoost, with common training months and forecast dates. They do not replace the main settings. The earlier comparison of one, four and eight input weeks is also retained.
+
+12. What the saved results show
+
+The main selector chose Extra Trees in December 2024, KNN in June 2025, GRU in December 2025 and GRU again in June 2026. Its factor mix changed in six of the twenty monthly transitions.
+
+After costs, the selector returned 0.27% a year. Equal factors returned -2.56%. The selector ended at CNY 100,476 from CNY 100,000. Equal factors ended at CNY 95,527. The selector's maximum drawdown was 10.09%, compared with 11.81% for equal factors.
+
+Keeping the initial model family returned 1.71% a year. Keeping the initial factor mix returned 1.41%. The changing selector earned less than both controls. In this sample, changing model families did not improve on keeping the first choice.
+
+The mean monthly advantage over equal factors was 0.248 percentage points. The main 95% bootstrap interval was -0.310 to 0.755 percentage points. It includes zero. Across the five training seeds, the selector's annual return ranged from -2.70% to 0.62%, with a median of -0.53%.
+
+The original M6 rule selected Prophet from the validation period. Its later return remained -6.82% a year. XGBoost had the highest individual model return at 5.74%, but this later result was not used to choose the original model. We keep the two selection rules and their results separate.
+
+These results show why we need the fixed controls and the cost checks. A result above equal factors is not enough to show that changing the model helped. The full findings are in Research_Conclusion.txt and Final_Research_Results.
+
+13. Data and calculation checks
+
+We check duplicate records, dates, positive prices, financial identities and the information available at each signal. We compare selected amounts from five company-years with the original annual reports. All 33 direct amounts checked match. Five EBIT calculations also reconcile. This is a sample check, not a check of every figure in the data set.
+
+The separate calculation audit checks selection windows, model scores, positions, costs, controls and reported results. It also compares the main shared outputs with M6. Saved training records show which earlier observations were used for each forecast. Warnings are recorded rather than turned into made-up forecasts.
+
+14. How the notebook and website fit together
+
+The notebook creates the predictions, stock positions, results tables and charts. These saved outputs are the evidence for the report. Django displays the saved research results on the website. It does not train all fifteen models when a visitor opens a page. MySQL serves the website accounts and saved user portfolios; it is not the financial-statement source for this experiment.
+
+To repeat the work, use the same input files and the recorded research packages, then run the notebook from top to bottom. The package includes execution instructions and saved results. The main result files are performance.csv, selection.csv, selection_scores.csv, forecast_metrics.csv, seed_results.csv, uncertainty.csv and cost_sensitivity.csv. The data_audit folder contains the source checks.
+
+15. What we can and cannot conclude
+
+We found a small positive net return for the main six-month rule and a higher return than equal factors. We also found that the fixed starting choices earned more. Our conclusion is about the selected companies, rules and dates. It is not proof that ML always improves investing.
+
+We had already examined the evaluation dates in M6. This is a retrospective study. The current company list can favour firms that survived. Of 839 usable financial records, 835 have a later provider update. A date delay cannot make these records fully point-in-time.
+
+We assume that shorted shares can be borrowed. We charge borrowing fees but do not verify historical loan availability, recalls, price limits, collateral rules or market impact. Subtracting broad cash from invested capital can also create a small denominator and a large profitability score. These limits remain part of the research result. An independent period and better historical data would be needed for stronger claims.
