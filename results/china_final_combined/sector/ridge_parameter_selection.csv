@@ -1,0 +1,4 @@
+candidate,mae,parameters,selected,model,validation_end
+0,0.05173997747037293,{'alpha': 10.0},False,Ridge,2022-01-04
+1,0.06450564380871344,{'alpha': 1.0},False,Ridge,2022-01-04
+2,0.04271239797562893,{'alpha': 100.0},True,Ridge,2022-01-04

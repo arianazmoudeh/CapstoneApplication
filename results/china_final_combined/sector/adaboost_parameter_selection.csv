@@ -1,0 +1,4 @@
+candidate,mae,parameters,selected,model,validation_end
+0,0.04040690209864733,{'max_depth': 2},True,AdaBoost,2022-01-04
+1,0.04149892873527388,{'max_depth': 1},False,AdaBoost,2022-01-04
+2,0.04049186667174619,{'max_depth': 3},False,AdaBoost,2022-01-04

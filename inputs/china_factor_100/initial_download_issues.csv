@@ -1,0 +1,11 @@
+code,dataset,year,adjustment,error
+601318,balance,,,返回数据为空
+601398,balance,,,返回数据为空
+600036,balance,,,返回数据为空
+688981,prices,2020.0,hfq,"Requested hfqday missing; returned ['day', 'qt', 'mx_price', 'prec', 'version']"
+688981,prices,2021.0,hfq,"Requested hfqday missing; returned ['day', 'qt', 'mx_price', 'prec', 'version']"
+688981,prices,2022.0,hfq,"Requested hfqday missing; returned ['day', 'qt', 'mx_price', 'prec', 'version']"
+688981,prices,2023.0,hfq,"Requested hfqday missing; returned ['day', 'qt', 'mx_price', 'prec', 'version']"
+688981,prices,2024.0,hfq,"Requested hfqday missing; returned ['day', 'qt', 'mx_price', 'prec', 'version']"
+688981,prices,2025.0,hfq,"Requested hfqday missing; returned ['day', 'qt', 'mx_price', 'prec', 'version']"
+688981,prices,2026.0,hfq,"Requested hfqday missing; returned ['day', 'qt', 'mx_price', 'prec', 'version']"

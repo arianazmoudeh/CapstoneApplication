@@ -1,0 +1,7 @@
+experiment,model,fits,first_best_epoch,first_epochs_run,median_best_epoch,min_best_epoch,max_best_epoch,epoch_one_fits,untrained_mae_pp,trained_mae_pp
+Main,LSTM,37,1,11,100.0,1,100,3,,
+Main,GRU,37,1,11,2.0,1,49,17,2.3565189001378664,2.362115820123387
+Main,CNN,37,61,71,61.0,30,100,0,,
+Sector balanced,LSTM,37,1,11,93.0,1,100,2,,
+Sector balanced,GRU,37,1,11,62.0,1,100,7,1.9181057334092075,1.8699027714918022
+Sector balanced,CNN,37,1,11,70.0,1,100,1,,

@@ -1,0 +1,46 @@
+candidate,mae,parameters,selected,model,validation_end
+0,0.049196704992277,{'max_depth': 2},False,AdaBoost,2022-01-04
+1,0.050571331597226,{'max_depth': 1},False,AdaBoost,2022-01-04
+2,0.0491862068864479,{'max_depth': 3},True,AdaBoost,2022-01-04
+0,0.0491855349296084,"{'filters': 8, 'learning_rate': 0.001}",True,CNN,2022-01-04
+1,0.0493741140855936,"{'filters': 4, 'learning_rate': 0.001}",False,CNN,2022-01-04
+2,0.0496860083741795,"{'filters': 8, 'learning_rate': 0.0003}",False,CNN,2022-01-04
+0,0.051888074248105,{'max_depth': 3},True,Decision Tree,2022-01-04
+1,0.051888074248105,{'max_depth': 2},False,Decision Tree,2022-01-04
+2,0.051888074248105,{'max_depth': 4},False,Decision Tree,2022-01-04
+0,0.1074948448414647,{'alpha': 0.02},False,Elastic Net,2022-01-04
+1,0.1329244538486201,{'alpha': 0.002},False,Elastic Net,2022-01-04
+2,0.0718015927331764,{'alpha': 0.2},True,Elastic Net,2022-01-04
+0,0.0470552846909945,{'max_depth': 4},True,Extra Trees,2022-01-04
+1,0.0470552846909945,{'max_depth': 2},False,Extra Trees,2022-01-04
+2,0.0470552846909945,{'max_depth': 6},False,Extra Trees,2022-01-04
+0,0.0456909413301059,"{'hidden_units': 32, 'layers': 2, 'learning_rate': 0.001}",True,GRU,2022-01-04
+1,0.0471374886006775,"{'hidden_units': 16, 'layers': 1, 'learning_rate': 0.001}",False,GRU,2022-01-04
+2,0.0471655505334064,"{'hidden_units': 16, 'layers': 1, 'learning_rate': 0.0003}",False,GRU,2022-01-04
+0,0.0459531525981346,{'neighbours': 20},True,KNN,2022-01-04
+1,0.0532172838036855,{'neighbours': 10},False,KNN,2022-01-04
+2,0.056500541940961,{'neighbours': 5},False,KNN,2022-01-04
+0,0.0513362018765639,"{'max_depth': 2, 'leaves': 4}",True,LightGBM,2022-01-04
+1,0.0513362018765639,"{'max_depth': 1, 'leaves': 2}",False,LightGBM,2022-01-04
+2,0.0513362018765639,"{'max_depth': 3, 'leaves': 8}",False,LightGBM,2022-01-04
+0,0.04490450521637,"{'hidden_units': 32, 'layers': 2, 'learning_rate': 0.001}",False,LSTM,2022-01-04
+1,0.0454899439582067,"{'hidden_units': 16, 'layers': 1, 'learning_rate': 0.001}",False,LSTM,2022-01-04
+2,0.0447361185054071,"{'hidden_units': 16, 'layers': 1, 'learning_rate': 0.0003}",True,LSTM,2022-01-04
+0,0.0791527658101493,"{'hidden_units': (12,)}",False,MLP,2022-01-04
+1,0.0751234456879592,"{'hidden_units': (6,)}",False,MLP,2022-01-04
+2,0.0739066518993196,"{'hidden_units': (24,)}",True,MLP,2022-01-04
+0,0.0504159051315417,{'changepoint_scale': 0.05},False,Prophet,2022-01-04
+1,0.0504543363475014,{'changepoint_scale': 0.01},False,Prophet,2022-01-04
+2,0.0504106605439537,{'changepoint_scale': 0.1},True,Prophet,2022-01-04
+0,0.04540104340664,{'max_depth': 4},True,Random Forest,2022-01-04
+1,0.04540104340664,{'max_depth': 2},False,Random Forest,2022-01-04
+2,0.04540104340664,{'max_depth': 6},False,Random Forest,2022-01-04
+0,0.0871475828220483,{'alpha': 10.0},False,Ridge,2022-01-04
+1,0.1161922653997442,{'alpha': 1.0},False,Ridge,2022-01-04
+2,0.0637247463000144,{'alpha': 100.0},True,Ridge,2022-01-04
+0,0.046618447898013,{'regularization': 1.0},False,SVR,2022-01-04
+1,0.0457178814601473,{'regularization': 0.1},True,SVR,2022-01-04
+2,0.0492689614133774,{'regularization': 10.0},False,SVR,2022-01-04
+0,0.0514603045468548,{'max_depth': 2},False,XGBoost,2022-01-04
+1,0.0498541835092661,{'max_depth': 1},True,XGBoost,2022-01-04
+2,0.0507516883577459,{'max_depth': 3},False,XGBoost,2022-01-04

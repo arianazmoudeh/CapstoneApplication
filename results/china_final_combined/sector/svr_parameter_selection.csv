@@ -1,0 +1,4 @@
+candidate,mae,parameters,selected,model,validation_end
+0,0.03723682414672697,{'regularization': 1.0},False,SVR,2022-01-04
+1,0.036122965835920326,{'regularization': 0.1},True,SVR,2022-01-04
+2,0.03909353949020266,{'regularization': 10.0},False,SVR,2022-01-04

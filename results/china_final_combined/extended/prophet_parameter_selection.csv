@@ -1,0 +1,4 @@
+candidate,mae,parameters,selected,model,validation_end
+0,0.05041590513154173,{'changepoint_scale': 0.05},False,Prophet,2022-01-04
+1,0.05045433634750145,{'changepoint_scale': 0.01},False,Prophet,2022-01-04
+2,0.05041066054395371,{'changepoint_scale': 0.1},True,Prophet,2022-01-04

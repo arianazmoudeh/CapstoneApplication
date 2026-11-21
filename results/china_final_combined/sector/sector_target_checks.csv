@@ -1,0 +1,2731 @@
+signal,factor,sector,net,gross
+2018-07-31,Value,Consumer Discretionary,0.0,0.09722222222222222
+2018-07-31,Profitability,Consumer Discretionary,0.0,0.09722222222222222
+2018-07-31,Momentum,Consumer Discretionary,0.0,0.09722222222222222
+2018-07-31,Value,Consumer Staples,0.0,0.027777777777777776
+2018-07-31,Profitability,Consumer Staples,0.0,0.027777777777777776
+2018-07-31,Momentum,Consumer Staples,0.0,0.027777777777777776
+2018-07-31,Value,Energy,0.0,0.041666666666666664
+2018-07-31,Profitability,Energy,0.0,0.041666666666666664
+2018-07-31,Momentum,Energy,0.0,0.041666666666666664
+2018-07-31,Value,Health Care,0.0,0.09722222222222222
+2018-07-31,Profitability,Health Care,0.0,0.09722222222222222
+2018-07-31,Momentum,Health Care,0.0,0.09722222222222222
+2018-07-31,Value,Industrials,0.0,0.20833333333333331
+2018-07-31,Profitability,Industrials,0.0,0.20833333333333331
+2018-07-31,Momentum,Industrials,-6.938893903907228e-18,0.20833333333333331
+2018-07-31,Value,Information Technology,0.0,0.2222222222222222
+2018-07-31,Profitability,Information Technology,0.0,0.2222222222222222
+2018-07-31,Momentum,Information Technology,0.0,0.2222222222222222
+2018-07-31,Value,Materials,0.0,0.2222222222222222
+2018-07-31,Profitability,Materials,0.0,0.2222222222222222
+2018-07-31,Momentum,Materials,0.0,0.2222222222222222
+2018-07-31,Value,Real Estate,0.0,0.05555555555555555
+2018-07-31,Profitability,Real Estate,0.0,0.05555555555555555
+2018-07-31,Momentum,Real Estate,0.0,0.05555555555555555
+2018-07-31,Value,Utilities,0.0,0.027777777777777776
+2018-07-31,Profitability,Utilities,0.0,0.027777777777777776
+2018-07-31,Momentum,Utilities,0.0,0.027777777777777776
+2018-08-31,Value,Consumer Discretionary,0.0,0.09333333333333334
+2018-08-31,Profitability,Consumer Discretionary,0.0,0.09333333333333334
+2018-08-31,Momentum,Consumer Discretionary,0.0,0.09333333333333334
+2018-08-31,Value,Consumer Staples,0.0,0.02666666666666667
+2018-08-31,Profitability,Consumer Staples,0.0,0.02666666666666667
+2018-08-31,Momentum,Consumer Staples,0.0,0.02666666666666667
+2018-08-31,Value,Energy,0.0,0.04
+2018-08-31,Profitability,Energy,0.0,0.04
+2018-08-31,Momentum,Energy,0.0,0.04
+2018-08-31,Value,Health Care,0.0,0.09333333333333334
+2018-08-31,Profitability,Health Care,0.0,0.09333333333333334
+2018-08-31,Momentum,Health Care,0.0,0.09333333333333334
+2018-08-31,Value,Industrials,0.0,0.24000000000000002
+2018-08-31,Profitability,Industrials,-6.938893903907228e-18,0.24000000000000002
+2018-08-31,Momentum,Industrials,6.938893903907228e-18,0.24000000000000002
+2018-08-31,Value,Information Technology,0.0,0.21333333333333335
+2018-08-31,Profitability,Information Technology,0.0,0.21333333333333332
+2018-08-31,Momentum,Information Technology,0.0,0.21333333333333332
+2018-08-31,Value,Materials,0.0,0.21333333333333335
+2018-08-31,Profitability,Materials,0.0,0.21333333333333335
+2018-08-31,Momentum,Materials,0.0,0.21333333333333335
+2018-08-31,Value,Real Estate,0.0,0.05333333333333334
+2018-08-31,Profitability,Real Estate,0.0,0.05333333333333334
+2018-08-31,Momentum,Real Estate,0.0,0.05333333333333334
+2018-08-31,Value,Utilities,0.0,0.02666666666666667
+2018-08-31,Profitability,Utilities,0.0,0.02666666666666667
+2018-08-31,Momentum,Utilities,0.0,0.02666666666666667
+2018-09-28,Value,Consumer Discretionary,0.0,0.0821917808219178
+2018-09-28,Profitability,Consumer Discretionary,0.0,0.0821917808219178
+2018-09-28,Momentum,Consumer Discretionary,0.0,0.0821917808219178
+2018-09-28,Value,Consumer Staples,0.0,0.0273972602739726
+2018-09-28,Profitability,Consumer Staples,0.0,0.0273972602739726
+2018-09-28,Momentum,Consumer Staples,0.0,0.0273972602739726
+2018-09-28,Value,Energy,0.0,0.0410958904109589
+2018-09-28,Profitability,Energy,0.0,0.0410958904109589
+2018-09-28,Momentum,Energy,0.0,0.0410958904109589
+2018-09-28,Value,Health Care,0.0,0.0821917808219178
+2018-09-28,Profitability,Health Care,0.0,0.0821917808219178
+2018-09-28,Momentum,Health Care,0.0,0.0821917808219178
+2018-09-28,Value,Industrials,0.0,0.2465753424657534
+2018-09-28,Profitability,Industrials,-6.938893903907228e-18,0.2465753424657534
+2018-09-28,Momentum,Industrials,3.469446951953614e-18,0.2465753424657534
+2018-09-28,Value,Information Technology,0.0,0.2191780821917808
+2018-09-28,Profitability,Information Technology,0.0,0.2191780821917808
+2018-09-28,Momentum,Information Technology,0.0,0.2191780821917808
+2018-09-28,Value,Materials,0.0,0.2191780821917808
+2018-09-28,Profitability,Materials,0.0,0.2191780821917808
+2018-09-28,Momentum,Materials,0.0,0.2191780821917808
+2018-09-28,Value,Real Estate,0.0,0.0547945205479452
+2018-09-28,Profitability,Real Estate,0.0,0.0547945205479452
+2018-09-28,Momentum,Real Estate,0.0,0.0547945205479452
+2018-09-28,Value,Utilities,0.0,0.0273972602739726
+2018-09-28,Profitability,Utilities,0.0,0.0273972602739726
+2018-09-28,Momentum,Utilities,0.0,0.0273972602739726
+2018-10-31,Value,Consumer Discretionary,0.0,0.0945945945945946
+2018-10-31,Profitability,Consumer Discretionary,0.0,0.0945945945945946
+2018-10-31,Momentum,Consumer Discretionary,0.0,0.0945945945945946
+2018-10-31,Value,Consumer Staples,0.0,0.02702702702702703
+2018-10-31,Profitability,Consumer Staples,0.0,0.02702702702702703
+2018-10-31,Momentum,Consumer Staples,0.0,0.02702702702702703
+2018-10-31,Value,Energy,0.0,0.04054054054054054
+2018-10-31,Profitability,Energy,0.0,0.04054054054054054
+2018-10-31,Momentum,Energy,0.0,0.04054054054054054
+2018-10-31,Value,Health Care,0.0,0.08108108108108109
+2018-10-31,Profitability,Health Care,0.0,0.08108108108108109
+2018-10-31,Momentum,Health Care,0.0,0.08108108108108109
+2018-10-31,Value,Industrials,0.0,0.24324324324324326
+2018-10-31,Profitability,Industrials,0.0,0.24324324324324326
+2018-10-31,Momentum,Industrials,0.0,0.24324324324324326
+2018-10-31,Value,Information Technology,0.0,0.2027027027027027
+2018-10-31,Profitability,Information Technology,0.0,0.2027027027027027
+2018-10-31,Momentum,Information Technology,0.0,0.2027027027027027
+2018-10-31,Value,Materials,0.0,0.22972972972972974
+2018-10-31,Profitability,Materials,0.0,0.22972972972972974
+2018-10-31,Momentum,Materials,0.0,0.22972972972972974
+2018-10-31,Value,Real Estate,0.0,0.05405405405405406
+2018-10-31,Profitability,Real Estate,0.0,0.05405405405405406
+2018-10-31,Momentum,Real Estate,0.0,0.05405405405405406
+2018-10-31,Value,Utilities,0.0,0.02702702702702703
+2018-10-31,Profitability,Utilities,0.0,0.02702702702702703
+2018-10-31,Momentum,Utilities,0.0,0.02702702702702703
+2018-11-30,Value,Consumer Discretionary,0.0,0.08974358974358974
+2018-11-30,Profitability,Consumer Discretionary,0.0,0.08974358974358974
+2018-11-30,Momentum,Consumer Discretionary,0.0,0.08974358974358974
+2018-11-30,Value,Consumer Staples,0.0,0.02564102564102564
+2018-11-30,Profitability,Consumer Staples,0.0,0.02564102564102564
+2018-11-30,Momentum,Consumer Staples,0.0,0.02564102564102564
+2018-11-30,Value,Energy,0.0,0.038461538461538464
+2018-11-30,Profitability,Energy,0.0,0.038461538461538464
+2018-11-30,Momentum,Energy,0.0,0.038461538461538464
+2018-11-30,Value,Health Care,0.0,0.08974358974358974
+2018-11-30,Profitability,Health Care,0.0,0.08974358974358974
+2018-11-30,Momentum,Health Care,0.0,0.08974358974358974
+2018-11-30,Value,Industrials,-3.469446951953614e-18,0.24358974358974358
+2018-11-30,Profitability,Industrials,0.0,0.2435897435897436
+2018-11-30,Momentum,Industrials,0.0,0.24358974358974358
+2018-11-30,Value,Information Technology,0.0,0.21794871794871792
+2018-11-30,Profitability,Information Technology,0.0,0.21794871794871795
+2018-11-30,Momentum,Information Technology,0.0,0.21794871794871792
+2018-11-30,Value,Materials,0.0,0.21794871794871792
+2018-11-30,Profitability,Materials,0.0,0.21794871794871795
+2018-11-30,Momentum,Materials,0.0,0.21794871794871795
+2018-11-30,Value,Real Estate,0.0,0.05128205128205128
+2018-11-30,Profitability,Real Estate,0.0,0.05128205128205128
+2018-11-30,Momentum,Real Estate,0.0,0.05128205128205128
+2018-11-30,Value,Utilities,0.0,0.02564102564102564
+2018-11-30,Profitability,Utilities,0.0,0.02564102564102564
+2018-11-30,Momentum,Utilities,0.0,0.02564102564102564
+2018-12-28,Value,Consumer Discretionary,0.0,0.08974358974358974
+2018-12-28,Profitability,Consumer Discretionary,0.0,0.08974358974358974
+2018-12-28,Momentum,Consumer Discretionary,0.0,0.08974358974358974
+2018-12-28,Value,Consumer Staples,0.0,0.02564102564102564
+2018-12-28,Profitability,Consumer Staples,0.0,0.02564102564102564
+2018-12-28,Momentum,Consumer Staples,0.0,0.02564102564102564
+2018-12-28,Value,Energy,0.0,0.038461538461538464
+2018-12-28,Profitability,Energy,0.0,0.038461538461538464
+2018-12-28,Momentum,Energy,0.0,0.038461538461538464
+2018-12-28,Value,Health Care,0.0,0.08974358974358974
+2018-12-28,Profitability,Health Care,0.0,0.08974358974358974
+2018-12-28,Momentum,Health Care,0.0,0.08974358974358974
+2018-12-28,Value,Industrials,0.0,0.24358974358974358
+2018-12-28,Profitability,Industrials,0.0,0.2435897435897436
+2018-12-28,Momentum,Industrials,0.0,0.24358974358974358
+2018-12-28,Value,Information Technology,0.0,0.21794871794871792
+2018-12-28,Profitability,Information Technology,0.0,0.21794871794871795
+2018-12-28,Momentum,Information Technology,0.0,0.21794871794871792
+2018-12-28,Value,Materials,0.0,0.21794871794871792
+2018-12-28,Profitability,Materials,0.0,0.21794871794871795
+2018-12-28,Momentum,Materials,0.0,0.21794871794871792
+2018-12-28,Value,Real Estate,0.0,0.05128205128205128
+2018-12-28,Profitability,Real Estate,0.0,0.05128205128205128
+2018-12-28,Momentum,Real Estate,0.0,0.05128205128205128
+2018-12-28,Value,Utilities,0.0,0.02564102564102564
+2018-12-28,Profitability,Utilities,0.0,0.02564102564102564
+2018-12-28,Momentum,Utilities,0.0,0.02564102564102564
+2019-01-31,Value,Consumer Discretionary,0.0,0.09090909090909091
+2019-01-31,Profitability,Consumer Discretionary,0.0,0.09090909090909091
+2019-01-31,Momentum,Consumer Discretionary,0.0,0.09090909090909091
+2019-01-31,Value,Consumer Staples,0.0,0.025974025974025976
+2019-01-31,Profitability,Consumer Staples,0.0,0.025974025974025976
+2019-01-31,Momentum,Consumer Staples,0.0,0.025974025974025976
+2019-01-31,Value,Energy,0.0,0.03896103896103896
+2019-01-31,Profitability,Energy,0.0,0.03896103896103896
+2019-01-31,Momentum,Energy,0.0,0.03896103896103896
+2019-01-31,Value,Health Care,0.0,0.09090909090909091
+2019-01-31,Profitability,Health Care,0.0,0.09090909090909091
+2019-01-31,Momentum,Health Care,0.0,0.09090909090909091
+2019-01-31,Value,Industrials,0.0,0.24675324675324678
+2019-01-31,Profitability,Industrials,0.0,0.24675324675324675
+2019-01-31,Momentum,Industrials,0.0,0.24675324675324678
+2019-01-31,Value,Information Technology,0.0,0.2077922077922078
+2019-01-31,Profitability,Information Technology,0.0,0.20779220779220778
+2019-01-31,Momentum,Information Technology,0.0,0.2077922077922078
+2019-01-31,Value,Materials,0.0,0.22077922077922077
+2019-01-31,Profitability,Materials,0.0,0.2207792207792208
+2019-01-31,Momentum,Materials,0.0,0.22077922077922077
+2019-01-31,Value,Real Estate,0.0,0.05194805194805195
+2019-01-31,Profitability,Real Estate,0.0,0.05194805194805195
+2019-01-31,Momentum,Real Estate,0.0,0.05194805194805195
+2019-01-31,Value,Utilities,0.0,0.025974025974025976
+2019-01-31,Profitability,Utilities,0.0,0.025974025974025976
+2019-01-31,Momentum,Utilities,0.0,0.025974025974025976
+2019-02-28,Value,Consumer Discretionary,0.0,0.09090909090909091
+2019-02-28,Profitability,Consumer Discretionary,0.0,0.09090909090909091
+2019-02-28,Momentum,Consumer Discretionary,0.0,0.09090909090909091
+2019-02-28,Value,Consumer Staples,0.0,0.025974025974025976
+2019-02-28,Profitability,Consumer Staples,0.0,0.025974025974025976
+2019-02-28,Momentum,Consumer Staples,0.0,0.025974025974025976
+2019-02-28,Value,Energy,0.0,0.03896103896103896
+2019-02-28,Profitability,Energy,0.0,0.03896103896103896
+2019-02-28,Momentum,Energy,0.0,0.03896103896103896
+2019-02-28,Value,Health Care,0.0,0.07792207792207792
+2019-02-28,Profitability,Health Care,0.0,0.07792207792207792
+2019-02-28,Momentum,Health Care,0.0,0.07792207792207792
+2019-02-28,Value,Industrials,0.0,0.24675324675324675
+2019-02-28,Profitability,Industrials,0.0,0.24675324675324675
+2019-02-28,Momentum,Industrials,0.0,0.24675324675324678
+2019-02-28,Value,Information Technology,0.0,0.2077922077922078
+2019-02-28,Profitability,Information Technology,0.0,0.20779220779220778
+2019-02-28,Momentum,Information Technology,0.0,0.2077922077922078
+2019-02-28,Value,Materials,0.0,0.23376623376623376
+2019-02-28,Profitability,Materials,0.0,0.2337662337662338
+2019-02-28,Momentum,Materials,0.0,0.2337662337662338
+2019-02-28,Value,Real Estate,0.0,0.05194805194805195
+2019-02-28,Profitability,Real Estate,0.0,0.05194805194805195
+2019-02-28,Momentum,Real Estate,0.0,0.05194805194805195
+2019-02-28,Value,Utilities,0.0,0.025974025974025976
+2019-02-28,Profitability,Utilities,0.0,0.025974025974025976
+2019-02-28,Momentum,Utilities,0.0,0.025974025974025976
+2019-03-29,Value,Consumer Discretionary,0.0,0.09210526315789473
+2019-03-29,Profitability,Consumer Discretionary,0.0,0.09210526315789473
+2019-03-29,Momentum,Consumer Discretionary,0.0,0.09210526315789473
+2019-03-29,Value,Consumer Staples,0.0,0.02631578947368421
+2019-03-29,Profitability,Consumer Staples,0.0,0.02631578947368421
+2019-03-29,Momentum,Consumer Staples,0.0,0.02631578947368421
+2019-03-29,Value,Energy,0.0,0.039473684210526314
+2019-03-29,Profitability,Energy,0.0,0.039473684210526314
+2019-03-29,Momentum,Energy,0.0,0.039473684210526314
+2019-03-29,Value,Health Care,0.0,0.09210526315789473
+2019-03-29,Profitability,Health Care,0.0,0.09210526315789473
+2019-03-29,Momentum,Health Care,0.0,0.09210526315789473
+2019-03-29,Value,Industrials,0.0,0.2236842105263158
+2019-03-29,Profitability,Industrials,0.0,0.2236842105263158
+2019-03-29,Momentum,Industrials,0.0,0.22368421052631582
+2019-03-29,Value,Information Technology,0.0,0.21052631578947367
+2019-03-29,Profitability,Information Technology,0.0,0.21052631578947367
+2019-03-29,Momentum,Information Technology,0.0,0.21052631578947367
+2019-03-29,Value,Materials,0.0,0.23684210526315788
+2019-03-29,Profitability,Materials,0.0,0.23684210526315788
+2019-03-29,Momentum,Materials,0.0,0.23684210526315785
+2019-03-29,Value,Real Estate,0.0,0.05263157894736842
+2019-03-29,Profitability,Real Estate,0.0,0.05263157894736842
+2019-03-29,Momentum,Real Estate,0.0,0.05263157894736842
+2019-03-29,Value,Utilities,0.0,0.02631578947368421
+2019-03-29,Profitability,Utilities,0.0,0.02631578947368421
+2019-03-29,Momentum,Utilities,0.0,0.02631578947368421
+2019-04-30,Value,Consumer Discretionary,0.0,0.08860759493670886
+2019-04-30,Profitability,Consumer Discretionary,0.0,0.08860759493670886
+2019-04-30,Momentum,Consumer Discretionary,0.0,0.08860759493670886
+2019-04-30,Value,Consumer Staples,0.0,0.02531645569620253
+2019-04-30,Profitability,Consumer Staples,0.0,0.02531645569620253
+2019-04-30,Momentum,Consumer Staples,0.0,0.02531645569620253
+2019-04-30,Value,Energy,0.0,0.0379746835443038
+2019-04-30,Profitability,Energy,0.0,0.0379746835443038
+2019-04-30,Momentum,Energy,0.0,0.0379746835443038
+2019-04-30,Value,Health Care,0.0,0.08860759493670886
+2019-04-30,Profitability,Health Care,0.0,0.08860759493670886
+2019-04-30,Momentum,Health Care,0.0,0.08860759493670886
+2019-04-30,Value,Industrials,0.0,0.24050632911392403
+2019-04-30,Profitability,Industrials,0.0,0.24050632911392406
+2019-04-30,Momentum,Industrials,0.0,0.24050632911392403
+2019-04-30,Value,Information Technology,0.0,0.2151898734177215
+2019-04-30,Profitability,Information Technology,0.0,0.21518987341772153
+2019-04-30,Momentum,Information Technology,3.469446951953614e-18,0.2151898734177215
+2019-04-30,Value,Materials,0.0,0.2278481012658228
+2019-04-30,Profitability,Materials,0.0,0.22784810126582278
+2019-04-30,Momentum,Materials,0.0,0.2278481012658228
+2019-04-30,Value,Real Estate,0.0,0.05063291139240506
+2019-04-30,Profitability,Real Estate,0.0,0.05063291139240506
+2019-04-30,Momentum,Real Estate,0.0,0.05063291139240506
+2019-04-30,Value,Utilities,0.0,0.02531645569620253
+2019-04-30,Profitability,Utilities,0.0,0.02531645569620253
+2019-04-30,Momentum,Utilities,0.0,0.02531645569620253
+2019-05-31,Value,Consumer Discretionary,0.0,0.0875
+2019-05-31,Profitability,Consumer Discretionary,0.0,0.0875
+2019-05-31,Momentum,Consumer Discretionary,0.0,0.0875
+2019-05-31,Value,Consumer Staples,0.0,0.025
+2019-05-31,Profitability,Consumer Staples,0.0,0.025
+2019-05-31,Momentum,Consumer Staples,0.0,0.025
+2019-05-31,Value,Energy,0.0,0.0375
+2019-05-31,Profitability,Energy,0.0,0.0375
+2019-05-31,Momentum,Energy,0.0,0.0375
+2019-05-31,Value,Health Care,0.0,0.1
+2019-05-31,Profitability,Health Care,0.0,0.1
+2019-05-31,Momentum,Health Care,0.0,0.1
+2019-05-31,Value,Industrials,0.0,0.2375
+2019-05-31,Profitability,Industrials,0.0,0.23750000000000002
+2019-05-31,Momentum,Industrials,0.0,0.23750000000000002
+2019-05-31,Value,Information Technology,0.0,0.2125
+2019-05-31,Profitability,Information Technology,0.0,0.21249999999999997
+2019-05-31,Momentum,Information Technology,6.938893903907228e-18,0.21249999999999997
+2019-05-31,Value,Materials,0.0,0.225
+2019-05-31,Profitability,Materials,0.0,0.225
+2019-05-31,Momentum,Materials,6.938893903907228e-18,0.22499999999999998
+2019-05-31,Value,Real Estate,0.0,0.05
+2019-05-31,Profitability,Real Estate,0.0,0.05
+2019-05-31,Momentum,Real Estate,0.0,0.05
+2019-05-31,Value,Utilities,0.0,0.025
+2019-05-31,Profitability,Utilities,0.0,0.025
+2019-05-31,Momentum,Utilities,0.0,0.025
+2019-06-28,Value,Consumer Discretionary,0.0,0.08641975308641975
+2019-06-28,Profitability,Consumer Discretionary,0.0,0.08641975308641975
+2019-06-28,Momentum,Consumer Discretionary,0.0,0.08641975308641975
+2019-06-28,Value,Consumer Staples,0.0,0.024691358024691357
+2019-06-28,Profitability,Consumer Staples,0.0,0.024691358024691357
+2019-06-28,Momentum,Consumer Staples,0.0,0.024691358024691357
+2019-06-28,Value,Energy,0.0,0.037037037037037035
+2019-06-28,Profitability,Energy,0.0,0.037037037037037035
+2019-06-28,Momentum,Energy,0.0,0.037037037037037035
+2019-06-28,Value,Health Care,0.0,0.09876543209876543
+2019-06-28,Profitability,Health Care,0.0,0.09876543209876543
+2019-06-28,Momentum,Health Care,0.0,0.09876543209876543
+2019-06-28,Value,Industrials,0.0,0.24691358024691357
+2019-06-28,Profitability,Industrials,0.0,0.2469135802469136
+2019-06-28,Momentum,Industrials,0.0,0.24691358024691357
+2019-06-28,Value,Information Technology,0.0,0.20987654320987656
+2019-06-28,Profitability,Information Technology,0.0,0.20987654320987653
+2019-06-28,Momentum,Information Technology,0.0,0.20987654320987653
+2019-06-28,Value,Materials,0.0,0.22222222222222218
+2019-06-28,Profitability,Materials,0.0,0.22222222222222218
+2019-06-28,Momentum,Materials,-6.938893903907228e-18,0.2222222222222222
+2019-06-28,Value,Real Estate,0.0,0.04938271604938271
+2019-06-28,Profitability,Real Estate,0.0,0.04938271604938271
+2019-06-28,Momentum,Real Estate,0.0,0.04938271604938271
+2019-06-28,Value,Utilities,0.0,0.024691358024691357
+2019-06-28,Profitability,Utilities,0.0,0.024691358024691357
+2019-06-28,Momentum,Utilities,0.0,0.024691358024691357
+2019-07-31,Value,Consumer Discretionary,0.0,0.0875
+2019-07-31,Profitability,Consumer Discretionary,0.0,0.0875
+2019-07-31,Momentum,Consumer Discretionary,0.0,0.0875
+2019-07-31,Value,Energy,0.0,0.0375
+2019-07-31,Profitability,Energy,0.0,0.0375
+2019-07-31,Momentum,Energy,0.0,0.0375
+2019-07-31,Value,Health Care,0.0,0.1
+2019-07-31,Profitability,Health Care,0.0,0.1
+2019-07-31,Momentum,Health Care,0.0,0.1
+2019-07-31,Value,Industrials,0.0,0.2625
+2019-07-31,Profitability,Industrials,-6.938893903907228e-18,0.2625
+2019-07-31,Momentum,Industrials,0.0,0.2625
+2019-07-31,Value,Information Technology,0.0,0.2125
+2019-07-31,Profitability,Information Technology,6.938893903907228e-18,0.21249999999999997
+2019-07-31,Momentum,Information Technology,0.0,0.21249999999999997
+2019-07-31,Value,Materials,0.0,0.225
+2019-07-31,Profitability,Materials,0.0,0.225
+2019-07-31,Momentum,Materials,0.0,0.22499999999999998
+2019-07-31,Value,Real Estate,0.0,0.05
+2019-07-31,Profitability,Real Estate,0.0,0.05
+2019-07-31,Momentum,Real Estate,0.0,0.05
+2019-07-31,Value,Utilities,0.0,0.025
+2019-07-31,Profitability,Utilities,0.0,0.025
+2019-07-31,Momentum,Utilities,0.0,0.025
+2019-08-30,Value,Consumer Discretionary,0.0,0.0875
+2019-08-30,Profitability,Consumer Discretionary,0.0,0.0875
+2019-08-30,Momentum,Consumer Discretionary,0.0,0.0875
+2019-08-30,Value,Energy,0.0,0.0375
+2019-08-30,Profitability,Energy,0.0,0.0375
+2019-08-30,Momentum,Energy,0.0,0.0375
+2019-08-30,Value,Health Care,0.0,0.1
+2019-08-30,Profitability,Health Care,0.0,0.1
+2019-08-30,Momentum,Health Care,0.0,0.1
+2019-08-30,Value,Industrials,0.0,0.2625
+2019-08-30,Profitability,Industrials,-6.938893903907228e-18,0.2625
+2019-08-30,Momentum,Industrials,0.0,0.2625
+2019-08-30,Value,Information Technology,0.0,0.2125
+2019-08-30,Profitability,Information Technology,6.938893903907228e-18,0.21249999999999997
+2019-08-30,Momentum,Information Technology,0.0,0.2125
+2019-08-30,Value,Materials,0.0,0.225
+2019-08-30,Profitability,Materials,0.0,0.225
+2019-08-30,Momentum,Materials,0.0,0.22499999999999998
+2019-08-30,Value,Real Estate,0.0,0.05
+2019-08-30,Profitability,Real Estate,0.0,0.05
+2019-08-30,Momentum,Real Estate,0.0,0.05
+2019-08-30,Value,Utilities,0.0,0.025
+2019-08-30,Profitability,Utilities,0.0,0.025
+2019-08-30,Momentum,Utilities,0.0,0.025
+2019-09-30,Value,Consumer Discretionary,0.0,0.0875
+2019-09-30,Profitability,Consumer Discretionary,0.0,0.0875
+2019-09-30,Momentum,Consumer Discretionary,0.0,0.0875
+2019-09-30,Value,Energy,0.0,0.0375
+2019-09-30,Profitability,Energy,0.0,0.0375
+2019-09-30,Momentum,Energy,0.0,0.0375
+2019-09-30,Value,Health Care,0.0,0.1
+2019-09-30,Profitability,Health Care,0.0,0.1
+2019-09-30,Momentum,Health Care,0.0,0.1
+2019-09-30,Value,Industrials,6.938893903907228e-18,0.2625
+2019-09-30,Profitability,Industrials,-6.938893903907228e-18,0.2625
+2019-09-30,Momentum,Industrials,0.0,0.2625
+2019-09-30,Value,Information Technology,0.0,0.2125
+2019-09-30,Profitability,Information Technology,6.938893903907228e-18,0.21249999999999997
+2019-09-30,Momentum,Information Technology,0.0,0.2125
+2019-09-30,Value,Materials,0.0,0.225
+2019-09-30,Profitability,Materials,0.0,0.225
+2019-09-30,Momentum,Materials,0.0,0.225
+2019-09-30,Value,Real Estate,0.0,0.05
+2019-09-30,Profitability,Real Estate,0.0,0.05
+2019-09-30,Momentum,Real Estate,0.0,0.05
+2019-09-30,Value,Utilities,0.0,0.025
+2019-09-30,Profitability,Utilities,0.0,0.025
+2019-09-30,Momentum,Utilities,0.0,0.025
+2019-10-31,Value,Consumer Discretionary,0.0,0.08641975308641975
+2019-10-31,Profitability,Consumer Discretionary,0.0,0.08641975308641975
+2019-10-31,Momentum,Consumer Discretionary,0.0,0.08641975308641975
+2019-10-31,Value,Energy,0.0,0.037037037037037035
+2019-10-31,Profitability,Energy,0.0,0.037037037037037035
+2019-10-31,Momentum,Energy,0.0,0.037037037037037035
+2019-10-31,Value,Health Care,0.0,0.1111111111111111
+2019-10-31,Profitability,Health Care,0.0,0.1111111111111111
+2019-10-31,Momentum,Health Care,0.0,0.1111111111111111
+2019-10-31,Value,Industrials,0.0,0.25925925925925924
+2019-10-31,Profitability,Industrials,0.0,0.25925925925925924
+2019-10-31,Momentum,Industrials,0.0,0.25925925925925924
+2019-10-31,Value,Information Technology,6.938893903907228e-18,0.20987654320987653
+2019-10-31,Profitability,Information Technology,6.938893903907228e-18,0.20987654320987653
+2019-10-31,Momentum,Information Technology,0.0,0.20987654320987656
+2019-10-31,Value,Materials,0.0,0.22222222222222218
+2019-10-31,Profitability,Materials,0.0,0.22222222222222218
+2019-10-31,Momentum,Materials,-6.938893903907228e-18,0.22222222222222218
+2019-10-31,Value,Real Estate,0.0,0.04938271604938271
+2019-10-31,Profitability,Real Estate,0.0,0.04938271604938271
+2019-10-31,Momentum,Real Estate,0.0,0.04938271604938271
+2019-10-31,Value,Utilities,0.0,0.024691358024691357
+2019-10-31,Profitability,Utilities,0.0,0.024691358024691357
+2019-10-31,Momentum,Utilities,0.0,0.024691358024691357
+2019-11-29,Value,Consumer Discretionary,0.0,0.08641975308641975
+2019-11-29,Profitability,Consumer Discretionary,0.0,0.08641975308641975
+2019-11-29,Momentum,Consumer Discretionary,0.0,0.08641975308641975
+2019-11-29,Value,Energy,0.0,0.037037037037037035
+2019-11-29,Profitability,Energy,0.0,0.037037037037037035
+2019-11-29,Momentum,Energy,0.0,0.037037037037037035
+2019-11-29,Value,Health Care,0.0,0.1111111111111111
+2019-11-29,Profitability,Health Care,0.0,0.1111111111111111
+2019-11-29,Momentum,Health Care,0.0,0.1111111111111111
+2019-11-29,Value,Industrials,0.0,0.25925925925925924
+2019-11-29,Profitability,Industrials,0.0,0.25925925925925924
+2019-11-29,Momentum,Industrials,0.0,0.25925925925925924
+2019-11-29,Value,Information Technology,0.0,0.20987654320987656
+2019-11-29,Profitability,Information Technology,6.938893903907228e-18,0.20987654320987653
+2019-11-29,Momentum,Information Technology,0.0,0.20987654320987653
+2019-11-29,Value,Materials,0.0,0.22222222222222218
+2019-11-29,Profitability,Materials,0.0,0.22222222222222218
+2019-11-29,Momentum,Materials,0.0,0.2222222222222222
+2019-11-29,Value,Real Estate,0.0,0.04938271604938271
+2019-11-29,Profitability,Real Estate,0.0,0.04938271604938271
+2019-11-29,Momentum,Real Estate,0.0,0.04938271604938271
+2019-11-29,Value,Utilities,0.0,0.024691358024691357
+2019-11-29,Profitability,Utilities,0.0,0.024691358024691357
+2019-11-29,Momentum,Utilities,0.0,0.024691358024691357
+2019-12-31,Value,Consumer Discretionary,0.0,0.0875
+2019-12-31,Profitability,Consumer Discretionary,0.0,0.0875
+2019-12-31,Momentum,Consumer Discretionary,0.0,0.0875
+2019-12-31,Value,Energy,0.0,0.0375
+2019-12-31,Profitability,Energy,0.0,0.0375
+2019-12-31,Momentum,Energy,0.0,0.0375
+2019-12-31,Value,Health Care,0.0,0.1125
+2019-12-31,Profitability,Health Care,0.0,0.1125
+2019-12-31,Momentum,Health Care,0.0,0.1125
+2019-12-31,Value,Industrials,6.938893903907228e-18,0.2625
+2019-12-31,Profitability,Industrials,-6.938893903907228e-18,0.2625
+2019-12-31,Momentum,Industrials,-6.938893903907228e-18,0.2625
+2019-12-31,Value,Information Technology,0.0,0.21249999999999997
+2019-12-31,Profitability,Information Technology,6.938893903907228e-18,0.21249999999999997
+2019-12-31,Momentum,Information Technology,-6.938893903907228e-18,0.2125
+2019-12-31,Value,Materials,0.0,0.2125
+2019-12-31,Profitability,Materials,0.0,0.2125
+2019-12-31,Momentum,Materials,0.0,0.21249999999999997
+2019-12-31,Value,Real Estate,0.0,0.05
+2019-12-31,Profitability,Real Estate,0.0,0.05
+2019-12-31,Momentum,Real Estate,0.0,0.05
+2019-12-31,Value,Utilities,0.0,0.025
+2019-12-31,Profitability,Utilities,0.0,0.025
+2019-12-31,Momentum,Utilities,0.0,0.025
+2020-01-23,Value,Consumer Discretionary,0.0,0.08641975308641975
+2020-01-23,Profitability,Consumer Discretionary,0.0,0.08641975308641975
+2020-01-23,Momentum,Consumer Discretionary,0.0,0.08641975308641975
+2020-01-23,Value,Energy,0.0,0.037037037037037035
+2020-01-23,Profitability,Energy,0.0,0.037037037037037035
+2020-01-23,Momentum,Energy,0.0,0.037037037037037035
+2020-01-23,Value,Health Care,0.0,0.1111111111111111
+2020-01-23,Profitability,Health Care,0.0,0.1111111111111111
+2020-01-23,Momentum,Health Care,0.0,0.1111111111111111
+2020-01-23,Value,Industrials,0.0,0.25925925925925924
+2020-01-23,Profitability,Industrials,0.0,0.25925925925925924
+2020-01-23,Momentum,Industrials,0.0,0.2592592592592592
+2020-01-23,Value,Information Technology,0.0,0.20987654320987653
+2020-01-23,Profitability,Information Technology,6.938893903907228e-18,0.20987654320987653
+2020-01-23,Momentum,Information Technology,0.0,0.20987654320987656
+2020-01-23,Value,Materials,0.0,0.22222222222222218
+2020-01-23,Profitability,Materials,0.0,0.22222222222222218
+2020-01-23,Momentum,Materials,0.0,0.22222222222222218
+2020-01-23,Value,Real Estate,0.0,0.04938271604938271
+2020-01-23,Profitability,Real Estate,0.0,0.04938271604938271
+2020-01-23,Momentum,Real Estate,0.0,0.04938271604938271
+2020-01-23,Value,Utilities,0.0,0.024691358024691357
+2020-01-23,Profitability,Utilities,0.0,0.024691358024691357
+2020-01-23,Momentum,Utilities,0.0,0.024691358024691357
+2020-02-28,Value,Consumer Discretionary,0.0,0.08641975308641975
+2020-02-28,Profitability,Consumer Discretionary,0.0,0.08641975308641975
+2020-02-28,Momentum,Consumer Discretionary,0.0,0.08641975308641975
+2020-02-28,Value,Energy,0.0,0.037037037037037035
+2020-02-28,Profitability,Energy,0.0,0.037037037037037035
+2020-02-28,Momentum,Energy,0.0,0.037037037037037035
+2020-02-28,Value,Health Care,0.0,0.1111111111111111
+2020-02-28,Profitability,Health Care,0.0,0.1111111111111111
+2020-02-28,Momentum,Health Care,0.0,0.1111111111111111
+2020-02-28,Value,Industrials,0.0,0.25925925925925924
+2020-02-28,Profitability,Industrials,0.0,0.25925925925925924
+2020-02-28,Momentum,Industrials,0.0,0.25925925925925924
+2020-02-28,Value,Information Technology,0.0,0.20987654320987653
+2020-02-28,Profitability,Information Technology,6.938893903907228e-18,0.20987654320987653
+2020-02-28,Momentum,Information Technology,0.0,0.20987654320987656
+2020-02-28,Value,Materials,0.0,0.22222222222222218
+2020-02-28,Profitability,Materials,0.0,0.22222222222222218
+2020-02-28,Momentum,Materials,0.0,0.2222222222222222
+2020-02-28,Value,Real Estate,0.0,0.04938271604938271
+2020-02-28,Profitability,Real Estate,0.0,0.04938271604938271
+2020-02-28,Momentum,Real Estate,0.0,0.04938271604938271
+2020-02-28,Value,Utilities,0.0,0.024691358024691357
+2020-02-28,Profitability,Utilities,0.0,0.024691358024691357
+2020-02-28,Momentum,Utilities,0.0,0.024691358024691357
+2020-03-31,Value,Consumer Discretionary,0.0,0.08641975308641975
+2020-03-31,Profitability,Consumer Discretionary,0.0,0.08641975308641975
+2020-03-31,Momentum,Consumer Discretionary,0.0,0.08641975308641975
+2020-03-31,Value,Energy,0.0,0.037037037037037035
+2020-03-31,Profitability,Energy,0.0,0.037037037037037035
+2020-03-31,Momentum,Energy,0.0,0.037037037037037035
+2020-03-31,Value,Health Care,0.0,0.1111111111111111
+2020-03-31,Profitability,Health Care,0.0,0.1111111111111111
+2020-03-31,Momentum,Health Care,0.0,0.1111111111111111
+2020-03-31,Value,Industrials,0.0,0.25925925925925924
+2020-03-31,Profitability,Industrials,0.0,0.25925925925925924
+2020-03-31,Momentum,Industrials,0.0,0.2592592592592592
+2020-03-31,Value,Information Technology,0.0,0.20987654320987653
+2020-03-31,Profitability,Information Technology,6.938893903907228e-18,0.20987654320987653
+2020-03-31,Momentum,Information Technology,0.0,0.20987654320987653
+2020-03-31,Value,Materials,0.0,0.22222222222222218
+2020-03-31,Profitability,Materials,0.0,0.22222222222222218
+2020-03-31,Momentum,Materials,6.938893903907228e-18,0.22222222222222218
+2020-03-31,Value,Real Estate,0.0,0.04938271604938271
+2020-03-31,Profitability,Real Estate,0.0,0.04938271604938271
+2020-03-31,Momentum,Real Estate,0.0,0.04938271604938271
+2020-03-31,Value,Utilities,0.0,0.024691358024691357
+2020-03-31,Profitability,Utilities,0.0,0.024691358024691357
+2020-03-31,Momentum,Utilities,0.0,0.024691358024691357
+2020-04-30,Value,Consumer Discretionary,0.0,0.0875
+2020-04-30,Profitability,Consumer Discretionary,0.0,0.0875
+2020-04-30,Momentum,Consumer Discretionary,0.0,0.0875
+2020-04-30,Value,Energy,0.0,0.0375
+2020-04-30,Profitability,Energy,0.0,0.0375
+2020-04-30,Momentum,Energy,0.0,0.0375
+2020-04-30,Value,Health Care,0.0,0.1125
+2020-04-30,Profitability,Health Care,0.0,0.1125
+2020-04-30,Momentum,Health Care,0.0,0.1125
+2020-04-30,Value,Industrials,6.938893903907228e-18,0.2625
+2020-04-30,Profitability,Industrials,-6.938893903907228e-18,0.2625
+2020-04-30,Momentum,Industrials,-6.938893903907228e-18,0.2625
+2020-04-30,Value,Information Technology,0.0,0.21249999999999997
+2020-04-30,Profitability,Information Technology,6.938893903907228e-18,0.21249999999999997
+2020-04-30,Momentum,Information Technology,0.0,0.2125
+2020-04-30,Value,Materials,-6.938893903907228e-18,0.2125
+2020-04-30,Profitability,Materials,0.0,0.2125
+2020-04-30,Momentum,Materials,0.0,0.21249999999999997
+2020-04-30,Value,Real Estate,0.0,0.05
+2020-04-30,Profitability,Real Estate,0.0,0.05
+2020-04-30,Momentum,Real Estate,0.0,0.05
+2020-04-30,Value,Utilities,0.0,0.025
+2020-04-30,Profitability,Utilities,0.0,0.025
+2020-04-30,Momentum,Utilities,0.0,0.025
+2020-05-29,Value,Consumer Discretionary,0.0,0.08641975308641975
+2020-05-29,Profitability,Consumer Discretionary,0.0,0.08641975308641975
+2020-05-29,Momentum,Consumer Discretionary,0.0,0.08641975308641975
+2020-05-29,Value,Energy,0.0,0.037037037037037035
+2020-05-29,Profitability,Energy,0.0,0.037037037037037035
+2020-05-29,Momentum,Energy,0.0,0.037037037037037035
+2020-05-29,Value,Health Care,0.0,0.1111111111111111
+2020-05-29,Profitability,Health Care,0.0,0.1111111111111111
+2020-05-29,Momentum,Health Care,0.0,0.1111111111111111
+2020-05-29,Value,Industrials,0.0,0.25925925925925924
+2020-05-29,Profitability,Industrials,0.0,0.25925925925925924
+2020-05-29,Momentum,Industrials,0.0,0.2592592592592592
+2020-05-29,Value,Information Technology,0.0,0.20987654320987653
+2020-05-29,Profitability,Information Technology,6.938893903907228e-18,0.20987654320987653
+2020-05-29,Momentum,Information Technology,0.0,0.20987654320987653
+2020-05-29,Value,Materials,6.938893903907228e-18,0.22222222222222218
+2020-05-29,Profitability,Materials,0.0,0.22222222222222218
+2020-05-29,Momentum,Materials,-6.938893903907228e-18,0.22222222222222218
+2020-05-29,Value,Real Estate,0.0,0.04938271604938271
+2020-05-29,Profitability,Real Estate,0.0,0.04938271604938271
+2020-05-29,Momentum,Real Estate,0.0,0.04938271604938271
+2020-05-29,Value,Utilities,0.0,0.024691358024691357
+2020-05-29,Profitability,Utilities,0.0,0.024691358024691357
+2020-05-29,Momentum,Utilities,0.0,0.024691358024691357
+2020-06-30,Value,Consumer Discretionary,0.0,0.1
+2020-06-30,Profitability,Consumer Discretionary,0.0,0.1
+2020-06-30,Momentum,Consumer Discretionary,0.0,0.1
+2020-06-30,Value,Energy,0.0,0.0375
+2020-06-30,Profitability,Energy,0.0,0.0375
+2020-06-30,Momentum,Energy,0.0,0.0375
+2020-06-30,Value,Health Care,0.0,0.1
+2020-06-30,Profitability,Health Care,0.0,0.1
+2020-06-30,Momentum,Health Care,0.0,0.1
+2020-06-30,Value,Industrials,6.938893903907228e-18,0.2625
+2020-06-30,Profitability,Industrials,-6.938893903907228e-18,0.2625
+2020-06-30,Momentum,Industrials,-6.938893903907228e-18,0.2625
+2020-06-30,Value,Information Technology,0.0,0.2
+2020-06-30,Profitability,Information Technology,0.0,0.2
+2020-06-30,Momentum,Information Technology,0.0,0.2
+2020-06-30,Value,Materials,0.0,0.225
+2020-06-30,Profitability,Materials,0.0,0.22499999999999998
+2020-06-30,Momentum,Materials,6.938893903907228e-18,0.225
+2020-06-30,Value,Real Estate,0.0,0.05
+2020-06-30,Profitability,Real Estate,0.0,0.05
+2020-06-30,Momentum,Real Estate,0.0,0.05
+2020-06-30,Value,Utilities,0.0,0.025
+2020-06-30,Profitability,Utilities,0.0,0.025
+2020-06-30,Momentum,Utilities,0.0,0.025
+2020-07-31,Value,Consumer Discretionary,0.0,0.0875
+2020-07-31,Profitability,Consumer Discretionary,0.0,0.0875
+2020-07-31,Momentum,Consumer Discretionary,0.0,0.0875
+2020-07-31,Value,Energy,0.0,0.0375
+2020-07-31,Profitability,Energy,0.0,0.0375
+2020-07-31,Momentum,Energy,0.0,0.0375
+2020-07-31,Value,Health Care,0.0,0.1
+2020-07-31,Profitability,Health Care,0.0,0.1
+2020-07-31,Momentum,Health Care,0.0,0.1
+2020-07-31,Value,Industrials,6.938893903907228e-18,0.2625
+2020-07-31,Profitability,Industrials,-6.938893903907228e-18,0.2625
+2020-07-31,Momentum,Industrials,-6.938893903907228e-18,0.2625
+2020-07-31,Value,Information Technology,6.938893903907228e-18,0.21249999999999997
+2020-07-31,Profitability,Information Technology,-6.938893903907228e-18,0.2125
+2020-07-31,Momentum,Information Technology,0.0,0.21249999999999997
+2020-07-31,Value,Materials,0.0,0.225
+2020-07-31,Profitability,Materials,0.0,0.22499999999999998
+2020-07-31,Momentum,Materials,6.938893903907228e-18,0.225
+2020-07-31,Value,Real Estate,0.0,0.05
+2020-07-31,Profitability,Real Estate,0.0,0.05
+2020-07-31,Momentum,Real Estate,0.0,0.05
+2020-07-31,Value,Utilities,0.0,0.025
+2020-07-31,Profitability,Utilities,0.0,0.025
+2020-07-31,Momentum,Utilities,0.0,0.025
+2020-08-31,Value,Consumer Discretionary,0.0,0.09876543209876543
+2020-08-31,Profitability,Consumer Discretionary,0.0,0.09876543209876543
+2020-08-31,Momentum,Consumer Discretionary,0.0,0.09876543209876543
+2020-08-31,Value,Energy,0.0,0.037037037037037035
+2020-08-31,Profitability,Energy,0.0,0.037037037037037035
+2020-08-31,Momentum,Energy,0.0,0.037037037037037035
+2020-08-31,Value,Health Care,0.0,0.09876543209876543
+2020-08-31,Profitability,Health Care,0.0,0.09876543209876543
+2020-08-31,Momentum,Health Care,0.0,0.09876543209876543
+2020-08-31,Value,Industrials,0.0,0.2592592592592592
+2020-08-31,Profitability,Industrials,0.0,0.2592592592592592
+2020-08-31,Momentum,Industrials,0.0,0.2592592592592592
+2020-08-31,Value,Information Technology,0.0,0.20987654320987653
+2020-08-31,Profitability,Information Technology,-6.938893903907228e-18,0.20987654320987656
+2020-08-31,Momentum,Information Technology,-6.938893903907228e-18,0.20987654320987656
+2020-08-31,Value,Materials,6.938893903907228e-18,0.22222222222222218
+2020-08-31,Profitability,Materials,0.0,0.2222222222222222
+2020-08-31,Momentum,Materials,6.938893903907228e-18,0.22222222222222218
+2020-08-31,Value,Real Estate,0.0,0.04938271604938271
+2020-08-31,Profitability,Real Estate,0.0,0.04938271604938271
+2020-08-31,Momentum,Real Estate,0.0,0.04938271604938271
+2020-08-31,Value,Utilities,0.0,0.024691358024691357
+2020-08-31,Profitability,Utilities,0.0,0.024691358024691357
+2020-08-31,Momentum,Utilities,0.0,0.024691358024691357
+2020-09-30,Value,Consumer Discretionary,0.0,0.10126582278481013
+2020-09-30,Profitability,Consumer Discretionary,0.0,0.10126582278481013
+2020-09-30,Momentum,Consumer Discretionary,0.0,0.10126582278481013
+2020-09-30,Value,Energy,0.0,0.0379746835443038
+2020-09-30,Profitability,Energy,0.0,0.0379746835443038
+2020-09-30,Momentum,Energy,0.0,0.0379746835443038
+2020-09-30,Value,Health Care,0.0,0.10126582278481013
+2020-09-30,Profitability,Health Care,0.0,0.10126582278481013
+2020-09-30,Momentum,Health Care,0.0,0.10126582278481013
+2020-09-30,Value,Industrials,-6.938893903907228e-18,0.26582278481012656
+2020-09-30,Profitability,Industrials,6.938893903907228e-18,0.26582278481012656
+2020-09-30,Momentum,Industrials,6.938893903907228e-18,0.26582278481012656
+2020-09-30,Value,Information Technology,0.0,0.2151898734177215
+2020-09-30,Profitability,Information Technology,3.469446951953614e-18,0.2151898734177215
+2020-09-30,Momentum,Information Technology,3.469446951953614e-18,0.2151898734177215
+2020-09-30,Value,Materials,0.0,0.20253164556962028
+2020-09-30,Profitability,Materials,0.0,0.20253164556962025
+2020-09-30,Momentum,Materials,0.0,0.20253164556962028
+2020-09-30,Value,Real Estate,0.0,0.05063291139240506
+2020-09-30,Profitability,Real Estate,0.0,0.05063291139240506
+2020-09-30,Momentum,Real Estate,0.0,0.05063291139240506
+2020-09-30,Value,Utilities,0.0,0.02531645569620253
+2020-09-30,Profitability,Utilities,0.0,0.02531645569620253
+2020-09-30,Momentum,Utilities,0.0,0.02531645569620253
+2020-10-30,Value,Consumer Discretionary,0.0,0.09876543209876543
+2020-10-30,Profitability,Consumer Discretionary,0.0,0.09876543209876543
+2020-10-30,Momentum,Consumer Discretionary,0.0,0.09876543209876543
+2020-10-30,Value,Energy,0.0,0.037037037037037035
+2020-10-30,Profitability,Energy,0.0,0.037037037037037035
+2020-10-30,Momentum,Energy,0.0,0.037037037037037035
+2020-10-30,Value,Health Care,0.0,0.09876543209876543
+2020-10-30,Profitability,Health Care,0.0,0.09876543209876543
+2020-10-30,Momentum,Health Care,0.0,0.09876543209876543
+2020-10-30,Value,Industrials,0.0,0.2592592592592592
+2020-10-30,Profitability,Industrials,0.0,0.2592592592592592
+2020-10-30,Momentum,Industrials,0.0,0.25925925925925924
+2020-10-30,Value,Information Technology,0.0,0.20987654320987653
+2020-10-30,Profitability,Information Technology,-6.938893903907228e-18,0.20987654320987656
+2020-10-30,Momentum,Information Technology,0.0,0.20987654320987653
+2020-10-30,Value,Materials,0.0,0.22222222222222218
+2020-10-30,Profitability,Materials,0.0,0.2222222222222222
+2020-10-30,Momentum,Materials,0.0,0.22222222222222218
+2020-10-30,Value,Real Estate,0.0,0.04938271604938271
+2020-10-30,Profitability,Real Estate,0.0,0.04938271604938271
+2020-10-30,Momentum,Real Estate,0.0,0.04938271604938271
+2020-10-30,Value,Utilities,0.0,0.024691358024691357
+2020-10-30,Profitability,Utilities,0.0,0.024691358024691357
+2020-10-30,Momentum,Utilities,0.0,0.024691358024691357
+2020-11-30,Value,Consumer Discretionary,0.0,0.0975609756097561
+2020-11-30,Profitability,Consumer Discretionary,0.0,0.0975609756097561
+2020-11-30,Momentum,Consumer Discretionary,0.0,0.0975609756097561
+2020-11-30,Value,Energy,0.0,0.036585365853658534
+2020-11-30,Profitability,Energy,0.0,0.036585365853658534
+2020-11-30,Momentum,Energy,0.0,0.036585365853658534
+2020-11-30,Value,Health Care,0.0,0.0975609756097561
+2020-11-30,Profitability,Health Care,0.0,0.0975609756097561
+2020-11-30,Momentum,Health Care,0.0,0.0975609756097561
+2020-11-30,Value,Industrials,0.0,0.25609756097560976
+2020-11-30,Profitability,Industrials,-6.938893903907228e-18,0.25609756097560976
+2020-11-30,Momentum,Industrials,0.0,0.25609756097560976
+2020-11-30,Value,Information Technology,6.938893903907228e-18,0.2195121951219512
+2020-11-30,Profitability,Information Technology,-6.938893903907228e-18,0.21951219512195122
+2020-11-30,Momentum,Information Technology,0.0,0.21951219512195122
+2020-11-30,Value,Materials,0.0,0.21951219512195122
+2020-11-30,Profitability,Materials,0.0,0.2195121951219512
+2020-11-30,Momentum,Materials,0.0,0.2195121951219512
+2020-11-30,Value,Real Estate,0.0,0.04878048780487805
+2020-11-30,Profitability,Real Estate,0.0,0.04878048780487805
+2020-11-30,Momentum,Real Estate,0.0,0.04878048780487805
+2020-11-30,Value,Utilities,0.0,0.024390243902439025
+2020-11-30,Profitability,Utilities,0.0,0.024390243902439025
+2020-11-30,Momentum,Utilities,0.0,0.024390243902439025
+2020-12-31,Value,Consumer Discretionary,0.0,0.0975609756097561
+2020-12-31,Profitability,Consumer Discretionary,0.0,0.0975609756097561
+2020-12-31,Momentum,Consumer Discretionary,0.0,0.0975609756097561
+2020-12-31,Value,Energy,0.0,0.036585365853658534
+2020-12-31,Profitability,Energy,0.0,0.036585365853658534
+2020-12-31,Momentum,Energy,0.0,0.036585365853658534
+2020-12-31,Value,Health Care,0.0,0.0975609756097561
+2020-12-31,Profitability,Health Care,0.0,0.0975609756097561
+2020-12-31,Momentum,Health Care,0.0,0.0975609756097561
+2020-12-31,Value,Industrials,0.0,0.25609756097560976
+2020-12-31,Profitability,Industrials,-6.938893903907228e-18,0.25609756097560976
+2020-12-31,Momentum,Industrials,-6.938893903907228e-18,0.25609756097560976
+2020-12-31,Value,Information Technology,6.938893903907228e-18,0.2195121951219512
+2020-12-31,Profitability,Information Technology,-6.938893903907228e-18,0.21951219512195122
+2020-12-31,Momentum,Information Technology,0.0,0.21951219512195122
+2020-12-31,Value,Materials,6.938893903907228e-18,0.2195121951219512
+2020-12-31,Profitability,Materials,0.0,0.2195121951219512
+2020-12-31,Momentum,Materials,6.938893903907228e-18,0.21951219512195122
+2020-12-31,Value,Real Estate,0.0,0.04878048780487805
+2020-12-31,Profitability,Real Estate,0.0,0.04878048780487805
+2020-12-31,Momentum,Real Estate,0.0,0.04878048780487805
+2020-12-31,Value,Utilities,0.0,0.024390243902439025
+2020-12-31,Profitability,Utilities,0.0,0.024390243902439025
+2020-12-31,Momentum,Utilities,0.0,0.024390243902439025
+2021-01-29,Value,Consumer Discretionary,0.0,0.0963855421686747
+2021-01-29,Profitability,Consumer Discretionary,0.0,0.0963855421686747
+2021-01-29,Momentum,Consumer Discretionary,0.0,0.0963855421686747
+2021-01-29,Value,Energy,0.0,0.03614457831325301
+2021-01-29,Profitability,Energy,0.0,0.03614457831325301
+2021-01-29,Momentum,Energy,0.0,0.03614457831325301
+2021-01-29,Value,Health Care,0.0,0.0963855421686747
+2021-01-29,Profitability,Health Care,0.0,0.0963855421686747
+2021-01-29,Momentum,Health Care,0.0,0.0963855421686747
+2021-01-29,Value,Industrials,-6.938893903907228e-18,0.26506024096385544
+2021-01-29,Profitability,Industrials,6.938893903907228e-18,0.26506024096385544
+2021-01-29,Momentum,Industrials,6.938893903907228e-18,0.26506024096385544
+2021-01-29,Value,Information Technology,0.0,0.21686746987951808
+2021-01-29,Profitability,Information Technology,3.469446951953614e-18,0.21686746987951805
+2021-01-29,Momentum,Information Technology,0.0,0.21686746987951808
+2021-01-29,Value,Materials,-6.938893903907228e-18,0.21686746987951805
+2021-01-29,Profitability,Materials,0.0,0.21686746987951808
+2021-01-29,Momentum,Materials,-3.469446951953614e-18,0.21686746987951805
+2021-01-29,Value,Real Estate,0.0,0.04819277108433735
+2021-01-29,Profitability,Real Estate,0.0,0.04819277108433735
+2021-01-29,Momentum,Real Estate,0.0,0.04819277108433735
+2021-01-29,Value,Utilities,0.0,0.024096385542168676
+2021-01-29,Profitability,Utilities,0.0,0.024096385542168676
+2021-01-29,Momentum,Utilities,0.0,0.024096385542168676
+2021-02-26,Value,Consumer Discretionary,0.0,0.0963855421686747
+2021-02-26,Profitability,Consumer Discretionary,0.0,0.0963855421686747
+2021-02-26,Momentum,Consumer Discretionary,0.0,0.0963855421686747
+2021-02-26,Value,Energy,0.0,0.03614457831325301
+2021-02-26,Profitability,Energy,0.0,0.03614457831325301
+2021-02-26,Momentum,Energy,0.0,0.03614457831325301
+2021-02-26,Value,Health Care,0.0,0.0963855421686747
+2021-02-26,Profitability,Health Care,0.0,0.0963855421686747
+2021-02-26,Momentum,Health Care,0.0,0.0963855421686747
+2021-02-26,Value,Industrials,-6.938893903907228e-18,0.26506024096385544
+2021-02-26,Profitability,Industrials,6.938893903907228e-18,0.26506024096385544
+2021-02-26,Momentum,Industrials,6.938893903907228e-18,0.26506024096385544
+2021-02-26,Value,Information Technology,-6.938893903907228e-18,0.21686746987951805
+2021-02-26,Profitability,Information Technology,3.469446951953614e-18,0.21686746987951805
+2021-02-26,Momentum,Information Technology,0.0,0.21686746987951808
+2021-02-26,Value,Materials,-6.938893903907228e-18,0.21686746987951805
+2021-02-26,Profitability,Materials,0.0,0.21686746987951808
+2021-02-26,Momentum,Materials,0.0,0.21686746987951805
+2021-02-26,Value,Real Estate,0.0,0.04819277108433735
+2021-02-26,Profitability,Real Estate,0.0,0.04819277108433735
+2021-02-26,Momentum,Real Estate,0.0,0.04819277108433735
+2021-02-26,Value,Utilities,0.0,0.024096385542168676
+2021-02-26,Profitability,Utilities,0.0,0.024096385542168676
+2021-02-26,Momentum,Utilities,0.0,0.024096385542168676
+2021-03-31,Value,Consumer Discretionary,0.0,0.0975609756097561
+2021-03-31,Profitability,Consumer Discretionary,0.0,0.0975609756097561
+2021-03-31,Momentum,Consumer Discretionary,0.0,0.0975609756097561
+2021-03-31,Value,Energy,0.0,0.036585365853658534
+2021-03-31,Profitability,Energy,0.0,0.036585365853658534
+2021-03-31,Momentum,Energy,0.0,0.036585365853658534
+2021-03-31,Value,Health Care,0.0,0.0975609756097561
+2021-03-31,Profitability,Health Care,0.0,0.0975609756097561
+2021-03-31,Momentum,Health Care,0.0,0.0975609756097561
+2021-03-31,Value,Industrials,0.0,0.2682926829268293
+2021-03-31,Profitability,Industrials,6.938893903907228e-18,0.2682926829268293
+2021-03-31,Momentum,Industrials,6.938893903907228e-18,0.2682926829268293
+2021-03-31,Value,Information Technology,0.0,0.20731707317073167
+2021-03-31,Profitability,Information Technology,0.0,0.20731707317073167
+2021-03-31,Momentum,Information Technology,0.0,0.20731707317073167
+2021-03-31,Value,Materials,6.938893903907228e-18,0.2195121951219512
+2021-03-31,Profitability,Materials,0.0,0.2195121951219512
+2021-03-31,Momentum,Materials,0.0,0.21951219512195122
+2021-03-31,Value,Real Estate,0.0,0.04878048780487805
+2021-03-31,Profitability,Real Estate,0.0,0.04878048780487805
+2021-03-31,Momentum,Real Estate,0.0,0.04878048780487805
+2021-03-31,Value,Utilities,0.0,0.024390243902439025
+2021-03-31,Profitability,Utilities,0.0,0.024390243902439025
+2021-03-31,Momentum,Utilities,0.0,0.024390243902439025
+2021-04-30,Value,Consumer Discretionary,0.0,0.0963855421686747
+2021-04-30,Profitability,Consumer Discretionary,0.0,0.0963855421686747
+2021-04-30,Momentum,Consumer Discretionary,0.0,0.0963855421686747
+2021-04-30,Value,Energy,0.0,0.03614457831325301
+2021-04-30,Profitability,Energy,0.0,0.03614457831325301
+2021-04-30,Momentum,Energy,0.0,0.03614457831325301
+2021-04-30,Value,Health Care,0.0,0.0963855421686747
+2021-04-30,Profitability,Health Care,0.0,0.0963855421686747
+2021-04-30,Momentum,Health Care,0.0,0.0963855421686747
+2021-04-30,Value,Industrials,-6.938893903907228e-18,0.26506024096385544
+2021-04-30,Profitability,Industrials,6.938893903907228e-18,0.26506024096385544
+2021-04-30,Momentum,Industrials,0.0,0.26506024096385544
+2021-04-30,Value,Information Technology,0.0,0.21686746987951808
+2021-04-30,Profitability,Information Technology,3.469446951953614e-18,0.21686746987951805
+2021-04-30,Momentum,Information Technology,0.0,0.21686746987951808
+2021-04-30,Value,Materials,-6.938893903907228e-18,0.21686746987951805
+2021-04-30,Profitability,Materials,0.0,0.21686746987951808
+2021-04-30,Momentum,Materials,-3.469446951953614e-18,0.21686746987951805
+2021-04-30,Value,Real Estate,0.0,0.04819277108433735
+2021-04-30,Profitability,Real Estate,0.0,0.04819277108433735
+2021-04-30,Momentum,Real Estate,0.0,0.04819277108433735
+2021-04-30,Value,Utilities,0.0,0.024096385542168676
+2021-04-30,Profitability,Utilities,0.0,0.024096385542168676
+2021-04-30,Momentum,Utilities,0.0,0.024096385542168676
+2021-05-31,Value,Consumer Discretionary,0.0,0.0963855421686747
+2021-05-31,Profitability,Consumer Discretionary,0.0,0.0963855421686747
+2021-05-31,Momentum,Consumer Discretionary,0.0,0.0963855421686747
+2021-05-31,Value,Energy,0.0,0.03614457831325301
+2021-05-31,Profitability,Energy,0.0,0.03614457831325301
+2021-05-31,Momentum,Energy,0.0,0.03614457831325301
+2021-05-31,Value,Health Care,0.0,0.0963855421686747
+2021-05-31,Profitability,Health Care,0.0,0.0963855421686747
+2021-05-31,Momentum,Health Care,0.0,0.0963855421686747
+2021-05-31,Value,Industrials,-6.938893903907228e-18,0.26506024096385544
+2021-05-31,Profitability,Industrials,6.938893903907228e-18,0.26506024096385544
+2021-05-31,Momentum,Industrials,6.938893903907228e-18,0.26506024096385544
+2021-05-31,Value,Information Technology,-6.938893903907228e-18,0.21686746987951805
+2021-05-31,Profitability,Information Technology,3.469446951953614e-18,0.21686746987951805
+2021-05-31,Momentum,Information Technology,0.0,0.21686746987951805
+2021-05-31,Value,Materials,-6.938893903907228e-18,0.21686746987951805
+2021-05-31,Profitability,Materials,0.0,0.21686746987951808
+2021-05-31,Momentum,Materials,-3.469446951953614e-18,0.21686746987951805
+2021-05-31,Value,Real Estate,0.0,0.04819277108433735
+2021-05-31,Profitability,Real Estate,0.0,0.04819277108433735
+2021-05-31,Momentum,Real Estate,0.0,0.04819277108433735
+2021-05-31,Value,Utilities,0.0,0.024096385542168676
+2021-05-31,Profitability,Utilities,0.0,0.024096385542168676
+2021-05-31,Momentum,Utilities,0.0,0.024096385542168676
+2021-06-30,Value,Consumer Discretionary,0.0,0.0963855421686747
+2021-06-30,Profitability,Consumer Discretionary,0.0,0.0963855421686747
+2021-06-30,Momentum,Consumer Discretionary,0.0,0.0963855421686747
+2021-06-30,Value,Energy,0.0,0.03614457831325301
+2021-06-30,Profitability,Energy,0.0,0.03614457831325301
+2021-06-30,Momentum,Energy,0.0,0.03614457831325301
+2021-06-30,Value,Health Care,0.0,0.0963855421686747
+2021-06-30,Profitability,Health Care,0.0,0.0963855421686747
+2021-06-30,Momentum,Health Care,0.0,0.0963855421686747
+2021-06-30,Value,Industrials,0.0,0.25301204819277107
+2021-06-30,Profitability,Industrials,0.0,0.253012048192771
+2021-06-30,Momentum,Industrials,0.0,0.253012048192771
+2021-06-30,Value,Information Technology,0.0,0.22891566265060237
+2021-06-30,Profitability,Information Technology,0.0,0.2289156626506024
+2021-06-30,Momentum,Information Technology,0.0,0.22891566265060237
+2021-06-30,Value,Materials,-3.469446951953614e-18,0.21686746987951805
+2021-06-30,Profitability,Materials,-6.938893903907228e-18,0.21686746987951805
+2021-06-30,Momentum,Materials,0.0,0.21686746987951808
+2021-06-30,Value,Real Estate,0.0,0.04819277108433735
+2021-06-30,Profitability,Real Estate,0.0,0.04819277108433735
+2021-06-30,Momentum,Real Estate,0.0,0.04819277108433735
+2021-06-30,Value,Utilities,0.0,0.024096385542168676
+2021-06-30,Profitability,Utilities,0.0,0.024096385542168676
+2021-06-30,Momentum,Utilities,0.0,0.024096385542168676
+2021-07-30,Value,Consumer Discretionary,0.0,0.09523809523809523
+2021-07-30,Profitability,Consumer Discretionary,0.0,0.09523809523809523
+2021-07-30,Momentum,Consumer Discretionary,0.0,0.09523809523809523
+2021-07-30,Value,Energy,0.0,0.03571428571428571
+2021-07-30,Profitability,Energy,0.0,0.03571428571428571
+2021-07-30,Momentum,Energy,0.0,0.03571428571428571
+2021-07-30,Value,Health Care,0.0,0.09523809523809523
+2021-07-30,Profitability,Health Care,0.0,0.09523809523809523
+2021-07-30,Momentum,Health Care,0.0,0.09523809523809523
+2021-07-30,Value,Industrials,0.0,0.24999999999999997
+2021-07-30,Profitability,Industrials,6.938893903907228e-18,0.25
+2021-07-30,Momentum,Industrials,0.0,0.25
+2021-07-30,Value,Information Technology,0.0,0.23809523809523803
+2021-07-30,Profitability,Information Technology,0.0,0.23809523809523808
+2021-07-30,Momentum,Information Technology,0.0,0.23809523809523808
+2021-07-30,Value,Materials,-6.938893903907228e-18,0.21428571428571427
+2021-07-30,Profitability,Materials,-6.938893903907228e-18,0.21428571428571427
+2021-07-30,Momentum,Materials,0.0,0.2142857142857143
+2021-07-30,Value,Real Estate,0.0,0.047619047619047616
+2021-07-30,Profitability,Real Estate,0.0,0.047619047619047616
+2021-07-30,Momentum,Real Estate,0.0,0.047619047619047616
+2021-07-30,Value,Utilities,0.0,0.023809523809523808
+2021-07-30,Profitability,Utilities,0.0,0.023809523809523808
+2021-07-30,Momentum,Utilities,0.0,0.023809523809523808
+2021-08-31,Value,Consumer Discretionary,0.0,0.09523809523809523
+2021-08-31,Profitability,Consumer Discretionary,0.0,0.09523809523809523
+2021-08-31,Momentum,Consumer Discretionary,0.0,0.09523809523809523
+2021-08-31,Value,Energy,0.0,0.03571428571428571
+2021-08-31,Profitability,Energy,0.0,0.03571428571428571
+2021-08-31,Momentum,Energy,0.0,0.03571428571428571
+2021-08-31,Value,Health Care,0.0,0.09523809523809523
+2021-08-31,Profitability,Health Care,0.0,0.09523809523809523
+2021-08-31,Momentum,Health Care,0.0,0.09523809523809523
+2021-08-31,Value,Industrials,0.0,0.24999999999999997
+2021-08-31,Profitability,Industrials,6.938893903907228e-18,0.25
+2021-08-31,Momentum,Industrials,0.0,0.25
+2021-08-31,Value,Information Technology,0.0,0.23809523809523803
+2021-08-31,Profitability,Information Technology,0.0,0.23809523809523808
+2021-08-31,Momentum,Information Technology,0.0,0.23809523809523808
+2021-08-31,Value,Materials,-6.938893903907228e-18,0.21428571428571427
+2021-08-31,Profitability,Materials,-6.938893903907228e-18,0.21428571428571427
+2021-08-31,Momentum,Materials,0.0,0.2142857142857143
+2021-08-31,Value,Real Estate,0.0,0.047619047619047616
+2021-08-31,Profitability,Real Estate,0.0,0.047619047619047616
+2021-08-31,Momentum,Real Estate,0.0,0.047619047619047616
+2021-08-31,Value,Utilities,0.0,0.023809523809523808
+2021-08-31,Profitability,Utilities,0.0,0.023809523809523808
+2021-08-31,Momentum,Utilities,0.0,0.023809523809523808
+2021-09-30,Value,Consumer Discretionary,0.0,0.09523809523809523
+2021-09-30,Profitability,Consumer Discretionary,0.0,0.09523809523809523
+2021-09-30,Momentum,Consumer Discretionary,0.0,0.09523809523809523
+2021-09-30,Value,Energy,0.0,0.03571428571428571
+2021-09-30,Profitability,Energy,0.0,0.03571428571428571
+2021-09-30,Momentum,Energy,0.0,0.03571428571428571
+2021-09-30,Value,Health Care,0.0,0.09523809523809523
+2021-09-30,Profitability,Health Care,0.0,0.09523809523809523
+2021-09-30,Momentum,Health Care,0.0,0.09523809523809523
+2021-09-30,Value,Industrials,0.0,0.24999999999999997
+2021-09-30,Profitability,Industrials,6.938893903907228e-18,0.25
+2021-09-30,Momentum,Industrials,0.0,0.25
+2021-09-30,Value,Information Technology,0.0,0.23809523809523803
+2021-09-30,Profitability,Information Technology,0.0,0.23809523809523808
+2021-09-30,Momentum,Information Technology,0.0,0.23809523809523808
+2021-09-30,Value,Materials,-6.938893903907228e-18,0.21428571428571427
+2021-09-30,Profitability,Materials,-6.938893903907228e-18,0.21428571428571427
+2021-09-30,Momentum,Materials,0.0,0.21428571428571427
+2021-09-30,Value,Real Estate,0.0,0.047619047619047616
+2021-09-30,Profitability,Real Estate,0.0,0.047619047619047616
+2021-09-30,Momentum,Real Estate,0.0,0.047619047619047616
+2021-09-30,Value,Utilities,0.0,0.023809523809523808
+2021-09-30,Profitability,Utilities,0.0,0.023809523809523808
+2021-09-30,Momentum,Utilities,0.0,0.023809523809523808
+2021-10-29,Value,Consumer Discretionary,0.0,0.09523809523809523
+2021-10-29,Profitability,Consumer Discretionary,0.0,0.09523809523809523
+2021-10-29,Momentum,Consumer Discretionary,0.0,0.09523809523809523
+2021-10-29,Value,Energy,0.0,0.03571428571428571
+2021-10-29,Profitability,Energy,0.0,0.03571428571428571
+2021-10-29,Momentum,Energy,0.0,0.03571428571428571
+2021-10-29,Value,Health Care,0.0,0.09523809523809523
+2021-10-29,Profitability,Health Care,0.0,0.09523809523809523
+2021-10-29,Momentum,Health Care,0.0,0.09523809523809523
+2021-10-29,Value,Industrials,0.0,0.24999999999999997
+2021-10-29,Profitability,Industrials,6.938893903907228e-18,0.25
+2021-10-29,Momentum,Industrials,0.0,0.25
+2021-10-29,Value,Information Technology,0.0,0.23809523809523803
+2021-10-29,Profitability,Information Technology,0.0,0.23809523809523808
+2021-10-29,Momentum,Information Technology,0.0,0.23809523809523808
+2021-10-29,Value,Materials,-6.938893903907228e-18,0.21428571428571427
+2021-10-29,Profitability,Materials,-6.938893903907228e-18,0.21428571428571427
+2021-10-29,Momentum,Materials,0.0,0.21428571428571427
+2021-10-29,Value,Real Estate,0.0,0.047619047619047616
+2021-10-29,Profitability,Real Estate,0.0,0.047619047619047616
+2021-10-29,Momentum,Real Estate,0.0,0.047619047619047616
+2021-10-29,Value,Utilities,0.0,0.023809523809523808
+2021-10-29,Profitability,Utilities,0.0,0.023809523809523808
+2021-10-29,Momentum,Utilities,0.0,0.023809523809523808
+2021-11-30,Value,Consumer Discretionary,0.0,0.0975609756097561
+2021-11-30,Profitability,Consumer Discretionary,0.0,0.0975609756097561
+2021-11-30,Momentum,Consumer Discretionary,0.0,0.0975609756097561
+2021-11-30,Value,Energy,0.0,0.036585365853658534
+2021-11-30,Profitability,Energy,0.0,0.036585365853658534
+2021-11-30,Momentum,Energy,0.0,0.036585365853658534
+2021-11-30,Value,Health Care,0.0,0.0975609756097561
+2021-11-30,Profitability,Health Care,0.0,0.0975609756097561
+2021-11-30,Momentum,Health Care,0.0,0.0975609756097561
+2021-11-30,Value,Industrials,0.0,0.2560975609756098
+2021-11-30,Profitability,Industrials,-6.938893903907228e-18,0.25609756097560976
+2021-11-30,Momentum,Industrials,0.0,0.25609756097560976
+2021-11-30,Value,Information Technology,0.0,0.24390243902439024
+2021-11-30,Profitability,Information Technology,0.0,0.24390243902439024
+2021-11-30,Momentum,Information Technology,0.0,0.24390243902439024
+2021-11-30,Value,Materials,6.938893903907228e-18,0.21951219512195122
+2021-11-30,Profitability,Materials,6.938893903907228e-18,0.21951219512195122
+2021-11-30,Momentum,Materials,0.0,0.2195121951219512
+2021-11-30,Value,Real Estate,0.0,0.04878048780487805
+2021-11-30,Profitability,Real Estate,0.0,0.04878048780487805
+2021-11-30,Momentum,Real Estate,0.0,0.04878048780487805
+2021-12-31,Value,Consumer Discretionary,0.0,0.09523809523809523
+2021-12-31,Profitability,Consumer Discretionary,0.0,0.09523809523809523
+2021-12-31,Momentum,Consumer Discretionary,0.0,0.09523809523809523
+2021-12-31,Value,Energy,0.0,0.03571428571428571
+2021-12-31,Profitability,Energy,0.0,0.03571428571428571
+2021-12-31,Momentum,Energy,0.0,0.03571428571428571
+2021-12-31,Value,Health Care,0.0,0.09523809523809523
+2021-12-31,Profitability,Health Care,0.0,0.09523809523809523
+2021-12-31,Momentum,Health Care,0.0,0.09523809523809523
+2021-12-31,Value,Industrials,0.0,0.24999999999999997
+2021-12-31,Profitability,Industrials,6.938893903907228e-18,0.25
+2021-12-31,Momentum,Industrials,0.0,0.25
+2021-12-31,Value,Information Technology,0.0,0.23809523809523803
+2021-12-31,Profitability,Information Technology,0.0,0.23809523809523808
+2021-12-31,Momentum,Information Technology,0.0,0.23809523809523808
+2021-12-31,Value,Materials,-6.938893903907228e-18,0.21428571428571427
+2021-12-31,Profitability,Materials,-6.938893903907228e-18,0.21428571428571427
+2021-12-31,Momentum,Materials,0.0,0.2142857142857143
+2021-12-31,Value,Real Estate,0.0,0.047619047619047616
+2021-12-31,Profitability,Real Estate,0.0,0.047619047619047616
+2021-12-31,Momentum,Real Estate,0.0,0.047619047619047616
+2021-12-31,Value,Utilities,0.0,0.023809523809523808
+2021-12-31,Profitability,Utilities,0.0,0.023809523809523808
+2021-12-31,Momentum,Utilities,0.0,0.023809523809523808
+2022-01-28,Value,Consumer Discretionary,0.0,0.09523809523809523
+2022-01-28,Profitability,Consumer Discretionary,0.0,0.09523809523809523
+2022-01-28,Momentum,Consumer Discretionary,0.0,0.09523809523809523
+2022-01-28,Value,Energy,0.0,0.03571428571428571
+2022-01-28,Profitability,Energy,0.0,0.03571428571428571
+2022-01-28,Momentum,Energy,0.0,0.03571428571428571
+2022-01-28,Value,Health Care,0.0,0.09523809523809523
+2022-01-28,Profitability,Health Care,0.0,0.09523809523809523
+2022-01-28,Momentum,Health Care,0.0,0.09523809523809523
+2022-01-28,Value,Industrials,0.0,0.24999999999999997
+2022-01-28,Profitability,Industrials,6.938893903907228e-18,0.25
+2022-01-28,Momentum,Industrials,6.938893903907228e-18,0.25
+2022-01-28,Value,Information Technology,0.0,0.23809523809523803
+2022-01-28,Profitability,Information Technology,0.0,0.23809523809523808
+2022-01-28,Momentum,Information Technology,0.0,0.23809523809523803
+2022-01-28,Value,Materials,-6.938893903907228e-18,0.21428571428571427
+2022-01-28,Profitability,Materials,-6.938893903907228e-18,0.21428571428571427
+2022-01-28,Momentum,Materials,0.0,0.21428571428571427
+2022-01-28,Value,Real Estate,0.0,0.047619047619047616
+2022-01-28,Profitability,Real Estate,0.0,0.047619047619047616
+2022-01-28,Momentum,Real Estate,0.0,0.047619047619047616
+2022-01-28,Value,Utilities,0.0,0.023809523809523808
+2022-01-28,Profitability,Utilities,0.0,0.023809523809523808
+2022-01-28,Momentum,Utilities,0.0,0.023809523809523808
+2022-02-28,Value,Consumer Discretionary,0.0,0.09523809523809523
+2022-02-28,Profitability,Consumer Discretionary,0.0,0.09523809523809523
+2022-02-28,Momentum,Consumer Discretionary,0.0,0.09523809523809523
+2022-02-28,Value,Energy,0.0,0.03571428571428571
+2022-02-28,Profitability,Energy,0.0,0.03571428571428571
+2022-02-28,Momentum,Energy,0.0,0.03571428571428571
+2022-02-28,Value,Health Care,0.0,0.09523809523809523
+2022-02-28,Profitability,Health Care,0.0,0.09523809523809523
+2022-02-28,Momentum,Health Care,0.0,0.09523809523809523
+2022-02-28,Value,Industrials,0.0,0.24999999999999997
+2022-02-28,Profitability,Industrials,6.938893903907228e-18,0.25
+2022-02-28,Momentum,Industrials,0.0,0.25000000000000006
+2022-02-28,Value,Information Technology,0.0,0.23809523809523803
+2022-02-28,Profitability,Information Technology,0.0,0.23809523809523808
+2022-02-28,Momentum,Information Technology,0.0,0.23809523809523808
+2022-02-28,Value,Materials,-6.938893903907228e-18,0.21428571428571427
+2022-02-28,Profitability,Materials,-6.938893903907228e-18,0.21428571428571427
+2022-02-28,Momentum,Materials,0.0,0.21428571428571427
+2022-02-28,Value,Real Estate,0.0,0.047619047619047616
+2022-02-28,Profitability,Real Estate,0.0,0.047619047619047616
+2022-02-28,Momentum,Real Estate,0.0,0.047619047619047616
+2022-02-28,Value,Utilities,0.0,0.023809523809523808
+2022-02-28,Profitability,Utilities,0.0,0.023809523809523808
+2022-02-28,Momentum,Utilities,0.0,0.023809523809523808
+2022-03-31,Value,Consumer Discretionary,0.0,0.09523809523809523
+2022-03-31,Profitability,Consumer Discretionary,0.0,0.09523809523809523
+2022-03-31,Momentum,Consumer Discretionary,0.0,0.09523809523809523
+2022-03-31,Value,Energy,0.0,0.03571428571428571
+2022-03-31,Profitability,Energy,0.0,0.03571428571428571
+2022-03-31,Momentum,Energy,0.0,0.03571428571428571
+2022-03-31,Value,Health Care,0.0,0.09523809523809523
+2022-03-31,Profitability,Health Care,0.0,0.09523809523809523
+2022-03-31,Momentum,Health Care,0.0,0.09523809523809523
+2022-03-31,Value,Industrials,0.0,0.24999999999999997
+2022-03-31,Profitability,Industrials,6.938893903907228e-18,0.25
+2022-03-31,Momentum,Industrials,0.0,0.25
+2022-03-31,Value,Information Technology,0.0,0.23809523809523803
+2022-03-31,Profitability,Information Technology,0.0,0.23809523809523808
+2022-03-31,Momentum,Information Technology,0.0,0.23809523809523808
+2022-03-31,Value,Materials,-6.938893903907228e-18,0.21428571428571427
+2022-03-31,Profitability,Materials,-6.938893903907228e-18,0.21428571428571427
+2022-03-31,Momentum,Materials,0.0,0.21428571428571427
+2022-03-31,Value,Real Estate,0.0,0.047619047619047616
+2022-03-31,Profitability,Real Estate,0.0,0.047619047619047616
+2022-03-31,Momentum,Real Estate,0.0,0.047619047619047616
+2022-03-31,Value,Utilities,0.0,0.023809523809523808
+2022-03-31,Profitability,Utilities,0.0,0.023809523809523808
+2022-03-31,Momentum,Utilities,0.0,0.023809523809523808
+2022-04-29,Value,Consumer Discretionary,0.0,0.09411764705882353
+2022-04-29,Profitability,Consumer Discretionary,0.0,0.09411764705882353
+2022-04-29,Momentum,Consumer Discretionary,0.0,0.09411764705882353
+2022-04-29,Value,Energy,0.0,0.03529411764705882
+2022-04-29,Profitability,Energy,0.0,0.03529411764705882
+2022-04-29,Momentum,Energy,0.0,0.03529411764705882
+2022-04-29,Value,Health Care,0.0,0.09411764705882353
+2022-04-29,Profitability,Health Care,0.0,0.09411764705882353
+2022-04-29,Momentum,Health Care,0.0,0.09411764705882353
+2022-04-29,Value,Industrials,0.0,0.24705882352941175
+2022-04-29,Profitability,Industrials,6.938893903907228e-18,0.2470588235294118
+2022-04-29,Momentum,Industrials,0.0,0.2470588235294118
+2022-04-29,Value,Information Technology,0.0,0.23529411764705876
+2022-04-29,Profitability,Information Technology,0.0,0.23529411764705882
+2022-04-29,Momentum,Information Technology,0.0,0.23529411764705882
+2022-04-29,Value,Materials,0.0,0.22352941176470587
+2022-04-29,Profitability,Materials,0.0,0.22352941176470587
+2022-04-29,Momentum,Materials,0.0,0.2235294117647059
+2022-04-29,Value,Real Estate,0.0,0.047058823529411764
+2022-04-29,Profitability,Real Estate,0.0,0.047058823529411764
+2022-04-29,Momentum,Real Estate,0.0,0.047058823529411764
+2022-04-29,Value,Utilities,0.0,0.023529411764705882
+2022-04-29,Profitability,Utilities,0.0,0.023529411764705882
+2022-04-29,Momentum,Utilities,0.0,0.023529411764705882
+2022-05-31,Value,Consumer Discretionary,0.0,0.09411764705882353
+2022-05-31,Profitability,Consumer Discretionary,0.0,0.09411764705882353
+2022-05-31,Momentum,Consumer Discretionary,0.0,0.09411764705882353
+2022-05-31,Value,Energy,0.0,0.03529411764705882
+2022-05-31,Profitability,Energy,0.0,0.03529411764705882
+2022-05-31,Momentum,Energy,0.0,0.03529411764705882
+2022-05-31,Value,Health Care,0.0,0.09411764705882353
+2022-05-31,Profitability,Health Care,0.0,0.09411764705882353
+2022-05-31,Momentum,Health Care,0.0,0.09411764705882353
+2022-05-31,Value,Industrials,0.0,0.24705882352941175
+2022-05-31,Profitability,Industrials,6.938893903907228e-18,0.2470588235294118
+2022-05-31,Momentum,Industrials,0.0,0.24705882352941178
+2022-05-31,Value,Information Technology,0.0,0.23529411764705876
+2022-05-31,Profitability,Information Technology,0.0,0.23529411764705882
+2022-05-31,Momentum,Information Technology,0.0,0.23529411764705882
+2022-05-31,Value,Materials,0.0,0.22352941176470587
+2022-05-31,Profitability,Materials,0.0,0.22352941176470587
+2022-05-31,Momentum,Materials,0.0,0.2235294117647059
+2022-05-31,Value,Real Estate,0.0,0.047058823529411764
+2022-05-31,Profitability,Real Estate,0.0,0.047058823529411764
+2022-05-31,Momentum,Real Estate,0.0,0.047058823529411764
+2022-05-31,Value,Utilities,0.0,0.023529411764705882
+2022-05-31,Profitability,Utilities,0.0,0.023529411764705882
+2022-05-31,Momentum,Utilities,0.0,0.023529411764705882
+2022-06-30,Value,Consumer Discretionary,0.0,0.08888888888888889
+2022-06-30,Profitability,Consumer Discretionary,0.0,0.08888888888888889
+2022-06-30,Momentum,Consumer Discretionary,0.0,0.08888888888888889
+2022-06-30,Value,Consumer Staples,0.0,0.022222222222222223
+2022-06-30,Profitability,Consumer Staples,0.0,0.022222222222222223
+2022-06-30,Momentum,Consumer Staples,0.0,0.022222222222222223
+2022-06-30,Value,Energy,0.0,0.03333333333333333
+2022-06-30,Profitability,Energy,0.0,0.03333333333333333
+2022-06-30,Momentum,Energy,0.0,0.03333333333333333
+2022-06-30,Value,Health Care,0.0,0.1
+2022-06-30,Profitability,Health Care,0.0,0.1
+2022-06-30,Momentum,Health Care,0.0,0.1
+2022-06-30,Value,Industrials,0.0,0.23333333333333334
+2022-06-30,Profitability,Industrials,0.0,0.23333333333333328
+2022-06-30,Momentum,Industrials,0.0,0.23333333333333328
+2022-06-30,Value,Information Technology,-6.938893903907228e-18,0.24444444444444444
+2022-06-30,Profitability,Information Technology,0.0,0.2444444444444444
+2022-06-30,Momentum,Information Technology,0.0,0.2444444444444444
+2022-06-30,Value,Materials,0.0,0.2111111111111111
+2022-06-30,Profitability,Materials,0.0,0.21111111111111114
+2022-06-30,Momentum,Materials,0.0,0.2111111111111111
+2022-06-30,Value,Real Estate,0.0,0.044444444444444446
+2022-06-30,Profitability,Real Estate,0.0,0.044444444444444446
+2022-06-30,Momentum,Real Estate,0.0,0.044444444444444446
+2022-06-30,Value,Utilities,0.0,0.022222222222222223
+2022-06-30,Profitability,Utilities,0.0,0.022222222222222223
+2022-06-30,Momentum,Utilities,0.0,0.022222222222222223
+2022-07-29,Value,Consumer Discretionary,0.0,0.08888888888888889
+2022-07-29,Profitability,Consumer Discretionary,0.0,0.08888888888888889
+2022-07-29,Momentum,Consumer Discretionary,0.0,0.08888888888888889
+2022-07-29,Value,Consumer Staples,0.0,0.022222222222222223
+2022-07-29,Profitability,Consumer Staples,0.0,0.022222222222222223
+2022-07-29,Momentum,Consumer Staples,0.0,0.022222222222222223
+2022-07-29,Value,Energy,0.0,0.03333333333333333
+2022-07-29,Profitability,Energy,0.0,0.03333333333333333
+2022-07-29,Momentum,Energy,0.0,0.03333333333333333
+2022-07-29,Value,Health Care,0.0,0.1
+2022-07-29,Profitability,Health Care,0.0,0.1
+2022-07-29,Momentum,Health Care,0.0,0.1
+2022-07-29,Value,Industrials,0.0,0.23333333333333334
+2022-07-29,Profitability,Industrials,0.0,0.23333333333333328
+2022-07-29,Momentum,Industrials,0.0,0.23333333333333334
+2022-07-29,Value,Information Technology,-6.938893903907228e-18,0.24444444444444444
+2022-07-29,Profitability,Information Technology,0.0,0.2444444444444444
+2022-07-29,Momentum,Information Technology,-6.938893903907228e-18,0.24444444444444444
+2022-07-29,Value,Materials,0.0,0.21111111111111114
+2022-07-29,Profitability,Materials,0.0,0.21111111111111114
+2022-07-29,Momentum,Materials,0.0,0.2111111111111111
+2022-07-29,Value,Real Estate,0.0,0.044444444444444446
+2022-07-29,Profitability,Real Estate,0.0,0.044444444444444446
+2022-07-29,Momentum,Real Estate,0.0,0.044444444444444446
+2022-07-29,Value,Utilities,0.0,0.022222222222222223
+2022-07-29,Profitability,Utilities,0.0,0.022222222222222223
+2022-07-29,Momentum,Utilities,0.0,0.022222222222222223
+2022-08-31,Value,Consumer Discretionary,0.0,0.08888888888888889
+2022-08-31,Profitability,Consumer Discretionary,0.0,0.08888888888888889
+2022-08-31,Momentum,Consumer Discretionary,0.0,0.08888888888888889
+2022-08-31,Value,Consumer Staples,0.0,0.022222222222222223
+2022-08-31,Profitability,Consumer Staples,0.0,0.022222222222222223
+2022-08-31,Momentum,Consumer Staples,0.0,0.022222222222222223
+2022-08-31,Value,Energy,0.0,0.03333333333333333
+2022-08-31,Profitability,Energy,0.0,0.03333333333333333
+2022-08-31,Momentum,Energy,0.0,0.03333333333333333
+2022-08-31,Value,Health Care,0.0,0.1
+2022-08-31,Profitability,Health Care,0.0,0.1
+2022-08-31,Momentum,Health Care,0.0,0.1
+2022-08-31,Value,Industrials,0.0,0.23333333333333334
+2022-08-31,Profitability,Industrials,0.0,0.23333333333333328
+2022-08-31,Momentum,Industrials,0.0,0.23333333333333328
+2022-08-31,Value,Information Technology,-6.938893903907228e-18,0.2444444444444444
+2022-08-31,Profitability,Information Technology,0.0,0.2444444444444444
+2022-08-31,Momentum,Information Technology,0.0,0.2444444444444444
+2022-08-31,Value,Materials,0.0,0.21111111111111114
+2022-08-31,Profitability,Materials,0.0,0.21111111111111114
+2022-08-31,Momentum,Materials,0.0,0.21111111111111114
+2022-08-31,Value,Real Estate,0.0,0.044444444444444446
+2022-08-31,Profitability,Real Estate,0.0,0.044444444444444446
+2022-08-31,Momentum,Real Estate,0.0,0.044444444444444446
+2022-08-31,Value,Utilities,0.0,0.022222222222222223
+2022-08-31,Profitability,Utilities,0.0,0.022222222222222223
+2022-08-31,Momentum,Utilities,0.0,0.022222222222222223
+2022-09-30,Value,Consumer Discretionary,0.0,0.08888888888888889
+2022-09-30,Profitability,Consumer Discretionary,0.0,0.08888888888888889
+2022-09-30,Momentum,Consumer Discretionary,0.0,0.08888888888888889
+2022-09-30,Value,Consumer Staples,0.0,0.022222222222222223
+2022-09-30,Profitability,Consumer Staples,0.0,0.022222222222222223
+2022-09-30,Momentum,Consumer Staples,0.0,0.022222222222222223
+2022-09-30,Value,Energy,0.0,0.03333333333333333
+2022-09-30,Profitability,Energy,0.0,0.03333333333333333
+2022-09-30,Momentum,Energy,0.0,0.03333333333333333
+2022-09-30,Value,Health Care,0.0,0.1
+2022-09-30,Profitability,Health Care,0.0,0.1
+2022-09-30,Momentum,Health Care,0.0,0.1
+2022-09-30,Value,Industrials,0.0,0.23333333333333334
+2022-09-30,Profitability,Industrials,0.0,0.23333333333333328
+2022-09-30,Momentum,Industrials,0.0,0.23333333333333334
+2022-09-30,Value,Information Technology,-6.938893903907228e-18,0.2444444444444444
+2022-09-30,Profitability,Information Technology,0.0,0.2444444444444444
+2022-09-30,Momentum,Information Technology,0.0,0.2444444444444444
+2022-09-30,Value,Materials,0.0,0.21111111111111114
+2022-09-30,Profitability,Materials,0.0,0.21111111111111114
+2022-09-30,Momentum,Materials,3.469446951953614e-18,0.2111111111111111
+2022-09-30,Value,Real Estate,0.0,0.044444444444444446
+2022-09-30,Profitability,Real Estate,0.0,0.044444444444444446
+2022-09-30,Momentum,Real Estate,0.0,0.044444444444444446
+2022-09-30,Value,Utilities,0.0,0.022222222222222223
+2022-09-30,Profitability,Utilities,0.0,0.022222222222222223
+2022-09-30,Momentum,Utilities,0.0,0.022222222222222223
+2022-10-31,Value,Consumer Discretionary,0.0,0.08888888888888889
+2022-10-31,Profitability,Consumer Discretionary,0.0,0.08888888888888889
+2022-10-31,Momentum,Consumer Discretionary,0.0,0.08888888888888889
+2022-10-31,Value,Consumer Staples,0.0,0.022222222222222223
+2022-10-31,Profitability,Consumer Staples,0.0,0.022222222222222223
+2022-10-31,Momentum,Consumer Staples,0.0,0.022222222222222223
+2022-10-31,Value,Energy,0.0,0.03333333333333333
+2022-10-31,Profitability,Energy,0.0,0.03333333333333333
+2022-10-31,Momentum,Energy,0.0,0.03333333333333333
+2022-10-31,Value,Health Care,0.0,0.1
+2022-10-31,Profitability,Health Care,0.0,0.1
+2022-10-31,Momentum,Health Care,0.0,0.1
+2022-10-31,Value,Industrials,0.0,0.23333333333333334
+2022-10-31,Profitability,Industrials,0.0,0.23333333333333328
+2022-10-31,Momentum,Industrials,0.0,0.23333333333333328
+2022-10-31,Value,Information Technology,-6.938893903907228e-18,0.24444444444444444
+2022-10-31,Profitability,Information Technology,0.0,0.2444444444444444
+2022-10-31,Momentum,Information Technology,3.469446951953614e-18,0.2444444444444444
+2022-10-31,Value,Materials,0.0,0.21111111111111114
+2022-10-31,Profitability,Materials,0.0,0.21111111111111114
+2022-10-31,Momentum,Materials,0.0,0.21111111111111114
+2022-10-31,Value,Real Estate,0.0,0.044444444444444446
+2022-10-31,Profitability,Real Estate,0.0,0.044444444444444446
+2022-10-31,Momentum,Real Estate,0.0,0.044444444444444446
+2022-10-31,Value,Utilities,0.0,0.022222222222222223
+2022-10-31,Profitability,Utilities,0.0,0.022222222222222223
+2022-10-31,Momentum,Utilities,0.0,0.022222222222222223
+2022-11-30,Value,Consumer Discretionary,0.0,0.08888888888888889
+2022-11-30,Profitability,Consumer Discretionary,0.0,0.08888888888888889
+2022-11-30,Momentum,Consumer Discretionary,0.0,0.08888888888888889
+2022-11-30,Value,Consumer Staples,0.0,0.022222222222222223
+2022-11-30,Profitability,Consumer Staples,0.0,0.022222222222222223
+2022-11-30,Momentum,Consumer Staples,0.0,0.022222222222222223
+2022-11-30,Value,Energy,0.0,0.03333333333333333
+2022-11-30,Profitability,Energy,0.0,0.03333333333333333
+2022-11-30,Momentum,Energy,0.0,0.03333333333333333
+2022-11-30,Value,Health Care,0.0,0.1
+2022-11-30,Profitability,Health Care,0.0,0.1
+2022-11-30,Momentum,Health Care,0.0,0.1
+2022-11-30,Value,Industrials,0.0,0.23333333333333334
+2022-11-30,Profitability,Industrials,0.0,0.23333333333333328
+2022-11-30,Momentum,Industrials,0.0,0.23333333333333328
+2022-11-30,Value,Information Technology,-6.938893903907228e-18,0.24444444444444444
+2022-11-30,Profitability,Information Technology,0.0,0.2444444444444444
+2022-11-30,Momentum,Information Technology,0.0,0.2444444444444444
+2022-11-30,Value,Materials,0.0,0.21111111111111114
+2022-11-30,Profitability,Materials,0.0,0.21111111111111114
+2022-11-30,Momentum,Materials,3.469446951953614e-18,0.2111111111111111
+2022-11-30,Value,Real Estate,0.0,0.044444444444444446
+2022-11-30,Profitability,Real Estate,0.0,0.044444444444444446
+2022-11-30,Momentum,Real Estate,0.0,0.044444444444444446
+2022-11-30,Value,Utilities,0.0,0.022222222222222223
+2022-11-30,Profitability,Utilities,0.0,0.022222222222222223
+2022-11-30,Momentum,Utilities,0.0,0.022222222222222223
+2022-12-30,Value,Consumer Discretionary,0.0,0.08888888888888889
+2022-12-30,Profitability,Consumer Discretionary,0.0,0.08888888888888889
+2022-12-30,Momentum,Consumer Discretionary,0.0,0.08888888888888889
+2022-12-30,Value,Consumer Staples,0.0,0.022222222222222223
+2022-12-30,Profitability,Consumer Staples,0.0,0.022222222222222223
+2022-12-30,Momentum,Consumer Staples,0.0,0.022222222222222223
+2022-12-30,Value,Energy,0.0,0.03333333333333333
+2022-12-30,Profitability,Energy,0.0,0.03333333333333333
+2022-12-30,Momentum,Energy,0.0,0.03333333333333333
+2022-12-30,Value,Health Care,0.0,0.1
+2022-12-30,Profitability,Health Care,0.0,0.1
+2022-12-30,Momentum,Health Care,0.0,0.1
+2022-12-30,Value,Industrials,0.0,0.23333333333333334
+2022-12-30,Profitability,Industrials,0.0,0.23333333333333328
+2022-12-30,Momentum,Industrials,0.0,0.23333333333333334
+2022-12-30,Value,Information Technology,-6.938893903907228e-18,0.24444444444444444
+2022-12-30,Profitability,Information Technology,0.0,0.2444444444444444
+2022-12-30,Momentum,Information Technology,6.938893903907228e-18,0.2444444444444444
+2022-12-30,Value,Materials,0.0,0.21111111111111114
+2022-12-30,Profitability,Materials,0.0,0.21111111111111114
+2022-12-30,Momentum,Materials,-3.469446951953614e-18,0.2111111111111111
+2022-12-30,Value,Real Estate,0.0,0.044444444444444446
+2022-12-30,Profitability,Real Estate,0.0,0.044444444444444446
+2022-12-30,Momentum,Real Estate,0.0,0.044444444444444446
+2022-12-30,Value,Utilities,0.0,0.022222222222222223
+2022-12-30,Profitability,Utilities,0.0,0.022222222222222223
+2022-12-30,Momentum,Utilities,0.0,0.022222222222222223
+2023-01-31,Value,Communication Services,0.0,0.021739130434782608
+2023-01-31,Profitability,Communication Services,0.0,0.021739130434782608
+2023-01-31,Momentum,Communication Services,0.0,0.021739130434782608
+2023-01-31,Value,Consumer Discretionary,0.0,0.08695652173913043
+2023-01-31,Profitability,Consumer Discretionary,0.0,0.08695652173913043
+2023-01-31,Momentum,Consumer Discretionary,0.0,0.08695652173913043
+2023-01-31,Value,Consumer Staples,0.0,0.021739130434782608
+2023-01-31,Profitability,Consumer Staples,0.0,0.021739130434782608
+2023-01-31,Momentum,Consumer Staples,0.0,0.021739130434782608
+2023-01-31,Value,Energy,0.0,0.03260869565217391
+2023-01-31,Profitability,Energy,0.0,0.03260869565217391
+2023-01-31,Momentum,Energy,0.0,0.03260869565217391
+2023-01-31,Value,Health Care,0.0,0.09782608695652174
+2023-01-31,Profitability,Health Care,0.0,0.09782608695652174
+2023-01-31,Momentum,Health Care,0.0,0.09782608695652174
+2023-01-31,Value,Industrials,0.0,0.22826086956521735
+2023-01-31,Profitability,Industrials,-6.938893903907228e-18,0.22826086956521738
+2023-01-31,Momentum,Industrials,0.0,0.22826086956521735
+2023-01-31,Value,Information Technology,-6.938893903907228e-18,0.23913043478260873
+2023-01-31,Profitability,Information Technology,0.0,0.2391304347826087
+2023-01-31,Momentum,Information Technology,6.938893903907228e-18,0.23913043478260873
+2023-01-31,Value,Materials,0.0,0.20652173913043476
+2023-01-31,Profitability,Materials,0.0,0.20652173913043476
+2023-01-31,Momentum,Materials,0.0,0.20652173913043476
+2023-01-31,Value,Real Estate,0.0,0.043478260869565216
+2023-01-31,Profitability,Real Estate,0.0,0.043478260869565216
+2023-01-31,Momentum,Real Estate,0.0,0.043478260869565216
+2023-01-31,Value,Utilities,0.0,0.021739130434782608
+2023-01-31,Profitability,Utilities,0.0,0.021739130434782608
+2023-01-31,Momentum,Utilities,0.0,0.021739130434782608
+2023-02-28,Value,Communication Services,0.0,0.021739130434782608
+2023-02-28,Profitability,Communication Services,0.0,0.021739130434782608
+2023-02-28,Momentum,Communication Services,0.0,0.021739130434782608
+2023-02-28,Value,Consumer Discretionary,0.0,0.08695652173913043
+2023-02-28,Profitability,Consumer Discretionary,0.0,0.08695652173913043
+2023-02-28,Momentum,Consumer Discretionary,0.0,0.08695652173913043
+2023-02-28,Value,Consumer Staples,0.0,0.021739130434782608
+2023-02-28,Profitability,Consumer Staples,0.0,0.021739130434782608
+2023-02-28,Momentum,Consumer Staples,0.0,0.021739130434782608
+2023-02-28,Value,Energy,0.0,0.03260869565217391
+2023-02-28,Profitability,Energy,0.0,0.03260869565217391
+2023-02-28,Momentum,Energy,0.0,0.03260869565217391
+2023-02-28,Value,Health Care,0.0,0.09782608695652174
+2023-02-28,Profitability,Health Care,0.0,0.09782608695652174
+2023-02-28,Momentum,Health Care,0.0,0.09782608695652174
+2023-02-28,Value,Industrials,0.0,0.22826086956521735
+2023-02-28,Profitability,Industrials,-6.938893903907228e-18,0.22826086956521738
+2023-02-28,Momentum,Industrials,-6.938893903907228e-18,0.22826086956521738
+2023-02-28,Value,Information Technology,-6.938893903907228e-18,0.23913043478260873
+2023-02-28,Profitability,Information Technology,0.0,0.2391304347826087
+2023-02-28,Momentum,Information Technology,6.938893903907228e-18,0.23913043478260873
+2023-02-28,Value,Materials,0.0,0.20652173913043476
+2023-02-28,Profitability,Materials,0.0,0.20652173913043476
+2023-02-28,Momentum,Materials,0.0,0.20652173913043476
+2023-02-28,Value,Real Estate,0.0,0.043478260869565216
+2023-02-28,Profitability,Real Estate,0.0,0.043478260869565216
+2023-02-28,Momentum,Real Estate,0.0,0.043478260869565216
+2023-02-28,Value,Utilities,0.0,0.021739130434782608
+2023-02-28,Profitability,Utilities,0.0,0.021739130434782608
+2023-02-28,Momentum,Utilities,0.0,0.021739130434782608
+2023-03-31,Value,Communication Services,0.0,0.021739130434782608
+2023-03-31,Profitability,Communication Services,0.0,0.021739130434782608
+2023-03-31,Momentum,Communication Services,0.0,0.021739130434782608
+2023-03-31,Value,Consumer Discretionary,0.0,0.08695652173913043
+2023-03-31,Profitability,Consumer Discretionary,0.0,0.08695652173913043
+2023-03-31,Momentum,Consumer Discretionary,0.0,0.08695652173913043
+2023-03-31,Value,Consumer Staples,0.0,0.021739130434782608
+2023-03-31,Profitability,Consumer Staples,0.0,0.021739130434782608
+2023-03-31,Momentum,Consumer Staples,0.0,0.021739130434782608
+2023-03-31,Value,Energy,0.0,0.03260869565217391
+2023-03-31,Profitability,Energy,0.0,0.03260869565217391
+2023-03-31,Momentum,Energy,0.0,0.03260869565217391
+2023-03-31,Value,Health Care,0.0,0.09782608695652174
+2023-03-31,Profitability,Health Care,0.0,0.09782608695652174
+2023-03-31,Momentum,Health Care,0.0,0.09782608695652174
+2023-03-31,Value,Industrials,0.0,0.22826086956521735
+2023-03-31,Profitability,Industrials,-6.938893903907228e-18,0.22826086956521738
+2023-03-31,Momentum,Industrials,-6.938893903907228e-18,0.22826086956521735
+2023-03-31,Value,Information Technology,-6.938893903907228e-18,0.23913043478260873
+2023-03-31,Profitability,Information Technology,0.0,0.2391304347826087
+2023-03-31,Momentum,Information Technology,0.0,0.2391304347826087
+2023-03-31,Value,Materials,0.0,0.20652173913043476
+2023-03-31,Profitability,Materials,0.0,0.20652173913043476
+2023-03-31,Momentum,Materials,0.0,0.20652173913043476
+2023-03-31,Value,Real Estate,0.0,0.043478260869565216
+2023-03-31,Profitability,Real Estate,0.0,0.043478260869565216
+2023-03-31,Momentum,Real Estate,0.0,0.043478260869565216
+2023-03-31,Value,Utilities,0.0,0.021739130434782608
+2023-03-31,Profitability,Utilities,0.0,0.021739130434782608
+2023-03-31,Momentum,Utilities,0.0,0.021739130434782608
+2023-04-28,Value,Communication Services,0.0,0.021739130434782608
+2023-04-28,Profitability,Communication Services,0.0,0.021739130434782608
+2023-04-28,Momentum,Communication Services,0.0,0.021739130434782608
+2023-04-28,Value,Consumer Discretionary,0.0,0.08695652173913043
+2023-04-28,Profitability,Consumer Discretionary,0.0,0.08695652173913043
+2023-04-28,Momentum,Consumer Discretionary,0.0,0.08695652173913043
+2023-04-28,Value,Consumer Staples,0.0,0.021739130434782608
+2023-04-28,Profitability,Consumer Staples,0.0,0.021739130434782608
+2023-04-28,Momentum,Consumer Staples,0.0,0.021739130434782608
+2023-04-28,Value,Energy,0.0,0.03260869565217391
+2023-04-28,Profitability,Energy,0.0,0.03260869565217391
+2023-04-28,Momentum,Energy,0.0,0.03260869565217391
+2023-04-28,Value,Health Care,0.0,0.09782608695652174
+2023-04-28,Profitability,Health Care,0.0,0.09782608695652174
+2023-04-28,Momentum,Health Care,0.0,0.09782608695652174
+2023-04-28,Value,Industrials,0.0,0.22826086956521735
+2023-04-28,Profitability,Industrials,-6.938893903907228e-18,0.22826086956521738
+2023-04-28,Momentum,Industrials,3.469446951953614e-18,0.22826086956521738
+2023-04-28,Value,Information Technology,-6.938893903907228e-18,0.23913043478260873
+2023-04-28,Profitability,Information Technology,0.0,0.2391304347826087
+2023-04-28,Momentum,Information Technology,-6.938893903907228e-18,0.23913043478260873
+2023-04-28,Value,Materials,0.0,0.20652173913043476
+2023-04-28,Profitability,Materials,0.0,0.20652173913043476
+2023-04-28,Momentum,Materials,0.0,0.20652173913043476
+2023-04-28,Value,Real Estate,0.0,0.043478260869565216
+2023-04-28,Profitability,Real Estate,0.0,0.043478260869565216
+2023-04-28,Momentum,Real Estate,0.0,0.043478260869565216
+2023-04-28,Value,Utilities,0.0,0.021739130434782608
+2023-04-28,Profitability,Utilities,0.0,0.021739130434782608
+2023-04-28,Momentum,Utilities,0.0,0.021739130434782608
+2023-05-31,Value,Communication Services,0.0,0.021739130434782608
+2023-05-31,Profitability,Communication Services,0.0,0.021739130434782608
+2023-05-31,Momentum,Communication Services,0.0,0.021739130434782608
+2023-05-31,Value,Consumer Discretionary,0.0,0.08695652173913043
+2023-05-31,Profitability,Consumer Discretionary,0.0,0.08695652173913043
+2023-05-31,Momentum,Consumer Discretionary,0.0,0.08695652173913043
+2023-05-31,Value,Consumer Staples,0.0,0.021739130434782608
+2023-05-31,Profitability,Consumer Staples,0.0,0.021739130434782608
+2023-05-31,Momentum,Consumer Staples,0.0,0.021739130434782608
+2023-05-31,Value,Energy,0.0,0.03260869565217391
+2023-05-31,Profitability,Energy,0.0,0.03260869565217391
+2023-05-31,Momentum,Energy,0.0,0.03260869565217391
+2023-05-31,Value,Health Care,0.0,0.09782608695652174
+2023-05-31,Profitability,Health Care,0.0,0.09782608695652174
+2023-05-31,Momentum,Health Care,0.0,0.09782608695652174
+2023-05-31,Value,Industrials,0.0,0.22826086956521735
+2023-05-31,Profitability,Industrials,-6.938893903907228e-18,0.22826086956521738
+2023-05-31,Momentum,Industrials,0.0,0.22826086956521738
+2023-05-31,Value,Information Technology,-6.938893903907228e-18,0.23913043478260873
+2023-05-31,Profitability,Information Technology,0.0,0.2391304347826087
+2023-05-31,Momentum,Information Technology,6.938893903907228e-18,0.23913043478260873
+2023-05-31,Value,Materials,0.0,0.20652173913043476
+2023-05-31,Profitability,Materials,0.0,0.20652173913043476
+2023-05-31,Momentum,Materials,0.0,0.20652173913043476
+2023-05-31,Value,Real Estate,0.0,0.043478260869565216
+2023-05-31,Profitability,Real Estate,0.0,0.043478260869565216
+2023-05-31,Momentum,Real Estate,0.0,0.043478260869565216
+2023-05-31,Value,Utilities,0.0,0.021739130434782608
+2023-05-31,Profitability,Utilities,0.0,0.021739130434782608
+2023-05-31,Momentum,Utilities,0.0,0.021739130434782608
+2023-06-30,Value,Communication Services,0.0,0.021739130434782608
+2023-06-30,Profitability,Communication Services,0.0,0.021739130434782608
+2023-06-30,Momentum,Communication Services,0.0,0.021739130434782608
+2023-06-30,Value,Consumer Discretionary,0.0,0.07608695652173914
+2023-06-30,Profitability,Consumer Discretionary,0.0,0.07608695652173914
+2023-06-30,Momentum,Consumer Discretionary,0.0,0.07608695652173914
+2023-06-30,Value,Consumer Staples,0.0,0.021739130434782608
+2023-06-30,Profitability,Consumer Staples,0.0,0.021739130434782608
+2023-06-30,Momentum,Consumer Staples,0.0,0.021739130434782608
+2023-06-30,Value,Energy,0.0,0.03260869565217391
+2023-06-30,Profitability,Energy,0.0,0.03260869565217391
+2023-06-30,Momentum,Energy,0.0,0.03260869565217391
+2023-06-30,Value,Health Care,0.0,0.09782608695652174
+2023-06-30,Profitability,Health Care,0.0,0.09782608695652174
+2023-06-30,Momentum,Health Care,0.0,0.09782608695652174
+2023-06-30,Value,Industrials,0.0,0.23913043478260873
+2023-06-30,Profitability,Industrials,0.0,0.23913043478260873
+2023-06-30,Momentum,Industrials,0.0,0.23913043478260873
+2023-06-30,Value,Information Technology,-6.938893903907228e-18,0.23913043478260873
+2023-06-30,Profitability,Information Technology,-6.938893903907228e-18,0.23913043478260873
+2023-06-30,Momentum,Information Technology,6.938893903907228e-18,0.23913043478260873
+2023-06-30,Value,Materials,0.0,0.20652173913043476
+2023-06-30,Profitability,Materials,0.0,0.20652173913043476
+2023-06-30,Momentum,Materials,0.0,0.20652173913043476
+2023-06-30,Value,Real Estate,0.0,0.043478260869565216
+2023-06-30,Profitability,Real Estate,0.0,0.043478260869565216
+2023-06-30,Momentum,Real Estate,0.0,0.043478260869565216
+2023-06-30,Value,Utilities,0.0,0.021739130434782608
+2023-06-30,Profitability,Utilities,0.0,0.021739130434782608
+2023-06-30,Momentum,Utilities,0.0,0.021739130434782608
+2023-07-31,Value,Communication Services,0.0,0.021739130434782608
+2023-07-31,Profitability,Communication Services,0.0,0.021739130434782608
+2023-07-31,Momentum,Communication Services,0.0,0.021739130434782608
+2023-07-31,Value,Consumer Discretionary,0.0,0.07608695652173914
+2023-07-31,Profitability,Consumer Discretionary,0.0,0.07608695652173914
+2023-07-31,Momentum,Consumer Discretionary,0.0,0.07608695652173914
+2023-07-31,Value,Consumer Staples,0.0,0.021739130434782608
+2023-07-31,Profitability,Consumer Staples,0.0,0.021739130434782608
+2023-07-31,Momentum,Consumer Staples,0.0,0.021739130434782608
+2023-07-31,Value,Energy,0.0,0.03260869565217391
+2023-07-31,Profitability,Energy,0.0,0.03260869565217391
+2023-07-31,Momentum,Energy,0.0,0.03260869565217391
+2023-07-31,Value,Health Care,0.0,0.09782608695652174
+2023-07-31,Profitability,Health Care,0.0,0.09782608695652174
+2023-07-31,Momentum,Health Care,0.0,0.09782608695652174
+2023-07-31,Value,Industrials,0.0,0.23913043478260873
+2023-07-31,Profitability,Industrials,0.0,0.23913043478260873
+2023-07-31,Momentum,Industrials,0.0,0.23913043478260873
+2023-07-31,Value,Information Technology,-6.938893903907228e-18,0.2391304347826087
+2023-07-31,Profitability,Information Technology,-6.938893903907228e-18,0.23913043478260873
+2023-07-31,Momentum,Information Technology,6.938893903907228e-18,0.23913043478260873
+2023-07-31,Value,Materials,0.0,0.20652173913043476
+2023-07-31,Profitability,Materials,0.0,0.20652173913043476
+2023-07-31,Momentum,Materials,0.0,0.20652173913043476
+2023-07-31,Value,Real Estate,0.0,0.043478260869565216
+2023-07-31,Profitability,Real Estate,0.0,0.043478260869565216
+2023-07-31,Momentum,Real Estate,0.0,0.043478260869565216
+2023-07-31,Value,Utilities,0.0,0.021739130434782608
+2023-07-31,Profitability,Utilities,0.0,0.021739130434782608
+2023-07-31,Momentum,Utilities,0.0,0.021739130434782608
+2023-08-31,Value,Communication Services,0.0,0.02127659574468085
+2023-08-31,Profitability,Communication Services,0.0,0.02127659574468085
+2023-08-31,Momentum,Communication Services,0.0,0.02127659574468085
+2023-08-31,Value,Consumer Discretionary,0.0,0.07446808510638298
+2023-08-31,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2023-08-31,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2023-08-31,Value,Consumer Staples,0.0,0.02127659574468085
+2023-08-31,Profitability,Consumer Staples,0.0,0.02127659574468085
+2023-08-31,Momentum,Consumer Staples,0.0,0.02127659574468085
+2023-08-31,Value,Energy,0.0,0.031914893617021274
+2023-08-31,Profitability,Energy,0.0,0.031914893617021274
+2023-08-31,Momentum,Energy,0.0,0.031914893617021274
+2023-08-31,Value,Health Care,0.0,0.10638297872340427
+2023-08-31,Profitability,Health Care,0.0,0.10638297872340427
+2023-08-31,Momentum,Health Care,0.0,0.10638297872340426
+2023-08-31,Value,Industrials,0.0,0.23404255319148937
+2023-08-31,Profitability,Industrials,0.0,0.23404255319148937
+2023-08-31,Momentum,Industrials,0.0,0.23404255319148937
+2023-08-31,Value,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2023-08-31,Profitability,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2023-08-31,Momentum,Information Technology,6.938893903907228e-18,0.24468085106382975
+2023-08-31,Value,Materials,0.0,0.20212765957446804
+2023-08-31,Profitability,Materials,0.0,0.20212765957446804
+2023-08-31,Momentum,Materials,0.0,0.20212765957446804
+2023-08-31,Value,Real Estate,0.0,0.0425531914893617
+2023-08-31,Profitability,Real Estate,0.0,0.0425531914893617
+2023-08-31,Momentum,Real Estate,0.0,0.0425531914893617
+2023-08-31,Value,Utilities,0.0,0.02127659574468085
+2023-08-31,Profitability,Utilities,0.0,0.02127659574468085
+2023-08-31,Momentum,Utilities,0.0,0.02127659574468085
+2023-09-28,Value,Communication Services,0.0,0.02127659574468085
+2023-09-28,Profitability,Communication Services,0.0,0.02127659574468085
+2023-09-28,Momentum,Communication Services,0.0,0.02127659574468085
+2023-09-28,Value,Consumer Discretionary,0.0,0.07446808510638298
+2023-09-28,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2023-09-28,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2023-09-28,Value,Consumer Staples,0.0,0.02127659574468085
+2023-09-28,Profitability,Consumer Staples,0.0,0.02127659574468085
+2023-09-28,Momentum,Consumer Staples,0.0,0.02127659574468085
+2023-09-28,Value,Energy,0.0,0.031914893617021274
+2023-09-28,Profitability,Energy,0.0,0.031914893617021274
+2023-09-28,Momentum,Energy,0.0,0.031914893617021274
+2023-09-28,Value,Health Care,0.0,0.10638297872340427
+2023-09-28,Profitability,Health Care,0.0,0.10638297872340427
+2023-09-28,Momentum,Health Care,0.0,0.10638297872340426
+2023-09-28,Value,Industrials,0.0,0.23404255319148937
+2023-09-28,Profitability,Industrials,0.0,0.23404255319148937
+2023-09-28,Momentum,Industrials,0.0,0.23404255319148937
+2023-09-28,Value,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2023-09-28,Profitability,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2023-09-28,Momentum,Information Technology,6.938893903907228e-18,0.24468085106382972
+2023-09-28,Value,Materials,0.0,0.20212765957446804
+2023-09-28,Profitability,Materials,0.0,0.20212765957446804
+2023-09-28,Momentum,Materials,0.0,0.20212765957446804
+2023-09-28,Value,Real Estate,0.0,0.0425531914893617
+2023-09-28,Profitability,Real Estate,0.0,0.0425531914893617
+2023-09-28,Momentum,Real Estate,0.0,0.0425531914893617
+2023-09-28,Value,Utilities,0.0,0.02127659574468085
+2023-09-28,Profitability,Utilities,0.0,0.02127659574468085
+2023-09-28,Momentum,Utilities,0.0,0.02127659574468085
+2023-10-31,Value,Communication Services,0.0,0.02127659574468085
+2023-10-31,Profitability,Communication Services,0.0,0.02127659574468085
+2023-10-31,Momentum,Communication Services,0.0,0.02127659574468085
+2023-10-31,Value,Consumer Discretionary,0.0,0.07446808510638298
+2023-10-31,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2023-10-31,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2023-10-31,Value,Consumer Staples,0.0,0.02127659574468085
+2023-10-31,Profitability,Consumer Staples,0.0,0.02127659574468085
+2023-10-31,Momentum,Consumer Staples,0.0,0.02127659574468085
+2023-10-31,Value,Energy,0.0,0.031914893617021274
+2023-10-31,Profitability,Energy,0.0,0.031914893617021274
+2023-10-31,Momentum,Energy,0.0,0.031914893617021274
+2023-10-31,Value,Health Care,0.0,0.10638297872340427
+2023-10-31,Profitability,Health Care,0.0,0.10638297872340427
+2023-10-31,Momentum,Health Care,0.0,0.10638297872340426
+2023-10-31,Value,Industrials,0.0,0.23404255319148937
+2023-10-31,Profitability,Industrials,0.0,0.23404255319148937
+2023-10-31,Momentum,Industrials,0.0,0.23404255319148937
+2023-10-31,Value,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2023-10-31,Profitability,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2023-10-31,Momentum,Information Technology,0.0,0.24468085106382975
+2023-10-31,Value,Materials,0.0,0.20212765957446804
+2023-10-31,Profitability,Materials,0.0,0.20212765957446804
+2023-10-31,Momentum,Materials,0.0,0.20212765957446804
+2023-10-31,Value,Real Estate,0.0,0.0425531914893617
+2023-10-31,Profitability,Real Estate,0.0,0.0425531914893617
+2023-10-31,Momentum,Real Estate,0.0,0.0425531914893617
+2023-10-31,Value,Utilities,0.0,0.02127659574468085
+2023-10-31,Profitability,Utilities,0.0,0.02127659574468085
+2023-10-31,Momentum,Utilities,0.0,0.02127659574468085
+2023-11-30,Value,Communication Services,0.0,0.02127659574468085
+2023-11-30,Profitability,Communication Services,0.0,0.02127659574468085
+2023-11-30,Momentum,Communication Services,0.0,0.02127659574468085
+2023-11-30,Value,Consumer Discretionary,0.0,0.07446808510638298
+2023-11-30,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2023-11-30,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2023-11-30,Value,Consumer Staples,0.0,0.02127659574468085
+2023-11-30,Profitability,Consumer Staples,0.0,0.02127659574468085
+2023-11-30,Momentum,Consumer Staples,0.0,0.02127659574468085
+2023-11-30,Value,Energy,0.0,0.031914893617021274
+2023-11-30,Profitability,Energy,0.0,0.031914893617021274
+2023-11-30,Momentum,Energy,0.0,0.031914893617021274
+2023-11-30,Value,Health Care,0.0,0.10638297872340427
+2023-11-30,Profitability,Health Care,0.0,0.10638297872340427
+2023-11-30,Momentum,Health Care,0.0,0.10638297872340426
+2023-11-30,Value,Industrials,0.0,0.23404255319148937
+2023-11-30,Profitability,Industrials,0.0,0.23404255319148937
+2023-11-30,Momentum,Industrials,0.0,0.23404255319148937
+2023-11-30,Value,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2023-11-30,Profitability,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2023-11-30,Momentum,Information Technology,-3.469446951953614e-18,0.24468085106382972
+2023-11-30,Value,Materials,0.0,0.20212765957446804
+2023-11-30,Profitability,Materials,0.0,0.20212765957446804
+2023-11-30,Momentum,Materials,0.0,0.20212765957446807
+2023-11-30,Value,Real Estate,0.0,0.0425531914893617
+2023-11-30,Profitability,Real Estate,0.0,0.0425531914893617
+2023-11-30,Momentum,Real Estate,0.0,0.0425531914893617
+2023-11-30,Value,Utilities,0.0,0.02127659574468085
+2023-11-30,Profitability,Utilities,0.0,0.02127659574468085
+2023-11-30,Momentum,Utilities,0.0,0.02127659574468085
+2023-12-29,Value,Communication Services,0.0,0.02127659574468085
+2023-12-29,Profitability,Communication Services,0.0,0.02127659574468085
+2023-12-29,Momentum,Communication Services,0.0,0.02127659574468085
+2023-12-29,Value,Consumer Discretionary,0.0,0.07446808510638298
+2023-12-29,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2023-12-29,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2023-12-29,Value,Consumer Staples,0.0,0.02127659574468085
+2023-12-29,Profitability,Consumer Staples,0.0,0.02127659574468085
+2023-12-29,Momentum,Consumer Staples,0.0,0.02127659574468085
+2023-12-29,Value,Energy,0.0,0.031914893617021274
+2023-12-29,Profitability,Energy,0.0,0.031914893617021274
+2023-12-29,Momentum,Energy,0.0,0.031914893617021274
+2023-12-29,Value,Health Care,0.0,0.10638297872340426
+2023-12-29,Profitability,Health Care,0.0,0.10638297872340427
+2023-12-29,Momentum,Health Care,0.0,0.10638297872340426
+2023-12-29,Value,Industrials,0.0,0.23404255319148937
+2023-12-29,Profitability,Industrials,0.0,0.23404255319148937
+2023-12-29,Momentum,Industrials,0.0,0.23404255319148937
+2023-12-29,Value,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2023-12-29,Profitability,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2023-12-29,Momentum,Information Technology,0.0,0.24468085106382972
+2023-12-29,Value,Materials,0.0,0.20212765957446804
+2023-12-29,Profitability,Materials,0.0,0.20212765957446804
+2023-12-29,Momentum,Materials,0.0,0.20212765957446804
+2023-12-29,Value,Real Estate,0.0,0.0425531914893617
+2023-12-29,Profitability,Real Estate,0.0,0.0425531914893617
+2023-12-29,Momentum,Real Estate,0.0,0.0425531914893617
+2023-12-29,Value,Utilities,0.0,0.02127659574468085
+2023-12-29,Profitability,Utilities,0.0,0.02127659574468085
+2023-12-29,Momentum,Utilities,0.0,0.02127659574468085
+2024-01-31,Value,Communication Services,0.0,0.02127659574468085
+2024-01-31,Profitability,Communication Services,0.0,0.02127659574468085
+2024-01-31,Momentum,Communication Services,0.0,0.02127659574468085
+2024-01-31,Value,Consumer Discretionary,0.0,0.07446808510638298
+2024-01-31,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2024-01-31,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2024-01-31,Value,Consumer Staples,0.0,0.02127659574468085
+2024-01-31,Profitability,Consumer Staples,0.0,0.02127659574468085
+2024-01-31,Momentum,Consumer Staples,0.0,0.02127659574468085
+2024-01-31,Value,Energy,0.0,0.031914893617021274
+2024-01-31,Profitability,Energy,0.0,0.031914893617021274
+2024-01-31,Momentum,Energy,0.0,0.031914893617021274
+2024-01-31,Value,Health Care,0.0,0.10638297872340426
+2024-01-31,Profitability,Health Care,0.0,0.10638297872340427
+2024-01-31,Momentum,Health Care,0.0,0.10638297872340427
+2024-01-31,Value,Industrials,0.0,0.23404255319148937
+2024-01-31,Profitability,Industrials,0.0,0.23404255319148937
+2024-01-31,Momentum,Industrials,0.0,0.23404255319148937
+2024-01-31,Value,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2024-01-31,Profitability,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2024-01-31,Momentum,Information Technology,6.938893903907228e-18,0.24468085106382975
+2024-01-31,Value,Materials,0.0,0.20212765957446804
+2024-01-31,Profitability,Materials,0.0,0.20212765957446804
+2024-01-31,Momentum,Materials,0.0,0.20212765957446804
+2024-01-31,Value,Real Estate,0.0,0.0425531914893617
+2024-01-31,Profitability,Real Estate,0.0,0.0425531914893617
+2024-01-31,Momentum,Real Estate,0.0,0.0425531914893617
+2024-01-31,Value,Utilities,0.0,0.02127659574468085
+2024-01-31,Profitability,Utilities,0.0,0.02127659574468085
+2024-01-31,Momentum,Utilities,0.0,0.02127659574468085
+2024-02-29,Value,Communication Services,0.0,0.02127659574468085
+2024-02-29,Profitability,Communication Services,0.0,0.02127659574468085
+2024-02-29,Momentum,Communication Services,0.0,0.02127659574468085
+2024-02-29,Value,Consumer Discretionary,0.0,0.07446808510638298
+2024-02-29,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2024-02-29,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2024-02-29,Value,Consumer Staples,0.0,0.02127659574468085
+2024-02-29,Profitability,Consumer Staples,0.0,0.02127659574468085
+2024-02-29,Momentum,Consumer Staples,0.0,0.02127659574468085
+2024-02-29,Value,Energy,0.0,0.031914893617021274
+2024-02-29,Profitability,Energy,0.0,0.031914893617021274
+2024-02-29,Momentum,Energy,0.0,0.031914893617021274
+2024-02-29,Value,Health Care,0.0,0.10638297872340426
+2024-02-29,Profitability,Health Care,0.0,0.10638297872340427
+2024-02-29,Momentum,Health Care,0.0,0.10638297872340427
+2024-02-29,Value,Industrials,0.0,0.23404255319148937
+2024-02-29,Profitability,Industrials,0.0,0.23404255319148937
+2024-02-29,Momentum,Industrials,0.0,0.23404255319148937
+2024-02-29,Value,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2024-02-29,Profitability,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2024-02-29,Momentum,Information Technology,6.938893903907228e-18,0.24468085106382972
+2024-02-29,Value,Materials,0.0,0.20212765957446804
+2024-02-29,Profitability,Materials,0.0,0.20212765957446804
+2024-02-29,Momentum,Materials,0.0,0.20212765957446804
+2024-02-29,Value,Real Estate,0.0,0.0425531914893617
+2024-02-29,Profitability,Real Estate,0.0,0.0425531914893617
+2024-02-29,Momentum,Real Estate,0.0,0.0425531914893617
+2024-02-29,Value,Utilities,0.0,0.02127659574468085
+2024-02-29,Profitability,Utilities,0.0,0.02127659574468085
+2024-02-29,Momentum,Utilities,0.0,0.02127659574468085
+2024-03-29,Value,Communication Services,0.0,0.02127659574468085
+2024-03-29,Profitability,Communication Services,0.0,0.02127659574468085
+2024-03-29,Momentum,Communication Services,0.0,0.02127659574468085
+2024-03-29,Value,Consumer Discretionary,0.0,0.07446808510638298
+2024-03-29,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2024-03-29,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2024-03-29,Value,Consumer Staples,0.0,0.02127659574468085
+2024-03-29,Profitability,Consumer Staples,0.0,0.02127659574468085
+2024-03-29,Momentum,Consumer Staples,0.0,0.02127659574468085
+2024-03-29,Value,Energy,0.0,0.031914893617021274
+2024-03-29,Profitability,Energy,0.0,0.031914893617021274
+2024-03-29,Momentum,Energy,0.0,0.031914893617021274
+2024-03-29,Value,Health Care,0.0,0.10638297872340426
+2024-03-29,Profitability,Health Care,0.0,0.10638297872340427
+2024-03-29,Momentum,Health Care,0.0,0.10638297872340427
+2024-03-29,Value,Industrials,0.0,0.23404255319148937
+2024-03-29,Profitability,Industrials,0.0,0.23404255319148937
+2024-03-29,Momentum,Industrials,0.0,0.23404255319148937
+2024-03-29,Value,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2024-03-29,Profitability,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2024-03-29,Momentum,Information Technology,6.938893903907228e-18,0.24468085106382975
+2024-03-29,Value,Materials,0.0,0.20212765957446804
+2024-03-29,Profitability,Materials,0.0,0.20212765957446804
+2024-03-29,Momentum,Materials,0.0,0.20212765957446807
+2024-03-29,Value,Real Estate,0.0,0.0425531914893617
+2024-03-29,Profitability,Real Estate,0.0,0.0425531914893617
+2024-03-29,Momentum,Real Estate,0.0,0.0425531914893617
+2024-03-29,Value,Utilities,0.0,0.02127659574468085
+2024-03-29,Profitability,Utilities,0.0,0.02127659574468085
+2024-03-29,Momentum,Utilities,0.0,0.02127659574468085
+2024-04-30,Value,Communication Services,0.0,0.02127659574468085
+2024-04-30,Profitability,Communication Services,0.0,0.02127659574468085
+2024-04-30,Momentum,Communication Services,0.0,0.02127659574468085
+2024-04-30,Value,Consumer Discretionary,0.0,0.07446808510638298
+2024-04-30,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2024-04-30,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2024-04-30,Value,Consumer Staples,0.0,0.02127659574468085
+2024-04-30,Profitability,Consumer Staples,0.0,0.02127659574468085
+2024-04-30,Momentum,Consumer Staples,0.0,0.02127659574468085
+2024-04-30,Value,Energy,0.0,0.031914893617021274
+2024-04-30,Profitability,Energy,0.0,0.031914893617021274
+2024-04-30,Momentum,Energy,0.0,0.031914893617021274
+2024-04-30,Value,Health Care,0.0,0.10638297872340426
+2024-04-30,Profitability,Health Care,0.0,0.10638297872340427
+2024-04-30,Momentum,Health Care,0.0,0.10638297872340427
+2024-04-30,Value,Industrials,0.0,0.23404255319148937
+2024-04-30,Profitability,Industrials,0.0,0.23404255319148937
+2024-04-30,Momentum,Industrials,0.0,0.23404255319148937
+2024-04-30,Value,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2024-04-30,Profitability,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2024-04-30,Momentum,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2024-04-30,Value,Materials,0.0,0.20212765957446804
+2024-04-30,Profitability,Materials,0.0,0.20212765957446804
+2024-04-30,Momentum,Materials,0.0,0.20212765957446807
+2024-04-30,Value,Real Estate,0.0,0.0425531914893617
+2024-04-30,Profitability,Real Estate,0.0,0.0425531914893617
+2024-04-30,Momentum,Real Estate,0.0,0.0425531914893617
+2024-04-30,Value,Utilities,0.0,0.02127659574468085
+2024-04-30,Profitability,Utilities,0.0,0.02127659574468085
+2024-04-30,Momentum,Utilities,0.0,0.02127659574468085
+2024-05-31,Value,Communication Services,0.0,0.02127659574468085
+2024-05-31,Profitability,Communication Services,0.0,0.02127659574468085
+2024-05-31,Momentum,Communication Services,0.0,0.02127659574468085
+2024-05-31,Value,Consumer Discretionary,0.0,0.07446808510638298
+2024-05-31,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2024-05-31,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2024-05-31,Value,Consumer Staples,0.0,0.02127659574468085
+2024-05-31,Profitability,Consumer Staples,0.0,0.02127659574468085
+2024-05-31,Momentum,Consumer Staples,0.0,0.02127659574468085
+2024-05-31,Value,Energy,0.0,0.031914893617021274
+2024-05-31,Profitability,Energy,0.0,0.031914893617021274
+2024-05-31,Momentum,Energy,0.0,0.031914893617021274
+2024-05-31,Value,Health Care,0.0,0.10638297872340426
+2024-05-31,Profitability,Health Care,0.0,0.10638297872340427
+2024-05-31,Momentum,Health Care,0.0,0.10638297872340427
+2024-05-31,Value,Industrials,0.0,0.23404255319148937
+2024-05-31,Profitability,Industrials,0.0,0.23404255319148937
+2024-05-31,Momentum,Industrials,0.0,0.23404255319148937
+2024-05-31,Value,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2024-05-31,Profitability,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2024-05-31,Momentum,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2024-05-31,Value,Materials,0.0,0.20212765957446804
+2024-05-31,Profitability,Materials,0.0,0.20212765957446804
+2024-05-31,Momentum,Materials,0.0,0.20212765957446807
+2024-05-31,Value,Real Estate,0.0,0.0425531914893617
+2024-05-31,Profitability,Real Estate,0.0,0.0425531914893617
+2024-05-31,Momentum,Real Estate,0.0,0.0425531914893617
+2024-05-31,Value,Utilities,0.0,0.02127659574468085
+2024-05-31,Profitability,Utilities,0.0,0.02127659574468085
+2024-05-31,Momentum,Utilities,0.0,0.02127659574468085
+2024-06-28,Value,Communication Services,0.0,0.02127659574468085
+2024-06-28,Profitability,Communication Services,0.0,0.02127659574468085
+2024-06-28,Momentum,Communication Services,0.0,0.02127659574468085
+2024-06-28,Value,Consumer Discretionary,0.0,0.07446808510638298
+2024-06-28,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2024-06-28,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2024-06-28,Value,Consumer Staples,0.0,0.02127659574468085
+2024-06-28,Profitability,Consumer Staples,0.0,0.02127659574468085
+2024-06-28,Momentum,Consumer Staples,0.0,0.02127659574468085
+2024-06-28,Value,Energy,0.0,0.031914893617021274
+2024-06-28,Profitability,Energy,0.0,0.031914893617021274
+2024-06-28,Momentum,Energy,0.0,0.031914893617021274
+2024-06-28,Value,Health Care,0.0,0.10638297872340426
+2024-06-28,Profitability,Health Care,0.0,0.10638297872340427
+2024-06-28,Momentum,Health Care,0.0,0.10638297872340427
+2024-06-28,Value,Industrials,0.0,0.23404255319148937
+2024-06-28,Profitability,Industrials,0.0,0.23404255319148937
+2024-06-28,Momentum,Industrials,0.0,0.23404255319148937
+2024-06-28,Value,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2024-06-28,Profitability,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2024-06-28,Momentum,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2024-06-28,Value,Materials,0.0,0.20212765957446804
+2024-06-28,Profitability,Materials,0.0,0.20212765957446804
+2024-06-28,Momentum,Materials,0.0,0.20212765957446807
+2024-06-28,Value,Real Estate,0.0,0.0425531914893617
+2024-06-28,Profitability,Real Estate,0.0,0.0425531914893617
+2024-06-28,Momentum,Real Estate,0.0,0.0425531914893617
+2024-06-28,Value,Utilities,0.0,0.02127659574468085
+2024-06-28,Profitability,Utilities,0.0,0.02127659574468085
+2024-06-28,Momentum,Utilities,0.0,0.02127659574468085
+2024-07-31,Value,Communication Services,0.0,0.021739130434782608
+2024-07-31,Profitability,Communication Services,0.0,0.021739130434782608
+2024-07-31,Momentum,Communication Services,0.0,0.021739130434782608
+2024-07-31,Value,Consumer Discretionary,0.0,0.07608695652173914
+2024-07-31,Profitability,Consumer Discretionary,0.0,0.07608695652173914
+2024-07-31,Momentum,Consumer Discretionary,0.0,0.07608695652173914
+2024-07-31,Value,Consumer Staples,0.0,0.021739130434782608
+2024-07-31,Profitability,Consumer Staples,0.0,0.021739130434782608
+2024-07-31,Momentum,Consumer Staples,0.0,0.021739130434782608
+2024-07-31,Value,Energy,0.0,0.03260869565217391
+2024-07-31,Profitability,Energy,0.0,0.03260869565217391
+2024-07-31,Momentum,Energy,0.0,0.03260869565217391
+2024-07-31,Value,Health Care,0.0,0.10869565217391304
+2024-07-31,Profitability,Health Care,0.0,0.10869565217391305
+2024-07-31,Momentum,Health Care,0.0,0.10869565217391305
+2024-07-31,Value,Industrials,-6.938893903907228e-18,0.2173913043478261
+2024-07-31,Profitability,Industrials,0.0,0.21739130434782608
+2024-07-31,Momentum,Industrials,6.938893903907228e-18,0.21739130434782608
+2024-07-31,Value,Information Technology,6.938893903907228e-18,0.25
+2024-07-31,Profitability,Information Technology,0.0,0.25
+2024-07-31,Momentum,Information Technology,-3.469446951953614e-18,0.25
+2024-07-31,Value,Materials,0.0,0.20652173913043476
+2024-07-31,Profitability,Materials,0.0,0.20652173913043476
+2024-07-31,Momentum,Materials,0.0,0.20652173913043476
+2024-07-31,Value,Real Estate,0.0,0.043478260869565216
+2024-07-31,Profitability,Real Estate,0.0,0.043478260869565216
+2024-07-31,Momentum,Real Estate,0.0,0.043478260869565216
+2024-07-31,Value,Utilities,0.0,0.021739130434782608
+2024-07-31,Profitability,Utilities,0.0,0.021739130434782608
+2024-07-31,Momentum,Utilities,0.0,0.021739130434782608
+2024-08-30,Value,Communication Services,0.0,0.021739130434782608
+2024-08-30,Profitability,Communication Services,0.0,0.021739130434782608
+2024-08-30,Momentum,Communication Services,0.0,0.021739130434782608
+2024-08-30,Value,Consumer Discretionary,0.0,0.07608695652173914
+2024-08-30,Profitability,Consumer Discretionary,0.0,0.07608695652173914
+2024-08-30,Momentum,Consumer Discretionary,0.0,0.07608695652173914
+2024-08-30,Value,Consumer Staples,0.0,0.021739130434782608
+2024-08-30,Profitability,Consumer Staples,0.0,0.021739130434782608
+2024-08-30,Momentum,Consumer Staples,0.0,0.021739130434782608
+2024-08-30,Value,Energy,0.0,0.03260869565217391
+2024-08-30,Profitability,Energy,0.0,0.03260869565217391
+2024-08-30,Momentum,Energy,0.0,0.03260869565217391
+2024-08-30,Value,Health Care,0.0,0.10869565217391304
+2024-08-30,Profitability,Health Care,0.0,0.10869565217391305
+2024-08-30,Momentum,Health Care,0.0,0.10869565217391304
+2024-08-30,Value,Industrials,-6.938893903907228e-18,0.2173913043478261
+2024-08-30,Profitability,Industrials,0.0,0.21739130434782608
+2024-08-30,Momentum,Industrials,-6.938893903907228e-18,0.2173913043478261
+2024-08-30,Value,Information Technology,6.938893903907228e-18,0.25
+2024-08-30,Profitability,Information Technology,0.0,0.25
+2024-08-30,Momentum,Information Technology,0.0,0.25
+2024-08-30,Value,Materials,0.0,0.20652173913043478
+2024-08-30,Profitability,Materials,0.0,0.20652173913043476
+2024-08-30,Momentum,Materials,0.0,0.20652173913043476
+2024-08-30,Value,Real Estate,0.0,0.043478260869565216
+2024-08-30,Profitability,Real Estate,0.0,0.043478260869565216
+2024-08-30,Momentum,Real Estate,0.0,0.043478260869565216
+2024-08-30,Value,Utilities,0.0,0.021739130434782608
+2024-08-30,Profitability,Utilities,0.0,0.021739130434782608
+2024-08-30,Momentum,Utilities,0.0,0.021739130434782608
+2024-09-30,Value,Communication Services,0.0,0.021739130434782608
+2024-09-30,Profitability,Communication Services,0.0,0.021739130434782608
+2024-09-30,Momentum,Communication Services,0.0,0.021739130434782608
+2024-09-30,Value,Consumer Discretionary,0.0,0.07608695652173914
+2024-09-30,Profitability,Consumer Discretionary,0.0,0.07608695652173914
+2024-09-30,Momentum,Consumer Discretionary,0.0,0.07608695652173914
+2024-09-30,Value,Consumer Staples,0.0,0.021739130434782608
+2024-09-30,Profitability,Consumer Staples,0.0,0.021739130434782608
+2024-09-30,Momentum,Consumer Staples,0.0,0.021739130434782608
+2024-09-30,Value,Energy,0.0,0.03260869565217391
+2024-09-30,Profitability,Energy,0.0,0.03260869565217391
+2024-09-30,Momentum,Energy,0.0,0.03260869565217391
+2024-09-30,Value,Health Care,0.0,0.10869565217391304
+2024-09-30,Profitability,Health Care,0.0,0.10869565217391305
+2024-09-30,Momentum,Health Care,0.0,0.10869565217391304
+2024-09-30,Value,Industrials,0.0,0.2173913043478261
+2024-09-30,Profitability,Industrials,0.0,0.21739130434782608
+2024-09-30,Momentum,Industrials,6.938893903907228e-18,0.21739130434782608
+2024-09-30,Value,Information Technology,6.938893903907228e-18,0.25
+2024-09-30,Profitability,Information Technology,0.0,0.25
+2024-09-30,Momentum,Information Technology,0.0,0.25
+2024-09-30,Value,Materials,0.0,0.20652173913043478
+2024-09-30,Profitability,Materials,0.0,0.20652173913043476
+2024-09-30,Momentum,Materials,0.0,0.20652173913043476
+2024-09-30,Value,Real Estate,0.0,0.043478260869565216
+2024-09-30,Profitability,Real Estate,0.0,0.043478260869565216
+2024-09-30,Momentum,Real Estate,0.0,0.043478260869565216
+2024-09-30,Value,Utilities,0.0,0.021739130434782608
+2024-09-30,Profitability,Utilities,0.0,0.021739130434782608
+2024-09-30,Momentum,Utilities,0.0,0.021739130434782608
+2024-10-31,Value,Communication Services,0.0,0.021739130434782608
+2024-10-31,Profitability,Communication Services,0.0,0.021739130434782608
+2024-10-31,Momentum,Communication Services,0.0,0.021739130434782608
+2024-10-31,Value,Consumer Discretionary,0.0,0.07608695652173914
+2024-10-31,Profitability,Consumer Discretionary,0.0,0.07608695652173914
+2024-10-31,Momentum,Consumer Discretionary,0.0,0.07608695652173914
+2024-10-31,Value,Consumer Staples,0.0,0.021739130434782608
+2024-10-31,Profitability,Consumer Staples,0.0,0.021739130434782608
+2024-10-31,Momentum,Consumer Staples,0.0,0.021739130434782608
+2024-10-31,Value,Energy,0.0,0.03260869565217391
+2024-10-31,Profitability,Energy,0.0,0.03260869565217391
+2024-10-31,Momentum,Energy,0.0,0.03260869565217391
+2024-10-31,Value,Health Care,0.0,0.10869565217391304
+2024-10-31,Profitability,Health Care,0.0,0.10869565217391305
+2024-10-31,Momentum,Health Care,0.0,0.10869565217391304
+2024-10-31,Value,Industrials,0.0,0.21739130434782608
+2024-10-31,Profitability,Industrials,0.0,0.21739130434782608
+2024-10-31,Momentum,Industrials,-6.938893903907228e-18,0.2173913043478261
+2024-10-31,Value,Information Technology,6.938893903907228e-18,0.25
+2024-10-31,Profitability,Information Technology,0.0,0.25
+2024-10-31,Momentum,Information Technology,-6.938893903907228e-18,0.25
+2024-10-31,Value,Materials,0.0,0.20652173913043476
+2024-10-31,Profitability,Materials,0.0,0.20652173913043476
+2024-10-31,Momentum,Materials,0.0,0.20652173913043476
+2024-10-31,Value,Real Estate,0.0,0.043478260869565216
+2024-10-31,Profitability,Real Estate,0.0,0.043478260869565216
+2024-10-31,Momentum,Real Estate,0.0,0.043478260869565216
+2024-10-31,Value,Utilities,0.0,0.021739130434782608
+2024-10-31,Profitability,Utilities,0.0,0.021739130434782608
+2024-10-31,Momentum,Utilities,0.0,0.021739130434782608
+2024-11-29,Value,Communication Services,0.0,0.021739130434782608
+2024-11-29,Profitability,Communication Services,0.0,0.021739130434782608
+2024-11-29,Momentum,Communication Services,0.0,0.021739130434782608
+2024-11-29,Value,Consumer Discretionary,0.0,0.07608695652173914
+2024-11-29,Profitability,Consumer Discretionary,0.0,0.07608695652173914
+2024-11-29,Momentum,Consumer Discretionary,0.0,0.07608695652173914
+2024-11-29,Value,Consumer Staples,0.0,0.021739130434782608
+2024-11-29,Profitability,Consumer Staples,0.0,0.021739130434782608
+2024-11-29,Momentum,Consumer Staples,0.0,0.021739130434782608
+2024-11-29,Value,Energy,0.0,0.03260869565217391
+2024-11-29,Profitability,Energy,0.0,0.03260869565217391
+2024-11-29,Momentum,Energy,0.0,0.03260869565217391
+2024-11-29,Value,Health Care,0.0,0.10869565217391304
+2024-11-29,Profitability,Health Care,0.0,0.10869565217391305
+2024-11-29,Momentum,Health Care,0.0,0.10869565217391304
+2024-11-29,Value,Industrials,0.0,0.21739130434782608
+2024-11-29,Profitability,Industrials,0.0,0.21739130434782608
+2024-11-29,Momentum,Industrials,6.938893903907228e-18,0.21739130434782608
+2024-11-29,Value,Information Technology,6.938893903907228e-18,0.25
+2024-11-29,Profitability,Information Technology,0.0,0.25
+2024-11-29,Momentum,Information Technology,0.0,0.25
+2024-11-29,Value,Materials,0.0,0.20652173913043476
+2024-11-29,Profitability,Materials,0.0,0.20652173913043476
+2024-11-29,Momentum,Materials,0.0,0.20652173913043476
+2024-11-29,Value,Real Estate,0.0,0.043478260869565216
+2024-11-29,Profitability,Real Estate,0.0,0.043478260869565216
+2024-11-29,Momentum,Real Estate,0.0,0.043478260869565216
+2024-11-29,Value,Utilities,0.0,0.021739130434782608
+2024-11-29,Profitability,Utilities,0.0,0.021739130434782608
+2024-11-29,Momentum,Utilities,0.0,0.021739130434782608
+2024-12-31,Value,Communication Services,0.0,0.021739130434782608
+2024-12-31,Profitability,Communication Services,0.0,0.021739130434782608
+2024-12-31,Momentum,Communication Services,0.0,0.021739130434782608
+2024-12-31,Value,Consumer Discretionary,0.0,0.07608695652173914
+2024-12-31,Profitability,Consumer Discretionary,0.0,0.07608695652173914
+2024-12-31,Momentum,Consumer Discretionary,0.0,0.07608695652173914
+2024-12-31,Value,Consumer Staples,0.0,0.021739130434782608
+2024-12-31,Profitability,Consumer Staples,0.0,0.021739130434782608
+2024-12-31,Momentum,Consumer Staples,0.0,0.021739130434782608
+2024-12-31,Value,Energy,0.0,0.03260869565217391
+2024-12-31,Profitability,Energy,0.0,0.03260869565217391
+2024-12-31,Momentum,Energy,0.0,0.03260869565217391
+2024-12-31,Value,Health Care,0.0,0.10869565217391304
+2024-12-31,Profitability,Health Care,0.0,0.10869565217391305
+2024-12-31,Momentum,Health Care,0.0,0.10869565217391305
+2024-12-31,Value,Industrials,0.0,0.2173913043478261
+2024-12-31,Profitability,Industrials,0.0,0.21739130434782608
+2024-12-31,Momentum,Industrials,-6.938893903907228e-18,0.21739130434782608
+2024-12-31,Value,Information Technology,6.938893903907228e-18,0.25
+2024-12-31,Profitability,Information Technology,0.0,0.25
+2024-12-31,Momentum,Information Technology,0.0,0.25
+2024-12-31,Value,Materials,0.0,0.20652173913043476
+2024-12-31,Profitability,Materials,0.0,0.20652173913043476
+2024-12-31,Momentum,Materials,0.0,0.20652173913043476
+2024-12-31,Value,Real Estate,0.0,0.043478260869565216
+2024-12-31,Profitability,Real Estate,0.0,0.043478260869565216
+2024-12-31,Momentum,Real Estate,0.0,0.043478260869565216
+2024-12-31,Value,Utilities,0.0,0.021739130434782608
+2024-12-31,Profitability,Utilities,0.0,0.021739130434782608
+2024-12-31,Momentum,Utilities,0.0,0.021739130434782608
+2025-01-27,Value,Communication Services,0.0,0.021739130434782608
+2025-01-27,Profitability,Communication Services,0.0,0.021739130434782608
+2025-01-27,Momentum,Communication Services,0.0,0.021739130434782608
+2025-01-27,Value,Consumer Discretionary,0.0,0.07608695652173914
+2025-01-27,Profitability,Consumer Discretionary,0.0,0.07608695652173914
+2025-01-27,Momentum,Consumer Discretionary,0.0,0.07608695652173914
+2025-01-27,Value,Consumer Staples,0.0,0.021739130434782608
+2025-01-27,Profitability,Consumer Staples,0.0,0.021739130434782608
+2025-01-27,Momentum,Consumer Staples,0.0,0.021739130434782608
+2025-01-27,Value,Energy,0.0,0.03260869565217391
+2025-01-27,Profitability,Energy,0.0,0.03260869565217391
+2025-01-27,Momentum,Energy,0.0,0.03260869565217391
+2025-01-27,Value,Health Care,0.0,0.10869565217391304
+2025-01-27,Profitability,Health Care,0.0,0.10869565217391305
+2025-01-27,Momentum,Health Care,6.938893903907228e-18,0.10869565217391304
+2025-01-27,Value,Industrials,0.0,0.21739130434782608
+2025-01-27,Profitability,Industrials,0.0,0.21739130434782608
+2025-01-27,Momentum,Industrials,-2.0816681711721685e-17,0.2173913043478261
+2025-01-27,Value,Information Technology,6.938893903907228e-18,0.25
+2025-01-27,Profitability,Information Technology,0.0,0.25
+2025-01-27,Momentum,Information Technology,-6.938893903907228e-18,0.25
+2025-01-27,Value,Materials,0.0,0.20652173913043476
+2025-01-27,Profitability,Materials,0.0,0.20652173913043476
+2025-01-27,Momentum,Materials,0.0,0.20652173913043476
+2025-01-27,Value,Real Estate,0.0,0.043478260869565216
+2025-01-27,Profitability,Real Estate,0.0,0.043478260869565216
+2025-01-27,Momentum,Real Estate,0.0,0.043478260869565216
+2025-01-27,Value,Utilities,0.0,0.021739130434782608
+2025-01-27,Profitability,Utilities,0.0,0.021739130434782608
+2025-01-27,Momentum,Utilities,0.0,0.021739130434782608
+2025-02-28,Value,Communication Services,0.0,0.021739130434782608
+2025-02-28,Profitability,Communication Services,0.0,0.021739130434782608
+2025-02-28,Momentum,Communication Services,0.0,0.021739130434782608
+2025-02-28,Value,Consumer Discretionary,0.0,0.07608695652173914
+2025-02-28,Profitability,Consumer Discretionary,0.0,0.07608695652173914
+2025-02-28,Momentum,Consumer Discretionary,0.0,0.07608695652173914
+2025-02-28,Value,Consumer Staples,0.0,0.021739130434782608
+2025-02-28,Profitability,Consumer Staples,0.0,0.021739130434782608
+2025-02-28,Momentum,Consumer Staples,0.0,0.021739130434782608
+2025-02-28,Value,Energy,0.0,0.03260869565217391
+2025-02-28,Profitability,Energy,0.0,0.03260869565217391
+2025-02-28,Momentum,Energy,0.0,0.03260869565217391
+2025-02-28,Value,Health Care,0.0,0.10869565217391304
+2025-02-28,Profitability,Health Care,0.0,0.10869565217391305
+2025-02-28,Momentum,Health Care,0.0,0.10869565217391304
+2025-02-28,Value,Industrials,0.0,0.21739130434782608
+2025-02-28,Profitability,Industrials,0.0,0.21739130434782608
+2025-02-28,Momentum,Industrials,-6.938893903907228e-18,0.21739130434782608
+2025-02-28,Value,Information Technology,6.938893903907228e-18,0.25
+2025-02-28,Profitability,Information Technology,0.0,0.25
+2025-02-28,Momentum,Information Technology,-6.938893903907228e-18,0.25
+2025-02-28,Value,Materials,0.0,0.20652173913043476
+2025-02-28,Profitability,Materials,0.0,0.20652173913043476
+2025-02-28,Momentum,Materials,0.0,0.20652173913043476
+2025-02-28,Value,Real Estate,0.0,0.043478260869565216
+2025-02-28,Profitability,Real Estate,0.0,0.043478260869565216
+2025-02-28,Momentum,Real Estate,0.0,0.043478260869565216
+2025-02-28,Value,Utilities,0.0,0.021739130434782608
+2025-02-28,Profitability,Utilities,0.0,0.021739130434782608
+2025-02-28,Momentum,Utilities,0.0,0.021739130434782608
+2025-03-31,Value,Communication Services,0.0,0.021739130434782608
+2025-03-31,Profitability,Communication Services,0.0,0.021739130434782608
+2025-03-31,Momentum,Communication Services,0.0,0.021739130434782608
+2025-03-31,Value,Consumer Discretionary,0.0,0.07608695652173914
+2025-03-31,Profitability,Consumer Discretionary,0.0,0.07608695652173914
+2025-03-31,Momentum,Consumer Discretionary,0.0,0.07608695652173914
+2025-03-31,Value,Consumer Staples,0.0,0.021739130434782608
+2025-03-31,Profitability,Consumer Staples,0.0,0.021739130434782608
+2025-03-31,Momentum,Consumer Staples,0.0,0.021739130434782608
+2025-03-31,Value,Energy,0.0,0.03260869565217391
+2025-03-31,Profitability,Energy,0.0,0.03260869565217391
+2025-03-31,Momentum,Energy,0.0,0.03260869565217391
+2025-03-31,Value,Health Care,0.0,0.10869565217391304
+2025-03-31,Profitability,Health Care,0.0,0.10869565217391305
+2025-03-31,Momentum,Health Care,0.0,0.10869565217391305
+2025-03-31,Value,Industrials,0.0,0.21739130434782608
+2025-03-31,Profitability,Industrials,0.0,0.21739130434782608
+2025-03-31,Momentum,Industrials,0.0,0.2173913043478261
+2025-03-31,Value,Information Technology,6.938893903907228e-18,0.25
+2025-03-31,Profitability,Information Technology,0.0,0.25
+2025-03-31,Momentum,Information Technology,-2.0816681711721685e-17,0.25
+2025-03-31,Value,Materials,0.0,0.20652173913043476
+2025-03-31,Profitability,Materials,0.0,0.20652173913043476
+2025-03-31,Momentum,Materials,0.0,0.20652173913043476
+2025-03-31,Value,Real Estate,0.0,0.043478260869565216
+2025-03-31,Profitability,Real Estate,0.0,0.043478260869565216
+2025-03-31,Momentum,Real Estate,0.0,0.043478260869565216
+2025-03-31,Value,Utilities,0.0,0.021739130434782608
+2025-03-31,Profitability,Utilities,0.0,0.021739130434782608
+2025-03-31,Momentum,Utilities,0.0,0.021739130434782608
+2025-04-30,Value,Communication Services,0.0,0.021739130434782608
+2025-04-30,Profitability,Communication Services,0.0,0.021739130434782608
+2025-04-30,Momentum,Communication Services,0.0,0.021739130434782608
+2025-04-30,Value,Consumer Discretionary,0.0,0.07608695652173914
+2025-04-30,Profitability,Consumer Discretionary,0.0,0.07608695652173914
+2025-04-30,Momentum,Consumer Discretionary,0.0,0.07608695652173914
+2025-04-30,Value,Consumer Staples,0.0,0.021739130434782608
+2025-04-30,Profitability,Consumer Staples,0.0,0.021739130434782608
+2025-04-30,Momentum,Consumer Staples,0.0,0.021739130434782608
+2025-04-30,Value,Energy,0.0,0.03260869565217391
+2025-04-30,Profitability,Energy,0.0,0.03260869565217391
+2025-04-30,Momentum,Energy,0.0,0.03260869565217391
+2025-04-30,Value,Health Care,0.0,0.10869565217391304
+2025-04-30,Profitability,Health Care,0.0,0.10869565217391305
+2025-04-30,Momentum,Health Care,0.0,0.10869565217391304
+2025-04-30,Value,Industrials,0.0,0.21739130434782608
+2025-04-30,Profitability,Industrials,0.0,0.21739130434782608
+2025-04-30,Momentum,Industrials,0.0,0.2173913043478261
+2025-04-30,Value,Information Technology,6.938893903907228e-18,0.25
+2025-04-30,Profitability,Information Technology,0.0,0.25
+2025-04-30,Momentum,Information Technology,-2.0816681711721685e-17,0.25
+2025-04-30,Value,Materials,0.0,0.20652173913043476
+2025-04-30,Profitability,Materials,0.0,0.20652173913043476
+2025-04-30,Momentum,Materials,0.0,0.20652173913043476
+2025-04-30,Value,Real Estate,0.0,0.043478260869565216
+2025-04-30,Profitability,Real Estate,0.0,0.043478260869565216
+2025-04-30,Momentum,Real Estate,0.0,0.043478260869565216
+2025-04-30,Value,Utilities,0.0,0.021739130434782608
+2025-04-30,Profitability,Utilities,0.0,0.021739130434782608
+2025-04-30,Momentum,Utilities,0.0,0.021739130434782608
+2025-05-30,Value,Communication Services,0.0,0.022222222222222223
+2025-05-30,Profitability,Communication Services,0.0,0.022222222222222223
+2025-05-30,Momentum,Communication Services,0.0,0.022222222222222223
+2025-05-30,Value,Consumer Discretionary,0.0,0.07777777777777778
+2025-05-30,Profitability,Consumer Discretionary,0.0,0.07777777777777778
+2025-05-30,Momentum,Consumer Discretionary,0.0,0.07777777777777778
+2025-05-30,Value,Consumer Staples,0.0,0.022222222222222223
+2025-05-30,Profitability,Consumer Staples,0.0,0.022222222222222223
+2025-05-30,Momentum,Consumer Staples,0.0,0.022222222222222223
+2025-05-30,Value,Energy,0.0,0.03333333333333333
+2025-05-30,Profitability,Energy,0.0,0.03333333333333333
+2025-05-30,Momentum,Energy,0.0,0.03333333333333333
+2025-05-30,Value,Health Care,0.0,0.1111111111111111
+2025-05-30,Profitability,Health Care,0.0,0.1111111111111111
+2025-05-30,Momentum,Health Care,0.0,0.1111111111111111
+2025-05-30,Value,Industrials,0.0,0.2222222222222222
+2025-05-30,Profitability,Industrials,0.0,0.2222222222222222
+2025-05-30,Momentum,Industrials,0.0,0.2222222222222222
+2025-05-30,Value,Information Technology,0.0,0.23333333333333334
+2025-05-30,Profitability,Information Technology,0.0,0.23333333333333328
+2025-05-30,Momentum,Information Technology,0.0,0.23333333333333334
+2025-05-30,Value,Materials,0.0,0.2111111111111111
+2025-05-30,Profitability,Materials,-3.469446951953614e-18,0.2111111111111111
+2025-05-30,Momentum,Materials,0.0,0.2111111111111111
+2025-05-30,Value,Real Estate,0.0,0.044444444444444446
+2025-05-30,Profitability,Real Estate,0.0,0.044444444444444446
+2025-05-30,Momentum,Real Estate,0.0,0.044444444444444446
+2025-05-30,Value,Utilities,0.0,0.022222222222222223
+2025-05-30,Profitability,Utilities,0.0,0.022222222222222223
+2025-05-30,Momentum,Utilities,0.0,0.022222222222222223
+2025-06-30,Value,Communication Services,0.0,0.021505376344086023
+2025-06-30,Profitability,Communication Services,0.0,0.021505376344086023
+2025-06-30,Momentum,Communication Services,0.0,0.021505376344086023
+2025-06-30,Value,Consumer Discretionary,0.0,0.07526881720430108
+2025-06-30,Profitability,Consumer Discretionary,0.0,0.07526881720430108
+2025-06-30,Momentum,Consumer Discretionary,0.0,0.07526881720430108
+2025-06-30,Value,Consumer Staples,0.0,0.021505376344086023
+2025-06-30,Profitability,Consumer Staples,0.0,0.021505376344086023
+2025-06-30,Momentum,Consumer Staples,0.0,0.021505376344086023
+2025-06-30,Value,Energy,0.0,0.03225806451612903
+2025-06-30,Profitability,Energy,0.0,0.03225806451612903
+2025-06-30,Momentum,Energy,0.0,0.03225806451612903
+2025-06-30,Value,Health Care,-3.469446951953614e-18,0.1075268817204301
+2025-06-30,Profitability,Health Care,0.0,0.10752688172043011
+2025-06-30,Momentum,Health Care,0.0,0.1075268817204301
+2025-06-30,Value,Industrials,0.0,0.22580645161290328
+2025-06-30,Profitability,Industrials,6.938893903907228e-18,0.22580645161290328
+2025-06-30,Momentum,Industrials,0.0,0.22580645161290325
+2025-06-30,Value,Information Technology,0.0,0.24731182795698925
+2025-06-30,Profitability,Information Technology,0.0,0.24731182795698925
+2025-06-30,Momentum,Information Technology,0.0,0.24731182795698925
+2025-06-30,Value,Materials,0.0,0.20430107526881724
+2025-06-30,Profitability,Materials,0.0,0.20430107526881724
+2025-06-30,Momentum,Materials,0.0,0.20430107526881724
+2025-06-30,Value,Real Estate,0.0,0.043010752688172046
+2025-06-30,Profitability,Real Estate,0.0,0.043010752688172046
+2025-06-30,Momentum,Real Estate,0.0,0.043010752688172046
+2025-06-30,Value,Utilities,0.0,0.021505376344086023
+2025-06-30,Profitability,Utilities,0.0,0.021505376344086023
+2025-06-30,Momentum,Utilities,0.0,0.021505376344086023
+2025-07-31,Value,Communication Services,0.0,0.021505376344086023
+2025-07-31,Profitability,Communication Services,0.0,0.021505376344086023
+2025-07-31,Momentum,Communication Services,0.0,0.021505376344086023
+2025-07-31,Value,Consumer Discretionary,0.0,0.07526881720430108
+2025-07-31,Profitability,Consumer Discretionary,0.0,0.07526881720430108
+2025-07-31,Momentum,Consumer Discretionary,0.0,0.07526881720430108
+2025-07-31,Value,Consumer Staples,0.0,0.021505376344086023
+2025-07-31,Profitability,Consumer Staples,0.0,0.021505376344086023
+2025-07-31,Momentum,Consumer Staples,0.0,0.021505376344086023
+2025-07-31,Value,Energy,0.0,0.03225806451612903
+2025-07-31,Profitability,Energy,0.0,0.03225806451612903
+2025-07-31,Momentum,Energy,0.0,0.03225806451612903
+2025-07-31,Value,Health Care,-3.469446951953614e-18,0.1075268817204301
+2025-07-31,Profitability,Health Care,0.0,0.10752688172043011
+2025-07-31,Momentum,Health Care,0.0,0.10752688172043011
+2025-07-31,Value,Industrials,0.0,0.22580645161290328
+2025-07-31,Profitability,Industrials,6.938893903907228e-18,0.22580645161290328
+2025-07-31,Momentum,Industrials,0.0,0.22580645161290328
+2025-07-31,Value,Information Technology,0.0,0.24731182795698925
+2025-07-31,Profitability,Information Technology,0.0,0.24731182795698925
+2025-07-31,Momentum,Information Technology,0.0,0.24731182795698925
+2025-07-31,Value,Materials,0.0,0.20430107526881724
+2025-07-31,Profitability,Materials,0.0,0.20430107526881724
+2025-07-31,Momentum,Materials,0.0,0.20430107526881724
+2025-07-31,Value,Real Estate,0.0,0.043010752688172046
+2025-07-31,Profitability,Real Estate,0.0,0.043010752688172046
+2025-07-31,Momentum,Real Estate,0.0,0.043010752688172046
+2025-07-31,Value,Utilities,0.0,0.021505376344086023
+2025-07-31,Profitability,Utilities,0.0,0.021505376344086023
+2025-07-31,Momentum,Utilities,0.0,0.021505376344086023
+2025-08-29,Value,Communication Services,0.0,0.021505376344086023
+2025-08-29,Profitability,Communication Services,0.0,0.021505376344086023
+2025-08-29,Momentum,Communication Services,0.0,0.021505376344086023
+2025-08-29,Value,Consumer Discretionary,0.0,0.07526881720430108
+2025-08-29,Profitability,Consumer Discretionary,0.0,0.07526881720430108
+2025-08-29,Momentum,Consumer Discretionary,0.0,0.07526881720430108
+2025-08-29,Value,Consumer Staples,0.0,0.021505376344086023
+2025-08-29,Profitability,Consumer Staples,0.0,0.021505376344086023
+2025-08-29,Momentum,Consumer Staples,0.0,0.021505376344086023
+2025-08-29,Value,Energy,0.0,0.03225806451612903
+2025-08-29,Profitability,Energy,0.0,0.03225806451612903
+2025-08-29,Momentum,Energy,0.0,0.03225806451612903
+2025-08-29,Value,Health Care,-3.469446951953614e-18,0.1075268817204301
+2025-08-29,Profitability,Health Care,0.0,0.10752688172043011
+2025-08-29,Momentum,Health Care,0.0,0.1075268817204301
+2025-08-29,Value,Industrials,0.0,0.22580645161290328
+2025-08-29,Profitability,Industrials,6.938893903907228e-18,0.22580645161290328
+2025-08-29,Momentum,Industrials,0.0,0.2258064516129033
+2025-08-29,Value,Information Technology,0.0,0.24731182795698925
+2025-08-29,Profitability,Information Technology,0.0,0.24731182795698925
+2025-08-29,Momentum,Information Technology,0.0,0.24731182795698925
+2025-08-29,Value,Materials,0.0,0.20430107526881724
+2025-08-29,Profitability,Materials,0.0,0.20430107526881724
+2025-08-29,Momentum,Materials,0.0,0.20430107526881724
+2025-08-29,Value,Real Estate,0.0,0.043010752688172046
+2025-08-29,Profitability,Real Estate,0.0,0.043010752688172046
+2025-08-29,Momentum,Real Estate,0.0,0.043010752688172046
+2025-08-29,Value,Utilities,0.0,0.021505376344086023
+2025-08-29,Profitability,Utilities,0.0,0.021505376344086023
+2025-08-29,Momentum,Utilities,0.0,0.021505376344086023
+2025-09-30,Value,Communication Services,0.0,0.021505376344086023
+2025-09-30,Profitability,Communication Services,0.0,0.021505376344086023
+2025-09-30,Momentum,Communication Services,0.0,0.021505376344086023
+2025-09-30,Value,Consumer Discretionary,0.0,0.07526881720430108
+2025-09-30,Profitability,Consumer Discretionary,0.0,0.07526881720430108
+2025-09-30,Momentum,Consumer Discretionary,0.0,0.07526881720430108
+2025-09-30,Value,Consumer Staples,0.0,0.021505376344086023
+2025-09-30,Profitability,Consumer Staples,0.0,0.021505376344086023
+2025-09-30,Momentum,Consumer Staples,0.0,0.021505376344086023
+2025-09-30,Value,Energy,0.0,0.03225806451612903
+2025-09-30,Profitability,Energy,0.0,0.03225806451612903
+2025-09-30,Momentum,Energy,0.0,0.03225806451612903
+2025-09-30,Value,Health Care,-3.469446951953614e-18,0.1075268817204301
+2025-09-30,Profitability,Health Care,0.0,0.10752688172043011
+2025-09-30,Momentum,Health Care,0.0,0.1075268817204301
+2025-09-30,Value,Industrials,0.0,0.22580645161290328
+2025-09-30,Profitability,Industrials,6.938893903907228e-18,0.22580645161290328
+2025-09-30,Momentum,Industrials,0.0,0.22580645161290325
+2025-09-30,Value,Information Technology,0.0,0.24731182795698925
+2025-09-30,Profitability,Information Technology,0.0,0.24731182795698925
+2025-09-30,Momentum,Information Technology,0.0,0.24731182795698925
+2025-09-30,Value,Materials,0.0,0.20430107526881724
+2025-09-30,Profitability,Materials,0.0,0.20430107526881724
+2025-09-30,Momentum,Materials,0.0,0.20430107526881724
+2025-09-30,Value,Real Estate,0.0,0.043010752688172046
+2025-09-30,Profitability,Real Estate,0.0,0.043010752688172046
+2025-09-30,Momentum,Real Estate,0.0,0.043010752688172046
+2025-09-30,Value,Utilities,0.0,0.021505376344086023
+2025-09-30,Profitability,Utilities,0.0,0.021505376344086023
+2025-09-30,Momentum,Utilities,0.0,0.021505376344086023
+2025-10-31,Value,Communication Services,0.0,0.021505376344086023
+2025-10-31,Profitability,Communication Services,0.0,0.021505376344086023
+2025-10-31,Momentum,Communication Services,0.0,0.021505376344086023
+2025-10-31,Value,Consumer Discretionary,0.0,0.07526881720430108
+2025-10-31,Profitability,Consumer Discretionary,0.0,0.07526881720430108
+2025-10-31,Momentum,Consumer Discretionary,0.0,0.07526881720430108
+2025-10-31,Value,Consumer Staples,0.0,0.021505376344086023
+2025-10-31,Profitability,Consumer Staples,0.0,0.021505376344086023
+2025-10-31,Momentum,Consumer Staples,0.0,0.021505376344086023
+2025-10-31,Value,Energy,0.0,0.03225806451612903
+2025-10-31,Profitability,Energy,0.0,0.03225806451612903
+2025-10-31,Momentum,Energy,0.0,0.03225806451612903
+2025-10-31,Value,Health Care,-3.469446951953614e-18,0.1075268817204301
+2025-10-31,Profitability,Health Care,0.0,0.10752688172043011
+2025-10-31,Momentum,Health Care,0.0,0.1075268817204301
+2025-10-31,Value,Industrials,0.0,0.22580645161290325
+2025-10-31,Profitability,Industrials,6.938893903907228e-18,0.22580645161290328
+2025-10-31,Momentum,Industrials,0.0,0.22580645161290325
+2025-10-31,Value,Information Technology,0.0,0.24731182795698925
+2025-10-31,Profitability,Information Technology,0.0,0.24731182795698925
+2025-10-31,Momentum,Information Technology,0.0,0.24731182795698925
+2025-10-31,Value,Materials,0.0,0.20430107526881724
+2025-10-31,Profitability,Materials,0.0,0.20430107526881724
+2025-10-31,Momentum,Materials,0.0,0.20430107526881724
+2025-10-31,Value,Real Estate,0.0,0.043010752688172046
+2025-10-31,Profitability,Real Estate,0.0,0.043010752688172046
+2025-10-31,Momentum,Real Estate,0.0,0.043010752688172046
+2025-10-31,Value,Utilities,0.0,0.021505376344086023
+2025-10-31,Profitability,Utilities,0.0,0.021505376344086023
+2025-10-31,Momentum,Utilities,0.0,0.021505376344086023
+2025-11-28,Value,Communication Services,0.0,0.021505376344086023
+2025-11-28,Profitability,Communication Services,0.0,0.021505376344086023
+2025-11-28,Momentum,Communication Services,0.0,0.021505376344086023
+2025-11-28,Value,Consumer Discretionary,0.0,0.07526881720430108
+2025-11-28,Profitability,Consumer Discretionary,0.0,0.07526881720430108
+2025-11-28,Momentum,Consumer Discretionary,0.0,0.07526881720430108
+2025-11-28,Value,Consumer Staples,0.0,0.021505376344086023
+2025-11-28,Profitability,Consumer Staples,0.0,0.021505376344086023
+2025-11-28,Momentum,Consumer Staples,0.0,0.021505376344086023
+2025-11-28,Value,Energy,0.0,0.03225806451612903
+2025-11-28,Profitability,Energy,0.0,0.03225806451612903
+2025-11-28,Momentum,Energy,0.0,0.03225806451612903
+2025-11-28,Value,Health Care,-3.469446951953614e-18,0.1075268817204301
+2025-11-28,Profitability,Health Care,0.0,0.10752688172043011
+2025-11-28,Momentum,Health Care,0.0,0.10752688172043011
+2025-11-28,Value,Industrials,0.0,0.22580645161290328
+2025-11-28,Profitability,Industrials,6.938893903907228e-18,0.22580645161290328
+2025-11-28,Momentum,Industrials,3.469446951953614e-18,0.22580645161290322
+2025-11-28,Value,Information Technology,0.0,0.24731182795698925
+2025-11-28,Profitability,Information Technology,0.0,0.24731182795698925
+2025-11-28,Momentum,Information Technology,0.0,0.24731182795698925
+2025-11-28,Value,Materials,0.0,0.20430107526881724
+2025-11-28,Profitability,Materials,0.0,0.20430107526881724
+2025-11-28,Momentum,Materials,0.0,0.20430107526881724
+2025-11-28,Value,Real Estate,0.0,0.043010752688172046
+2025-11-28,Profitability,Real Estate,0.0,0.043010752688172046
+2025-11-28,Momentum,Real Estate,0.0,0.043010752688172046
+2025-11-28,Value,Utilities,0.0,0.021505376344086023
+2025-11-28,Profitability,Utilities,0.0,0.021505376344086023
+2025-11-28,Momentum,Utilities,0.0,0.021505376344086023
+2025-12-31,Value,Communication Services,0.0,0.021739130434782608
+2025-12-31,Profitability,Communication Services,0.0,0.021739130434782608
+2025-12-31,Momentum,Communication Services,0.0,0.021739130434782608
+2025-12-31,Value,Consumer Discretionary,0.0,0.07608695652173914
+2025-12-31,Profitability,Consumer Discretionary,0.0,0.07608695652173914
+2025-12-31,Momentum,Consumer Discretionary,0.0,0.07608695652173914
+2025-12-31,Value,Consumer Staples,0.0,0.021739130434782608
+2025-12-31,Profitability,Consumer Staples,0.0,0.021739130434782608
+2025-12-31,Momentum,Consumer Staples,0.0,0.021739130434782608
+2025-12-31,Value,Energy,0.0,0.03260869565217391
+2025-12-31,Profitability,Energy,0.0,0.03260869565217391
+2025-12-31,Momentum,Energy,0.0,0.03260869565217391
+2025-12-31,Value,Health Care,3.469446951953614e-18,0.10869565217391305
+2025-12-31,Profitability,Health Care,0.0,0.10869565217391304
+2025-12-31,Momentum,Health Care,0.0,0.10869565217391305
+2025-12-31,Value,Industrials,0.0,0.22826086956521738
+2025-12-31,Profitability,Industrials,-6.938893903907228e-18,0.22826086956521735
+2025-12-31,Momentum,Industrials,0.0,0.22826086956521738
+2025-12-31,Value,Information Technology,0.0,0.2391304347826087
+2025-12-31,Profitability,Information Technology,0.0,0.2391304347826087
+2025-12-31,Momentum,Information Technology,0.0,0.23913043478260873
+2025-12-31,Value,Materials,0.0,0.20652173913043476
+2025-12-31,Profitability,Materials,0.0,0.20652173913043476
+2025-12-31,Momentum,Materials,0.0,0.20652173913043476
+2025-12-31,Value,Real Estate,0.0,0.043478260869565216
+2025-12-31,Profitability,Real Estate,0.0,0.043478260869565216
+2025-12-31,Momentum,Real Estate,0.0,0.043478260869565216
+2025-12-31,Value,Utilities,0.0,0.021739130434782608
+2025-12-31,Profitability,Utilities,0.0,0.021739130434782608
+2025-12-31,Momentum,Utilities,0.0,0.021739130434782608
+2026-01-30,Value,Communication Services,0.0,0.021505376344086023
+2026-01-30,Profitability,Communication Services,0.0,0.021505376344086023
+2026-01-30,Momentum,Communication Services,0.0,0.021505376344086023
+2026-01-30,Value,Consumer Discretionary,0.0,0.07526881720430108
+2026-01-30,Profitability,Consumer Discretionary,0.0,0.07526881720430108
+2026-01-30,Momentum,Consumer Discretionary,0.0,0.07526881720430108
+2026-01-30,Value,Consumer Staples,0.0,0.021505376344086023
+2026-01-30,Profitability,Consumer Staples,0.0,0.021505376344086023
+2026-01-30,Momentum,Consumer Staples,0.0,0.021505376344086023
+2026-01-30,Value,Energy,0.0,0.03225806451612903
+2026-01-30,Profitability,Energy,0.0,0.03225806451612903
+2026-01-30,Momentum,Energy,0.0,0.03225806451612903
+2026-01-30,Value,Health Care,-3.469446951953614e-18,0.1075268817204301
+2026-01-30,Profitability,Health Care,0.0,0.10752688172043011
+2026-01-30,Momentum,Health Care,0.0,0.1075268817204301
+2026-01-30,Value,Industrials,0.0,0.22580645161290328
+2026-01-30,Profitability,Industrials,6.938893903907228e-18,0.22580645161290328
+2026-01-30,Momentum,Industrials,0.0,0.22580645161290325
+2026-01-30,Value,Information Technology,0.0,0.24731182795698925
+2026-01-30,Profitability,Information Technology,0.0,0.24731182795698925
+2026-01-30,Momentum,Information Technology,0.0,0.24731182795698925
+2026-01-30,Value,Materials,0.0,0.20430107526881724
+2026-01-30,Profitability,Materials,0.0,0.20430107526881724
+2026-01-30,Momentum,Materials,0.0,0.20430107526881724
+2026-01-30,Value,Real Estate,0.0,0.043010752688172046
+2026-01-30,Profitability,Real Estate,0.0,0.043010752688172046
+2026-01-30,Momentum,Real Estate,0.0,0.043010752688172046
+2026-01-30,Value,Utilities,0.0,0.021505376344086023
+2026-01-30,Profitability,Utilities,0.0,0.021505376344086023
+2026-01-30,Momentum,Utilities,0.0,0.021505376344086023
+2026-02-27,Value,Communication Services,0.0,0.021739130434782608
+2026-02-27,Profitability,Communication Services,0.0,0.021739130434782608
+2026-02-27,Momentum,Communication Services,0.0,0.021739130434782608
+2026-02-27,Value,Consumer Discretionary,0.0,0.07608695652173914
+2026-02-27,Profitability,Consumer Discretionary,0.0,0.07608695652173914
+2026-02-27,Momentum,Consumer Discretionary,0.0,0.07608695652173914
+2026-02-27,Value,Consumer Staples,0.0,0.021739130434782608
+2026-02-27,Profitability,Consumer Staples,0.0,0.021739130434782608
+2026-02-27,Momentum,Consumer Staples,0.0,0.021739130434782608
+2026-02-27,Value,Energy,0.0,0.03260869565217391
+2026-02-27,Profitability,Energy,0.0,0.03260869565217391
+2026-02-27,Momentum,Energy,0.0,0.03260869565217391
+2026-02-27,Value,Health Care,3.469446951953614e-18,0.10869565217391305
+2026-02-27,Profitability,Health Care,0.0,0.10869565217391304
+2026-02-27,Momentum,Health Care,0.0,0.10869565217391305
+2026-02-27,Value,Industrials,6.938893903907228e-18,0.22826086956521735
+2026-02-27,Profitability,Industrials,-6.938893903907228e-18,0.22826086956521735
+2026-02-27,Momentum,Industrials,0.0,0.22826086956521735
+2026-02-27,Value,Information Technology,0.0,0.2391304347826087
+2026-02-27,Profitability,Information Technology,0.0,0.23913043478260873
+2026-02-27,Momentum,Information Technology,0.0,0.2391304347826087
+2026-02-27,Value,Materials,0.0,0.20652173913043476
+2026-02-27,Profitability,Materials,0.0,0.20652173913043476
+2026-02-27,Momentum,Materials,0.0,0.20652173913043476
+2026-02-27,Value,Real Estate,0.0,0.043478260869565216
+2026-02-27,Profitability,Real Estate,0.0,0.043478260869565216
+2026-02-27,Momentum,Real Estate,0.0,0.043478260869565216
+2026-02-27,Value,Utilities,0.0,0.021739130434782608
+2026-02-27,Profitability,Utilities,0.0,0.021739130434782608
+2026-02-27,Momentum,Utilities,0.0,0.021739130434782608
+2026-03-31,Value,Communication Services,0.0,0.021505376344086023
+2026-03-31,Profitability,Communication Services,0.0,0.021505376344086023
+2026-03-31,Momentum,Communication Services,0.0,0.021505376344086023
+2026-03-31,Value,Consumer Discretionary,0.0,0.07526881720430108
+2026-03-31,Profitability,Consumer Discretionary,0.0,0.07526881720430108
+2026-03-31,Momentum,Consumer Discretionary,0.0,0.07526881720430108
+2026-03-31,Value,Consumer Staples,0.0,0.021505376344086023
+2026-03-31,Profitability,Consumer Staples,0.0,0.021505376344086023
+2026-03-31,Momentum,Consumer Staples,0.0,0.021505376344086023
+2026-03-31,Value,Energy,0.0,0.03225806451612903
+2026-03-31,Profitability,Energy,0.0,0.03225806451612903
+2026-03-31,Momentum,Energy,0.0,0.03225806451612903
+2026-03-31,Value,Health Care,0.0,0.1075268817204301
+2026-03-31,Profitability,Health Care,0.0,0.10752688172043011
+2026-03-31,Momentum,Health Care,0.0,0.10752688172043011
+2026-03-31,Value,Industrials,0.0,0.22580645161290328
+2026-03-31,Profitability,Industrials,6.938893903907228e-18,0.22580645161290328
+2026-03-31,Momentum,Industrials,6.938893903907228e-18,0.22580645161290325
+2026-03-31,Value,Information Technology,0.0,0.24731182795698925
+2026-03-31,Profitability,Information Technology,0.0,0.24731182795698925
+2026-03-31,Momentum,Information Technology,0.0,0.24731182795698925
+2026-03-31,Value,Materials,0.0,0.20430107526881724
+2026-03-31,Profitability,Materials,0.0,0.20430107526881724
+2026-03-31,Momentum,Materials,0.0,0.20430107526881724
+2026-03-31,Value,Real Estate,0.0,0.043010752688172046
+2026-03-31,Profitability,Real Estate,0.0,0.043010752688172046
+2026-03-31,Momentum,Real Estate,0.0,0.043010752688172046
+2026-03-31,Value,Utilities,0.0,0.021505376344086023
+2026-03-31,Profitability,Utilities,0.0,0.021505376344086023
+2026-03-31,Momentum,Utilities,0.0,0.021505376344086023
+2026-04-30,Value,Communication Services,0.0,0.021505376344086023
+2026-04-30,Profitability,Communication Services,0.0,0.021505376344086023
+2026-04-30,Momentum,Communication Services,0.0,0.021505376344086023
+2026-04-30,Value,Consumer Discretionary,0.0,0.07526881720430108
+2026-04-30,Profitability,Consumer Discretionary,0.0,0.07526881720430108
+2026-04-30,Momentum,Consumer Discretionary,0.0,0.07526881720430108
+2026-04-30,Value,Consumer Staples,0.0,0.021505376344086023
+2026-04-30,Profitability,Consumer Staples,0.0,0.021505376344086023
+2026-04-30,Momentum,Consumer Staples,0.0,0.021505376344086023
+2026-04-30,Value,Energy,0.0,0.03225806451612903
+2026-04-30,Profitability,Energy,0.0,0.03225806451612903
+2026-04-30,Momentum,Energy,0.0,0.03225806451612903
+2026-04-30,Value,Health Care,-6.938893903907228e-18,0.10752688172043011
+2026-04-30,Profitability,Health Care,0.0,0.10752688172043011
+2026-04-30,Momentum,Health Care,0.0,0.10752688172043011
+2026-04-30,Value,Industrials,0.0,0.22580645161290325
+2026-04-30,Profitability,Industrials,6.938893903907228e-18,0.22580645161290328
+2026-04-30,Momentum,Industrials,0.0,0.22580645161290328
+2026-04-30,Value,Information Technology,0.0,0.24731182795698925
+2026-04-30,Profitability,Information Technology,0.0,0.24731182795698925
+2026-04-30,Momentum,Information Technology,0.0,0.24731182795698925
+2026-04-30,Value,Materials,0.0,0.20430107526881724
+2026-04-30,Profitability,Materials,0.0,0.20430107526881724
+2026-04-30,Momentum,Materials,0.0,0.20430107526881724
+2026-04-30,Value,Real Estate,0.0,0.043010752688172046
+2026-04-30,Profitability,Real Estate,0.0,0.043010752688172046
+2026-04-30,Momentum,Real Estate,0.0,0.043010752688172046
+2026-04-30,Value,Utilities,0.0,0.021505376344086023
+2026-04-30,Profitability,Utilities,0.0,0.021505376344086023
+2026-04-30,Momentum,Utilities,0.0,0.021505376344086023
+2026-05-29,Value,Communication Services,0.0,0.021505376344086023
+2026-05-29,Profitability,Communication Services,0.0,0.021505376344086023
+2026-05-29,Momentum,Communication Services,0.0,0.021505376344086023
+2026-05-29,Value,Consumer Discretionary,0.0,0.07526881720430108
+2026-05-29,Profitability,Consumer Discretionary,0.0,0.07526881720430108
+2026-05-29,Momentum,Consumer Discretionary,0.0,0.07526881720430108
+2026-05-29,Value,Consumer Staples,0.0,0.021505376344086023
+2026-05-29,Profitability,Consumer Staples,0.0,0.021505376344086023
+2026-05-29,Momentum,Consumer Staples,0.0,0.021505376344086023
+2026-05-29,Value,Energy,0.0,0.03225806451612903
+2026-05-29,Profitability,Energy,0.0,0.03225806451612903
+2026-05-29,Momentum,Energy,0.0,0.03225806451612903
+2026-05-29,Value,Health Care,0.0,0.10752688172043011
+2026-05-29,Profitability,Health Care,0.0,0.10752688172043011
+2026-05-29,Momentum,Health Care,0.0,0.10752688172043011
+2026-05-29,Value,Industrials,0.0,0.22580645161290328
+2026-05-29,Profitability,Industrials,6.938893903907228e-18,0.22580645161290328
+2026-05-29,Momentum,Industrials,6.938893903907228e-18,0.22580645161290325
+2026-05-29,Value,Information Technology,0.0,0.24731182795698925
+2026-05-29,Profitability,Information Technology,0.0,0.24731182795698925
+2026-05-29,Momentum,Information Technology,0.0,0.24731182795698925
+2026-05-29,Value,Materials,0.0,0.20430107526881724
+2026-05-29,Profitability,Materials,0.0,0.20430107526881724
+2026-05-29,Momentum,Materials,0.0,0.20430107526881724
+2026-05-29,Value,Real Estate,0.0,0.043010752688172046
+2026-05-29,Profitability,Real Estate,0.0,0.043010752688172046
+2026-05-29,Momentum,Real Estate,0.0,0.043010752688172046
+2026-05-29,Value,Utilities,0.0,0.021505376344086023
+2026-05-29,Profitability,Utilities,0.0,0.021505376344086023
+2026-05-29,Momentum,Utilities,0.0,0.021505376344086023
+2026-06-30,Value,Communication Services,0.0,0.02127659574468085
+2026-06-30,Profitability,Communication Services,0.0,0.02127659574468085
+2026-06-30,Momentum,Communication Services,0.0,0.02127659574468085
+2026-06-30,Value,Consumer Discretionary,0.0,0.07446808510638298
+2026-06-30,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2026-06-30,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2026-06-30,Value,Consumer Staples,0.0,0.02127659574468085
+2026-06-30,Profitability,Consumer Staples,0.0,0.02127659574468085
+2026-06-30,Momentum,Consumer Staples,0.0,0.02127659574468085
+2026-06-30,Value,Energy,0.0,0.031914893617021274
+2026-06-30,Profitability,Energy,0.0,0.031914893617021274
+2026-06-30,Momentum,Energy,0.0,0.031914893617021274
+2026-06-30,Value,Health Care,0.0,0.10638297872340426
+2026-06-30,Profitability,Health Care,0.0,0.10638297872340426
+2026-06-30,Momentum,Health Care,0.0,0.10638297872340427
+2026-06-30,Value,Industrials,0.0,0.23404255319148937
+2026-06-30,Profitability,Industrials,0.0,0.23404255319148937
+2026-06-30,Momentum,Industrials,0.0,0.23404255319148937
+2026-06-30,Value,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2026-06-30,Profitability,Information Technology,0.0,0.24468085106382972
+2026-06-30,Momentum,Information Technology,0.0,0.24468085106382972
+2026-06-30,Value,Materials,0.0,0.20212765957446804
+2026-06-30,Profitability,Materials,0.0,0.20212765957446807
+2026-06-30,Momentum,Materials,0.0,0.20212765957446804
+2026-06-30,Value,Real Estate,0.0,0.0425531914893617
+2026-06-30,Profitability,Real Estate,0.0,0.0425531914893617
+2026-06-30,Momentum,Real Estate,0.0,0.0425531914893617
+2026-06-30,Value,Utilities,0.0,0.02127659574468085
+2026-06-30,Profitability,Utilities,0.0,0.02127659574468085
+2026-06-30,Momentum,Utilities,0.0,0.02127659574468085
+2026-07-31,Value,Communication Services,0.0,0.02127659574468085
+2026-07-31,Profitability,Communication Services,0.0,0.02127659574468085
+2026-07-31,Momentum,Communication Services,0.0,0.02127659574468085
+2026-07-31,Value,Consumer Discretionary,0.0,0.07446808510638298
+2026-07-31,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2026-07-31,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2026-07-31,Value,Consumer Staples,0.0,0.02127659574468085
+2026-07-31,Profitability,Consumer Staples,0.0,0.02127659574468085
+2026-07-31,Momentum,Consumer Staples,0.0,0.02127659574468085
+2026-07-31,Value,Energy,0.0,0.031914893617021274
+2026-07-31,Profitability,Energy,0.0,0.031914893617021274
+2026-07-31,Momentum,Energy,0.0,0.031914893617021274
+2026-07-31,Value,Health Care,0.0,0.10638297872340426
+2026-07-31,Profitability,Health Care,0.0,0.10638297872340426
+2026-07-31,Momentum,Health Care,0.0,0.10638297872340427
+2026-07-31,Value,Industrials,0.0,0.23404255319148937
+2026-07-31,Profitability,Industrials,0.0,0.23404255319148937
+2026-07-31,Momentum,Industrials,0.0,0.23404255319148937
+2026-07-31,Value,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2026-07-31,Profitability,Information Technology,0.0,0.24468085106382972
+2026-07-31,Momentum,Information Technology,0.0,0.24468085106382972
+2026-07-31,Value,Materials,0.0,0.20212765957446804
+2026-07-31,Profitability,Materials,0.0,0.20212765957446807
+2026-07-31,Momentum,Materials,3.469446951953614e-18,0.20212765957446807
+2026-07-31,Value,Real Estate,0.0,0.0425531914893617
+2026-07-31,Profitability,Real Estate,0.0,0.0425531914893617
+2026-07-31,Momentum,Real Estate,0.0,0.0425531914893617
+2026-07-31,Value,Utilities,0.0,0.02127659574468085
+2026-07-31,Profitability,Utilities,0.0,0.02127659574468085
+2026-07-31,Momentum,Utilities,0.0,0.02127659574468085
+2026-08-31,Value,Communication Services,0.0,0.02127659574468085
+2026-08-31,Profitability,Communication Services,0.0,0.02127659574468085
+2026-08-31,Momentum,Communication Services,0.0,0.02127659574468085
+2026-08-31,Value,Consumer Discretionary,0.0,0.07446808510638298
+2026-08-31,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2026-08-31,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2026-08-31,Value,Consumer Staples,0.0,0.02127659574468085
+2026-08-31,Profitability,Consumer Staples,0.0,0.02127659574468085
+2026-08-31,Momentum,Consumer Staples,0.0,0.02127659574468085
+2026-08-31,Value,Energy,0.0,0.031914893617021274
+2026-08-31,Profitability,Energy,0.0,0.031914893617021274
+2026-08-31,Momentum,Energy,0.0,0.031914893617021274
+2026-08-31,Value,Health Care,0.0,0.10638297872340427
+2026-08-31,Profitability,Health Care,0.0,0.10638297872340426
+2026-08-31,Momentum,Health Care,0.0,0.10638297872340427
+2026-08-31,Value,Industrials,0.0,0.23404255319148937
+2026-08-31,Profitability,Industrials,0.0,0.23404255319148937
+2026-08-31,Momentum,Industrials,0.0,0.23404255319148937
+2026-08-31,Value,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2026-08-31,Profitability,Information Technology,0.0,0.24468085106382972
+2026-08-31,Momentum,Information Technology,0.0,0.24468085106382972
+2026-08-31,Value,Materials,0.0,0.20212765957446804
+2026-08-31,Profitability,Materials,0.0,0.20212765957446807
+2026-08-31,Momentum,Materials,3.469446951953614e-18,0.20212765957446807
+2026-08-31,Value,Real Estate,0.0,0.0425531914893617
+2026-08-31,Profitability,Real Estate,0.0,0.0425531914893617
+2026-08-31,Momentum,Real Estate,0.0,0.0425531914893617
+2026-08-31,Value,Utilities,0.0,0.02127659574468085
+2026-08-31,Profitability,Utilities,0.0,0.02127659574468085
+2026-08-31,Momentum,Utilities,0.0,0.02127659574468085
+2026-09-30,Value,Communication Services,0.0,0.02127659574468085
+2026-09-30,Profitability,Communication Services,0.0,0.02127659574468085
+2026-09-30,Momentum,Communication Services,0.0,0.02127659574468085
+2026-09-30,Value,Consumer Discretionary,0.0,0.07446808510638298
+2026-09-30,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2026-09-30,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2026-09-30,Value,Consumer Staples,0.0,0.02127659574468085
+2026-09-30,Profitability,Consumer Staples,0.0,0.02127659574468085
+2026-09-30,Momentum,Consumer Staples,0.0,0.02127659574468085
+2026-09-30,Value,Energy,0.0,0.031914893617021274
+2026-09-30,Profitability,Energy,0.0,0.031914893617021274
+2026-09-30,Momentum,Energy,0.0,0.031914893617021274
+2026-09-30,Value,Health Care,0.0,0.10638297872340427
+2026-09-30,Profitability,Health Care,0.0,0.10638297872340426
+2026-09-30,Momentum,Health Care,0.0,0.10638297872340427
+2026-09-30,Value,Industrials,0.0,0.23404255319148937
+2026-09-30,Profitability,Industrials,0.0,0.23404255319148937
+2026-09-30,Momentum,Industrials,0.0,0.23404255319148937
+2026-09-30,Value,Information Technology,-6.938893903907228e-18,0.24468085106382972
+2026-09-30,Profitability,Information Technology,0.0,0.24468085106382972
+2026-09-30,Momentum,Information Technology,0.0,0.24468085106382975
+2026-09-30,Value,Materials,0.0,0.20212765957446804
+2026-09-30,Profitability,Materials,0.0,0.20212765957446807
+2026-09-30,Momentum,Materials,-3.469446951953614e-18,0.20212765957446804
+2026-09-30,Value,Real Estate,0.0,0.0425531914893617
+2026-09-30,Profitability,Real Estate,0.0,0.0425531914893617
+2026-09-30,Momentum,Real Estate,0.0,0.0425531914893617
+2026-09-30,Value,Utilities,0.0,0.02127659574468085
+2026-09-30,Profitability,Utilities,0.0,0.02127659574468085
+2026-09-30,Momentum,Utilities,0.0,0.02127659574468085
+2026-10-16,Value,Communication Services,0.0,0.02127659574468085
+2026-10-16,Profitability,Communication Services,0.0,0.02127659574468085
+2026-10-16,Momentum,Communication Services,0.0,0.02127659574468085
+2026-10-16,Value,Consumer Discretionary,0.0,0.07446808510638298
+2026-10-16,Profitability,Consumer Discretionary,0.0,0.07446808510638298
+2026-10-16,Momentum,Consumer Discretionary,0.0,0.07446808510638298
+2026-10-16,Value,Consumer Staples,0.0,0.02127659574468085
+2026-10-16,Profitability,Consumer Staples,0.0,0.02127659574468085
+2026-10-16,Momentum,Consumer Staples,0.0,0.02127659574468085
+2026-10-16,Value,Energy,0.0,0.031914893617021274
+2026-10-16,Profitability,Energy,0.0,0.031914893617021274
+2026-10-16,Momentum,Energy,0.0,0.031914893617021274
+2026-10-16,Value,Health Care,0.0,0.10638297872340427
+2026-10-16,Profitability,Health Care,0.0,0.10638297872340426
+2026-10-16,Momentum,Health Care,0.0,0.10638297872340427
+2026-10-16,Value,Industrials,0.0,0.23404255319148937
+2026-10-16,Profitability,Industrials,0.0,0.23404255319148937
+2026-10-16,Momentum,Industrials,0.0,0.23404255319148937
+2026-10-16,Value,Information Technology,-6.938893903907228e-18,0.24468085106382975
+2026-10-16,Profitability,Information Technology,0.0,0.24468085106382972
+2026-10-16,Momentum,Information Technology,0.0,0.24468085106382975
+2026-10-16,Value,Materials,0.0,0.20212765957446804
+2026-10-16,Profitability,Materials,0.0,0.20212765957446807
+2026-10-16,Momentum,Materials,0.0,0.20212765957446807
+2026-10-16,Value,Real Estate,0.0,0.0425531914893617
+2026-10-16,Profitability,Real Estate,0.0,0.0425531914893617
+2026-10-16,Momentum,Real Estate,0.0,0.0425531914893617
+2026-10-16,Value,Utilities,0.0,0.02127659574468085
+2026-10-16,Profitability,Utilities,0.0,0.02127659574468085
+2026-10-16,Momentum,Utilities,0.0,0.02127659574468085

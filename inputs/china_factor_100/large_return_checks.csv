@@ -1,0 +1,2 @@
+code,date,raw_close,volume,adjusted_close,adjusted_volume,volume_agrees,valid_quote,adjustment_source,listing_date,adjusted_return,previous_date,calendar_gap_days
+000792,2021-08-10,35.9,7852461.0,225.586,7852461.0,True,True,hfqday,1997-09-04,2.008415016336601,2020-04-29,468.0

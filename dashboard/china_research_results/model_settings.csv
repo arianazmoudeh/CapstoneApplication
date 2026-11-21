@@ -1,0 +1,12 @@
+model,setting,return_weeks,risk_weeks,sequence_weeks,seed,validation_mae_pp
+Ridge,Original,"1, 4, 13",13,8,42,6.583574210211482
+Elastic Net,Longer risk,"1, 4, 13",26,8,42,7.193546236448167
+KNN,Longer risk,"1, 4, 13",26,8,42,6.284266954067425
+SVR,Original,"1, 4, 13",13,8,42,6.2698151342461035
+Random Forest,Original,"1, 4, 13",13,8,42,6.193768397939411
+Extra Trees,Original,"1, 4, 13",13,8,42,6.046415899725569
+XGBoost,Longer returns,"2, 8, 26",13,8,42,6.475845227503026
+MLP,Longer risk,"1, 4, 13",26,8,42,6.586120866700871
+LSTM,Both longer,"2, 8, 26",26,8,42,6.106986577461981
+CNN,Both longer,"2, 8, 26",26,8,42,6.353139199694981
+Prophet,Original,Monthly completed returns,0,0,42,6.009205892590142

@@ -1,0 +1,4 @@
+candidate,mae,parameters,selected,model,validation_end
+0,0.03762582447644696,{'neighbours': 20},True,KNN,2022-01-04
+1,0.03808127988693185,{'neighbours': 10},False,KNN,2022-01-04
+2,0.037671918913776394,{'neighbours': 5},False,KNN,2022-01-04

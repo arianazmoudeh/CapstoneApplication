@@ -1,0 +1,15 @@
+{% extends 'dashboard/base.html' %}
+{% block title %}Experiments · WorldQuant University Capstone Project{% endblock %}
+{% block content %}
+<main id="main" class="page-shell min-w-0 flex-1">
+  <div class="my-8 sm:my-10 [&_p]:text-muted"><h1>Experiments</h1><p>Monthly factor timing in 100 China A-share companies.</p></div>
+  <section class="panel" aria-labelledby="final-factor-timing-title">
+    <div class="section-heading"><div><h2 id="final-factor-timing-title">Final factor timing study</h2><p class="text-muted">Compare factor forecasts, monthly portfolios and sector balancing.</p></div></div>
+    <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/experiments/China_A_Share_Final_Study.ipynb" target="_blank" rel="noopener noreferrer"><strong>Final notebook</strong><span>We compare 15 forecasting models and a historical-mean baseline over 37 monthly holding periods. Both experiments, training charts and results are in one notebook.</span><span class="text-accent">Open notebook &rarr;</span></a>
+    <div class="mt-4 grid gap-4 sm:grid-cols-2">
+      <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/blob/main/China_A_Share_Final_Study_Explanation.txt" target="_blank" rel="noopener noreferrer"><strong>Code explanation</strong><span>Read how we prepare the data, train the models and build the portfolios.</span></a>
+      <a class="market-link" href="https://github.com/arianazmoudeh/CapstoneApplication/tree/main/results/china_final_combined" target="_blank" rel="noopener noreferrer"><strong>Saved results</strong><span>View predictions, portfolio returns, costs, charts and statistical tests.</span></a>
+    </div>
+  </section>
+</main>
+{% endblock %}

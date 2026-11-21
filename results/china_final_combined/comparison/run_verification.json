@@ -1,0 +1,76 @@
+{
+  "notebook": "experiments/China_A_Share_Final_Study.ipynb",
+  "code_cells_executed": 152,
+  "model_fitting_cells": 30,
+  "embedded_figures": 75,
+  "saved_error_outputs": 0,
+  "custom_functions_or_classes": 0,
+  "independent_audit_groups_passed": 18,
+  "reference_comparisons": [
+    {
+      "experiment": "extended",
+      "file": "predictions_all_seeds.csv",
+      "status": "PASS",
+      "largest_numeric_difference": 1.0061396160665481e-16
+    },
+    {
+      "experiment": "extended",
+      "file": "main_performance.csv",
+      "status": "PASS",
+      "largest_numeric_difference": 0.0
+    },
+    {
+      "experiment": "extended",
+      "file": "statistical_tests.csv",
+      "status": "PASS",
+      "largest_numeric_difference": 0.0
+    },
+    {
+      "experiment": "extended",
+      "file": "parameter_selection.csv",
+      "status": "PASS",
+      "largest_numeric_difference": 0.0
+    },
+    {
+      "experiment": "extended",
+      "file": "factor_scores.csv",
+      "status": "PASS",
+      "largest_numeric_difference": 0.0
+    },
+    {
+      "experiment": "sector",
+      "file": "predictions_all_seeds.csv",
+      "status": "PASS",
+      "largest_numeric_difference": 1.0061396160665481e-16
+    },
+    {
+      "experiment": "sector",
+      "file": "main_performance.csv",
+      "status": "PASS",
+      "largest_numeric_difference": 0.0
+    },
+    {
+      "experiment": "sector",
+      "file": "statistical_tests.csv",
+      "status": "PASS",
+      "largest_numeric_difference": 0.0
+    },
+    {
+      "experiment": "sector",
+      "file": "parameter_selection.csv",
+      "status": "PASS",
+      "largest_numeric_difference": 0.0
+    },
+    {
+      "experiment": "sector",
+      "file": "factor_scores.csv",
+      "status": "PASS",
+      "largest_numeric_difference": 0.0
+    }
+  ],
+  "statistical_adjustment_matches_reference": true,
+  "company_group": 100,
+  "evaluation_periods": 37,
+  "evaluation_start": "2023-09-01",
+  "evaluation_end": "2026-10-08"
+}

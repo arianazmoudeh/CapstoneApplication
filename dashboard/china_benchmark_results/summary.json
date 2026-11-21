@@ -1,0 +1,25 @@
+{
+  "candidate_count": 100,
+  "stock_count": 82,
+  "excluded_count": 18,
+  "target_weight": 1.2195121951219512,
+  "base_date": "2015-12-31",
+  "start": "2016-01-04",
+  "end": "2026-10-16",
+  "trading_dates": 2618,
+  "rebalance_count": 129,
+  "carried_quote_count": 3009,
+  "longest_gap": 311,
+  "notes": [
+    "EastMoney provides the A-share listing dates. Tencent provides backward-adjusted daily closing prices (hfq).",
+    "The trading calendar follows observed Shanghai Composite sessions. We use mainland A-share prices, including where a company also has Hong Kong shares.",
+    "The 2015 closing values are used only to measure the first return in 2016. Adjusted prices are used as return proxies; they are not current share prices or a separately reconstructed dividend-reinvestment series.",
+    "The company list was supplied for this research. We have not applied a separate historical market-cap or liquidity screen."
+  ],
+  "initial_value": 100000.0,
+  "final_value": 462802.3242429047,
+  "total_return": 362.8023242429047,
+  "annual_return": 15.253174539318604,
+  "volatility": 18.689147541189126,
+  "drawdown": -25.033526579286715
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "check": "Five seeds, sixteen forecasts and thirty seven common evaluation periods",
+    "status": "PASS"
+  },
+  {
+    "check": "Training and early stopping use completed earlier labels",
+    "status": "PASS"
+  },
+  {
+    "check": "Three candidates per model chosen before candidate portfolio history",
+    "status": "PASS"
+  },
+  {
+    "check": "Selection scores recomputed from eighteen completed candidate periods",
+    "status": "PASS"
+  },
+  {
+    "check": "All threshold choices independently recomputed",
+    "status": "PASS"
+  },
+  {
+    "check": "Stock exposure targets and sector constraints",
+    "status": "PASS"
+  },
+  {
+    "check": "All evaluation ledgers reconcile cash holdings costs NAV and performance",
+    "status": "PASS"
+  },
+  {
+    "check": "All candidate ledgers reconcile before model selection",
+    "status": "PASS"
+  },
+  {
+    "check": "HAC statistics independently checked using matrix covariance",
+    "status": "PASS"
+  }
+]

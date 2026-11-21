@@ -1,0 +1,4 @@
+candidate,mae,parameters,selected,model,validation_end
+0,0.05902320436611271,{'alpha': 0.02},False,Elastic Net,2022-01-04
+1,0.06626807246544987,{'alpha': 0.002},False,Elastic Net,2022-01-04
+2,0.04607361919092336,{'alpha': 0.2},True,Elastic Net,2022-01-04

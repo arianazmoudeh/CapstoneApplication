@@ -1,0 +1,18 @@
+item,definition
+group,The group has the 100 A-share codes from the supplied list. A company can also have shares in another market. We use its A-share price.
+prices,Tencent daily raw closes are in CNY per A-share. The hfq closes are backward-adjusted prices. We use their changes for returns.
+volume,"The Tencent volume field is kept in its original provider unit. Units can differ by market board. We only use positive volume to check trading, not to compare volume sizes between stocks."
+smic_adjustment,"For 688981, Tencent returns day rows even for an hfq request. Sina reports an adjustment factor of 1 throughout its A-share history. These matching daily rows are used and are marked in adjustment_source."
+history,Prices cover observed trading days from 2015-01-01 to 2026-10-16. A company has no price before its A-share listing. Missing days are not filled in this file.
+ebit,Annual EBIT is profit before tax plus financing interest expense plus separately reported operating interest expense. A blank operating-interest line counts as zero. Missing financing interest stays missing unless an annual report gives the value.
+debt,"Funded debt is short and long loans, bonds, current maturities, leases and reported finance-subsidiary funding. Two short-financing aliases are counted once. Blank optional debt lines count as zero only in a complete balance sheet that passes the checks."
+debt_scope,Other liabilities and long-term payables can mix debt and other items. They are saved for review and are not all treated as debt.
+invested_capital,Invested capital is consolidated equity plus funded debt minus monetary funds. Profitability uses the average of the current and previous annual invested capital.
+cash,Monetary funds are the balance-sheet cash measure. This field can include restricted money.
+enterprise_value,"The experiment uses raw A-share price times total company shares, then adds debt and minority equity and subtracts cash. This is an A-share-implied value; H-share and B-share prices are not valued separately."
+shares,"Share counts are actual shares, not millions. A record can be used only after both its effective date and notice date."
+availability,Annual figures are used after the latest related notice date and at least six months after year end. Manual annual-report values use their source publication date too.
+revisions,EastMoney returns currently stored statements. The notice-date rule does not prove that all figures are the original historical versions.
+financial_companies,"Banks, insurers and securities firms stay in the price group. They are excluded from EBIT-based stock rankings because their accounts have a different structure."
+checks,"Income totals, assets less liabilities, and equity totals must reconcile within CNY 1. The input files keep the error amounts and missing fields. Non-CNY statements are not used for these CNY ratios."
+selection,"The 100 names were selected now. Historical results therefore describe this chosen group, not all companies that could have been selected in each past year."

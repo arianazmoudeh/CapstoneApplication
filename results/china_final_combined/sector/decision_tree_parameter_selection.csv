@@ -1,0 +1,4 @@
+candidate,mae,parameters,selected,model,validation_end
+0,0.037064288548602026,{'max_depth': 3},True,Decision Tree,2022-01-04
+1,0.037064288548602026,{'max_depth': 2},False,Decision Tree,2022-01-04
+2,0.037064288548602026,{'max_depth': 4},False,Decision Tree,2022-01-04

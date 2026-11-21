@@ -1,0 +1,17 @@
+<div class="chart">
+  <svg class="hidden sm:block" viewBox="-25 0 945 290" role="img" aria-label="{{ chart_title }}">
+    <title>{{ chart_title }}</title>
+    {% for tick in chart.ticks %}<line x1="58" x2="875" y1="{{ tick.y }}" y2="{{ tick.y }}" class="stroke-line stroke-1" /><text x="47" y="{{ tick.y }}" text-anchor="end" dominant-baseline="middle">{{ tick.label }}</text>{% endfor %}
+    {% for tick in chart.labels %}<text x="{{ tick.x }}" y="260" text-anchor="middle">{{ tick.label }}</text>{% endfor %}
+    {% for line in chart.lines %}<polyline points="{{ line.points }}" fill="none" stroke="{{ line.color }}" stroke-width="2" stroke-dasharray="{{ line.dash }}" vector-effect="non-scaling-stroke" />{% endfor %}
+    <text x="466" y="285" text-anchor="middle">{{ axis_label|default:'Date' }}</text>
+  </svg>
+  <svg class="block min-w-0 sm:hidden" viewBox="0 0 365 290" role="img" aria-label="{{ chart_title }}">
+    <title>{{ chart_title }}</title>
+    {% for tick in chart.ticks %}<line x1="50" x2="330" y1="{{ tick.y }}" y2="{{ tick.y }}" class="stroke-line stroke-1" /><text x="44" y="{{ tick.y }}" text-anchor="end" dominant-baseline="middle">{{ tick.label }}</text>{% endfor %}
+    {% for tick in chart.mobile_labels %}<text x="{{ tick.x }}" y="260" text-anchor="middle">{{ tick.label }}</text>{% endfor %}
+    {% for line in chart.mobile_lines %}<polyline points="{{ line.points }}" fill="none" stroke="{{ line.color }}" stroke-width="1.5" stroke-dasharray="{{ line.dash }}" vector-effect="non-scaling-stroke" />{% endfor %}
+    <text x="190" y="285" text-anchor="middle">{{ axis_label|default:'Date' }}</text>
+  </svg>
+</div>
+<div class="legend">{% for line in chart.lines %}<span><svg width="18" height="6" aria-hidden="true"><line x1="0" x2="18" y1="3" y2="3" stroke="{{ line.color }}" stroke-width="2" stroke-dasharray="{{ line.dash }}" /></svg>{{ line.name }}</span>{% endfor %}</div>

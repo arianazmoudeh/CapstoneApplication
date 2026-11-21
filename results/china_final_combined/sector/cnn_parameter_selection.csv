@@ -1,0 +1,4 @@
+candidate,mae,parameters,selected,model,validation_end
+0,0.03882610575292513,"{'filters': 8, 'learning_rate': 0.001}",False,CNN,2022-01-04
+1,0.03653396701375762,"{'filters': 4, 'learning_rate': 0.001}",True,CNN,2022-01-04
+2,0.03821787090554673,"{'filters': 8, 'learning_rate': 0.0003}",False,CNN,2022-01-04

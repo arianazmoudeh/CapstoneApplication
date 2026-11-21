@@ -1,0 +1,4 @@
+candidate,mae,parameters,selected,model,validation_end
+0,0.04306603057254105,"{'hidden_units': (12,)}",False,MLP,2022-01-04
+1,0.042792257887017904,"{'hidden_units': (6,)}",True,MLP,2022-01-04
+2,0.04293981834214794,"{'hidden_units': (24,)}",False,MLP,2022-01-04

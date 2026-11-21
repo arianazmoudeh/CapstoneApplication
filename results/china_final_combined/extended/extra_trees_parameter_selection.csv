@@ -1,0 +1,4 @@
+candidate,mae,parameters,selected,model,validation_end
+0,0.0470552846909945,{'max_depth': 4},True,Extra Trees,2022-01-04
+1,0.0470552846909945,{'max_depth': 2},False,Extra Trees,2022-01-04
+2,0.0470552846909945,{'max_depth': 6},False,Extra Trees,2022-01-04

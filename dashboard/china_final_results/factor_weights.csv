@@ -1,0 +1,421 @@
+seed,strategy,signal,selected_model,Value,Profitability,Momentum
+42,Six-month selector,2024-12-31,Extra Trees,0.2,0.3,0.5
+42,Six-month selector,2025-01-27,Extra Trees,0.2,0.3,0.5
+42,Six-month selector,2025-02-28,Extra Trees,0.2,0.3,0.5
+42,Six-month selector,2025-03-31,Extra Trees,0.2,0.3,0.5
+42,Six-month selector,2025-04-30,Extra Trees,0.2,0.3,0.5
+42,Six-month selector,2025-05-30,Extra Trees,0.2,0.3,0.5
+42,Six-month selector,2025-06-30,KNN,0.2,0.5,0.3
+42,Six-month selector,2025-07-31,KNN,0.2,0.5,0.3
+42,Six-month selector,2025-08-29,KNN,0.2,0.3,0.5
+42,Six-month selector,2025-09-30,KNN,0.3,0.2,0.5
+42,Six-month selector,2025-10-31,KNN,0.2,0.3,0.5
+42,Six-month selector,2025-11-28,KNN,0.2,0.3,0.5
+42,Six-month selector,2025-12-31,GRU,0.3,0.2,0.5
+42,Six-month selector,2026-01-30,GRU,0.3,0.2,0.5
+42,Six-month selector,2026-02-27,GRU,0.2,0.3,0.5
+42,Six-month selector,2026-03-31,GRU,0.2,0.3,0.5
+42,Six-month selector,2026-04-30,GRU,0.2,0.3,0.5
+42,Six-month selector,2026-05-29,GRU,0.2,0.3,0.5
+42,Six-month selector,2026-06-30,GRU,0.2,0.3,0.5
+42,Six-month selector,2026-07-31,GRU,0.2,0.3,0.5
+42,Six-month selector,2026-08-31,GRU,0.2,0.3,0.5
+42,Equal factors,2024-12-31,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2025-01-27,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2025-02-28,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2025-03-31,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2025-04-30,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2025-05-30,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2025-06-30,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2025-07-31,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2025-08-29,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2025-09-30,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2025-10-31,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2025-11-28,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2025-12-31,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2026-01-30,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2026-02-27,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2026-03-31,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2026-04-30,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2026-05-29,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2026-06-30,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2026-07-31,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Equal factors,2026-08-31,Equal factors,0.3333333333333333,0.3333333333333333,0.3333333333333333
+42,Initial model family,2024-12-31,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2025-01-27,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2025-02-28,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2025-03-31,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2025-04-30,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2025-05-30,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2025-06-30,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2025-07-31,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2025-08-29,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2025-09-30,Extra Trees,0.3,0.2,0.5
+42,Initial model family,2025-10-31,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2025-11-28,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2025-12-31,Extra Trees,0.3,0.2,0.5
+42,Initial model family,2026-01-30,Extra Trees,0.3,0.2,0.5
+42,Initial model family,2026-02-27,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2026-03-31,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2026-04-30,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2026-05-29,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2026-06-30,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2026-07-31,Extra Trees,0.2,0.3,0.5
+42,Initial model family,2026-08-31,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2024-12-31,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2025-01-27,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2025-02-28,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2025-03-31,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2025-04-30,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2025-05-30,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2025-06-30,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2025-07-31,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2025-08-29,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2025-09-30,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2025-10-31,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2025-11-28,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2025-12-31,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2026-01-30,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2026-02-27,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2026-03-31,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2026-04-30,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2026-05-29,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2026-06-30,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2026-07-31,Extra Trees,0.2,0.3,0.5
+42,Initial factor mix,2026-08-31,Extra Trees,0.2,0.3,0.5
+42,Historical mean,2024-12-31,Historical mean,0.2,0.3,0.5
+42,Historical mean,2025-01-27,Historical mean,0.2,0.3,0.5
+42,Historical mean,2025-02-28,Historical mean,0.2,0.3,0.5
+42,Historical mean,2025-03-31,Historical mean,0.2,0.3,0.5
+42,Historical mean,2025-04-30,Historical mean,0.2,0.3,0.5
+42,Historical mean,2025-05-30,Historical mean,0.2,0.3,0.5
+42,Historical mean,2025-06-30,Historical mean,0.2,0.3,0.5
+42,Historical mean,2025-07-31,Historical mean,0.2,0.3,0.5
+42,Historical mean,2025-08-29,Historical mean,0.2,0.3,0.5
+42,Historical mean,2025-09-30,Historical mean,0.2,0.3,0.5
+42,Historical mean,2025-10-31,Historical mean,0.2,0.3,0.5
+42,Historical mean,2025-11-28,Historical mean,0.2,0.3,0.5
+42,Historical mean,2025-12-31,Historical mean,0.2,0.3,0.5
+42,Historical mean,2026-01-30,Historical mean,0.2,0.3,0.5
+42,Historical mean,2026-02-27,Historical mean,0.2,0.3,0.5
+42,Historical mean,2026-03-31,Historical mean,0.2,0.3,0.5
+42,Historical mean,2026-04-30,Historical mean,0.2,0.3,0.5
+42,Historical mean,2026-05-29,Historical mean,0.2,0.3,0.5
+42,Historical mean,2026-06-30,Historical mean,0.2,0.3,0.5
+42,Historical mean,2026-07-31,Historical mean,0.2,0.3,0.5
+42,Historical mean,2026-08-31,Historical mean,0.2,0.3,0.5
+42,Ridge,2024-12-31,Ridge,0.5,0.2,0.3
+42,Ridge,2025-01-27,Ridge,0.5,0.3,0.2
+42,Ridge,2025-02-28,Ridge,0.2,0.3,0.5
+42,Ridge,2025-03-31,Ridge,0.5,0.2,0.3
+42,Ridge,2025-04-30,Ridge,0.3,0.2,0.5
+42,Ridge,2025-05-30,Ridge,0.2,0.3,0.5
+42,Ridge,2025-06-30,Ridge,0.3,0.5,0.2
+42,Ridge,2025-07-31,Ridge,0.2,0.5,0.3
+42,Ridge,2025-08-29,Ridge,0.2,0.3,0.5
+42,Ridge,2025-09-30,Ridge,0.2,0.5,0.3
+42,Ridge,2025-10-31,Ridge,0.2,0.3,0.5
+42,Ridge,2025-11-28,Ridge,0.2,0.3,0.5
+42,Ridge,2025-12-31,Ridge,0.2,0.5,0.3
+42,Ridge,2026-01-30,Ridge,0.5,0.2,0.3
+42,Ridge,2026-02-27,Ridge,0.2,0.3,0.5
+42,Ridge,2026-03-31,Ridge,0.2,0.5,0.3
+42,Ridge,2026-04-30,Ridge,0.3,0.2,0.5
+42,Ridge,2026-05-29,Ridge,0.2,0.3,0.5
+42,Ridge,2026-06-30,Ridge,0.5,0.3,0.2
+42,Ridge,2026-07-31,Ridge,0.3,0.5,0.2
+42,Ridge,2026-08-31,Ridge,0.5,0.2,0.3
+42,Elastic Net,2024-12-31,Elastic Net,0.5,0.3,0.2
+42,Elastic Net,2025-01-27,Elastic Net,0.5,0.3,0.2
+42,Elastic Net,2025-02-28,Elastic Net,0.2,0.3,0.5
+42,Elastic Net,2025-03-31,Elastic Net,0.5,0.3,0.2
+42,Elastic Net,2025-04-30,Elastic Net,0.3,0.2,0.5
+42,Elastic Net,2025-05-30,Elastic Net,0.2,0.3,0.5
+42,Elastic Net,2025-06-30,Elastic Net,0.2,0.5,0.3
+42,Elastic Net,2025-07-31,Elastic Net,0.2,0.5,0.3
+42,Elastic Net,2025-08-29,Elastic Net,0.2,0.5,0.3
+42,Elastic Net,2025-09-30,Elastic Net,0.3,0.5,0.2
+42,Elastic Net,2025-10-31,Elastic Net,0.3,0.2,0.5
+42,Elastic Net,2025-11-28,Elastic Net,0.2,0.3,0.5
+42,Elastic Net,2025-12-31,Elastic Net,0.2,0.5,0.3
+42,Elastic Net,2026-01-30,Elastic Net,0.5,0.2,0.3
+42,Elastic Net,2026-02-27,Elastic Net,0.2,0.3,0.5
+42,Elastic Net,2026-03-31,Elastic Net,0.2,0.5,0.3
+42,Elastic Net,2026-04-30,Elastic Net,0.3,0.2,0.5
+42,Elastic Net,2026-05-29,Elastic Net,0.2,0.3,0.5
+42,Elastic Net,2026-06-30,Elastic Net,0.5,0.3,0.2
+42,Elastic Net,2026-07-31,Elastic Net,0.3,0.5,0.2
+42,Elastic Net,2026-08-31,Elastic Net,0.5,0.3,0.2
+42,KNN,2024-12-31,KNN,0.3,0.5,0.2
+42,KNN,2025-01-27,KNN,0.3,0.5,0.2
+42,KNN,2025-02-28,KNN,0.2,0.5,0.3
+42,KNN,2025-03-31,KNN,0.2,0.3,0.5
+42,KNN,2025-04-30,KNN,0.2,0.5,0.3
+42,KNN,2025-05-30,KNN,0.2,0.5,0.3
+42,KNN,2025-06-30,KNN,0.2,0.5,0.3
+42,KNN,2025-07-31,KNN,0.2,0.5,0.3
+42,KNN,2025-08-29,KNN,0.2,0.3,0.5
+42,KNN,2025-09-30,KNN,0.3,0.2,0.5
+42,KNN,2025-10-31,KNN,0.2,0.3,0.5
+42,KNN,2025-11-28,KNN,0.2,0.3,0.5
+42,KNN,2025-12-31,KNN,0.2,0.3,0.5
+42,KNN,2026-01-30,KNN,0.2,0.3,0.5
+42,KNN,2026-02-27,KNN,0.2,0.3,0.5
+42,KNN,2026-03-31,KNN,0.2,0.3,0.5
+42,KNN,2026-04-30,KNN,0.2,0.3,0.5
+42,KNN,2026-05-29,KNN,0.2,0.3,0.5
+42,KNN,2026-06-30,KNN,0.2,0.3,0.5
+42,KNN,2026-07-31,KNN,0.2,0.3,0.5
+42,KNN,2026-08-31,KNN,0.2,0.3,0.5
+42,SVR,2024-12-31,SVR,0.5,0.2,0.3
+42,SVR,2025-01-27,SVR,0.3,0.5,0.2
+42,SVR,2025-02-28,SVR,0.2,0.5,0.3
+42,SVR,2025-03-31,SVR,0.3,0.2,0.5
+42,SVR,2025-04-30,SVR,0.3,0.2,0.5
+42,SVR,2025-05-30,SVR,0.2,0.3,0.5
+42,SVR,2025-06-30,SVR,0.3,0.5,0.2
+42,SVR,2025-07-31,SVR,0.3,0.5,0.2
+42,SVR,2025-08-29,SVR,0.2,0.3,0.5
+42,SVR,2025-09-30,SVR,0.3,0.2,0.5
+42,SVR,2025-10-31,SVR,0.2,0.3,0.5
+42,SVR,2025-11-28,SVR,0.2,0.3,0.5
+42,SVR,2025-12-31,SVR,0.5,0.3,0.2
+42,SVR,2026-01-30,SVR,0.2,0.3,0.5
+42,SVR,2026-02-27,SVR,0.2,0.3,0.5
+42,SVR,2026-03-31,SVR,0.2,0.3,0.5
+42,SVR,2026-04-30,SVR,0.3,0.2,0.5
+42,SVR,2026-05-29,SVR,0.3,0.2,0.5
+42,SVR,2026-06-30,SVR,0.2,0.5,0.3
+42,SVR,2026-07-31,SVR,0.2,0.3,0.5
+42,SVR,2026-08-31,SVR,0.2,0.3,0.5
+42,Random Forest,2024-12-31,Random Forest,0.2,0.3,0.5
+42,Random Forest,2025-01-27,Random Forest,0.5,0.2,0.3
+42,Random Forest,2025-02-28,Random Forest,0.2,0.3,0.5
+42,Random Forest,2025-03-31,Random Forest,0.2,0.3,0.5
+42,Random Forest,2025-04-30,Random Forest,0.2,0.3,0.5
+42,Random Forest,2025-05-30,Random Forest,0.2,0.3,0.5
+42,Random Forest,2025-06-30,Random Forest,0.2,0.3,0.5
+42,Random Forest,2025-07-31,Random Forest,0.2,0.3,0.5
+42,Random Forest,2025-08-29,Random Forest,0.2,0.3,0.5
+42,Random Forest,2025-09-30,Random Forest,0.3,0.2,0.5
+42,Random Forest,2025-10-31,Random Forest,0.2,0.3,0.5
+42,Random Forest,2025-11-28,Random Forest,0.2,0.3,0.5
+42,Random Forest,2025-12-31,Random Forest,0.5,0.2,0.3
+42,Random Forest,2026-01-30,Random Forest,0.3,0.2,0.5
+42,Random Forest,2026-02-27,Random Forest,0.2,0.3,0.5
+42,Random Forest,2026-03-31,Random Forest,0.2,0.3,0.5
+42,Random Forest,2026-04-30,Random Forest,0.3,0.2,0.5
+42,Random Forest,2026-05-29,Random Forest,0.3,0.2,0.5
+42,Random Forest,2026-06-30,Random Forest,0.2,0.3,0.5
+42,Random Forest,2026-07-31,Random Forest,0.2,0.3,0.5
+42,Random Forest,2026-08-31,Random Forest,0.2,0.3,0.5
+42,Extra Trees,2024-12-31,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2025-01-27,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2025-02-28,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2025-03-31,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2025-04-30,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2025-05-30,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2025-06-30,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2025-07-31,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2025-08-29,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2025-09-30,Extra Trees,0.3,0.2,0.5
+42,Extra Trees,2025-10-31,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2025-11-28,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2025-12-31,Extra Trees,0.3,0.2,0.5
+42,Extra Trees,2026-01-30,Extra Trees,0.3,0.2,0.5
+42,Extra Trees,2026-02-27,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2026-03-31,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2026-04-30,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2026-05-29,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2026-06-30,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2026-07-31,Extra Trees,0.2,0.3,0.5
+42,Extra Trees,2026-08-31,Extra Trees,0.2,0.3,0.5
+42,XGBoost,2024-12-31,XGBoost,0.3,0.5,0.2
+42,XGBoost,2025-01-27,XGBoost,0.5,0.3,0.2
+42,XGBoost,2025-02-28,XGBoost,0.3,0.5,0.2
+42,XGBoost,2025-03-31,XGBoost,0.2,0.5,0.3
+42,XGBoost,2025-04-30,XGBoost,0.2,0.3,0.5
+42,XGBoost,2025-05-30,XGBoost,0.2,0.5,0.3
+42,XGBoost,2025-06-30,XGBoost,0.3,0.5,0.2
+42,XGBoost,2025-07-31,XGBoost,0.2,0.3,0.5
+42,XGBoost,2025-08-29,XGBoost,0.2,0.3,0.5
+42,XGBoost,2025-09-30,XGBoost,0.5,0.2,0.3
+42,XGBoost,2025-10-31,XGBoost,0.2,0.3,0.5
+42,XGBoost,2025-11-28,XGBoost,0.2,0.3,0.5
+42,XGBoost,2025-12-31,XGBoost,0.5,0.2,0.3
+42,XGBoost,2026-01-30,XGBoost,0.2,0.3,0.5
+42,XGBoost,2026-02-27,XGBoost,0.2,0.3,0.5
+42,XGBoost,2026-03-31,XGBoost,0.2,0.3,0.5
+42,XGBoost,2026-04-30,XGBoost,0.3,0.2,0.5
+42,XGBoost,2026-05-29,XGBoost,0.3,0.2,0.5
+42,XGBoost,2026-06-30,XGBoost,0.5,0.2,0.3
+42,XGBoost,2026-07-31,XGBoost,0.2,0.3,0.5
+42,XGBoost,2026-08-31,XGBoost,0.2,0.3,0.5
+42,Decision Tree,2024-12-31,Decision Tree,0.5,0.3,0.2
+42,Decision Tree,2025-01-27,Decision Tree,0.5,0.3,0.2
+42,Decision Tree,2025-02-28,Decision Tree,0.2,0.5,0.3
+42,Decision Tree,2025-03-31,Decision Tree,0.5,0.3,0.2
+42,Decision Tree,2025-04-30,Decision Tree,0.5,0.3,0.2
+42,Decision Tree,2025-05-30,Decision Tree,0.2,0.5,0.3
+42,Decision Tree,2025-06-30,Decision Tree,0.5,0.3,0.2
+42,Decision Tree,2025-07-31,Decision Tree,0.5,0.3,0.2
+42,Decision Tree,2025-08-29,Decision Tree,0.5,0.3,0.2
+42,Decision Tree,2025-09-30,Decision Tree,0.3,0.2,0.5
+42,Decision Tree,2025-10-31,Decision Tree,0.2,0.3,0.5
+42,Decision Tree,2025-11-28,Decision Tree,0.2,0.3,0.5
+42,Decision Tree,2025-12-31,Decision Tree,0.5,0.3,0.2
+42,Decision Tree,2026-01-30,Decision Tree,0.5,0.3,0.2
+42,Decision Tree,2026-02-27,Decision Tree,0.5,0.3,0.2
+42,Decision Tree,2026-03-31,Decision Tree,0.5,0.3,0.2
+42,Decision Tree,2026-04-30,Decision Tree,0.2,0.3,0.5
+42,Decision Tree,2026-05-29,Decision Tree,0.5,0.3,0.2
+42,Decision Tree,2026-06-30,Decision Tree,0.3,0.2,0.5
+42,Decision Tree,2026-07-31,Decision Tree,0.2,0.3,0.5
+42,Decision Tree,2026-08-31,Decision Tree,0.2,0.3,0.5
+42,AdaBoost,2024-12-31,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2025-01-27,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2025-02-28,AdaBoost,0.2,0.5,0.3
+42,AdaBoost,2025-03-31,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2025-04-30,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2025-05-30,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2025-06-30,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2025-07-31,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2025-08-29,AdaBoost,0.3,0.2,0.5
+42,AdaBoost,2025-09-30,AdaBoost,0.3,0.2,0.5
+42,AdaBoost,2025-10-31,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2025-11-28,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2025-12-31,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2026-01-30,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2026-02-27,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2026-03-31,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2026-04-30,AdaBoost,0.3,0.2,0.5
+42,AdaBoost,2026-05-29,AdaBoost,0.3,0.2,0.5
+42,AdaBoost,2026-06-30,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2026-07-31,AdaBoost,0.2,0.3,0.5
+42,AdaBoost,2026-08-31,AdaBoost,0.2,0.3,0.5
+42,LightGBM,2024-12-31,LightGBM,0.5,0.3,0.2
+42,LightGBM,2025-01-27,LightGBM,0.5,0.3,0.2
+42,LightGBM,2025-02-28,LightGBM,0.3,0.5,0.2
+42,LightGBM,2025-03-31,LightGBM,0.2,0.3,0.5
+42,LightGBM,2025-04-30,LightGBM,0.2,0.3,0.5
+42,LightGBM,2025-05-30,LightGBM,0.3,0.5,0.2
+42,LightGBM,2025-06-30,LightGBM,0.2,0.5,0.3
+42,LightGBM,2025-07-31,LightGBM,0.5,0.2,0.3
+42,LightGBM,2025-08-29,LightGBM,0.2,0.3,0.5
+42,LightGBM,2025-09-30,LightGBM,0.3,0.2,0.5
+42,LightGBM,2025-10-31,LightGBM,0.2,0.3,0.5
+42,LightGBM,2025-11-28,LightGBM,0.2,0.3,0.5
+42,LightGBM,2025-12-31,LightGBM,0.5,0.3,0.2
+42,LightGBM,2026-01-30,LightGBM,0.2,0.3,0.5
+42,LightGBM,2026-02-27,LightGBM,0.2,0.3,0.5
+42,LightGBM,2026-03-31,LightGBM,0.2,0.5,0.3
+42,LightGBM,2026-04-30,LightGBM,0.5,0.2,0.3
+42,LightGBM,2026-05-29,LightGBM,0.3,0.2,0.5
+42,LightGBM,2026-06-30,LightGBM,0.5,0.3,0.2
+42,LightGBM,2026-07-31,LightGBM,0.2,0.3,0.5
+42,LightGBM,2026-08-31,LightGBM,0.2,0.3,0.5
+42,MLP,2024-12-31,MLP,0.5,0.3,0.2
+42,MLP,2025-01-27,MLP,0.5,0.3,0.2
+42,MLP,2025-02-28,MLP,0.2,0.5,0.3
+42,MLP,2025-03-31,MLP,0.5,0.2,0.3
+42,MLP,2025-04-30,MLP,0.3,0.2,0.5
+42,MLP,2025-05-30,MLP,0.2,0.5,0.3
+42,MLP,2025-06-30,MLP,0.3,0.5,0.2
+42,MLP,2025-07-31,MLP,0.3,0.5,0.2
+42,MLP,2025-08-29,MLP,0.5,0.3,0.2
+42,MLP,2025-09-30,MLP,0.5,0.2,0.3
+42,MLP,2025-10-31,MLP,0.2,0.3,0.5
+42,MLP,2025-11-28,MLP,0.2,0.3,0.5
+42,MLP,2025-12-31,MLP,0.3,0.5,0.2
+42,MLP,2026-01-30,MLP,0.2,0.3,0.5
+42,MLP,2026-02-27,MLP,0.3,0.5,0.2
+42,MLP,2026-03-31,MLP,0.3,0.5,0.2
+42,MLP,2026-04-30,MLP,0.5,0.2,0.3
+42,MLP,2026-05-29,MLP,0.5,0.2,0.3
+42,MLP,2026-06-30,MLP,0.5,0.3,0.2
+42,MLP,2026-07-31,MLP,0.2,0.5,0.3
+42,MLP,2026-08-31,MLP,0.5,0.3,0.2
+42,LSTM,2024-12-31,LSTM,0.2,0.3,0.5
+42,LSTM,2025-01-27,LSTM,0.2,0.3,0.5
+42,LSTM,2025-02-28,LSTM,0.2,0.3,0.5
+42,LSTM,2025-03-31,LSTM,0.2,0.3,0.5
+42,LSTM,2025-04-30,LSTM,0.2,0.3,0.5
+42,LSTM,2025-05-30,LSTM,0.2,0.3,0.5
+42,LSTM,2025-06-30,LSTM,0.2,0.3,0.5
+42,LSTM,2025-07-31,LSTM,0.2,0.3,0.5
+42,LSTM,2025-08-29,LSTM,0.2,0.3,0.5
+42,LSTM,2025-09-30,LSTM,0.2,0.3,0.5
+42,LSTM,2025-10-31,LSTM,0.2,0.3,0.5
+42,LSTM,2025-11-28,LSTM,0.2,0.3,0.5
+42,LSTM,2025-12-31,LSTM,0.3,0.2,0.5
+42,LSTM,2026-01-30,LSTM,0.2,0.3,0.5
+42,LSTM,2026-02-27,LSTM,0.2,0.3,0.5
+42,LSTM,2026-03-31,LSTM,0.2,0.3,0.5
+42,LSTM,2026-04-30,LSTM,0.3,0.2,0.5
+42,LSTM,2026-05-29,LSTM,0.2,0.3,0.5
+42,LSTM,2026-06-30,LSTM,0.2,0.3,0.5
+42,LSTM,2026-07-31,LSTM,0.2,0.3,0.5
+42,LSTM,2026-08-31,LSTM,0.2,0.3,0.5
+42,GRU,2024-12-31,GRU,0.2,0.3,0.5
+42,GRU,2025-01-27,GRU,0.2,0.3,0.5
+42,GRU,2025-02-28,GRU,0.2,0.3,0.5
+42,GRU,2025-03-31,GRU,0.2,0.3,0.5
+42,GRU,2025-04-30,GRU,0.2,0.3,0.5
+42,GRU,2025-05-30,GRU,0.2,0.3,0.5
+42,GRU,2025-06-30,GRU,0.2,0.3,0.5
+42,GRU,2025-07-31,GRU,0.2,0.3,0.5
+42,GRU,2025-08-29,GRU,0.3,0.2,0.5
+42,GRU,2025-09-30,GRU,0.5,0.2,0.3
+42,GRU,2025-10-31,GRU,0.2,0.3,0.5
+42,GRU,2025-11-28,GRU,0.2,0.3,0.5
+42,GRU,2025-12-31,GRU,0.3,0.2,0.5
+42,GRU,2026-01-30,GRU,0.3,0.2,0.5
+42,GRU,2026-02-27,GRU,0.2,0.3,0.5
+42,GRU,2026-03-31,GRU,0.2,0.3,0.5
+42,GRU,2026-04-30,GRU,0.2,0.3,0.5
+42,GRU,2026-05-29,GRU,0.2,0.3,0.5
+42,GRU,2026-06-30,GRU,0.2,0.3,0.5
+42,GRU,2026-07-31,GRU,0.2,0.3,0.5
+42,GRU,2026-08-31,GRU,0.2,0.3,0.5
+42,CNN,2024-12-31,CNN,0.2,0.3,0.5
+42,CNN,2025-01-27,CNN,0.2,0.3,0.5
+42,CNN,2025-02-28,CNN,0.2,0.3,0.5
+42,CNN,2025-03-31,CNN,0.2,0.3,0.5
+42,CNN,2025-04-30,CNN,0.2,0.3,0.5
+42,CNN,2025-05-30,CNN,0.2,0.3,0.5
+42,CNN,2025-06-30,CNN,0.2,0.5,0.3
+42,CNN,2025-07-31,CNN,0.2,0.5,0.3
+42,CNN,2025-08-29,CNN,0.2,0.3,0.5
+42,CNN,2025-09-30,CNN,0.3,0.2,0.5
+42,CNN,2025-10-31,CNN,0.2,0.3,0.5
+42,CNN,2025-11-28,CNN,0.2,0.3,0.5
+42,CNN,2025-12-31,CNN,0.2,0.3,0.5
+42,CNN,2026-01-30,CNN,0.2,0.3,0.5
+42,CNN,2026-02-27,CNN,0.2,0.3,0.5
+42,CNN,2026-03-31,CNN,0.2,0.3,0.5
+42,CNN,2026-04-30,CNN,0.2,0.3,0.5
+42,CNN,2026-05-29,CNN,0.2,0.3,0.5
+42,CNN,2026-06-30,CNN,0.2,0.3,0.5
+42,CNN,2026-07-31,CNN,0.2,0.3,0.5
+42,CNN,2026-08-31,CNN,0.2,0.3,0.5
+42,Prophet,2024-12-31,Prophet,0.5,0.2,0.3
+42,Prophet,2025-01-27,Prophet,0.5,0.2,0.3
+42,Prophet,2025-02-28,Prophet,0.5,0.2,0.3
+42,Prophet,2025-03-31,Prophet,0.5,0.2,0.3
+42,Prophet,2025-04-30,Prophet,0.5,0.2,0.3
+42,Prophet,2025-05-30,Prophet,0.5,0.2,0.3
+42,Prophet,2025-06-30,Prophet,0.5,0.2,0.3
+42,Prophet,2025-07-31,Prophet,0.5,0.2,0.3
+42,Prophet,2025-08-29,Prophet,0.5,0.2,0.3
+42,Prophet,2025-09-30,Prophet,0.3,0.2,0.5
+42,Prophet,2025-10-31,Prophet,0.2,0.3,0.5
+42,Prophet,2025-11-28,Prophet,0.3,0.2,0.5
+42,Prophet,2025-12-31,Prophet,0.3,0.2,0.5
+42,Prophet,2026-01-30,Prophet,0.3,0.2,0.5
+42,Prophet,2026-02-27,Prophet,0.3,0.2,0.5
+42,Prophet,2026-03-31,Prophet,0.3,0.2,0.5
+42,Prophet,2026-04-30,Prophet,0.3,0.2,0.5
+42,Prophet,2026-05-29,Prophet,0.2,0.3,0.5
+42,Prophet,2026-06-30,Prophet,0.2,0.3,0.5
+42,Prophet,2026-07-31,Prophet,0.2,0.3,0.5
+42,Prophet,2026-08-31,Prophet,0.2,0.3,0.5

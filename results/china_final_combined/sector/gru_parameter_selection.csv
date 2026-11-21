@@ -1,0 +1,4 @@
+candidate,mae,parameters,selected,model,validation_end
+0,0.040056700206161276,"{'hidden_units': 32, 'layers': 2, 'learning_rate': 0.001}",False,GRU,2022-01-04
+1,0.03610984434159477,"{'hidden_units': 16, 'layers': 1, 'learning_rate': 0.001}",False,GRU,2022-01-04
+2,0.035323317449777944,"{'hidden_units': 16, 'layers': 1, 'learning_rate': 0.0003}",True,GRU,2022-01-04

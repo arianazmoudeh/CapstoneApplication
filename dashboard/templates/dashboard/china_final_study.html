@@ -1,0 +1,104 @@
+{% extends 'dashboard/base.html' %}
+{% load humanize %}
+{% block title %}Final factor timing study · WorldQuant University Capstone Project{% endblock %}
+{% block content %}
+<main id="main" class="page-shell min-w-0 flex-1">
+  <div class="my-8 flex flex-wrap items-start justify-between gap-4 sm:my-10">
+    <div><h1>Final factor timing study</h1><p class="mb-0 text-muted">Can forecasts of factor returns help us choose portfolio weights?</p></div>
+    {% if study %}<a class="button-link" href="{{ study.notebook_url }}" target="_blank" rel="noopener noreferrer">Open notebook &rarr;</a>{% endif %}
+  </div>
+  <nav class="mb-6 flex flex-wrap gap-x-6 border-b border-line" aria-label="Research study">
+    <a class="nav-link" href="{% url 'china_final_study' %}" aria-current="page">Final study</a>
+    <a class="nav-link" href="{% url 'china_factor_study' %}">Stock selection study</a>
+    <a class="nav-link" href="{% url 'china_benchmark' %}">Company group</a>
+    <a class="nav-link" href="{% url 'experiments' %}">All experiments</a>
+  </nav>
+  {% if error %}<div class="error" role="alert">{{ error }}</div>{% endif %}
+  {% if study %}
+  <div class="mb-5 flex flex-wrap justify-between gap-3 text-xs text-muted"><span>{{ study.summary.company_count }} companies in the list · {{ study.summary.model_count }} models · {{ study.period_count }} completed monthly periods</span><span>{{ study.start|date:'j M Y' }} – {{ study.end|date:'j M Y' }} · CNY</span></div>
+  <section class="panel" aria-labelledby="final-question">
+    <h2 id="final-question">What we tested</h2>
+    <p>We keep the definitions of Value, Profitability and Momentum fixed. Each factor buys the top 30% and shorts the bottom 30% of stocks with enough data. We then test whether model forecasts can help us change the weight of each factor.</p>
+    <div class="grid gap-4 md:grid-cols-3">
+      <div class="rounded-lg bg-canvas p-4"><h3 class="mb-2 font-semibold">Equal factor weights</h3><p class="mb-0 text-sm text-muted">Each factor gets one-third of the allocation. This is our main comparison.</p></div>
+      <div class="rounded-lg bg-canvas p-4"><h3 class="mb-2 font-semibold">Choose a model every six months</h3><p class="mb-0 text-sm text-muted">We use the last 18 completed monthly returns to choose a model. It still learns and forecasts each month.</p></div>
+      <div class="rounded-lg bg-canvas p-4"><h3 class="mb-2 font-semibold">Keep the starting choice</h3><p class="mb-0 text-sm text-muted">We also keep the first model or the first factor mix. These checks show what changing the choice adds.</p></div>
+    </div>
+    <p class="mt-4 mb-0 text-xs text-muted">This is a historical research study. We had already seen the evaluation period when we designed the six-month rule. The separate M6 result is kept in the comparison.</p>
+  </section>
+  <section class="panel" aria-labelledby="final-findings">
+    <h2 id="final-findings">What we found</h2>
+    <div class="grid gap-4 md:grid-cols-3">
+      <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">Selector annual return</span><strong class="mt-1 block text-2xl tabular-nums">{{ study.primary_metrics.annual_return|floatformat:2 }}%</strong><p class="mt-2 mb-0 text-xs text-muted">After trading and borrowing costs</p></div>
+      <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">Annual return vs equal factors</span><strong class="mt-1 block text-2xl tabular-nums">{% if study.annual_gap > 0 %}+{% endif %}{{ study.annual_gap|floatformat:2 }} pp</strong><p class="mt-2 mb-0 text-xs text-muted">Difference in annualized return</p></div>
+      <div class="rounded-lg bg-canvas p-4"><span class="block text-xs text-muted">Mean monthly return vs equal factors</span><strong class="mt-1 block text-2xl tabular-nums">{% if study.estimate.mean_difference > 0 %}+{% endif %}{{ study.estimate.mean_difference|floatformat:2 }} pp</strong><p class="mt-2 mb-0 text-xs text-muted">95% bootstrap interval: {{ study.estimate.lower|floatformat:2 }} to {{ study.estimate.upper|floatformat:2 }} pp</p></div>
+    </div>
+    <div class="mt-5 text-sm">{% for paragraph in study.summary.findings %}<p {% if forloop.last %}class="mb-0"{% endif %}>{{ paragraph }}</p>{% endfor %}</div>
+  </section>
+  <section class="panel" aria-labelledby="final-value">
+    <div class="section-heading"><div><h2 id="final-value">Portfolio value</h2><p class="text-muted">Each portfolio starts with ¥{{ study.initial_value|floatformat:0|intcomma }}. We use the same dates and trading rules.</p></div></div>
+    <p class="mb-0 text-xs text-muted">Value (CNY)</p>
+    {% include 'dashboard/final_research_chart.html' with chart=study.value_chart chart_title='Portfolio values after trading and borrowing costs, in CNY' %}
+    <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="Main portfolio comparisons">
+      <table><thead><tr><th>Portfolio</th><th class="text-right">Annual return</th><th class="text-right">Volatility</th><th class="text-right">Sharpe</th><th class="text-right">Max drawdown</th><th class="text-right">Final value</th></tr></thead><tbody>
+        {% for row in study.metrics %}<tr {% if row.strategy == study.primary %}class="bg-accent/5"{% endif %}><th class="font-semibold">{{ row.strategy }}</th><td class="text-right tabular-nums">{{ row.annual_return|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.volatility|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.sharpe|floatformat:2 }}</td><td class="text-right tabular-nums">{{ row.drawdown|floatformat:2 }}%</td><td class="text-right tabular-nums">¥{{ row.final_value|floatformat:0|intcomma }}</td></tr>{% endfor %}
+      </tbody></table>
+    </div>
+    <p class="mt-4 mb-0 text-xs text-muted">Returns are annualized. The main run uses 0.10% on net stock trades and 3% yearly borrowing cost on short positions. Cash earns zero interest. Factor positions are combined before trading; target gross exposure is 100% and target net exposure is zero.</p>
+  </section>
+  <section class="panel" aria-labelledby="final-drawdown">
+    <h2 id="final-drawdown">Falls from earlier portfolio highs</h2><p class="text-muted">Drawdown shows how far each portfolio fell below its previous highest value. Values closer to zero mean a smaller fall.</p>
+    <p class="mb-0 text-xs text-muted">Drawdown (%)</p>
+    {% include 'dashboard/final_research_chart.html' with chart=study.drawdown_chart chart_title='Portfolio drawdowns from previous highs, in percent' %}
+  </section>
+  <section class="panel" aria-labelledby="final-selections">
+    <h2 id="final-selections">Which model was chosen?</h2><p class="text-muted">The score is the average monthly net return above equal factors during the 18 completed periods before each choice. We use only information available by the selection close.</p>
+    <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="Model choices and past scores"><table><thead><tr><th>Selection date</th><th>First trade</th><th>Chosen model</th><th class="text-right">Past excess return / month</th><th class="text-right">Past periods</th></tr></thead><tbody>{% for row in study.selection %}<tr><th>{{ row.selection_date|date:'j M Y' }}</th><td>{{ row.execution_date|date:'j M Y' }}</td><td class="font-semibold">{{ row.model }}</td><td class="text-right tabular-nums">{{ row.score_pp|floatformat:3 }} pp</td><td class="text-right">{{ row.lookback_count|floatformat:0 }}</td></tr>{% endfor %}</tbody></table></div>
+    <p class="mt-4 mb-0 text-xs text-muted">The model family stays for six calendar months. Its fitting and forecasts still update monthly. We charge the actual stock trades when the selected model changes.</p>
+    {% if study.summary.selection_description %}<p class="mt-4 mb-0 text-sm">{{ study.summary.selection_description }}</p>{% endif %}
+  </section>
+  <section class="panel" aria-labelledby="final-weights">
+    <h2 id="final-weights">Factor allocations</h2><p class="text-muted">The highest forecast gets 50%, the second gets 30% and the third gets 20%. These are the saved targets at each monthly signal, before the next trading close.</p>
+    <p class="mb-0 text-xs text-muted">Factor allocation (%)</p>
+    {% include 'dashboard/final_research_chart.html' with chart=study.weight_chart chart_title='Saved monthly factor allocations, in percent' axis_label='Monthly signal date' %}
+  </section>
+  <section class="panel" aria-labelledby="final-checks">
+    <h2 id="final-checks">How stable was the result?</h2>
+    <p>We have {{ study.period_count }} completed monthly periods. We use the same paired monthly return differences in 10,000 bootstrap draws. The main check uses an expected block of three months. We also use two and six months.</p>
+    <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="Bootstrap interval checks"><table><thead><tr><th>Expected block</th><th class="text-right">Mean monthly difference</th><th class="text-right">95% interval, lower</th><th class="text-right">95% interval, upper</th></tr></thead><tbody>{% for row in study.uncertainty %}<tr><th>{{ row.block_length|floatformat:0 }} months{% if row.block_length == 3 %} · main check{% endif %}</th><td class="text-right tabular-nums">{{ row.mean_difference|floatformat:3 }} pp</td><td class="text-right tabular-nums">{{ row.lower|floatformat:3 }} pp</td><td class="text-right tabular-nums">{{ row.upper|floatformat:3 }} pp</td></tr>{% endfor %}</tbody></table></div>
+    <p class="mt-4 text-sm text-muted">The interval describes uncertainty in this saved return path. It does not repeat model training or correct for all earlier experiments. The three factor forecasts are not three independent monthly tests.</p>
+    <details class="mt-5 border-t border-line pt-4"><summary class="cursor-pointer font-semibold">Five training seeds</summary>
+      <p class="mt-4 text-sm">We repeat model selection and the portfolio with five seeds. The median annual return is {{ study.seed_median|floatformat:2 }}%, with a range from {{ study.seed_min|floatformat:2 }}% to {{ study.seed_max|floatformat:2 }}%. These runs use the same market history.</p>
+      <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="Training seed results"><table><thead><tr><th>Seed</th><th class="text-right">Annual return</th><th class="text-right">Sharpe</th><th class="text-right">Max drawdown</th></tr></thead><tbody>{% for row in study.seeds %}<tr><th>{{ row.seed|floatformat:0 }}{% if row.seed == 42 %} · main run{% endif %}</th><td class="text-right tabular-nums">{{ row.annual_return|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.sharpe|floatformat:2 }}</td><td class="text-right tabular-nums">{{ row.drawdown|floatformat:2 }}%</td></tr>{% endfor %}</tbody></table></div>
+    </details>
+    <details class="mt-5 border-t border-line pt-4"><summary class="cursor-pointer font-semibold">Trading and borrowing costs</summary>
+      <p class="mt-4 text-sm text-muted">We change one cost at a time. The model choices and forecasts stay the same as the main run.</p>
+      <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="Cost sensitivity results"><table><thead><tr><th>Check</th><th class="text-right">Trading cost</th><th class="text-right">Yearly borrowing cost</th><th class="text-right">Annual return</th><th class="text-right">Sharpe</th><th class="text-right">Max drawdown</th></tr></thead><tbody>{% for row in study.costs %}<tr><th>{{ row.kind }}</th><td class="text-right tabular-nums">{{ row.trading_percent|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.borrow_percent|floatformat:0 }}%</td><td class="text-right tabular-nums">{{ row.annual_return|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.sharpe|floatformat:2 }}</td><td class="text-right tabular-nums">{{ row.drawdown|floatformat:2 }}%</td></tr>{% endfor %}</tbody></table></div>
+    </details>
+  </section>
+  <details class="panel"><summary class="cursor-pointer font-semibold">All model and control results</summary>
+    <p class="mt-4 text-sm text-muted">We show every model and control. A model with a high return here was not necessarily chosen by the earlier selection rule.</p>
+    {% if study.summary.earlier_result %}<p class="text-sm">{{ study.summary.earlier_result }}</p>{% endif %}
+    <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="All models and control portfolios"><table><thead><tr><th>Portfolio</th><th class="text-right">Annual return</th><th class="text-right">Sharpe</th><th class="text-right">Max drawdown</th><th class="text-right">Trading costs (CNY)</th><th class="text-right">Borrowing costs (CNY)</th><th class="text-right">Mean monthly turnover</th></tr></thead><tbody>{% for row in study.all_metrics %}<tr><th class="font-semibold">{{ row.strategy }}</th><td class="text-right tabular-nums">{{ row.annual_return|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.sharpe|floatformat:2 }}</td><td class="text-right tabular-nums">{{ row.drawdown|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.trading_costs|floatformat:0|intcomma }}</td><td class="text-right tabular-nums">{{ row.borrow_costs|floatformat:0|intcomma }}</td><td class="text-right tabular-nums">{{ row.monthly_turnover_percent|floatformat:2 }}%</td></tr>{% endfor %}</tbody></table></div>
+  </details>
+  {% if study.forecast_rows %}
+  <details class="panel"><summary class="cursor-pointer font-semibold">Prediction results</summary>
+    <p class="mt-4 text-sm text-muted">We check forecast error, Up or Down direction and which factor had the highest return. Portfolio weights depend on the order of forecasts. A higher investment return does not always mean a smaller prediction error.</p>
+    {% if study.summary.forecast_description %}<p class="text-sm">{{ study.summary.forecast_description }}</p>{% endif %}
+    <div class="w-full overflow-x-auto" tabindex="0" role="region" aria-label="Forecast results over the evaluation period"><table><thead><tr><th>Model</th><th class="text-right">Mean absolute error</th><th class="text-right">Direction correct</th><th class="text-right">Highest factor correct</th><th class="text-right">Monthly periods</th></tr></thead><tbody>{% for row in study.forecast_rows %}<tr><th class="font-semibold">{{ row.model }}</th><td class="text-right tabular-nums">{{ row.mae_pp|floatformat:2 }} pp</td><td class="text-right tabular-nums">{{ row.direction_accuracy_pct|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.best_factor_hit_rate_pct|floatformat:2 }}%</td><td class="text-right tabular-nums">{{ row.months|floatformat:0 }}</td></tr>{% endfor %}</tbody></table></div>
+  </details>
+  {% endif %}
+  <details class="panel"><summary class="cursor-pointer font-semibold">Data and method</summary>
+    <div class="mt-4 space-y-3 text-sm text-muted">
+      <p>Value is EBIT divided by enterprise value. Profitability is EBIT divided by average invested capital. Momentum uses the adjusted return from twelve months ago to one month ago, divided by annual volatility. We keep these definitions fixed for this experiment.</p>
+      <p>The 100-company list is our starting group. Companies need valid prices and all three scores to enter a monthly factor basket. Financial businesses stay outside the EBIT baskets. The notebook lists the companies and the monthly exclusions.</p>
+      <p>We keep time in order. The model learns only from completed earlier outcomes, then predicts the following month. Scaling and early stopping use earlier training data. LSTM, GRU and CNN can train for up to 100 epochs and stop early if their validation result does not improve.</p>
+      <p class="mb-0">We keep the original M6 model result. For the six-month rule, the model with the highest past mean net return above equal factors is chosen. The notebook contains the exact dates, settings, trading records and checks.</p>
+    </div>
+  </details>
+  {% if study.summary.conclusion %}<section class="panel" aria-labelledby="final-answer"><h2 id="final-answer">Our answer</h2><p class="mb-0">{{ study.summary.conclusion }}</p></section>{% endif %}
+  <section class="panel" aria-labelledby="final-limits"><h2 id="final-limits">How to read these findings</h2><div class="text-sm text-muted">{% for paragraph in study.summary.limitations %}<p {% if forloop.last %}class="mb-0"{% endif %}>{{ paragraph }}</p>{% endfor %}</div></section>
+  {% endif %}
+</main>
+{% endblock %}
+{% block data_source %}Saved China A-share factor timing results{% endblock %}

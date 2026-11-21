@@ -1,0 +1,4 @@
+candidate,mae,parameters,selected,model,validation_end
+0,0.03606180041383145,"{'max_depth': 2, 'leaves': 4}",True,LightGBM,2022-01-04
+1,0.03606180041383145,"{'max_depth': 1, 'leaves': 2}",False,LightGBM,2022-01-04
+2,0.03606180041383145,"{'max_depth': 3, 'leaves': 8}",False,LightGBM,2022-01-04

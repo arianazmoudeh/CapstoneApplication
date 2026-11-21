@@ -1,0 +1,14 @@
+check,value
+companies,100
+observed_price_rows,261601
+matched_valid_quotes,261601
+missing_quote_rows,0
+positive_volume_rows,261601
+zero_volume_rows,0
+volume_mismatch_rows,2
+duplicate_price_rows,0
+prices_before_listing,0
+prices_after_end_date,0
+absolute_adjusted_return_over_50_percent,1
+first_observation,2015-01-05
+last_observation,2026-10-16

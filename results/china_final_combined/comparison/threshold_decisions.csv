@@ -1,0 +1,141 @@
+seed,strategy,selection_date,model,challenger,threshold,score_difference,switch,experiment
+42,Threshold 0.10pp,2023-08-31,Prophet,Prophet,0.001,,False,Main
+42,Threshold 0.10pp,2024-02-29,Prophet,Prophet,0.001,0.0,False,Main
+42,Threshold 0.10pp,2024-08-30,Extra Trees,Extra Trees,0.001,0.0013025523119925,True,Main
+42,Threshold 0.10pp,2025-02-28,Extra Trees,KNN,0.001,0.0002171856117712,False,Main
+42,Threshold 0.10pp,2025-08-29,KNN,KNN,0.001,0.0011159369163571,True,Main
+42,Threshold 0.10pp,2026-02-27,GRU,GRU,0.001,0.0010236676736096,True,Main
+42,Threshold 0.10pp,2026-08-31,GRU,GRU,0.001,0.0,False,Main
+42,Threshold 0.25pp,2023-08-31,Prophet,Prophet,0.0025,,False,Main
+42,Threshold 0.25pp,2024-02-29,Prophet,Prophet,0.0025,0.0,False,Main
+42,Threshold 0.25pp,2024-08-30,Prophet,Extra Trees,0.0025,0.0013025523119925,False,Main
+42,Threshold 0.25pp,2025-02-28,KNN,KNN,0.0025,0.0037237953921264,True,Main
+42,Threshold 0.25pp,2025-08-29,KNN,KNN,0.0025,0.0,False,Main
+42,Threshold 0.25pp,2026-02-27,KNN,GRU,0.0025,0.0010236676736096,False,Main
+42,Threshold 0.25pp,2026-08-31,KNN,GRU,0.0025,0.0014999283381526,False,Main
+7,Threshold 0.10pp,2023-08-31,Prophet,Prophet,0.001,,False,Main
+7,Threshold 0.10pp,2024-02-29,Prophet,Prophet,0.001,0.0,False,Main
+7,Threshold 0.10pp,2024-08-30,CNN,CNN,0.001,0.0017687673565646,True,Main
+7,Threshold 0.10pp,2025-02-28,CNN,CNN,0.001,0.0,False,Main
+7,Threshold 0.10pp,2025-08-29,KNN,KNN,0.001,0.0012466720782029,True,Main
+7,Threshold 0.10pp,2026-02-27,KNN,AdaBoost,0.001,0.0004419280028201,False,Main
+7,Threshold 0.10pp,2026-08-31,KNN,LSTM,0.001,0.0009312536131954,False,Main
+7,Threshold 0.25pp,2023-08-31,Prophet,Prophet,0.0025,,False,Main
+7,Threshold 0.25pp,2024-02-29,Prophet,Prophet,0.0025,0.0,False,Main
+7,Threshold 0.25pp,2024-08-30,Prophet,CNN,0.0025,0.0017687673565646,False,Main
+7,Threshold 0.25pp,2025-02-28,CNN,CNN,0.0025,0.0038586036991556,True,Main
+7,Threshold 0.25pp,2025-08-29,CNN,KNN,0.0025,0.0012466720782029,False,Main
+7,Threshold 0.25pp,2026-02-27,CNN,AdaBoost,0.0025,0.0005419567508424,False,Main
+7,Threshold 0.25pp,2026-08-31,CNN,LSTM,0.0025,0.0006833615876006,False,Main
+21,Threshold 0.10pp,2023-08-31,Prophet,Prophet,0.001,,False,Main
+21,Threshold 0.10pp,2024-02-29,Prophet,Prophet,0.001,0.0,False,Main
+21,Threshold 0.10pp,2024-08-30,Extra Trees,Extra Trees,0.001,0.0013025523119925,True,Main
+21,Threshold 0.10pp,2025-02-28,Extra Trees,KNN,0.001,0.0004586279255135,False,Main
+21,Threshold 0.10pp,2025-08-29,KNN,KNN,0.001,0.0015181023931,True,Main
+21,Threshold 0.10pp,2026-02-27,GRU,GRU,0.001,0.0010236676736096,True,Main
+21,Threshold 0.10pp,2026-08-31,GRU,GRU,0.001,0.0,False,Main
+21,Threshold 0.25pp,2023-08-31,Prophet,Prophet,0.0025,,False,Main
+21,Threshold 0.25pp,2024-02-29,Prophet,Prophet,0.0025,0.0,False,Main
+21,Threshold 0.25pp,2024-08-30,Prophet,Extra Trees,0.0025,0.0013025523119925,False,Main
+21,Threshold 0.25pp,2025-02-28,KNN,KNN,0.0025,0.0037237953921264,True,Main
+21,Threshold 0.25pp,2025-08-29,KNN,KNN,0.0025,0.0,False,Main
+21,Threshold 0.25pp,2026-02-27,KNN,GRU,0.0025,0.0010236676736096,False,Main
+21,Threshold 0.25pp,2026-08-31,KNN,GRU,0.0025,0.0010584749126928,False,Main
+84,Threshold 0.10pp,2023-08-31,Prophet,Prophet,0.001,,False,Main
+84,Threshold 0.10pp,2024-02-29,Prophet,Prophet,0.001,0.0,False,Main
+84,Threshold 0.10pp,2024-08-30,LSTM,LSTM,0.001,0.0017963787306409,True,Main
+84,Threshold 0.10pp,2025-02-28,LSTM,KNN,0.001,0.0005388286801075,False,Main
+84,Threshold 0.10pp,2025-08-29,KNN,KNN,0.001,0.0014375799846934,True,Main
+84,Threshold 0.10pp,2026-02-27,CNN,CNN,0.001,0.0015392641967032,True,Main
+84,Threshold 0.10pp,2026-08-31,CNN,CNN,0.001,0.0,False,Main
+84,Threshold 0.25pp,2023-08-31,Prophet,Prophet,0.0025,,False,Main
+84,Threshold 0.25pp,2024-02-29,Prophet,Prophet,0.0025,0.0,False,Main
+84,Threshold 0.25pp,2024-08-30,Prophet,LSTM,0.0025,0.0017963787306409,False,Main
+84,Threshold 0.25pp,2025-02-28,KNN,KNN,0.0025,0.0037237953921264,True,Main
+84,Threshold 0.25pp,2025-08-29,KNN,KNN,0.0025,0.0,False,Main
+84,Threshold 0.25pp,2026-02-27,KNN,CNN,0.0025,0.0015392641967032,False,Main
+84,Threshold 0.25pp,2026-08-31,KNN,CNN,0.0025,0.0018353908953498,False,Main
+123,Threshold 0.10pp,2023-08-31,Prophet,Prophet,0.001,,False,Main
+123,Threshold 0.10pp,2024-02-29,Prophet,Prophet,0.001,0.0,False,Main
+123,Threshold 0.10pp,2024-08-30,Random Forest,Random Forest,0.001,0.0013599858024877,True,Main
+123,Threshold 0.10pp,2025-02-28,Random Forest,KNN,0.001,0.0002479658722186,False,Main
+123,Threshold 0.10pp,2025-08-29,Random Forest,KNN,0.001,0.0009880862648541,False,Main
+123,Threshold 0.10pp,2026-02-27,GRU,GRU,0.001,0.0013078406241591,True,Main
+123,Threshold 0.10pp,2026-08-31,CNN,CNN,0.001,0.0018753137806849,True,Main
+123,Threshold 0.25pp,2023-08-31,Prophet,Prophet,0.0025,,False,Main
+123,Threshold 0.25pp,2024-02-29,Prophet,Prophet,0.0025,0.0,False,Main
+123,Threshold 0.25pp,2024-08-30,Prophet,Random Forest,0.0025,0.0013599858024877,False,Main
+123,Threshold 0.25pp,2025-02-28,KNN,KNN,0.0025,0.0037237953921264,True,Main
+123,Threshold 0.25pp,2025-08-29,KNN,KNN,0.0025,0.0,False,Main
+123,Threshold 0.25pp,2026-02-27,KNN,GRU,0.0025,0.0011684872374778,False,Main
+123,Threshold 0.25pp,2026-08-31,KNN,CNN,0.0025,0.0010504116016274,False,Main
+42,Threshold 0.10pp,2023-08-31,LightGBM,LightGBM,0.001,,False,Sector balanced
+42,Threshold 0.10pp,2024-02-29,Prophet,Prophet,0.001,0.0013634105282507,True,Sector balanced
+42,Threshold 0.10pp,2024-08-30,GRU,GRU,0.001,0.0018167762648036,True,Sector balanced
+42,Threshold 0.10pp,2025-02-28,GRU,LSTM,0.001,0.0008191385118831,False,Sector balanced
+42,Threshold 0.10pp,2025-08-29,GRU,LSTM,0.001,0.0007963795811869,False,Sector balanced
+42,Threshold 0.10pp,2026-02-27,GRU,CNN,0.001,0.0004468708891331,False,Sector balanced
+42,Threshold 0.10pp,2026-08-31,GRU,Elastic Net,0.001,0.0003773833177321,False,Sector balanced
+42,Threshold 0.25pp,2023-08-31,LightGBM,LightGBM,0.0025,,False,Sector balanced
+42,Threshold 0.25pp,2024-02-29,LightGBM,Prophet,0.0025,0.0013634105282507,False,Sector balanced
+42,Threshold 0.25pp,2024-08-30,GRU,GRU,0.0025,0.0035176824414823,True,Sector balanced
+42,Threshold 0.25pp,2025-02-28,GRU,LSTM,0.0025,0.0008191385118831,False,Sector balanced
+42,Threshold 0.25pp,2025-08-29,GRU,LSTM,0.0025,0.0007963795811869,False,Sector balanced
+42,Threshold 0.25pp,2026-02-27,GRU,CNN,0.0025,0.0004468708891331,False,Sector balanced
+42,Threshold 0.25pp,2026-08-31,GRU,Elastic Net,0.0025,0.0003773833177321,False,Sector balanced
+7,Threshold 0.10pp,2023-08-31,CNN,CNN,0.001,,False,Sector balanced
+7,Threshold 0.10pp,2024-02-29,CNN,CNN,0.001,0.0,False,Sector balanced
+7,Threshold 0.10pp,2024-08-30,Extra Trees,Extra Trees,0.001,0.0021757906707452,True,Sector balanced
+7,Threshold 0.10pp,2025-02-28,Extra Trees,LSTM,0.001,8.591749750924173e-06,False,Sector balanced
+7,Threshold 0.10pp,2025-08-29,Extra Trees,LSTM,0.001,0.0003067514543982,False,Sector balanced
+7,Threshold 0.10pp,2026-02-27,Extra Trees,Elastic Net,0.001,0.000836402269268,False,Sector balanced
+7,Threshold 0.10pp,2026-08-31,Elastic Net,Elastic Net,0.001,0.0021842300128791,True,Sector balanced
+7,Threshold 0.25pp,2023-08-31,CNN,CNN,0.0025,,False,Sector balanced
+7,Threshold 0.25pp,2024-02-29,CNN,CNN,0.0025,0.0,False,Sector balanced
+7,Threshold 0.25pp,2024-08-30,CNN,Extra Trees,0.0025,0.0021757906707452,False,Sector balanced
+7,Threshold 0.25pp,2025-02-28,LSTM,LSTM,0.0025,0.0038974035149918,True,Sector balanced
+7,Threshold 0.25pp,2025-08-29,LSTM,LSTM,0.0025,0.0,False,Sector balanced
+7,Threshold 0.25pp,2026-02-27,LSTM,Elastic Net,0.0025,0.0001945519339518,False,Sector balanced
+7,Threshold 0.25pp,2026-08-31,LSTM,Elastic Net,0.0025,0.0015456287709559,False,Sector balanced
+21,Threshold 0.10pp,2023-08-31,LSTM,LSTM,0.001,,False,Sector balanced
+21,Threshold 0.10pp,2024-02-29,LSTM,LSTM,0.001,0.0,False,Sector balanced
+21,Threshold 0.10pp,2024-08-30,LSTM,LSTM,0.001,0.0,False,Sector balanced
+21,Threshold 0.10pp,2025-02-28,LSTM,SVR,0.001,0.0001228816744761,False,Sector balanced
+21,Threshold 0.10pp,2025-08-29,LSTM,SVR,0.001,0.0007705515864011,False,Sector balanced
+21,Threshold 0.10pp,2026-02-27,GRU,GRU,0.001,0.0017430530509459,True,Sector balanced
+21,Threshold 0.10pp,2026-08-31,GRU,GRU,0.001,0.0,False,Sector balanced
+21,Threshold 0.25pp,2023-08-31,LSTM,LSTM,0.0025,,False,Sector balanced
+21,Threshold 0.25pp,2024-02-29,LSTM,LSTM,0.0025,0.0,False,Sector balanced
+21,Threshold 0.25pp,2024-08-30,LSTM,LSTM,0.0025,0.0,False,Sector balanced
+21,Threshold 0.25pp,2025-02-28,LSTM,SVR,0.0025,0.0001228816744761,False,Sector balanced
+21,Threshold 0.25pp,2025-08-29,LSTM,SVR,0.0025,0.0007705515864011,False,Sector balanced
+21,Threshold 0.25pp,2026-02-27,LSTM,GRU,0.0025,0.0017430530509459,False,Sector balanced
+21,Threshold 0.25pp,2026-08-31,GRU,GRU,0.0025,0.00300639808005,True,Sector balanced
+84,Threshold 0.10pp,2023-08-31,LightGBM,LightGBM,0.001,,False,Sector balanced
+84,Threshold 0.10pp,2024-02-29,LSTM,LSTM,0.001,0.0013702146830134,True,Sector balanced
+84,Threshold 0.10pp,2024-08-30,LSTM,LSTM,0.001,0.0,False,Sector balanced
+84,Threshold 0.10pp,2025-02-28,LSTM,GRU,0.001,8.911424285368286e-05,False,Sector balanced
+84,Threshold 0.10pp,2025-08-29,LSTM,GRU,0.001,0.000387273947501,False,Sector balanced
+84,Threshold 0.10pp,2026-02-27,AdaBoost,AdaBoost,0.001,0.0017362898362504,True,Sector balanced
+84,Threshold 0.10pp,2026-08-31,Elastic Net,Elastic Net,0.001,0.0014883590351939,True,Sector balanced
+84,Threshold 0.25pp,2023-08-31,LightGBM,LightGBM,0.0025,,False,Sector balanced
+84,Threshold 0.25pp,2024-02-29,LightGBM,LSTM,0.0025,0.0013702146830134,False,Sector balanced
+84,Threshold 0.25pp,2024-08-30,LSTM,LSTM,0.0025,0.0038259543469487,True,Sector balanced
+84,Threshold 0.25pp,2025-02-28,LSTM,GRU,0.0025,8.911424285368286e-05,False,Sector balanced
+84,Threshold 0.25pp,2025-08-29,LSTM,GRU,0.0025,0.000387273947501,False,Sector balanced
+84,Threshold 0.25pp,2026-02-27,LSTM,AdaBoost,0.0025,0.0017362898362504,False,Sector balanced
+84,Threshold 0.25pp,2026-08-31,Elastic Net,Elastic Net,0.0025,0.0026761384070868,True,Sector balanced
+123,Threshold 0.10pp,2023-08-31,LightGBM,LightGBM,0.001,,False,Sector balanced
+123,Threshold 0.10pp,2024-02-29,Prophet,Prophet,0.001,0.0013634105282507,True,Sector balanced
+123,Threshold 0.10pp,2024-08-30,GRU,GRU,0.001,0.0025366653750876,True,Sector balanced
+123,Threshold 0.10pp,2025-02-28,GRU,Extra Trees,0.001,0.0004211522730956,False,Sector balanced
+123,Threshold 0.10pp,2025-08-29,GRU,Extra Trees,0.001,0.0006920463923805,False,Sector balanced
+123,Threshold 0.10pp,2026-02-27,LSTM,LSTM,0.001,0.0015245807398193,True,Sector balanced
+123,Threshold 0.10pp,2026-08-31,Elastic Net,Elastic Net,0.001,0.0015265404830688,True,Sector balanced
+123,Threshold 0.25pp,2023-08-31,LightGBM,LightGBM,0.0025,,False,Sector balanced
+123,Threshold 0.25pp,2024-02-29,LightGBM,Prophet,0.0025,0.0013634105282507,False,Sector balanced
+123,Threshold 0.25pp,2024-08-30,GRU,GRU,0.0025,0.0042375715517664,True,Sector balanced
+123,Threshold 0.25pp,2025-02-28,GRU,Extra Trees,0.0025,0.0004211522730956,False,Sector balanced
+123,Threshold 0.25pp,2025-08-29,GRU,Extra Trees,0.0025,0.0006920463923805,False,Sector balanced
+123,Threshold 0.25pp,2026-02-27,GRU,LSTM,0.0025,0.0015245807398193,False,Sector balanced
+123,Threshold 0.25pp,2026-08-31,GRU,Elastic Net,0.0025,0.001851521686025,False,Sector balanced

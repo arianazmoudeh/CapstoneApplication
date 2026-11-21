@@ -1,0 +1,4 @@
+candidate,mae,parameters,selected,model,validation_end
+0,0.05146030454685482,{'max_depth': 2},False,XGBoost,2022-01-04
+1,0.0498541835092661,{'max_depth': 1},True,XGBoost,2022-01-04
+2,0.05075168835774591,{'max_depth': 3},False,XGBoost,2022-01-04

@@ -1,0 +1,49 @@
+Code explanation
+Machine learning for factor timing in China A shares
+
+Final notebook: experiments/China_A_Share_Final_Study.ipynb
+Results: results/china_final_combined/
+
+What the notebook does
+
+We study how to divide a portfolio between Value, Profitability and Momentum each month. We use the same 100 China A-share companies in both experiments. The first ranks stocks across the eligible group. The second ranks them within each sector and gives the long and short sides equal target weights. We compare both using the same dates and costs.
+
+Both experiments run in this notebook. Each model has its own training cell, with its settings in that cell. We load the shared data first. The model code uses direct steps and loops.
+
+Use Python 3.12 and install requirements-research.txt. Keep the input folders with the notebook and run the cells in order. The data is already saved, so an API key or website account is not needed. The README also shows how to run it from a command line. Running it again replaces the files in results/china_final_combined.
+
+Data and factor baskets
+
+We load daily prices, annual accounts, share counts, company names, sector labels and trading dates. We save a hash for each input file so we can check which data was used.
+
+Value is EBIT / enterprise value. Profitability is EBIT / average invested capital. We measure Momentum from 12 months ago to one month ago and divide it by return volatility. A stock needs usable prices, share counts and accounts to enter a basket. We leave financial companies out of the EBIT baskets.
+
+The main baskets buy the top 30% and short the bottom 30% of eligible stocks. Each side has a 50% target weight. The sector version does this within each sector. A sector needs at least two eligible stocks, with at least one on each side. Its budget follows its share of eligible stocks. Long and short target weights match within each sector at rebalancing. Actual weights can change as prices move or stocks cannot be traded.
+
+We use 100 companies throughout. The CSI 300 file gives us sector labels; it does not add companies to the study. These are current sector labels. For missing prices, we keep the last price to value the holdings. We track whether a stock can be traded separately.
+
+Model training
+
+We compare Ridge, Elastic Net, KNN, SVR, Random Forest, Extra Trees, XGBoost, Decision Tree, AdaBoost, LightGBM, MLP, LSTM, GRU, CNN and Prophet. We also calculate a historical-mean forecast.
+
+Most models use eight weeks of inputs. Each week has thirteen measures of factor returns, volatility and correlation. The standard models use these 104 values in one row. LSTM, GRU and CNN keep the weekly order. Prophet and the historical mean use completed monthly factor returns.
+
+We try three settings for each model on six earlier dates. We keep the setting with the lowest mean absolute error (MAE). We train again each month using only earlier completed returns. We fit the scalers on the training data. LSTM, GRU and CNN train for up to 100 epochs. We use a later part of the training history for early stopping and keep the weights with the lowest validation loss. The chosen epoch can be below 100.
+
+We use the same models and try the same settings in both experiments. Each model trains on the returns from its own experiment, so the chosen settings can differ. We report seed 42 and repeat the runs with seeds 7, 21, 84 and 123 to check the effect of randomness.
+
+Portfolio rules
+
+We rank the three factor forecasts each month. The highest gets 50%, the second gets 30% and the third gets 20%. The factors receiving these weights can change. We combine positions in stocks that appear in more than one basket, then scale the total absolute stock weight to one.
+
+We review the model choice every six months using the last eighteen completed monthly portfolio returns. We compare this rule with equal factor weights, keeping the first model, and keeping the first factor weights. We also test two switching thresholds. A new model must improve the earlier average monthly score by more than 0.10 or 0.25 percentage points before we switch.
+
+We compare 37 monthly holding periods from 1 September 2023 to 8 October 2026. We charge 0.10% of traded value and 3% a year for borrowing short positions. We also check other cost levels. The saved files show trades, cash, holdings and costs.
+
+Comparisons and checks
+
+The last section checks that both experiments use the same inputs, dates and model search settings. We compare returns, volatility, Sharpe ratios, drawdowns, forecast errors and direction accuracy. We also show model choices, runs with different seeds, costs and training epochs. We check sector weights from the saved stock targets.
+
+We test monthly return differences using HAC standard errors, which allow for links between nearby months. We use three lags for the main test and also check one and six lags. We adjust p-values across fourteen comparisons using Holm. The block bootstrap keeps nearby months together when calculating intervals. These tests use the recorded historical strategies. This period is not a new, untouched holdout sample.
+
+The separate Results section explains the findings. The notebook ends with tables, charts and saved filenames.

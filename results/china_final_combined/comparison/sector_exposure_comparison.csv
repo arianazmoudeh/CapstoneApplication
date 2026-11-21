@@ -1,0 +1,9 @@
+experiment,strategy,mean_absolute_net_sector_exposure_pct,max_absolute_net_sector_exposure_pct
+Main,Equal factors,46.16856583154444,57.44680851063827
+Main,Six-month selector,44.91807808892767,58.659217877094946
+Main,Historical mean,42.38525029261559,55.056179775280846
+Main,GRU,43.23550800789373,55.056179775280846
+Sector balanced,Equal factors,6.892009485637585e-16,2.0816681711721685e-15
+Sector balanced,Six-month selector,1.07125735672279e-15,2.211772431870429e-15
+Sector balanced,Historical mean,1.1146770443607725e-15,2.7755575615628914e-15
+Sector balanced,GRU,1.147496137149523e-15,2.7755575615628914e-15
